@@ -773,7 +773,7 @@ import {
               <div class="text-xs text-muted-foreground">
                 Updated <time dateTime="2023-11-23">November 23, 2023</time>
               </div>
-              <Pagination class="ml-auto mr-0 w-auto">
+              <Pagination class="ml-auto mr-0 w-auto" :items-per-page="10">
                 <PaginationList class="gap-1">
                   <PaginationPrev variant="outline" class="h-6 w-6" />
                   <PaginationNext variant="outline" class="h-6 w-6" />

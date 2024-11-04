@@ -16,7 +16,7 @@ import {
 </script>
 
 <template>
-  <Pagination v-slot="{ page }" :total="100" :sibling-count="1" show-edges :default-page="2">
+  <Pagination v-slot="{ page }" :items-per-page="10" :total="100" :sibling-count="1" show-edges :default-page="2">
     <PaginationList v-slot="{ items }" class="flex items-center gap-1">
       <PaginationFirst />
       <PaginationPrev />

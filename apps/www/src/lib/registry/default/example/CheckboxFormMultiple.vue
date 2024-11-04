@@ -81,8 +81,8 @@ const onSubmit = handleSubmit((values) => {
           <FormItem class="flex flex-row items-start space-x-3 space-y-0">
             <FormControl>
               <Checkbox
-                :checked="value.includes(item.id)"
-                @update:checked="handleChange"
+                :model-value="value.includes(item.id)"
+                @update:model-value="handleChange"
               />
             </FormControl>
             <FormLabel class="font-normal">

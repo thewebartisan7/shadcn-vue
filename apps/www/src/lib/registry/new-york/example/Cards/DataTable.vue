@@ -81,13 +81,13 @@ const columns: ColumnDef<Payment>[] = [
   {
     id: 'select',
     header: ({ table }) => h(Checkbox, {
-      'checked': table.getIsAllPageRowsSelected() || (table.getIsSomePageRowsSelected() && 'indeterminate'),
-      'onUpdate:checked': value => table.toggleAllPageRowsSelected(!!value),
+      'modelValue': table.getIsAllPageRowsSelected() || (table.getIsSomePageRowsSelected() && 'indeterminate'),
+      'onUpdate:modelValue': value => table.toggleAllPageRowsSelected(!!value),
       'ariaLabel': 'Select all',
     }),
     cell: ({ row }) => h(Checkbox, {
-      'checked': row.getIsSelected(),
-      'onUpdate:checked': value => row.toggleSelected(!!value),
+      'modelValue': row.getIsSelected(),
+      'onUpdate:modelValue': value => row.toggleSelected(!!value),
       'ariaLabel': 'Select row',
     }),
     enableSorting: false,
@@ -187,8 +187,8 @@ const table = useVueTable({
                 v-for="column in table.getAllColumns().filter((column) => column.getCanHide())"
                 :key="column.id"
                 class="capitalize"
-                :checked="column.getIsVisible()"
-                @update:checked="(value) => {
+                :model-value="column.getIsVisible()"
+                @update:model-value="(value) => {
                   column.toggleVisibility(!!value)
                 }"
               >

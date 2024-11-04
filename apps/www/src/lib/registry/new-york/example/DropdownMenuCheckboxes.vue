@@ -11,7 +11,7 @@ import {
 } from '@/lib/registry/new-york/ui/dropdown-menu'
 import { ref } from 'vue'
 
-type Checked = DropdownMenuCheckboxItemProps['checked']
+type Checked = DropdownMenuCheckboxItemProps['modelValue']
 
 const showStatusBar = ref<Checked>(true)
 const showActivityBar = ref<Checked>(false)
@@ -29,18 +29,18 @@ const showPanel = ref<Checked>(false)
       <DropdownMenuLabel>Appearance</DropdownMenuLabel>
       <DropdownMenuSeparator />
       <DropdownMenuCheckboxItem
-        v-model:checked="showStatusBar"
+        v-model:model-value="showStatusBar"
       >
         Status Bar
       </DropdownMenuCheckboxItem>
       <DropdownMenuCheckboxItem
-        v-model:checked="showActivityBar"
+        v-model:model-value="showActivityBar"
         disabled
       >
         Activity Bar
       </DropdownMenuCheckboxItem>
       <DropdownMenuCheckboxItem
-        v-model:checked="showPanel"
+        v-model:model-value="showPanel"
       >
         Panel
       </DropdownMenuCheckboxItem>

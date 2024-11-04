@@ -55,8 +55,8 @@ const onSubmit = handleSubmit((values) => {
             </div>
             <FormControl>
               <Switch
-                :checked="value"
-                @update:checked="handleChange"
+                :model-value="value"
+                @update:model-value="handleChange"
               />
             </FormControl>
           </FormItem>
@@ -73,10 +73,10 @@ const onSubmit = handleSubmit((values) => {
             </div>
             <FormControl>
               <Switch
-                :checked="value"
+                :model-value="value"
                 disabled
                 aria-readonly
-                @update:checked="handleChange"
+                @update:model-value="handleChange"
               />
             </FormControl>
           </FormItem>

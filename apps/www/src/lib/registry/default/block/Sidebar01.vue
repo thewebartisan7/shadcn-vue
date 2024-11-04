@@ -135,7 +135,7 @@ function setSelectedVersion(version: string) {
               </DropdownMenuTrigger>
               <DropdownMenuContent
                 v-if="dropdownOpen"
-                class="w-[--radix-dropdown-menu-trigger-width]"
+                class="w-[--reka-dropdown-menu-trigger-width]"
                 align="start"
               >
                 <DropdownMenuItem
