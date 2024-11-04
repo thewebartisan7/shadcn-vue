@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { SliderRootProps } from 'radix-vue'
+import type { SliderRootProps } from 'reka-ui'
 import {
   HoverCard,
   HoverCardContent,

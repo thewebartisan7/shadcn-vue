@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import type { DropdownMenuCheckboxItemProps } from 'radix-vue'
+import type { DropdownMenuCheckboxItemProps } from 'reka-ui'
 import { Button } from '@/lib/registry/new-york/ui/button'
 import {
   DropdownMenu,

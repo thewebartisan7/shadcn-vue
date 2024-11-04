@@ -2,7 +2,7 @@
 title: Popover
 description: Displays rich content in a portal, triggered by a button.
 source: apps/www/src/lib/registry/default/ui/popover
-primitive: https://www.radix-vue.com/components/popover.html
+primitive: https://www.reka-ui.com/components/popover.html
 ---
 
 <ComponentPreview name="PopoverDemo" />

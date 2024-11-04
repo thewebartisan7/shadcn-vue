@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { cn } from '@/lib/utils'
 import { Cross2Icon } from '@radix-icons/vue'
-import { TagsInputItemDelete, type TagsInputItemDeleteProps, useForwardProps } from 'radix-vue'
+import { TagsInputItemDelete, type TagsInputItemDeleteProps, useForwardProps } from 'reka-ui'
 import { computed, type HTMLAttributes } from 'vue'
 
 const props = defineProps<TagsInputItemDeleteProps & { class?: HTMLAttributes['class'] }>()

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { DateRange } from 'radix-vue'
+import type { DateRange } from 'reka-ui'
 import CookieSettings from '@/examples/cards/components/CookieSettings.vue'
 import CreateAccount from '@/examples/cards/components/CreateAccount.vue'
 

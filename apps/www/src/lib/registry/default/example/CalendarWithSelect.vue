@@ -10,8 +10,8 @@ import {
 import { cn } from '@/lib/utils'
 import { type DateValue, getLocalTimeZone, today } from '@internationalized/date'
 import { useVModel } from '@vueuse/core'
-import { CalendarRoot, type CalendarRootEmits, type CalendarRootProps, useDateFormatter, useForwardPropsEmits } from 'radix-vue'
-import { createDecade, createYear, toDate } from 'radix-vue/date'
+import { CalendarRoot, type CalendarRootEmits, type CalendarRootProps, useDateFormatter, useForwardPropsEmits } from 'reka-ui'
+import { createDecade, createYear, toDate } from 'reka-ui/date'
 import { computed, type HTMLAttributes, type Ref } from 'vue'
 
 const props = withDefaults(defineProps<CalendarRootProps & { class?: HTMLAttributes['class'] }>(), {

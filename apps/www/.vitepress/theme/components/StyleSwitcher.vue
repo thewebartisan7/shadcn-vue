@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { SelectTriggerProps } from 'radix-vue'
+import type { SelectTriggerProps } from 'reka-ui'
 import {
   Select,
   SelectContent,

@@ -49,7 +49,7 @@ The following form has been created by passing a `zod` schema object to our `Aut
 
 ### Component Updated - Calendar
 
-The [`Calendar`](/docs/components/calendar.html) component has been updated and is now built on top of the [RadixVue Calendar](https://www.radix-vue.com/components/calendar.html) component, which uses the [@internationalized/date](https://react-spectrum.adobe.com/internationalized/date/index.html) package to handle dates.
+The [`Calendar`](/docs/components/calendar.html) component has been updated and is now built on top of the [RadixVue Calendar](https://www.reka-ui.com/components/calendar.html) component, which uses the [@internationalized/date](https://react-spectrum.adobe.com/internationalized/date/index.html) package to handle dates.
 
 If you're looking for a range calendar, check out the [`Range Calendar`](/docs/components/range-calendar.html) component.
 
@@ -104,7 +104,7 @@ And if you're looking for a date picker input, check out the [`Date Picker`](/do
 
 ### New Component - Drawer
 
-[`Drawer`](/docs/components/drawer.html) - A drawer component for vue that is built on top of [Vaul Vue](https://github.com/radix-vue/vaul-vue).
+[`Drawer`](/docs/components/drawer.html) - A drawer component for vue that is built on top of [Vaul Vue](https://github.com/unovue/vaul-vue).
 
 <ComponentPreview name="DrawerDemo" />
 

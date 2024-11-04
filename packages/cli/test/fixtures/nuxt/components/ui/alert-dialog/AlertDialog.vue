@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useEmitAsProps } from '@/lib/utils'
-import { type AlertDialogEmits, type AlertDialogProps, AlertDialogRoot } from 'radix-vue'
+import { type AlertDialogEmits, type AlertDialogProps, AlertDialogRoot } from 'reka-ui'
 
 const props = defineProps<AlertDialogProps>()
 

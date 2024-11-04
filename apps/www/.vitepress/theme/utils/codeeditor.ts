@@ -91,7 +91,7 @@ function constructFiles(componentName: string, style: Style, sources: Record<str
   const iconPackage = style === 'default' ? 'lucide-vue-next' : '@radix-icons/vue'
   const dependencies = {
     'vue': 'latest',
-    'radix-vue': 'latest',
+    'reka-ui': 'latest',
     '@radix-ui/colors': 'latest',
     'clsx': 'latest',
     'class-variance-authority': 'latest',
@@ -206,7 +206,7 @@ createApp(App).mount('#app')`,
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: "rlig" 1, "calt" 1;
-} 
+}
 
 #app {
   @apply w-full flex items-center justify-center px-12;

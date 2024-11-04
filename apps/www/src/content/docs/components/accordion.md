@@ -2,7 +2,7 @@
 title: Accordion
 description: A vertically stacked set of interactive headings that each reveal a section of content.
 source: apps/www/src/lib/registry/default/ui/accordion
-primitive: https://www.radix-vue.com/components/accordion.html
+primitive: https://www.reka-ui.com/components/accordion.html
 ---
 
 <ComponentPreview name="AccordionDemo" class="sm:max-w-[70%]" />

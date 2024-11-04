@@ -4,7 +4,7 @@ Thanks for your interest in contributing to shadcn-vue.com. We're happy to have 
 
 Please take a moment to review this document before submitting your first pull request. We also strongly recommend that you check for open issues and pull requests to see if someone else is working on something similar.
 
-If you need any help, feel free to reach out to the core team on [Discord](https://chat.radix-vue.com/).
+If you need any help, feel free to reach out to the core team on [Discord](https://chat.unovue.com/).
 
 ## About this repository
 
@@ -44,7 +44,7 @@ packages
 ### Start by cloning the repository:
 
 ```
-git clone git@github.com:radix-vue/shadcn-vue.git
+git clone git@github.com:unovue/shadcn-vue.git
 ```
 
 ### Install dependencies

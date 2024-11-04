@@ -2,7 +2,7 @@
 title: Separator
 description: Visually or semantically separates content.
 source: apps/www/src/lib/registry/default/ui/separator
-primitive: https://www.radix-vue.com/components/separator.html
+primitive: https://www.reka-ui.com/components/separator.html
 ---
 
 <ComponentPreview name="SeparatorDemo" />
@@ -24,7 +24,7 @@ npx shadcn-vue@latest add separator
 ### Install the following dependency
 
 ```bash
-npm install radix-vue
+npm install reka-ui
 ```
 
 ### Copy and paste the following code into your project

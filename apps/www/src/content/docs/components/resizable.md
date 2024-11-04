@@ -2,7 +2,7 @@
 title: Resizable
 description: Accessible resizable panel groups and layouts with keyboard support.
 source: apps/www/src/lib/registry/default/ui/resizable
-primitive: https://www.radix-vue.com/components/splitter.html
+primitive: https://www.reka-ui.com/components/splitter.html
 ---
 
 <ComponentPreview name="ResizableDemo" />
@@ -24,7 +24,7 @@ npx shadcn-vue@latest add resizable
 ### Install the following dependency:
 
 ```bash
-npm install radix-vue
+npm install reka-ui
 ```
 
 ### Copy and paste the following code into your project:

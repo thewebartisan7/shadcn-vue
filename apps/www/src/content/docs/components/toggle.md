@@ -2,7 +2,7 @@
 title: Toggle
 description: A two-state button that can be either on or off.
 source: apps/www/src/lib/registry/default/ui/toggle
-primitive: https://www.radix-vue.com/components/toggle.html
+primitive: https://www.reka-ui.com/components/toggle.html
 ---
 
 <ComponentPreview name="ToggleDemo" />
@@ -24,7 +24,7 @@ npx shadcn-vue@latest add toggle
 ### Install the following dependencies:
 
 ```bash
-npm install radix-vue
+npm install reka-ui
 ```
 
 ### Copy and paste the following code into your project

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { CommandEmpty, CommandGroup, CommandItem, CommandList } from '@/lib/registry/default/ui/command'
 import { TagsInput, TagsInputInput, TagsInputItem, TagsInputItemDelete, TagsInputItemText } from '@/lib/registry/default/ui/tags-input'
-import { ComboboxAnchor, ComboboxContent, ComboboxInput, ComboboxPortal, ComboboxRoot } from 'radix-vue'
+import { ComboboxAnchor, ComboboxContent, ComboboxInput, ComboboxPortal, ComboboxRoot } from 'reka-ui'
 import { computed, ref } from 'vue'
 
 const frameworks = [

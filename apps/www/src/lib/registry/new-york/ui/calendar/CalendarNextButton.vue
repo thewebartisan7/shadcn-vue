@@ -2,7 +2,7 @@
 import { buttonVariants } from '@/lib/registry/new-york/ui/button'
 import { cn } from '@/lib/utils'
 import { ChevronRightIcon } from '@radix-icons/vue'
-import { CalendarNext, type CalendarNextProps, useForwardProps } from 'radix-vue'
+import { CalendarNext, type CalendarNextProps, useForwardProps } from 'reka-ui'
 import { computed, type HTMLAttributes } from 'vue'
 
 const props = defineProps<CalendarNextProps & { class?: HTMLAttributes['class'] }>()

@@ -27,8 +27,8 @@ import {
   ChevronLeft,
   ChevronRight,
 } from 'lucide-vue-next'
-import { type DateRange, RangeCalendarRoot, useDateFormatter } from 'radix-vue'
-import { createMonth, type Grid, toDate } from 'radix-vue/date'
+import { type DateRange, RangeCalendarRoot, useDateFormatter } from 'reka-ui'
+import { createMonth, type Grid, toDate } from 'reka-ui/date'
 import { type Ref, ref, watch } from 'vue'
 
 const value = ref({

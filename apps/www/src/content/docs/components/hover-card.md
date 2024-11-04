@@ -2,7 +2,7 @@
 title: Hover Card
 description: For sighted users to preview content available behind a link.
 source: apps/www/src/lib/registry/default/ui/hover-card
-primitive: https://www.radix-vue.com/components/hover-card.html
+primitive: https://www.reka-ui.com/components/hover-card.html
 ---
 
 <ComponentPreview name="HoverCardDemo" />

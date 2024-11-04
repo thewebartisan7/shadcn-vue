@@ -3,7 +3,7 @@ import { cn } from '@/lib/utils'
 import {
   AlertDialogDescription,
   type AlertDialogDescriptionProps,
-} from 'radix-vue'
+} from 'reka-ui'
 
 const props = defineProps<AlertDialogDescriptionProps & { class?: string }>()
 </script>

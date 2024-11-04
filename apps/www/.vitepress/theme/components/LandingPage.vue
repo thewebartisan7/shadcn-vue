@@ -30,7 +30,7 @@ import PageHeaderHeading from '../components/PageHeaderHeading.vue'
         Get Started
       </a>
       <a
-        href="https://github.com/radix-vue/shadcn-vue"
+        href="https://github.com/unovue/shadcn-vue"
         target="_blank"
         :class="cn(
           buttonVariants({ variant: 'outline' }),

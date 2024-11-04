@@ -2,7 +2,7 @@
 title: Progress
 description: Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.
 source: apps/www/src/lib/registry/default/ui/progress
-primitive: https://www.radix-vue.com/components/progress.html
+primitive: https://www.reka-ui.com/components/progress.html
 ---
 
 <ComponentPreview name="ProgressDemo" />
@@ -24,7 +24,7 @@ npx shadcn-vue@latest add progress
 ### Install the following dependency:
 
 ```bash
-npm install radix-vue
+npm install reka-ui
 ```
 
 ### Copy and paste the following code into your project:

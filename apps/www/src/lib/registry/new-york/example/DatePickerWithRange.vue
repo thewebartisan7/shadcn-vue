@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { DateRange } from 'radix-vue'
+import type { DateRange } from 'reka-ui'
 import { Button } from '@/lib/registry/new-york/ui/button'
 
 import { Popover, PopoverContent, PopoverTrigger } from '@/lib/registry/new-york/ui/popover'

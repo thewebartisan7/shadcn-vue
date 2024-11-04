@@ -9,7 +9,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/radix-vue/shadcn-vue.git",
+    "url": "https://github.com/unovue/shadcn-vue.git",
     "directory": "packages/cli"
   },
   "keywords": [
@@ -20,6 +20,7 @@
     "tailwind",
     "radix-ui",
     "radix-vue",
+    "reka-ui",
     "shadcn",
     "shadcn-vue"
   ],
@@ -66,7 +67,7 @@
     "pathe": "^1.1.2",
     "pkg-types": "^1.2.1",
     "prompts": "^2.4.2",
-    "radix-vue": "catalog:",
+    "reka-ui": "catalog:",
     "semver": "^7.6.3",
     "tsconfig-paths": "^4.2.0",
     "vue-metamorph": "^3.2.0",

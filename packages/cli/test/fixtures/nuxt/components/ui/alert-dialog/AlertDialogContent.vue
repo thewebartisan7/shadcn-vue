@@ -6,7 +6,7 @@ import {
   type AlertDialogContentProps,
   AlertDialogOverlay,
   AlertDialogPortal,
-} from 'radix-vue'
+} from 'reka-ui'
 
 const props = defineProps<AlertDialogContentProps & { class?: string }>()
 

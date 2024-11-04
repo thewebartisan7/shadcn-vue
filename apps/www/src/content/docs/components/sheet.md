@@ -2,7 +2,7 @@
 title: Sheet
 description: Extends the Dialog component to display content that complements the main content of the screen.
 source: apps/www/src/lib/registry/default/ui/sheet
-primitive: https://www.radix-vue.com/components/dialog.html
+primitive: https://www.reka-ui.com/components/dialog.html
 ---
 
 <ComponentPreview name="SheetDemo" />

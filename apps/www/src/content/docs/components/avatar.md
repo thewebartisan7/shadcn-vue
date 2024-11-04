@@ -2,7 +2,7 @@
 title: Avatar
 description: An image element with a fallback for representing the user.
 source: apps/www/src/lib/registry/default/ui/avatar
-primitive: https://www.radix-vue.com/components/avatar.html
+primitive: https://www.reka-ui.com/components/avatar.html
 ---
 
 <ComponentPreview name="AvatarDemo" />
@@ -22,7 +22,7 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 
 <template>
   <Avatar>
-    <AvatarImage src="https://github.com/radix-vue.png" alt="@radix-vue" />
+    <AvatarImage src="https://github.com/unovue.png" alt="@unovue" />
     <AvatarFallback>CN</AvatarFallback>
   </Avatar>
 </template>

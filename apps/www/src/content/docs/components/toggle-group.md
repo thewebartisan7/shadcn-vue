@@ -2,7 +2,7 @@
 title: Toggle Group
 description: A set of two-state buttons that can be toggled on or off.
 source: apps/www/src/lib/registry/default/ui/toggle-group
-primitive: https://www.radix-vue.com/components/toggle-group.html
+primitive: https://www.reka-ui.com/components/toggle-group.html
 ---
 
 <ComponentPreview name="ToggleGroupDemo" />
@@ -24,7 +24,7 @@ npx shadcn-vue@latest add toggle-group
 ### Install the following dependencies:
 
 ```bash
-npm install radix-vue
+npm install reka-ui
 ```
 
 ### Copy and paste the following code into your project

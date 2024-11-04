@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { DateRange } from 'radix-vue'
+import type { DateRange } from 'reka-ui'
 import { RangeCalendar } from '@/lib/registry/default/ui/range-calendar'
 import { getLocalTimeZone, today } from '@internationalized/date'
 import { type Ref, ref } from 'vue'

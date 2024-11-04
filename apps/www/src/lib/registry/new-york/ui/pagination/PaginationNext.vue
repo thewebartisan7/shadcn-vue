@@ -4,7 +4,7 @@ import {
 } from '@/lib/registry/new-york/ui/button'
 import { cn } from '@/lib/utils'
 import { ChevronRightIcon } from '@radix-icons/vue'
-import { PaginationNext, type PaginationNextProps } from 'radix-vue'
+import { PaginationNext, type PaginationNextProps } from 'reka-ui'
 import { computed, type HTMLAttributes } from 'vue'
 
 const props = withDefaults(defineProps<PaginationNextProps & { class?: HTMLAttributes['class'] }>(), {

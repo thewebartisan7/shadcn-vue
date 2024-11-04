@@ -4,7 +4,7 @@ import {
 } from '@/lib/registry/new-york/ui/button'
 import { cn } from '@/lib/utils'
 import { DoubleArrowRightIcon } from '@radix-icons/vue'
-import { PaginationLast, type PaginationLastProps } from 'radix-vue'
+import { PaginationLast, type PaginationLastProps } from 'reka-ui'
 import { computed, type HTMLAttributes } from 'vue'
 
 const props = withDefaults(defineProps<PaginationLastProps & { class?: HTMLAttributes['class'] }>(), {

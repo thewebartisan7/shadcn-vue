@@ -108,7 +108,7 @@ npx shadcn-vue@latest add form
 ### Install the following dependency:
 
 ```bash
-npm install radix-vue vee-validate @vee-validate/zod zod
+npm install reka-ui vee-validate @vee-validate/zod zod
 ```
 
 ### Copy and paste the following codes into your project:

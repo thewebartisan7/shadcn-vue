@@ -11,7 +11,7 @@ import { docsConfig } from '../config/docs'
 const $route = useRoute()
 const { frontmatter } = useData()
 
-const sourceLink = 'https://github.com/radix-vue/shadcn-vue/tree/dev/'
+const sourceLink = 'https://github.com/unovue/shadcn-vue/tree/dev/'
 </script>
 
 <template>

@@ -70,7 +70,7 @@ it('init config-full', async () => {
       'class-variance-authority',
       'clsx',
       'tailwind-merge',
-      'radix-vue',
+      'reka-ui',
       '@radix-icons/vue',
     ],
     {
@@ -139,7 +139,7 @@ it('init config-partial', async () => {
       'class-variance-authority',
       'clsx',
       'tailwind-merge',
-      'radix-vue',
+      'reka-ui',
       'lucide-vue-next',
     ],
     {

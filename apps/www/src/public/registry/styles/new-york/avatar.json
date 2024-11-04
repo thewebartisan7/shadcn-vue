@@ -7,15 +7,15 @@
   "files": [
     {
       "name": "Avatar.vue",
-      "content": "<script setup lang=\"ts\">\nimport type { HTMLAttributes } from 'vue'\nimport { cn } from '@/lib/utils'\nimport { AvatarRoot } from 'radix-vue'\nimport { avatarVariant, type AvatarVariants } from '.'\n\nconst props = withDefaults(defineProps<{\n  class?: HTMLAttributes['class']\n  size?: AvatarVariants['size']\n  shape?: AvatarVariants['shape']\n}>(), {\n  size: 'sm',\n  shape: 'circle',\n})\n</script>\n\n<template>\n  <AvatarRoot :class=\"cn(avatarVariant({ size, shape }), props.class)\">\n    <slot />\n  </AvatarRoot>\n</template>\n"
+      "content": "<script setup lang=\"ts\">\nimport type { HTMLAttributes } from 'vue'\nimport { cn } from '@/lib/utils'\nimport { AvatarRoot } from 'reka-ui'\nimport { avatarVariant, type AvatarVariants } from '.'\n\nconst props = withDefaults(defineProps<{\n  class?: HTMLAttributes['class']\n  size?: AvatarVariants['size']\n  shape?: AvatarVariants['shape']\n}>(), {\n  size: 'sm',\n  shape: 'circle',\n})\n</script>\n\n<template>\n  <AvatarRoot :class=\"cn(avatarVariant({ size, shape }), props.class)\">\n    <slot />\n  </AvatarRoot>\n</template>\n"
     },
     {
       "name": "AvatarFallback.vue",
-      "content": "<script setup lang=\"ts\">\nimport { AvatarFallback, type AvatarFallbackProps } from 'radix-vue'\n\nconst props = defineProps<AvatarFallbackProps>()\n</script>\n\n<template>\n  <AvatarFallback v-bind=\"props\">\n    <slot />\n  </AvatarFallback>\n</template>\n"
+      "content": "<script setup lang=\"ts\">\nimport { AvatarFallback, type AvatarFallbackProps } from 'reka-ui'\n\nconst props = defineProps<AvatarFallbackProps>()\n</script>\n\n<template>\n  <AvatarFallback v-bind=\"props\">\n    <slot />\n  </AvatarFallback>\n</template>\n"
     },
     {
       "name": "AvatarImage.vue",
-      "content": "<script setup lang=\"ts\">\nimport { AvatarImage, type AvatarImageProps } from 'radix-vue'\n\nconst props = defineProps<AvatarImageProps>()\n</script>\n\n<template>\n  <AvatarImage v-bind=\"props\" class=\"h-full w-full object-cover\" />\n</template>\n"
+      "content": "<script setup lang=\"ts\">\nimport { AvatarImage, type AvatarImageProps } from 'reka-ui'\n\nconst props = defineProps<AvatarImageProps>()\n</script>\n\n<template>\n  <AvatarImage v-bind=\"props\" class=\"h-full w-full object-cover\" />\n</template>\n"
     },
     {
       "name": "index.ts",

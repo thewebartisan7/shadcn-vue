@@ -6,11 +6,6 @@ description: Autocomplete input and command palette with a list of suggestions.
 <ComponentPreview name="ComboboxDemo" />
 
 <br>
-<Callout title="Note" class="bg-destructive">
-
-[Radix Vue](https://github.com/radix-vue/radix-vue/releases/tag/v1.2.0) introduced a breaking change. You will need to wrap `ComboboxGroup` and `ComboboxItem` inside of `ComboboxList` now.
-
-</Callout>
 
 ## Installation
 

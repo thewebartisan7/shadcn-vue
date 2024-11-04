@@ -2,7 +2,7 @@
 title: Pagination
 description: Displays data in paged format and provides navigation between pages.
 source: apps/www/src/lib/registry/default/ui/pagination
-primitive: https://www.radix-vue.com/components/pagination.html
+primitive: https://www.reka-ui.com/components/pagination.html
 ---
 
 <ComponentPreview name="PaginationDemo" />

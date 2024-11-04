@@ -66,7 +66,7 @@ import { toast } from 'vue-sonner'
 
 ### Sonner with Dialog
 
-Related issue https://github.com/radix-vue/shadcn-vue/issues/462
+Related issue https://github.com/unovue/shadcn-vue/issues/462
 
 Add `pointer-events-auto` class to Toaster component in your `App.vue` file:
 
