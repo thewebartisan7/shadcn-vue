@@ -10,8 +10,8 @@ catalogs:
       specifier: ^0.29.0
       version: 0.29.0
     reka-ui:
-      specifier: ^1.0.0-alpha.3
-      version: 1.0.0-alpha.3
+      specifier: ^1.0.0-alpha.4
+      version: 1.0.0-alpha.4
     typescript:
       specifier: ^5.6.3
       version: 5.6.3
@@ -118,7 +118,7 @@ importers:
         version: 0.30.12
       reka-ui:
         specifier: 'catalog:'
-        version: 1.0.0-alpha.3(vue@3.5.12(typescript@5.6.3))
+        version: 1.0.0-alpha.4(vue@3.5.12(typescript@5.6.3))
       tailwindcss-animate:
         specifier: ^1.0.7
         version: 1.0.7(tailwindcss@3.4.14)
@@ -299,7 +299,7 @@ importers:
         version: 2.4.2
       reka-ui:
         specifier: 'catalog:'
-        version: 1.0.0-alpha.3(vue@3.5.12(typescript@5.6.3))
+        version: 1.0.0-alpha.4(vue@3.5.12(typescript@5.6.3))
       semver:
         specifier: ^7.6.3
         version: 7.6.3
@@ -6478,8 +6478,8 @@ packages:
     resolution: {integrity: sha512-qx+xQGZVsy55CH0a1hiVwHmqjLryfh7wQyF5HO07XJ9f7dQMY/gPQHhlyDkIzJKC+x2fUCpCcUODUUUFrm7SHA==}
     hasBin: true
 
-  reka-ui@1.0.0-alpha.3:
-    resolution: {integrity: sha512-koQkKXiFP7tqazpJsM3l+N1wBXqO8KyKOybRkhdxPlKv6Rs1Q90rL50VzUnBCrX+6zTGsFIovvlMVdvRRWdVXQ==}
+  reka-ui@1.0.0-alpha.4:
+    resolution: {integrity: sha512-hrae4UXs7qVLKftET9pVgy/nY9tX4ohP3af4M7WbyacFngVJalBD0lTiYT8w/g/ySwJgXZHDqsq/1RxtXSSBZg==}
     peerDependencies:
       vue: '>= 3.2.0'
 
@@ -15036,7 +15036,7 @@ snapshots:
     dependencies:
       jsesc: 0.5.0
 
-  reka-ui@1.0.0-alpha.3(vue@3.5.12(typescript@5.6.3)):
+  reka-ui@1.0.0-alpha.4(vue@3.5.12(typescript@5.6.3)):
     dependencies:
       '@floating-ui/dom': 1.6.11
       '@floating-ui/vue': 1.1.5(vue@3.5.12(typescript@5.6.3))
