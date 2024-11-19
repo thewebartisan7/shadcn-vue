@@ -2,7 +2,7 @@
 title: Alert Dialog
 description: A modal dialog that interrupts the user with important content and expects a response.
 source: apps/www/src/lib/registry/default/ui/alert-dialog
-primitive: https://www.reka-ui.com/components/alert-dialog.html
+primitive: https://www.reka-ui.com/docs/components/alert-dialog.html
 ---
 
 <ComponentPreview name="AlertDialogDemo" />

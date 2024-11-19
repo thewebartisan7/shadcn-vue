@@ -2,7 +2,7 @@
 title: Avatar
 description: An image element with a fallback for representing the user.
 source: apps/www/src/lib/registry/default/ui/avatar
-primitive: https://www.reka-ui.com/components/avatar.html
+primitive: https://www.reka-ui.com/docs/components/avatar.html
 ---
 
 <ComponentPreview name="AvatarDemo" />

@@ -2,7 +2,7 @@
 title: Slider
 description: An input where the user selects a value from within a given range.
 source: apps/www/src/lib/registry/default/ui/slider
-primitive: https://www.reka-ui.com/components/slider.html
+primitive: https://www.reka-ui.com/docs/components/slider.html
 ---
 
 <ComponentPreview name="SliderDemo" />

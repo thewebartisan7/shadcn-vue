@@ -2,7 +2,7 @@
 title: Radio Group
 description: A set of checkable buttons—known as radio buttons—where no more than one of the buttons can be checked at a time.
 source: apps/www/src/lib/registry/default/ui/radio-group
-primitive: https://www.reka-ui.com/components/radio-group.html
+primitive: https://www.reka-ui.com/docs/components/radio-group.html
 ---
 
 <ComponentPreview name="RadioGroupDemo" />

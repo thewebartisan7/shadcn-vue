@@ -2,7 +2,7 @@
 title: Separator
 description: Visually or semantically separates content.
 source: apps/www/src/lib/registry/default/ui/separator
-primitive: https://www.reka-ui.com/components/separator.html
+primitive: https://www.reka-ui.com/docs/components/separator.html
 ---
 
 <ComponentPreview name="SeparatorDemo" />

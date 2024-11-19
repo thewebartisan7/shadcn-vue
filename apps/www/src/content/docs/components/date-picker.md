@@ -2,7 +2,7 @@
 title: Date Picker
 description: A date picker component with range and presets.
 source: apps/www/src/lib/registry/default/example/DatePickerDemo.vue
-primitive: https://www.reka-ui.com/components/calendar.html
+primitive: https://www.reka-ui.com/docs/components/calendar.html
 ---
 
 <ComponentPreview name="DatePickerDemo" />

@@ -2,7 +2,7 @@
 title: Command
 description: Fast, composable, unstyled command menu.
 source: apps/www/src/lib/registry/default/ui/command
-primitive: https://www.reka-ui.com/components/combobox.html
+primitive: https://www.reka-ui.com/docs/components/combobox.html
 ---
 
 <ComponentPreview name="CommandDemo" />

@@ -180,7 +180,7 @@ There are many cases that you need to wrap `Reka UI` components.
 ### Props & Events
 All of the `Reka UI` compoennts expose their prop and emit types. We need to forward any props/events that are coming from outside to the `Reka UI` component.
 
-To do so, we have a helper function named [`useForwardPropsEmits`](https://www.reka-ui.com/utilities/use-forward-props-emits.html) that combines props and events that must be binded to the child radix component.
+To do so, we have a helper function named [`useForwardPropsEmits`](https://www.reka-ui.com/docs/utilities/use-forward-props-emits.html) that combines props and events that must be binded to the child radix component.
 
 To be more clear, the function `useForwardPropsEmits` takes in props and an optional emit function, and returns a
 computed object that combines the parsed props and emits as props.
@@ -264,7 +264,7 @@ const props = defineProps<SelectValueProps>()
 
 ### Boolean Props
 When you are building a wrapper for a component, in some cases you want to ignore Vue [Props Boolean Casting](https://vuejs.org/guide/components/props.html#boolean-casting).
-You can either set default value as undefined for all the boolean field, or you can use [`useForwardProps`](https://www.reka-ui.com/utilities/use-forward-props.html) composable.
+You can either set default value as undefined for all the boolean field, or you can use [`useForwardProps`](https://www.reka-ui.com/docs/utilities/use-forward-props.html) composable.
 
 Take a look at `AccordionItem.vue`
 
@@ -300,7 +300,7 @@ Since `AccordionItemProps` type has atleast one boolean property, we need to use
 Note that `useForwardPropsEmits` use `useForwardProps` under the hood.
 
 ### Component as Root
-Whenever your root component is a `Component` Primitive from vue, it's easier to use [`Primitive`](https://www.reka-ui.com/utilities/primitive.html) instead.
+Whenever your root component is a `Component` Primitive from vue, it's easier to use [`Primitive`](https://www.reka-ui.com/docs/utilities/primitive.html) instead.
 
 Let's take a look at `Button.vue`
 
@@ -333,7 +333,7 @@ const props = withDefaults(defineProps<Props>(), {
 </template>
 ```
 
-You'll need to extend `PrimitiveProps` in your props to support `Primitive` component. In most cases you would also need a default value for [`as`](https://www.reka-ui.com/utilities/primitive.html#changing-as-value) property.
+You'll need to extend `PrimitiveProps` in your props to support `Primitive` component. In most cases you would also need a default value for [`as`](https://www.reka-ui.com/docs/utilities/primitive.html#changing-as-value) property.
 
 ## Updating with `shadcn/ui`
 

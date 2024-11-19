@@ -2,7 +2,7 @@
 title: Progress
 description: Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.
 source: apps/www/src/lib/registry/default/ui/progress
-primitive: https://www.reka-ui.com/components/progress.html
+primitive: https://www.reka-ui.com/docs/components/progress.html
 ---
 
 <ComponentPreview name="ProgressDemo" />

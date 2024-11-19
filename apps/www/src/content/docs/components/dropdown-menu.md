@@ -2,7 +2,7 @@
 title: Dropdown Menu
 description: Displays a menu to the user — such as a set of actions or functions — triggered by a button.
 source: apps/www/src/lib/registry/default/ui/dropdown-menu
-primitive: https://www.reka-ui.com/components/dropdown-menu.html
+primitive: https://www.reka-ui.com/docs/components/dropdown-menu.html
 ---
 
 <ComponentPreview name="DropdownMenuDemo" />

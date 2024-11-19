@@ -2,7 +2,7 @@
 title: Checkbox
 description: A control that allows the user to toggle between checked and not checked.
 source: apps/www/src/lib/registry/default/ui/checkbox
-primitive: https://www.reka-ui.com/components/checkbox.html
+primitive: https://www.reka-ui.com/docs/components/checkbox.html
 ---
 
 <ComponentPreview name="CheckboxDemo"  />
