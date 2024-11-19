@@ -7,10 +7,12 @@ import { cn } from '@/lib/utils'
 <template>
   <section
     :class="cn(
-      'mx-auto flex max-w-[980px] flex-col items-center gap-2 py-8 md:py-12 md:pb-8 lg:py-24 lg:pb-20',
+      'flex flex-col items-start gap-2 border-b border-border/40 py-8 dark:border-border md:py-10 lg:py-12',
       $attrs.class ?? '',
     )"
   >
-    <slot />
+    <div class="container">
+      <slot />
+    </div>
   </section>
 </template>

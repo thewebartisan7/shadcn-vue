@@ -16,7 +16,7 @@
     </svg>
 
     <span class="font-bold">
-      shadcn-vue
+      shadcn/vue
     </span>
   </a>
 </template>

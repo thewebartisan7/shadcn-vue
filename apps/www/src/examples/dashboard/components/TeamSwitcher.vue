@@ -92,7 +92,7 @@ const selectedTeam = ref<Team>(groups[0].teams[0])
         </Button>
       </PopoverTrigger>
       <PopoverContent class="w-[200px] p-0">
-        <Command :filter-function="(list, term) => list.filter(i => i.label?.toLowerCase()?.includes(term)) ">
+        <Command>
           <CommandList>
             <CommandInput placeholder="Search team..." />
             <CommandEmpty>No team found.</CommandEmpty>

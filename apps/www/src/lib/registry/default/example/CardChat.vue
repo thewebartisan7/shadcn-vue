@@ -141,10 +141,7 @@ const selectedUsers = ref<User[]>([])
           message.
         </DialogDescription>
       </DialogHeader>
-      <Command
-        class="overflow-hidden rounded-t-none border-t"
-        :filter-function="(list: User[], search) => list.filter(l => l.name.toLowerCase().includes(search.toLowerCase()))"
-      >
+      <Command class="overflow-hidden rounded-t-none border-t">
         <CommandInput placeholder="Search user..." />
         <CommandList>
           <CommandEmpty>No users found.</CommandEmpty>

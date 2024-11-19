@@ -60,14 +60,14 @@ const data = [
     </Card>
 
     <Card>
-      <CardHeader class="pb-2">
-        <CardTitle class="text-lg">
+      <CardHeader class="flex flex-row items-center justify-between space-y-0 pb-2">
+        <CardTitle class="text-sm font-normal">
           Subscriptions
         </CardTitle>
       </CardHeader>
       <CardContent>
         <div class="text-2xl font-bold">
-          +2,350
+          +2350
         </div>
         <p class="text-xs text-muted-foreground">
           +54.8% from last month

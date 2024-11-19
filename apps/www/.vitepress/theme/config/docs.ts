@@ -31,21 +31,12 @@ export const docsConfig: DocsConfig = {
       href: '/docs/components/accordion',
     },
     {
-      title: 'Themes',
-      href: '/themes',
-    },
-    {
-      title: 'Examples',
-      href: '/examples/mail',
-    },
-    {
       title: 'Blocks',
       href: '/blocks',
     },
     {
-      title: 'GitHub',
-      href: 'https://github.com/unovue/shadcn-vue',
-      external: true,
+      title: 'Themes',
+      href: '/themes',
     },
   ],
   sidebarNav: [

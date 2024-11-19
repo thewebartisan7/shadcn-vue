@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { ScrollArea, ScrollBar } from '@/lib/registry/default/ui/scroll-area'
 import { cn } from '@/lib/utils'
-import ArrowRightIcon from '~icons/radix-icons/arrow-right'
 import { useRoute } from 'vitepress'
 import { computed, toRefs } from 'vue'
 
@@ -62,10 +61,10 @@ const currentExample = computed(() => examples.find(ex => path.value.startsWith(
           :key="example.href"
           :href="example.href"
           :class="cn(
-            'flex items-center px-4',
-            path?.startsWith(example.href) || (path === '/' && example.name === 'Mail')
-              ? 'font-bold text-primary'
-              : 'font-medium text-muted-foreground',
+            'flex h-7 items-center justify-center rounded-full px-4 text-center text-sm transition-colors hover:text-primary',
+            path?.startsWith(example.href)
+              ? 'bg-muted font-medium text-primary'
+              : 'text-muted-foreground',
           )"
         >
           {{ example.name }}
@@ -73,14 +72,5 @@ const currentExample = computed(() => examples.find(ex => path.value.startsWith(
       </div>
       <ScrollBar orientation="horizontal" class="invisible" />
     </ScrollArea>
-
-    <a
-      v-if="currentExample"
-      :href="currentExample?.code" target="_blank" rel="nofollow"
-      class="absolute right-0 top-0 hidden items-center rounded-[0.5rem] text-sm font-medium md:flex"
-    >
-      View code
-      <ArrowRightIcon class="ml-1 h-4 w-4" />
-    </a>
   </div>
 </template>

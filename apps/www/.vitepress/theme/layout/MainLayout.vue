@@ -7,21 +7,22 @@ import { Toaster as NewYorkSonner } from '@/lib/registry/new-york/ui/sonner'
 import { Toaster as NewYorkToaster } from '@/lib/registry/new-york/ui/toast'
 import { TooltipProvider } from '@/lib/registry/new-york/ui/tooltip'
 
+import { cn } from '@/lib/utils'
 import { useConfigStore } from '@/stores/config'
 import { useMagicKeys, useToggle } from '@vueuse/core'
-import Circle from '~icons/radix-icons/circle'
 
+import MoonIcon from '~icons/lucide/moon'
+import SunIcon from '~icons/lucide/sun'
+import Circle from '~icons/radix-icons/circle'
 import File from '~icons/radix-icons/file'
-import RadixIconsGithubLogo from '~icons/radix-icons/github-logo'
-import RadixIconsMoon from '~icons/radix-icons/moon'
-import RadixIconsSun from '~icons/radix-icons/sun'
+import GithubLogoIcon from '~icons/radix-icons/github-logo'
 import { Content, useData, useRoute, useRouter } from 'vitepress'
 import { onMounted, ref, watch } from 'vue'
 import CodeConfigCustomizer from '../components/CodeConfigCustomizer.vue'
 import Kbd from '../components/Kbd.vue'
 import Logo from '../components/Logo.vue'
-import MobileNav from '../components/MobileNav.vue'
 
+import MobileNav from '../components/MobileNav.vue'
 import ThemePopover from '../components/ThemePopover.vue'
 import { docsConfig, type NavItem } from '../config/docs'
 
@@ -42,13 +43,8 @@ const links = [
   {
     name: 'GitHub',
     href: 'https://github.com/unovue/shadcn-vue',
-    icon: RadixIconsGithubLogo,
+    icon: GithubLogoIcon,
   },
-  // {
-  //   name: 'X',
-  //   href: 'https://x.com',
-  //   icon: TablerBrandX,
-  // },
 ]
 
 const isOpen = ref(false)
@@ -75,9 +71,7 @@ function handleSelectLink(item: NavItem) {
 }
 
 watch(() => $route.path, (n) => {
-  // @ts-expect-error View Transition API not supported by all the browser yet
   if (document.startViewTransition) {
-    // @ts-expect-error View Transition API not supported by all the browser yet
     document.startViewTransition(() => {
       console.log('soft navigating to: ', n)
     })
@@ -90,27 +84,19 @@ watch(() => $route.path, (n) => {
     <div v-if="$route.data.frontmatter.layout === false">
       <Content :key="$route.path" />
     </div>
-    <div v-else vaul-drawer-wrapper class="flex min-h-screen flex-col bg-background">
-      <header class="sticky z-40 top-0 bg-background/80 backdrop-blur-lg border-b border-border">
-        <div
-          class="container flex h-14 max-w-screen-2xl items-center"
-        >
+    <div v-else vaul-drawer-wrapper class="mx-auto w-full border-border/40 dark:border-border min-[1800px]:max-w-[1536px] min-[1800px]:border-x">
+      <header class="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 dark:border-border">
+        <div class="flex h-14 items-center px-4">
           <div class="mr-4 md:mr-1 hidden md:flex">
             <Logo />
 
-            <nav
-              class="flex items-center max-lg:space-x-4 space-x-6 text-sm font-medium"
-            >
+            <nav class="flex items-center gap-4 text-sm xl:gap-6">
               <a
                 v-for="route in docsConfig.mainNav"
                 :key="route.title"
                 :href="route.href"
                 :target="route.external ? '_target' : undefined"
-                class="transition-colors hover:text-foreground/80 text-foreground/60"
-                :class="{
-                  'font-semibold !text-foreground': $route.path === `${route.href}.html`,
-                  'hidden lg:block': route?.href?.includes('github'),
-                }"
+                :class="cn('transition-colors hover:text-foreground/80', $route.path === `${route.href}.html` ? 'text-foreground' : 'text-foreground/80')"
               >
                 {{ route.title }}
               </a>
@@ -122,18 +108,18 @@ watch(() => $route.path, (n) => {
             <div class="w-full flex-1 md:w-auto md:flex-none">
               <Button
                 variant="outline"
-                class="relative h-8 w-full justify-start rounded-[0.5rem] bg-background text-sm font-normal text-muted-foreground shadow-none sm:pr-12 md:w-40 lg:w-64"
+                class="relative h-8 w-full justify-start rounded-[0.5rem] bg-muted/50 text-sm font-normal text-muted-foreground shadow-none sm:pr-12 md:w-40 lg:w-56 xl:w-64"
                 @click="isOpen = true"
               >
                 <span class="hidden lg:inline-flex">Search documentation...</span>
                 <span class="inline-flex lg:hidden">Search...</span>
-                <Kbd class="pointer-events-none absolute right-[0.3rem] top-[0.3rem] hidden h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex">
-                  <span class="text-xs">⌘</span>K
+                <Kbd :size="'xs'" class="pointer-events-none absolute right-[0.3rem] top-[0.3rem] hidden h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex">
+                  ⌘ K
                 </Kbd>
               </Button>
             </div>
 
-            <nav class="flex items-center">
+            <nav class="flex items-center gap-0.5">
               <ThemePopover />
 
               <CodeConfigCustomizer />
@@ -142,28 +128,26 @@ watch(() => $route.path, (n) => {
                 v-for="link in links"
                 :key="link.name"
                 as="a"
-                class="w-9 h-9"
+                class="w-8 h-8"
                 :href="link.href" target="_blank"
                 :variant="'ghost'"
                 :size="'icon'"
               >
-                <component :is="link.icon" class="w-5 h-5" />
+                <component :is="link.icon" class="w-4 h-4" />
               </Button>
 
-              <ClientOnly>
-                <Button
-                  class="w-9 h-9"
-                  aria-label="Toggle dark mode"
-                  :variant="'ghost'"
-                  :size="'icon'"
-                  @click="toggleDark()"
-                >
-                  <component
-                    :is="isDark ? RadixIconsSun : RadixIconsMoon"
-                    class="w-5 h-5 text-foreground"
-                  />
-                </Button>
-              </ClientOnly>
+              <Button
+                class="w-8 h-8"
+                aria-label="Toggle dark mode"
+                :variant="'ghost'"
+                :size="'icon'"
+                @click="toggleDark()"
+              >
+                <component
+                  :is="isDark ? SunIcon : MoonIcon"
+                  class="w-4 h-4 text-foreground"
+                />
+              </Button>
             </nav>
           </div>
         </div>
@@ -184,7 +168,7 @@ watch(() => $route.path, (n) => {
           <component :is="frontmatter.layout" v-else-if="frontmatter.layout">
             <slot />
           </component>
-          <main v-else class="container">
+          <main v-else class="flex-1">
             <Transition name="fade" mode="out-in">
               <Content :key="$route.path" />
             </Transition>
@@ -192,42 +176,38 @@ watch(() => $route.path, (n) => {
         </Transition>
       </div>
 
-      <footer class="py-6 md:px-8 md:py-0">
+      <footer class="border-t border-border/40 py-6 dark:border-border md:px-8 md:py-0">
         <div class="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
-          <div class="text-center text-sm leading-loose text-muted-foreground md:text-left">
-            <span class="inline-block">
-              Built and designed by
+          <p class="text-balance text-center text-sm leading-loose text-muted-foreground md:text-left">
+            <span>
+              Built by
               <a
                 href="https://twitter.com/shadcn"
                 target="_blank"
-                class="underline underline-offset-4 font-bold decoration-foreground"
+                class="font-medium underline underline-offset-4"
               >
-                shadcn
-              </a>
+                shadcn</a>.
             </span>
-            <span class="ml-0.5"> . </span>
-            <span class="inline-block ml-2">
+            <span class="inline-block ml-1">
               Ported to Vue by
               <a
-                href="https://github.com/unovue"
+                href="https://twitter.com/unovue"
                 target="_blank"
-                class="underline underline-offset-4 font-bold decoration-foreground"
+                class="font-medium underline underline-offset-4"
               >
-                Radix Vue
+                unovue
               </a>
-            </span>
-            <span class="ml-0.5"> . </span>
-            <span class="inline-block ml-2">
+            </span>.
+            <span class="inline-block ml-1">
               The code source is available on
               <a
                 href="https://github.com/unovue/shadcn-vue"
                 target="_blank"
-                class="underline underline-offset-4 font-bold decoration-foreground"
+                class="font-medium underline underline-offset-4"
               >
-                GitHub
-              </a>
+                GitHub</a>.
             </span>
-          </div>
+          </p>
         </div>
       </footer>
 
@@ -281,7 +261,7 @@ watch(() => $route.path, (n) => {
                     }
                   "
                 >
-                  <RadixIconsSun class="mr-2 h-5 w-5" />
+                  <SunIcon class="mr-2 h-5 w-5" />
                   <span>Light Theme</span>
                 </CommandItem>
                 <CommandItem
@@ -294,7 +274,7 @@ watch(() => $route.path, (n) => {
                     }
                   "
                 >
-                  <RadixIconsMoon class="mr-2 h-5 w-5" />
+                  <MoonIcon class="mr-2 h-5 w-5" />
                   <span>Dark Theme</span>
                 </CommandItem>
               </CommandGroup>
