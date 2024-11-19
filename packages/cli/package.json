@@ -1,7 +1,7 @@
 {
   "name": "shadcn-vue",
   "type": "module",
-  "version": "0.11.2",
+  "version": "0.11.3",
   "description": "Add components to your apps.",
   "publishConfig": {
     "access": "public"
@@ -70,7 +70,7 @@
     "reka-ui": "catalog:",
     "semver": "^7.6.3",
     "tsconfig-paths": "^4.2.0",
-    "vue-metamorph": "^3.2.2",
+    "vue-metamorph": "3.2.0",
     "zod": "^3.23.8"
   },
   "devDependencies": {

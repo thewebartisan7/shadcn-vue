@@ -88,6 +88,8 @@
 
 	* {
 		@apply border-border;
+    scrollbar-width: thin;
+    scrollbar-color: hsl(var(--border)) transparent;
 	}
 	html {
 		-webkit-text-size-adjust: 100%;

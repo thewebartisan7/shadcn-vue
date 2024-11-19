@@ -1,7 +1,7 @@
 ---
 title: Data Table
 description: Powerful table and datagrids built using TanStack Table.
-primitive: https://tanstack.com/table/v8/docs/guide/introduction
+primitive: https://tanstack.com/table/v8/docs/introduction
 ---
 
 <ComponentPreview name="DataTableDemo" />
@@ -102,7 +102,7 @@ export const payments: Payment[] = [
 
 Start by creating the following file structure:
 
-```txt
+```ansi
  components
     └── payments
           ├── columns.ts
