@@ -61,14 +61,12 @@ onContentUpdated(() => {
 
 <template>
   <div class="hidden text-sm xl:block">
-    <div class="sticky top-20 -mt-6 h-[calc(100vh-3.5rem)] pt-4">
-      <div class="no-scrollbar h-full overflow-auto pb-10">
-        <p class="font-medium">
-          On This Page
-        </p>
-        <TableOfContentTree :tree="headers" :level="1" />
-        <CarbonAds v-if="showCarbonAds" />
-      </div>
+    <div class="no-scrollbar h-full overflow-auto pb-10 space-y-2">
+      <p class="font-medium">
+        On This Page
+      </p>
+      <TableOfContentTree :tree="headers" :level="1" />
+      <CarbonAds v-if="showCarbonAds" />
     </div>
   </div>
 

@@ -108,6 +108,18 @@ For more information, see the [theming docs](/docs/theming).
 
 **This cannot be changed after initialization.** To switch between CSS variables and utility classes, you'll have to delete and re-install your components.
 
+### tailwind.prefix
+
+The prefix to use for your Tailwind CSS utility classes. Components will be added with this prefix.
+
+```json title="components.json"
+{
+  "tailwind": {
+    "prefix": "tw-"
+  }
+}
+```
+
 ## aliases
 
 The CLI uses these values and the `paths` config from your `tsconfig.json` or `jsconfig.json` file to place generated components in the correct location.
@@ -157,6 +169,30 @@ The CLI will use the `aliases.ui` value to determine where to place your `ui` co
 {
   "aliases": {
     "ui": "@/app/ui"
+  }
+}
+```
+
+### aliases.lib
+
+Import alias for `lib` functions such as `format-date` or `generate-id`.
+
+```json title="components.json"
+{
+  "aliases": {
+    "lib": "@/lib"
+  }
+}
+```
+
+### aliases.hooks
+
+Import alias for `hooks` such as `use-media-query` or `use-toast`.
+
+```json title="components.json"
+{
+  "aliases": {
+    "hooks": "@/hooks"
   }
 }
 ```
