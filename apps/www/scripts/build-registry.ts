@@ -232,7 +232,7 @@ export const Index: Record<string, any> = {
 
       //   //     // Write component file.
       //   //     rimraf.sync(targetFilePath)
-      //   //     await fs.writeFile(targetFilePath, code, 'utf8')
+      //   //     await writeFile(targetFilePath, code, 'utf8')
 
       //   //     return {
       //   //       name: chunkName,
@@ -266,8 +266,8 @@ export const Index: Record<string, any> = {
       //   }
 
       //   rimraf.sync(sourcePath)
-      //   // await fs.writeFile(sourcePath, sourceFile.getText())
-      //   await fs.writeFile(sourcePath, raw)
+      //   // await writeFile(sourcePath, sourceFile.getText())
+      //   await writeFile(sourcePath, raw)
       // }
 
       let componentPath = `@/registry/${style.name}/${type}/${item.name}`
@@ -346,15 +346,14 @@ export const Index: Record<string, any> = {
     })
   const registryJson = JSON.stringify(items, null, 2)
   rimraf.sync(path.join(REGISTRY_PATH, 'index.json'))
-  await fs.writeFile(
+  await writeFile(
     path.join(REGISTRY_PATH, 'index.json'),
     registryJson,
-    'utf8',
   )
 
   // Write style index.
   rimraf.sync(path.join(process.cwd(), '__registry__/index.ts'))
-  await fs.writeFile(path.join(process.cwd(), '__registry__/index.ts'), index)
+  await writeFile(path.join(process.cwd(), '__registry__/index.ts'), index)
 }
 
 // ----------------------------------------------------------------------------
@@ -458,10 +457,9 @@ async function buildStyles(registry: Registry) {
         })
 
       if (payload.success) {
-        await fs.writeFile(
+        await writeFile(
           path.join(targetPath, `${item.name}.json`),
-          `${JSON.stringify(payload.data, null, 2)}\r\n`,
-          'utf8',
+          JSON.stringify(payload.data, null, 2),
         )
       }
     }
@@ -471,10 +469,10 @@ async function buildStyles(registry: Registry) {
   // Build registry/styles/index.json.
   // ----------------------------------------------------------------------------
   const stylesJson = JSON.stringify(styles, null, 2)
-  await fs.writeFile(
+  await writeFile(
     path.join(REGISTRY_PATH, 'styles/index.json'),
     stylesJson,
-    'utf8',
+
   )
 }
 
@@ -510,10 +508,10 @@ async function buildStylesIndex() {
       files: [],
     }
 
-    await fs.writeFile(
+    await writeFile(
       path.join(targetPath, 'index.json'),
       JSON.stringify(payload, null, 2),
-      'utf8',
+
     )
   }
 }
@@ -560,10 +558,10 @@ async function buildThemes() {
     }
   }
 
-  await fs.writeFile(
+  await writeFile(
     path.join(colorsTargetPath, 'index.json'),
-    `${JSON.stringify(colorsData, null, 2)}\r\n`,
-    'utf8',
+    JSON.stringify(colorsData, null, 2),
+
   )
 
   // ----------------------------------------------------------------------------
@@ -682,10 +680,9 @@ async function buildThemes() {
       colors: base.cssVars,
     })
 
-    await fs.writeFile(
+    await writeFile(
       path.join(REGISTRY_PATH, `colors/${baseColor}.json`),
-      `${JSON.stringify(base, null, 2)}\r\n`,
-      'utf8',
+      JSON.stringify(base, null, 2),
     )
 
     // ----------------------------------------------------------------------------
@@ -766,10 +763,9 @@ async function buildThemes() {
       )
     }
 
-    await fs.writeFile(
+    await writeFile(
       path.join(REGISTRY_PATH, `themes.css`),
       themeCSS.join('\n'),
-      'utf8',
     )
 
     // ----------------------------------------------------------------------------
@@ -809,10 +805,9 @@ async function buildThemes() {
         await fs.mkdir(targetPath, { recursive: true })
       }
 
-      await fs.writeFile(
+      await writeFile(
         path.join(targetPath, `${payload.name}.json`),
         JSON.stringify(payload, null, 2),
-        'utf8',
       )
     }
   }
@@ -830,10 +825,9 @@ async function buildIcons() {
 
   const iconsData = icons
 
-  await fs.writeFile(
+  await writeFile(
     path.join(iconsTargetPath, 'index.json'),
     JSON.stringify(iconsData, null, 2),
-    'utf8',
   )
 }
 
@@ -870,10 +864,9 @@ export const Icons = {
 
   // Write style index.
   rimraf.sync(path.join(process.cwd(), '__registry__/icons.ts'))
-  await fs.writeFile(
+  await writeFile(
     path.join(process.cwd(), '__registry__/icons.ts'),
     index,
-    'utf8',
   )
 }
 
@@ -881,10 +874,9 @@ try {
   const content = await crawlContent()
   const result = registrySchema.safeParse([...registry, ...content])
 
-  await fs.writeFile(
+  await writeFile(
     path.join(REGISTRY_PATH, 'temp.json'),
     JSON.stringify(result.data ?? '', null, 2),
-    'utf8',
   )
 
   if (!result.success) {
@@ -906,4 +898,12 @@ try {
 catch (error) {
   console.error(error)
   process.exit(1)
+}
+
+async function writeFile(path: string, payload: any) {
+  return fs.writeFile(
+    path,
+    `${payload}\r\n`,
+    'utf8',
+  )
 }
