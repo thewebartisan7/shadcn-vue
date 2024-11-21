@@ -4,7 +4,7 @@
   "dependencies": [
     "tailwindcss-animate",
     "class-variance-authority",
-    "lucide-react"
+    "lucide-vue-next"
   ],
   "registryDependencies": [
     "utils"

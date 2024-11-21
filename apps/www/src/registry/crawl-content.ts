@@ -36,10 +36,10 @@ export async function buildRegistry() {
     // const hookPath = resolve(registryRootPath, style, 'hook')
 
     const [ui, example, block] = await Promise.all([
-      crawlUI(uiPath, style),
-      crawlExample(examplePath, style),
-      crawlBlock(blockPath, style),
-      // crawlHook(hookPath, style),
+      crawlUI(uiPath),
+      crawlExample(examplePath),
+      crawlBlock(blockPath),
+      // crawlHook(hookPath),
     ])
 
     registry.push(...ui, ...example, ...block)
@@ -48,7 +48,7 @@ export async function buildRegistry() {
   return registry
 }
 
-async function crawlUI(rootPath: string, style: RegistryStyle) {
+async function crawlUI(rootPath: string) {
   const dir = await readdir(rootPath, { recursive: true, withFileTypes: true })
 
   const uiRegistry: Registry = []
@@ -58,14 +58,14 @@ async function crawlUI(rootPath: string, style: RegistryStyle) {
       continue
 
     const componentPath = resolve(rootPath, dirent.name)
-    const ui = await buildUIRegistry(componentPath, dirent.name, style)
+    const ui = await buildUIRegistry(componentPath, dirent.name)
     uiRegistry.push(ui)
   }
 
   return uiRegistry
 }
 
-async function crawlExample(rootPath: string, style: RegistryStyle) {
+async function crawlExample(rootPath: string) {
   const type = `registry:example` as const
 
   const dir = await readdir(rootPath, { withFileTypes: true })
@@ -86,7 +86,7 @@ async function crawlExample(rootPath: string, style: RegistryStyle) {
       name: dirent.name,
       content: source,
       path: relativePath,
-      style,
+      // style,
       target: dirent.name,
       type,
     }
@@ -105,7 +105,7 @@ async function crawlExample(rootPath: string, style: RegistryStyle) {
   return registry
 }
 
-async function crawlBlock(rootPath: string, style: RegistryStyle) {
+async function crawlBlock(rootPath: string) {
   const type = `registry:block` as const
 
   const dir = await readdir(rootPath, { withFileTypes: true })
@@ -117,7 +117,6 @@ async function crawlBlock(rootPath: string, style: RegistryStyle) {
       const result = await buildBlockRegistry(
         `${rootPath}/${dirent.name}`,
         dirent.name,
-        style,
       )
       registry.push(result)
       continue
@@ -129,13 +128,12 @@ async function crawlBlock(rootPath: string, style: RegistryStyle) {
 
     const filepath = join(rootPath, dirent.name)
     const source = await readFile(filepath, { encoding: 'utf8' })
-    const relativePath = join('example', dirent.name)
+    const relativePath = join('block', dirent.name)
 
     const file = {
       name: dirent.name,
       content: source,
       path: relativePath,
-      style,
       target: dirent.name,
       type,
     }
@@ -192,7 +190,7 @@ async function crawlHook(rootPath: string, style: RegistryStyle) {
   return registry
 }
 
-async function buildUIRegistry(componentPath: string, componentName: string, style: RegistryStyle) {
+async function buildUIRegistry(componentPath: string, componentName: string) {
   const dir = await readdir(componentPath, {
     withFileTypes: true,
   })
@@ -234,7 +232,7 @@ async function buildUIRegistry(componentPath: string, componentName: string, sty
   } satisfies RegistryItem
 }
 
-async function buildBlockRegistry(blockPath: string, blockName: string, style: RegistryStyle) {
+async function buildBlockRegistry(blockPath: string, blockName: string) {
   const dir = await readdir(blockPath, { withFileTypes: true, recursive: true })
 
   const files: RegistryFiles[] = []
@@ -244,7 +242,7 @@ async function buildBlockRegistry(blockPath: string, blockName: string, style: R
   for (const dirent of dir) {
     if (!dirent.isFile())
       continue
-    const isPage = dirent.name === '+page.vue'
+    const isPage = dirent.name === 'page.vue'
     const type = isPage ? 'registry:page' : 'registry:component'
 
     // TODO: fix

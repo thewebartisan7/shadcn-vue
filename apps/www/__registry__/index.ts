@@ -81,7 +81,7 @@ export const Index: Record<string, any> = {
       name: "alert-dialog",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["button","utils"],
+      registryDependencies: ["utils","button"],
       files: [{
         path: "registry/new-york/ui/alert-dialog/AlertDialog.vue",
         type: "registry:ui",
@@ -151,7 +151,7 @@ export const Index: Record<string, any> = {
       name: "auto-form",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["form","accordion","button","separator","checkbox","switch","calendar","popover","utils","label","radio-group","select","input","textarea"],
+      registryDependencies: ["form","accordion","button","separator","checkbox","switch","utils","calendar","popover","label","radio-group","select","input","textarea"],
       files: [{
         path: "registry/new-york/ui/auto-form/AutoForm.vue",
         type: "registry:ui",
@@ -514,7 +514,7 @@ export const Index: Record<string, any> = {
       name: "chart-area",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["chart","utils"],
+      registryDependencies: ["utils","chart"],
       files: [{
         path: "registry/new-york/ui/chart-area/AreaChart.vue",
         type: "registry:ui",
@@ -533,7 +533,7 @@ export const Index: Record<string, any> = {
       name: "chart-bar",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["chart","utils"],
+      registryDependencies: ["utils","chart"],
       files: [{
         path: "registry/new-york/ui/chart-bar/BarChart.vue",
         type: "registry:ui",
@@ -552,7 +552,7 @@ export const Index: Record<string, any> = {
       name: "chart-donut",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["chart","utils"],
+      registryDependencies: ["utils","chart"],
       files: [{
         path: "registry/new-york/ui/chart-donut/DonutChart.vue",
         type: "registry:ui",
@@ -571,7 +571,7 @@ export const Index: Record<string, any> = {
       name: "chart-line",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["chart","utils"],
+      registryDependencies: ["utils","chart"],
       files: [{
         path: "registry/new-york/ui/chart-line/LineChart.vue",
         type: "registry:ui",
@@ -1561,7 +1561,7 @@ export const Index: Record<string, any> = {
       name: "sidebar",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["Sheet.vue","SheetContent.vue","utils","Input.vue","Tooltip.vue","TooltipContent.vue","TooltipTrigger.vue","Skeleton.vue","Separator.vue","Button.vue"],
+      registryDependencies: ["utils","Sheet.vue","SheetContent.vue","Input.vue","Tooltip.vue","TooltipContent.vue","TooltipTrigger.vue","Skeleton.vue","Separator.vue","Button.vue"],
       files: [{
         path: "registry/new-york/ui/sidebar/Sidebar.vue",
         type: "registry:ui",
@@ -2055,7 +2055,7 @@ export const Index: Record<string, any> = {
       name: "v-calendar",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["button","utils"],
+      registryDependencies: ["utils","button"],
       files: [{
         path: "registry/new-york/ui/v-calendar/Calendar.vue",
         type: "registry:ui",
@@ -2704,7 +2704,7 @@ export const Index: Record<string, any> = {
       name: "CalendarForm",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","calendar","form","popover","toast","utils"],
+      registryDependencies: ["utils","button","calendar","form","popover","toast"],
       files: [{
         path: "registry/new-york/example/CalendarForm.vue",
         type: "registry:example",
@@ -2719,7 +2719,7 @@ export const Index: Record<string, any> = {
       name: "CalendarWithSelect",
       description: "",
       type: "registry:example",
-      registryDependencies: ["calendar","select","utils"],
+      registryDependencies: ["utils","calendar","select"],
       files: [{
         path: "registry/new-york/example/CalendarWithSelect.vue",
         type: "registry:example",
@@ -2734,7 +2734,7 @@ export const Index: Record<string, any> = {
       name: "CardChat",
       description: "",
       type: "registry:example",
-      registryDependencies: ["avatar","button","card","command","dialog","input","tooltip","utils"],
+      registryDependencies: ["utils","avatar","button","card","command","dialog","input","tooltip"],
       files: [{
         path: "registry/new-york/example/CardChat.vue",
         type: "registry:example",
@@ -2749,7 +2749,7 @@ export const Index: Record<string, any> = {
       name: "CardDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","card","switch","utils"],
+      registryDependencies: ["utils","button","card","switch"],
       files: [{
         path: "registry/new-york/example/CardDemo.vue",
         type: "registry:example",
@@ -3004,7 +3004,7 @@ export const Index: Record<string, any> = {
       name: "ComboboxDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","command","popover","utils"],
+      registryDependencies: ["utils","button","command","popover"],
       files: [{
         path: "registry/new-york/example/ComboboxDemo.vue",
         type: "registry:example",
@@ -3034,7 +3034,7 @@ export const Index: Record<string, any> = {
       name: "ComboboxForm",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","command","form","popover","toast","utils"],
+      registryDependencies: ["utils","button","command","form","popover","toast"],
       files: [{
         path: "registry/new-york/example/ComboboxForm.vue",
         type: "registry:example",
@@ -3139,7 +3139,7 @@ export const Index: Record<string, any> = {
       name: "DataTableColumnPinningDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","checkbox","dropdown-menu","input","table","utils"],
+      registryDependencies: ["utils","button","checkbox","dropdown-menu","input","table"],
       files: [{
         path: "registry/new-york/example/DataTableColumnPinningDemo.vue",
         type: "registry:example",
@@ -3154,7 +3154,7 @@ export const Index: Record<string, any> = {
       name: "DataTableDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","checkbox","dropdown-menu","input","table","utils"],
+      registryDependencies: ["utils","button","checkbox","dropdown-menu","input","table"],
       files: [{
         path: "registry/new-york/example/DataTableDemo.vue",
         type: "registry:example",
@@ -3184,7 +3184,7 @@ export const Index: Record<string, any> = {
       name: "DataTableReactiveDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","checkbox","dropdown-menu","input","table","utils"],
+      registryDependencies: ["utils","button","checkbox","dropdown-menu","input","table"],
       files: [{
         path: "registry/new-york/example/DataTableReactiveDemo.vue",
         type: "registry:example",
@@ -3199,7 +3199,7 @@ export const Index: Record<string, any> = {
       name: "DatePickerDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","calendar","popover","utils"],
+      registryDependencies: ["utils","button","calendar","popover"],
       files: [{
         path: "registry/new-york/example/DatePickerDemo.vue",
         type: "registry:example",
@@ -3214,7 +3214,7 @@ export const Index: Record<string, any> = {
       name: "DatePickerForm",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","calendar","form","popover","toast","utils"],
+      registryDependencies: ["utils","button","calendar","form","popover","toast"],
       files: [{
         path: "registry/new-york/example/DatePickerForm.vue",
         type: "registry:example",
@@ -3229,7 +3229,7 @@ export const Index: Record<string, any> = {
       name: "DatePickerWithIndependentMonths",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","popover","range-calendar","utils"],
+      registryDependencies: ["utils","button","popover","range-calendar"],
       files: [{
         path: "registry/new-york/example/DatePickerWithIndependentMonths.vue",
         type: "registry:example",
@@ -3244,7 +3244,7 @@ export const Index: Record<string, any> = {
       name: "DatePickerWithPresets",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","calendar","popover","select","utils"],
+      registryDependencies: ["utils","button","calendar","popover","select"],
       files: [{
         path: "registry/new-york/example/DatePickerWithPresets.vue",
         type: "registry:example",
@@ -3259,7 +3259,7 @@ export const Index: Record<string, any> = {
       name: "DatePickerWithRange",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","popover","range-calendar","utils"],
+      registryDependencies: ["utils","button","popover","range-calendar"],
       files: [{
         path: "registry/new-york/example/DatePickerWithRange.vue",
         type: "registry:example",
@@ -4159,7 +4159,7 @@ export const Index: Record<string, any> = {
       name: "SliderDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["slider","utils"],
+      registryDependencies: ["utils","slider"],
       files: [{
         path: "registry/new-york/example/SliderDemo.vue",
         type: "registry:example",
@@ -4984,7 +4984,7 @@ export const Index: Record<string, any> = {
       name: "VDatePickerDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","popover","v-calendar","utils"],
+      registryDependencies: ["utils","button","popover","v-calendar"],
       files: [{
         path: "registry/new-york/example/VDatePickerDemo.vue",
         type: "registry:example",
@@ -4999,7 +4999,7 @@ export const Index: Record<string, any> = {
       name: "VDatePickerForm",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","form","popover","toast","v-calendar","utils"],
+      registryDependencies: ["utils","button","form","popover","toast","v-calendar"],
       files: [{
         path: "registry/new-york/example/VDatePickerForm.vue",
         type: "registry:example",
@@ -5014,7 +5014,7 @@ export const Index: Record<string, any> = {
       name: "VDatePickerWithPresets",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","popover","select","v-calendar","utils"],
+      registryDependencies: ["utils","button","popover","select","v-calendar"],
       files: [{
         path: "registry/new-york/example/VDatePickerWithPresets.vue",
         type: "registry:example",
@@ -5029,7 +5029,7 @@ export const Index: Record<string, any> = {
       name: "VDatePickerWithRange",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","popover","v-calendar","utils"],
+      registryDependencies: ["utils","button","popover","v-calendar"],
       files: [{
         path: "registry/new-york/example/VDatePickerWithRange.vue",
         type: "registry:example",
@@ -5044,7 +5044,7 @@ export const Index: Record<string, any> = {
       name: "VDateTimePickerDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","popover","v-calendar","utils"],
+      registryDependencies: ["utils","button","popover","v-calendar"],
       files: [{
         path: "registry/new-york/example/VDateTimePickerDemo.vue",
         type: "registry:example",
@@ -5059,13 +5059,329 @@ export const Index: Record<string, any> = {
       name: "VRangePickerWithSlot",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","popover","v-calendar","utils"],
+      registryDependencies: ["utils","button","popover","v-calendar"],
       files: [{
         path: "registry/new-york/example/VRangePickerWithSlot.vue",
         type: "registry:example",
         target: "VRangePickerWithSlot.vue"
       }],
       component: () => import("@/registry/new-york/example/VRangePickerWithSlot.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Authentication01": {
+      name: "Authentication01",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/new-york/block/Authentication01").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Authentication01": {
+      name: "Authentication01",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["button","card","input","label"],
+      files: [{
+        path: "registry/new-york/block/Authentication01.vue",
+        type: "registry:block",
+        target: "Authentication01.vue"
+      }],
+      component: () => import("@/registry/new-york/block/Authentication01.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Authentication02": {
+      name: "Authentication02",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/new-york/block/Authentication02").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Authentication02": {
+      name: "Authentication02",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["button","card","input","label"],
+      files: [{
+        path: "registry/new-york/block/Authentication02.vue",
+        type: "registry:block",
+        target: "Authentication02.vue"
+      }],
+      component: () => import("@/registry/new-york/block/Authentication02.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Authentication03": {
+      name: "Authentication03",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/new-york/block/Authentication03").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Authentication03": {
+      name: "Authentication03",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["button","card","input","label"],
+      files: [{
+        path: "registry/new-york/block/Authentication03.vue",
+        type: "registry:block",
+        target: "Authentication03.vue"
+      }],
+      component: () => import("@/registry/new-york/block/Authentication03.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Authentication04": {
+      name: "Authentication04",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/new-york/block/Authentication04").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Authentication04": {
+      name: "Authentication04",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["button","input","label"],
+      files: [{
+        path: "registry/new-york/block/Authentication04.vue",
+        type: "registry:block",
+        target: "Authentication04.vue"
+      }],
+      component: () => import("@/registry/new-york/block/Authentication04.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard01": {
+      name: "Dashboard01",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/new-york/block/Dashboard01").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard01": {
+      name: "Dashboard01",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["avatar","badge","button","card","dropdown-menu","input","sheet","table"],
+      files: [{
+        path: "registry/new-york/block/Dashboard01.vue",
+        type: "registry:block",
+        target: "Dashboard01.vue"
+      }],
+      component: () => import("@/registry/new-york/block/Dashboard01.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard02": {
+      name: "Dashboard02",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/new-york/block/Dashboard02").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard02": {
+      name: "Dashboard02",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["badge","button","card","dropdown-menu","input","sheet"],
+      files: [{
+        path: "registry/new-york/block/Dashboard02.vue",
+        type: "registry:block",
+        target: "Dashboard02.vue"
+      }],
+      component: () => import("@/registry/new-york/block/Dashboard02.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard03": {
+      name: "Dashboard03",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/new-york/block/Dashboard03").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard03": {
+      name: "Dashboard03",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["badge","button","drawer","input","label","select","textarea","tooltip"],
+      files: [{
+        path: "registry/new-york/block/Dashboard03.vue",
+        type: "registry:block",
+        target: "Dashboard03.vue"
+      }],
+      component: () => import("@/registry/new-york/block/Dashboard03.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard04": {
+      name: "Dashboard04",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/new-york/block/Dashboard04").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard04": {
+      name: "Dashboard04",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["button","card","checkbox","dropdown-menu","input","sheet"],
+      files: [{
+        path: "registry/new-york/block/Dashboard04.vue",
+        type: "registry:block",
+        target: "Dashboard04.vue"
+      }],
+      component: () => import("@/registry/new-york/block/Dashboard04.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard05": {
+      name: "Dashboard05",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/new-york/block/Dashboard05").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard05": {
+      name: "Dashboard05",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["badge","breadcrumb","button","card","checkbox","dropdown-menu","input","pagination","progress","separator","sheet","table","tabs","tooltip"],
+      files: [{
+        path: "registry/new-york/block/Dashboard05.vue",
+        type: "registry:block",
+        target: "Dashboard05.vue"
+      }],
+      component: () => import("@/registry/new-york/block/Dashboard05.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard06": {
+      name: "Dashboard06",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/new-york/block/Dashboard06").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard06": {
+      name: "Dashboard06",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["badge","breadcrumb","button","card","dropdown-menu","input","sheet","table","tabs","tooltip"],
+      files: [{
+        path: "registry/new-york/block/Dashboard06.vue",
+        type: "registry:block",
+        target: "Dashboard06.vue"
+      }],
+      component: () => import("@/registry/new-york/block/Dashboard06.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard07": {
+      name: "Dashboard07",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/new-york/block/Dashboard07").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard07": {
+      name: "Dashboard07",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["badge","breadcrumb","button","card","dropdown-menu","input","label","select","sheet","table","textarea","toggle-group","tooltip"],
+      files: [{
+        path: "registry/new-york/block/Dashboard07.vue",
+        type: "registry:block",
+        target: "Dashboard07.vue"
+      }],
+      component: () => import("@/registry/new-york/block/Dashboard07.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Sidebar01": {
+      name: "Sidebar01",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["breadcrumb","dropdown-menu","label","separator","sidebar"],
+      files: [{
+        path: "registry/new-york/block/Sidebar01/page.vue",
+        type: "registry:page",
+        target: "Sidebar01Page.vue"
+      }],
+      component: () => import("@/registry/new-york/block/Sidebar01/page.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Sidebar07": {
+      name: "Sidebar07",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["avatar","breadcrumb","collapsible","dropdown-menu","separator","sidebar"],
+      files: [{
+        path: "registry/new-york/block/Sidebar07/page.vue",
+        type: "registry:page",
+        target: "Sidebar07Page.vue"
+      }],
+      component: () => import("@/registry/new-york/block/Sidebar07/page.vue").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5132,7 +5448,7 @@ export const Index: Record<string, any> = {
       name: "alert-dialog",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["button","utils"],
+      registryDependencies: ["utils","button"],
       files: [{
         path: "registry/new-york/ui/alert-dialog/AlertDialog.vue",
         type: "registry:ui",
@@ -5202,7 +5518,7 @@ export const Index: Record<string, any> = {
       name: "auto-form",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["form","accordion","button","separator","checkbox","switch","calendar","popover","utils","label","radio-group","select","input","textarea"],
+      registryDependencies: ["form","accordion","button","separator","checkbox","switch","utils","calendar","popover","label","radio-group","select","input","textarea"],
       files: [{
         path: "registry/new-york/ui/auto-form/AutoForm.vue",
         type: "registry:ui",
@@ -5565,7 +5881,7 @@ export const Index: Record<string, any> = {
       name: "chart-area",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["chart","utils"],
+      registryDependencies: ["utils","chart"],
       files: [{
         path: "registry/new-york/ui/chart-area/AreaChart.vue",
         type: "registry:ui",
@@ -5584,7 +5900,7 @@ export const Index: Record<string, any> = {
       name: "chart-bar",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["chart","utils"],
+      registryDependencies: ["utils","chart"],
       files: [{
         path: "registry/new-york/ui/chart-bar/BarChart.vue",
         type: "registry:ui",
@@ -5603,7 +5919,7 @@ export const Index: Record<string, any> = {
       name: "chart-donut",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["chart","utils"],
+      registryDependencies: ["utils","chart"],
       files: [{
         path: "registry/new-york/ui/chart-donut/DonutChart.vue",
         type: "registry:ui",
@@ -5622,7 +5938,7 @@ export const Index: Record<string, any> = {
       name: "chart-line",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["chart","utils"],
+      registryDependencies: ["utils","chart"],
       files: [{
         path: "registry/new-york/ui/chart-line/LineChart.vue",
         type: "registry:ui",
@@ -6612,7 +6928,7 @@ export const Index: Record<string, any> = {
       name: "sidebar",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["Sheet.vue","SheetContent.vue","utils","Input.vue","Tooltip.vue","TooltipContent.vue","TooltipTrigger.vue","Skeleton.vue","Separator.vue","Button.vue"],
+      registryDependencies: ["utils","Sheet.vue","SheetContent.vue","Input.vue","Tooltip.vue","TooltipContent.vue","TooltipTrigger.vue","Skeleton.vue","Separator.vue","Button.vue"],
       files: [{
         path: "registry/new-york/ui/sidebar/Sidebar.vue",
         type: "registry:ui",
@@ -7106,7 +7422,7 @@ export const Index: Record<string, any> = {
       name: "v-calendar",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["button","utils"],
+      registryDependencies: ["utils","button"],
       files: [{
         path: "registry/new-york/ui/v-calendar/Calendar.vue",
         type: "registry:ui",
@@ -7755,7 +8071,7 @@ export const Index: Record<string, any> = {
       name: "CalendarForm",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","calendar","form","popover","toast","utils"],
+      registryDependencies: ["utils","button","calendar","form","popover","toast"],
       files: [{
         path: "registry/new-york/example/CalendarForm.vue",
         type: "registry:example",
@@ -7770,7 +8086,7 @@ export const Index: Record<string, any> = {
       name: "CalendarWithSelect",
       description: "",
       type: "registry:example",
-      registryDependencies: ["calendar","select","utils"],
+      registryDependencies: ["utils","calendar","select"],
       files: [{
         path: "registry/new-york/example/CalendarWithSelect.vue",
         type: "registry:example",
@@ -7785,7 +8101,7 @@ export const Index: Record<string, any> = {
       name: "CardChat",
       description: "",
       type: "registry:example",
-      registryDependencies: ["avatar","button","card","command","dialog","input","tooltip","utils"],
+      registryDependencies: ["utils","avatar","button","card","command","dialog","input","tooltip"],
       files: [{
         path: "registry/new-york/example/CardChat.vue",
         type: "registry:example",
@@ -7800,7 +8116,7 @@ export const Index: Record<string, any> = {
       name: "CardDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","card","switch","utils"],
+      registryDependencies: ["utils","button","card","switch"],
       files: [{
         path: "registry/new-york/example/CardDemo.vue",
         type: "registry:example",
@@ -8055,7 +8371,7 @@ export const Index: Record<string, any> = {
       name: "ComboboxDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","command","popover","utils"],
+      registryDependencies: ["utils","button","command","popover"],
       files: [{
         path: "registry/new-york/example/ComboboxDemo.vue",
         type: "registry:example",
@@ -8085,7 +8401,7 @@ export const Index: Record<string, any> = {
       name: "ComboboxForm",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","command","form","popover","toast","utils"],
+      registryDependencies: ["utils","button","command","form","popover","toast"],
       files: [{
         path: "registry/new-york/example/ComboboxForm.vue",
         type: "registry:example",
@@ -8100,7 +8416,7 @@ export const Index: Record<string, any> = {
       name: "ComboboxPopover",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","command","popover","utils"],
+      registryDependencies: ["utils","button","command","popover"],
       files: [{
         path: "registry/new-york/example/ComboboxPopover.vue",
         type: "registry:example",
@@ -8190,7 +8506,7 @@ export const Index: Record<string, any> = {
       name: "DataTableColumnPinningDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","checkbox","dropdown-menu","input","table","utils"],
+      registryDependencies: ["utils","button","checkbox","dropdown-menu","input","table"],
       files: [{
         path: "registry/new-york/example/DataTableColumnPinningDemo.vue",
         type: "registry:example",
@@ -8205,7 +8521,7 @@ export const Index: Record<string, any> = {
       name: "DataTableDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","checkbox","dropdown-menu","input","table","utils"],
+      registryDependencies: ["utils","button","checkbox","dropdown-menu","input","table"],
       files: [{
         path: "registry/new-york/example/DataTableDemo.vue",
         type: "registry:example",
@@ -8235,7 +8551,7 @@ export const Index: Record<string, any> = {
       name: "DataTableReactiveDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","checkbox","dropdown-menu","input","table","utils"],
+      registryDependencies: ["utils","button","checkbox","dropdown-menu","input","table"],
       files: [{
         path: "registry/new-york/example/DataTableReactiveDemo.vue",
         type: "registry:example",
@@ -8250,7 +8566,7 @@ export const Index: Record<string, any> = {
       name: "DatePickerDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","calendar","popover","utils"],
+      registryDependencies: ["utils","button","calendar","popover"],
       files: [{
         path: "registry/new-york/example/DatePickerDemo.vue",
         type: "registry:example",
@@ -8265,7 +8581,7 @@ export const Index: Record<string, any> = {
       name: "DatePickerForm",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","calendar","form","popover","toast","utils"],
+      registryDependencies: ["utils","button","calendar","form","popover","toast"],
       files: [{
         path: "registry/new-york/example/DatePickerForm.vue",
         type: "registry:example",
@@ -8280,7 +8596,7 @@ export const Index: Record<string, any> = {
       name: "DatePickerWithIndependentMonths",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","popover","range-calendar","utils"],
+      registryDependencies: ["utils","button","popover","range-calendar"],
       files: [{
         path: "registry/new-york/example/DatePickerWithIndependentMonths.vue",
         type: "registry:example",
@@ -8295,7 +8611,7 @@ export const Index: Record<string, any> = {
       name: "DatePickerWithPresets",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","calendar","popover","select","utils"],
+      registryDependencies: ["utils","button","calendar","popover","select"],
       files: [{
         path: "registry/new-york/example/DatePickerWithPresets.vue",
         type: "registry:example",
@@ -8310,7 +8626,7 @@ export const Index: Record<string, any> = {
       name: "DatePickerWithRange",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","popover","range-calendar","utils"],
+      registryDependencies: ["utils","button","popover","range-calendar"],
       files: [{
         path: "registry/new-york/example/DatePickerWithRange.vue",
         type: "registry:example",
@@ -9210,7 +9526,7 @@ export const Index: Record<string, any> = {
       name: "SliderDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["slider","utils"],
+      registryDependencies: ["utils","slider"],
       files: [{
         path: "registry/new-york/example/SliderDemo.vue",
         type: "registry:example",
@@ -10035,7 +10351,7 @@ export const Index: Record<string, any> = {
       name: "VDatePickerDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","popover","v-calendar","utils"],
+      registryDependencies: ["utils","button","popover","v-calendar"],
       files: [{
         path: "registry/new-york/example/VDatePickerDemo.vue",
         type: "registry:example",
@@ -10050,7 +10366,7 @@ export const Index: Record<string, any> = {
       name: "VDatePickerForm",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","form","popover","toast","v-calendar","utils"],
+      registryDependencies: ["utils","button","form","popover","toast","v-calendar"],
       files: [{
         path: "registry/new-york/example/VDatePickerForm.vue",
         type: "registry:example",
@@ -10065,7 +10381,7 @@ export const Index: Record<string, any> = {
       name: "VDatePickerWithPresets",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","popover","select","v-calendar","utils"],
+      registryDependencies: ["utils","button","popover","select","v-calendar"],
       files: [{
         path: "registry/new-york/example/VDatePickerWithPresets.vue",
         type: "registry:example",
@@ -10080,7 +10396,7 @@ export const Index: Record<string, any> = {
       name: "VDatePickerWithRange",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","popover","v-calendar","utils"],
+      registryDependencies: ["utils","button","popover","v-calendar"],
       files: [{
         path: "registry/new-york/example/VDatePickerWithRange.vue",
         type: "registry:example",
@@ -10095,7 +10411,7 @@ export const Index: Record<string, any> = {
       name: "VDateTimePickerDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","popover","v-calendar","utils"],
+      registryDependencies: ["utils","button","popover","v-calendar"],
       files: [{
         path: "registry/new-york/example/VDateTimePickerDemo.vue",
         type: "registry:example",
@@ -10110,13 +10426,329 @@ export const Index: Record<string, any> = {
       name: "VRangePickerWithSlot",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","popover","v-calendar","utils"],
+      registryDependencies: ["utils","button","popover","v-calendar"],
       files: [{
         path: "registry/new-york/example/VRangePickerWithSlot.vue",
         type: "registry:example",
         target: "VRangePickerWithSlot.vue"
       }],
       component: () => import("@/registry/new-york/example/VRangePickerWithSlot.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Authentication01": {
+      name: "Authentication01",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/new-york/block/Authentication01").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Authentication01": {
+      name: "Authentication01",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["button","card","input","label"],
+      files: [{
+        path: "registry/new-york/block/Authentication01.vue",
+        type: "registry:block",
+        target: "Authentication01.vue"
+      }],
+      component: () => import("@/registry/new-york/block/Authentication01.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Authentication02": {
+      name: "Authentication02",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/new-york/block/Authentication02").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Authentication02": {
+      name: "Authentication02",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["button","card","input","label"],
+      files: [{
+        path: "registry/new-york/block/Authentication02.vue",
+        type: "registry:block",
+        target: "Authentication02.vue"
+      }],
+      component: () => import("@/registry/new-york/block/Authentication02.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Authentication03": {
+      name: "Authentication03",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/new-york/block/Authentication03").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Authentication03": {
+      name: "Authentication03",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["button","card","input","label"],
+      files: [{
+        path: "registry/new-york/block/Authentication03.vue",
+        type: "registry:block",
+        target: "Authentication03.vue"
+      }],
+      component: () => import("@/registry/new-york/block/Authentication03.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Authentication04": {
+      name: "Authentication04",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/new-york/block/Authentication04").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Authentication04": {
+      name: "Authentication04",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["button","input","label"],
+      files: [{
+        path: "registry/new-york/block/Authentication04.vue",
+        type: "registry:block",
+        target: "Authentication04.vue"
+      }],
+      component: () => import("@/registry/new-york/block/Authentication04.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard01": {
+      name: "Dashboard01",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/new-york/block/Dashboard01").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard01": {
+      name: "Dashboard01",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["avatar","badge","button","card","dropdown-menu","input","sheet","table"],
+      files: [{
+        path: "registry/new-york/block/Dashboard01.vue",
+        type: "registry:block",
+        target: "Dashboard01.vue"
+      }],
+      component: () => import("@/registry/new-york/block/Dashboard01.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard02": {
+      name: "Dashboard02",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/new-york/block/Dashboard02").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard02": {
+      name: "Dashboard02",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["badge","button","card","dropdown-menu","input","sheet"],
+      files: [{
+        path: "registry/new-york/block/Dashboard02.vue",
+        type: "registry:block",
+        target: "Dashboard02.vue"
+      }],
+      component: () => import("@/registry/new-york/block/Dashboard02.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard03": {
+      name: "Dashboard03",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/new-york/block/Dashboard03").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard03": {
+      name: "Dashboard03",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["badge","button","drawer","input","label","select","textarea","tooltip"],
+      files: [{
+        path: "registry/new-york/block/Dashboard03.vue",
+        type: "registry:block",
+        target: "Dashboard03.vue"
+      }],
+      component: () => import("@/registry/new-york/block/Dashboard03.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard04": {
+      name: "Dashboard04",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/new-york/block/Dashboard04").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard04": {
+      name: "Dashboard04",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["button","card","checkbox","dropdown-menu","input","sheet"],
+      files: [{
+        path: "registry/new-york/block/Dashboard04.vue",
+        type: "registry:block",
+        target: "Dashboard04.vue"
+      }],
+      component: () => import("@/registry/new-york/block/Dashboard04.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard05": {
+      name: "Dashboard05",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/new-york/block/Dashboard05").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard05": {
+      name: "Dashboard05",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["badge","breadcrumb","button","card","checkbox","dropdown-menu","input","pagination","progress","separator","sheet","table","tabs","tooltip"],
+      files: [{
+        path: "registry/new-york/block/Dashboard05.vue",
+        type: "registry:block",
+        target: "Dashboard05.vue"
+      }],
+      component: () => import("@/registry/new-york/block/Dashboard05.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard06": {
+      name: "Dashboard06",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/new-york/block/Dashboard06").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard06": {
+      name: "Dashboard06",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["badge","breadcrumb","button","card","dropdown-menu","input","sheet","table","tabs","tooltip"],
+      files: [{
+        path: "registry/new-york/block/Dashboard06.vue",
+        type: "registry:block",
+        target: "Dashboard06.vue"
+      }],
+      component: () => import("@/registry/new-york/block/Dashboard06.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard07": {
+      name: "Dashboard07",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/new-york/block/Dashboard07").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard07": {
+      name: "Dashboard07",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["badge","breadcrumb","button","card","dropdown-menu","input","label","select","sheet","table","textarea","toggle-group","tooltip"],
+      files: [{
+        path: "registry/new-york/block/Dashboard07.vue",
+        type: "registry:block",
+        target: "Dashboard07.vue"
+      }],
+      component: () => import("@/registry/new-york/block/Dashboard07.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Sidebar01": {
+      name: "Sidebar01",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["breadcrumb","dropdown-menu","label","separator","sidebar"],
+      files: [{
+        path: "registry/new-york/block/Sidebar01/page.vue",
+        type: "registry:page",
+        target: "Sidebar01Page.vue"
+      }],
+      component: () => import("@/registry/new-york/block/Sidebar01/page.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Sidebar07": {
+      name: "Sidebar07",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["avatar","breadcrumb","collapsible","dropdown-menu","separator","sidebar"],
+      files: [{
+        path: "registry/new-york/block/Sidebar07/page.vue",
+        type: "registry:page",
+        target: "Sidebar07Page.vue"
+      }],
+      component: () => import("@/registry/new-york/block/Sidebar07/page.vue").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10199,7 +10831,7 @@ export const Index: Record<string, any> = {
       name: "alert-dialog",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["button","utils"],
+      registryDependencies: ["utils","button"],
       files: [{
         path: "registry/default/ui/alert-dialog/AlertDialog.vue",
         type: "registry:ui",
@@ -10269,7 +10901,7 @@ export const Index: Record<string, any> = {
       name: "auto-form",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["form","accordion","button","separator","checkbox","switch","calendar","popover","utils","label","radio-group","select","input","textarea"],
+      registryDependencies: ["form","accordion","button","separator","checkbox","switch","utils","calendar","popover","label","radio-group","select","input","textarea"],
       files: [{
         path: "registry/default/ui/auto-form/AutoForm.vue",
         type: "registry:ui",
@@ -10632,7 +11264,7 @@ export const Index: Record<string, any> = {
       name: "chart-area",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["chart","utils"],
+      registryDependencies: ["utils","chart"],
       files: [{
         path: "registry/default/ui/chart-area/AreaChart.vue",
         type: "registry:ui",
@@ -10651,7 +11283,7 @@ export const Index: Record<string, any> = {
       name: "chart-bar",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["chart","utils"],
+      registryDependencies: ["utils","chart"],
       files: [{
         path: "registry/default/ui/chart-bar/BarChart.vue",
         type: "registry:ui",
@@ -10670,7 +11302,7 @@ export const Index: Record<string, any> = {
       name: "chart-donut",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["chart","utils"],
+      registryDependencies: ["utils","chart"],
       files: [{
         path: "registry/default/ui/chart-donut/DonutChart.vue",
         type: "registry:ui",
@@ -10689,7 +11321,7 @@ export const Index: Record<string, any> = {
       name: "chart-line",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["chart","utils"],
+      registryDependencies: ["utils","chart"],
       files: [{
         path: "registry/default/ui/chart-line/LineChart.vue",
         type: "registry:ui",
@@ -11679,7 +12311,7 @@ export const Index: Record<string, any> = {
       name: "sidebar",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["Sheet.vue","SheetContent.vue","utils","Input.vue","Tooltip.vue","TooltipContent.vue","TooltipTrigger.vue","Skeleton.vue","Separator.vue","Button.vue"],
+      registryDependencies: ["utils","Sheet.vue","SheetContent.vue","Input.vue","Tooltip.vue","TooltipContent.vue","TooltipTrigger.vue","Skeleton.vue","Separator.vue","Button.vue"],
       files: [{
         path: "registry/default/ui/sidebar/Sidebar.vue",
         type: "registry:ui",
@@ -12173,7 +12805,7 @@ export const Index: Record<string, any> = {
       name: "v-calendar",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["button","utils"],
+      registryDependencies: ["utils","button"],
       files: [{
         path: "registry/default/ui/v-calendar/Calendar.vue",
         type: "registry:ui",
@@ -12822,7 +13454,7 @@ export const Index: Record<string, any> = {
       name: "CalendarForm",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","calendar","form","popover","toast","utils"],
+      registryDependencies: ["utils","button","calendar","form","popover","toast"],
       files: [{
         path: "registry/default/example/CalendarForm.vue",
         type: "registry:example",
@@ -12837,7 +13469,7 @@ export const Index: Record<string, any> = {
       name: "CalendarWithSelect",
       description: "",
       type: "registry:example",
-      registryDependencies: ["calendar","select","utils"],
+      registryDependencies: ["utils","calendar","select"],
       files: [{
         path: "registry/default/example/CalendarWithSelect.vue",
         type: "registry:example",
@@ -12852,7 +13484,7 @@ export const Index: Record<string, any> = {
       name: "CardChat",
       description: "",
       type: "registry:example",
-      registryDependencies: ["avatar","button","card","command","dialog","input","tooltip","utils"],
+      registryDependencies: ["utils","avatar","button","card","command","dialog","input","tooltip"],
       files: [{
         path: "registry/default/example/CardChat.vue",
         type: "registry:example",
@@ -12867,7 +13499,7 @@ export const Index: Record<string, any> = {
       name: "CardDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","card","switch","utils"],
+      registryDependencies: ["utils","button","card","switch"],
       files: [{
         path: "registry/default/example/CardDemo.vue",
         type: "registry:example",
@@ -13122,7 +13754,7 @@ export const Index: Record<string, any> = {
       name: "ComboboxDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","command","popover","utils"],
+      registryDependencies: ["utils","button","command","popover"],
       files: [{
         path: "registry/default/example/ComboboxDemo.vue",
         type: "registry:example",
@@ -13152,7 +13784,7 @@ export const Index: Record<string, any> = {
       name: "ComboboxForm",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","command","form","popover","toast","utils"],
+      registryDependencies: ["utils","button","command","form","popover","toast"],
       files: [{
         path: "registry/default/example/ComboboxForm.vue",
         type: "registry:example",
@@ -13257,7 +13889,7 @@ export const Index: Record<string, any> = {
       name: "DataTableColumnPinningDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","checkbox","dropdown-menu","input","table","utils"],
+      registryDependencies: ["utils","button","checkbox","dropdown-menu","input","table"],
       files: [{
         path: "registry/default/example/DataTableColumnPinningDemo.vue",
         type: "registry:example",
@@ -13272,7 +13904,7 @@ export const Index: Record<string, any> = {
       name: "DataTableDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","checkbox","dropdown-menu","input","table","utils"],
+      registryDependencies: ["utils","button","checkbox","dropdown-menu","input","table"],
       files: [{
         path: "registry/default/example/DataTableDemo.vue",
         type: "registry:example",
@@ -13302,7 +13934,7 @@ export const Index: Record<string, any> = {
       name: "DataTableReactiveDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","checkbox","dropdown-menu","input","table","utils"],
+      registryDependencies: ["utils","button","checkbox","dropdown-menu","input","table"],
       files: [{
         path: "registry/default/example/DataTableReactiveDemo.vue",
         type: "registry:example",
@@ -13317,7 +13949,7 @@ export const Index: Record<string, any> = {
       name: "DatePickerDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","calendar","popover","utils"],
+      registryDependencies: ["utils","button","calendar","popover"],
       files: [{
         path: "registry/default/example/DatePickerDemo.vue",
         type: "registry:example",
@@ -13332,7 +13964,7 @@ export const Index: Record<string, any> = {
       name: "DatePickerForm",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","calendar","form","popover","toast","utils"],
+      registryDependencies: ["utils","button","calendar","form","popover","toast"],
       files: [{
         path: "registry/default/example/DatePickerForm.vue",
         type: "registry:example",
@@ -13347,7 +13979,7 @@ export const Index: Record<string, any> = {
       name: "DatePickerWithIndependentMonths",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","popover","range-calendar","utils"],
+      registryDependencies: ["utils","button","popover","range-calendar"],
       files: [{
         path: "registry/default/example/DatePickerWithIndependentMonths.vue",
         type: "registry:example",
@@ -13362,7 +13994,7 @@ export const Index: Record<string, any> = {
       name: "DatePickerWithPresets",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","calendar","popover","select","utils"],
+      registryDependencies: ["utils","button","calendar","popover","select"],
       files: [{
         path: "registry/default/example/DatePickerWithPresets.vue",
         type: "registry:example",
@@ -13377,7 +14009,7 @@ export const Index: Record<string, any> = {
       name: "DatePickerWithRange",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","popover","range-calendar","utils"],
+      registryDependencies: ["utils","button","popover","range-calendar"],
       files: [{
         path: "registry/default/example/DatePickerWithRange.vue",
         type: "registry:example",
@@ -14277,7 +14909,7 @@ export const Index: Record<string, any> = {
       name: "SliderDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["slider","utils"],
+      registryDependencies: ["utils","slider"],
       files: [{
         path: "registry/default/example/SliderDemo.vue",
         type: "registry:example",
@@ -15102,7 +15734,7 @@ export const Index: Record<string, any> = {
       name: "VDatePickerDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","popover","v-calendar","utils"],
+      registryDependencies: ["utils","button","popover","v-calendar"],
       files: [{
         path: "registry/default/example/VDatePickerDemo.vue",
         type: "registry:example",
@@ -15117,7 +15749,7 @@ export const Index: Record<string, any> = {
       name: "VDatePickerForm",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","form","popover","toast","v-calendar","utils"],
+      registryDependencies: ["utils","button","form","popover","toast","v-calendar"],
       files: [{
         path: "registry/default/example/VDatePickerForm.vue",
         type: "registry:example",
@@ -15132,7 +15764,7 @@ export const Index: Record<string, any> = {
       name: "VDatePickerWithPresets",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","popover","select","v-calendar","utils"],
+      registryDependencies: ["utils","button","popover","select","v-calendar"],
       files: [{
         path: "registry/default/example/VDatePickerWithPresets.vue",
         type: "registry:example",
@@ -15147,7 +15779,7 @@ export const Index: Record<string, any> = {
       name: "VDatePickerWithRange",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","popover","v-calendar","utils"],
+      registryDependencies: ["utils","button","popover","v-calendar"],
       files: [{
         path: "registry/default/example/VDatePickerWithRange.vue",
         type: "registry:example",
@@ -15162,7 +15794,7 @@ export const Index: Record<string, any> = {
       name: "VDateTimePickerDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","popover","v-calendar","utils"],
+      registryDependencies: ["utils","button","popover","v-calendar"],
       files: [{
         path: "registry/default/example/VDateTimePickerDemo.vue",
         type: "registry:example",
@@ -15177,13 +15809,329 @@ export const Index: Record<string, any> = {
       name: "VRangePickerWithSlot",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","popover","v-calendar","utils"],
+      registryDependencies: ["utils","button","popover","v-calendar"],
       files: [{
         path: "registry/default/example/VRangePickerWithSlot.vue",
         type: "registry:example",
         target: "VRangePickerWithSlot.vue"
       }],
       component: () => import("@/registry/default/example/VRangePickerWithSlot.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Authentication01": {
+      name: "Authentication01",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/default/block/Authentication01").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Authentication01": {
+      name: "Authentication01",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["button","card","input","label"],
+      files: [{
+        path: "registry/default/block/Authentication01.vue",
+        type: "registry:block",
+        target: "Authentication01.vue"
+      }],
+      component: () => import("@/registry/default/block/Authentication01.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Authentication02": {
+      name: "Authentication02",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/default/block/Authentication02").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Authentication02": {
+      name: "Authentication02",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["button","card","input","label"],
+      files: [{
+        path: "registry/default/block/Authentication02.vue",
+        type: "registry:block",
+        target: "Authentication02.vue"
+      }],
+      component: () => import("@/registry/default/block/Authentication02.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Authentication03": {
+      name: "Authentication03",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/default/block/Authentication03").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Authentication03": {
+      name: "Authentication03",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["button","card","input","label"],
+      files: [{
+        path: "registry/default/block/Authentication03.vue",
+        type: "registry:block",
+        target: "Authentication03.vue"
+      }],
+      component: () => import("@/registry/default/block/Authentication03.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Authentication04": {
+      name: "Authentication04",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/default/block/Authentication04").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Authentication04": {
+      name: "Authentication04",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["button","input","label"],
+      files: [{
+        path: "registry/default/block/Authentication04.vue",
+        type: "registry:block",
+        target: "Authentication04.vue"
+      }],
+      component: () => import("@/registry/default/block/Authentication04.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard01": {
+      name: "Dashboard01",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/default/block/Dashboard01").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard01": {
+      name: "Dashboard01",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["avatar","badge","button","card","dropdown-menu","input","sheet","table"],
+      files: [{
+        path: "registry/default/block/Dashboard01.vue",
+        type: "registry:block",
+        target: "Dashboard01.vue"
+      }],
+      component: () => import("@/registry/default/block/Dashboard01.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard02": {
+      name: "Dashboard02",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/default/block/Dashboard02").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard02": {
+      name: "Dashboard02",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["badge","button","card","dropdown-menu","input","sheet"],
+      files: [{
+        path: "registry/default/block/Dashboard02.vue",
+        type: "registry:block",
+        target: "Dashboard02.vue"
+      }],
+      component: () => import("@/registry/default/block/Dashboard02.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard03": {
+      name: "Dashboard03",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/default/block/Dashboard03").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard03": {
+      name: "Dashboard03",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["badge","button","drawer","input","label","select","textarea","tooltip"],
+      files: [{
+        path: "registry/default/block/Dashboard03.vue",
+        type: "registry:block",
+        target: "Dashboard03.vue"
+      }],
+      component: () => import("@/registry/default/block/Dashboard03.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard04": {
+      name: "Dashboard04",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/default/block/Dashboard04").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard04": {
+      name: "Dashboard04",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["button","card","checkbox","dropdown-menu","input","sheet"],
+      files: [{
+        path: "registry/default/block/Dashboard04.vue",
+        type: "registry:block",
+        target: "Dashboard04.vue"
+      }],
+      component: () => import("@/registry/default/block/Dashboard04.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard05": {
+      name: "Dashboard05",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/default/block/Dashboard05").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard05": {
+      name: "Dashboard05",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["badge","breadcrumb","button","card","checkbox","dropdown-menu","input","pagination","progress","separator","sheet","table","tabs","tooltip"],
+      files: [{
+        path: "registry/default/block/Dashboard05.vue",
+        type: "registry:block",
+        target: "Dashboard05.vue"
+      }],
+      component: () => import("@/registry/default/block/Dashboard05.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard06": {
+      name: "Dashboard06",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/default/block/Dashboard06").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard06": {
+      name: "Dashboard06",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["badge","breadcrumb","button","card","dropdown-menu","input","sheet","table","tabs","tooltip"],
+      files: [{
+        path: "registry/default/block/Dashboard06.vue",
+        type: "registry:block",
+        target: "Dashboard06.vue"
+      }],
+      component: () => import("@/registry/default/block/Dashboard06.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard07": {
+      name: "Dashboard07",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/default/block/Dashboard07").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard07": {
+      name: "Dashboard07",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["badge","breadcrumb","button","card","dropdown-menu","input","label","select","sheet","table","textarea","toggle-group","tooltip"],
+      files: [{
+        path: "registry/default/block/Dashboard07.vue",
+        type: "registry:block",
+        target: "Dashboard07.vue"
+      }],
+      component: () => import("@/registry/default/block/Dashboard07.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Sidebar01": {
+      name: "Sidebar01",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["breadcrumb","dropdown-menu","label","separator","sidebar"],
+      files: [{
+        path: "registry/default/block/Sidebar01/page.vue",
+        type: "registry:page",
+        target: "Sidebar01Page.vue"
+      }],
+      component: () => import("@/registry/default/block/Sidebar01/page.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Sidebar07": {
+      name: "Sidebar07",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["avatar","breadcrumb","collapsible","dropdown-menu","separator","sidebar"],
+      files: [{
+        path: "registry/default/block/Sidebar07/page.vue",
+        type: "registry:page",
+        target: "Sidebar07Page.vue"
+      }],
+      component: () => import("@/registry/default/block/Sidebar07/page.vue").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15250,7 +16198,7 @@ export const Index: Record<string, any> = {
       name: "alert-dialog",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["button","utils"],
+      registryDependencies: ["utils","button"],
       files: [{
         path: "registry/default/ui/alert-dialog/AlertDialog.vue",
         type: "registry:ui",
@@ -15320,7 +16268,7 @@ export const Index: Record<string, any> = {
       name: "auto-form",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["form","accordion","button","separator","checkbox","switch","calendar","popover","utils","label","radio-group","select","input","textarea"],
+      registryDependencies: ["form","accordion","button","separator","checkbox","switch","utils","calendar","popover","label","radio-group","select","input","textarea"],
       files: [{
         path: "registry/default/ui/auto-form/AutoForm.vue",
         type: "registry:ui",
@@ -15683,7 +16631,7 @@ export const Index: Record<string, any> = {
       name: "chart-area",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["chart","utils"],
+      registryDependencies: ["utils","chart"],
       files: [{
         path: "registry/default/ui/chart-area/AreaChart.vue",
         type: "registry:ui",
@@ -15702,7 +16650,7 @@ export const Index: Record<string, any> = {
       name: "chart-bar",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["chart","utils"],
+      registryDependencies: ["utils","chart"],
       files: [{
         path: "registry/default/ui/chart-bar/BarChart.vue",
         type: "registry:ui",
@@ -15721,7 +16669,7 @@ export const Index: Record<string, any> = {
       name: "chart-donut",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["chart","utils"],
+      registryDependencies: ["utils","chart"],
       files: [{
         path: "registry/default/ui/chart-donut/DonutChart.vue",
         type: "registry:ui",
@@ -15740,7 +16688,7 @@ export const Index: Record<string, any> = {
       name: "chart-line",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["chart","utils"],
+      registryDependencies: ["utils","chart"],
       files: [{
         path: "registry/default/ui/chart-line/LineChart.vue",
         type: "registry:ui",
@@ -16730,7 +17678,7 @@ export const Index: Record<string, any> = {
       name: "sidebar",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["Sheet.vue","SheetContent.vue","utils","Input.vue","Tooltip.vue","TooltipContent.vue","TooltipTrigger.vue","Skeleton.vue","Separator.vue","Button.vue"],
+      registryDependencies: ["utils","Sheet.vue","SheetContent.vue","Input.vue","Tooltip.vue","TooltipContent.vue","TooltipTrigger.vue","Skeleton.vue","Separator.vue","Button.vue"],
       files: [{
         path: "registry/default/ui/sidebar/Sidebar.vue",
         type: "registry:ui",
@@ -17224,7 +18172,7 @@ export const Index: Record<string, any> = {
       name: "v-calendar",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["button","utils"],
+      registryDependencies: ["utils","button"],
       files: [{
         path: "registry/default/ui/v-calendar/Calendar.vue",
         type: "registry:ui",
@@ -17873,7 +18821,7 @@ export const Index: Record<string, any> = {
       name: "CalendarForm",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","calendar","form","popover","toast","utils"],
+      registryDependencies: ["utils","button","calendar","form","popover","toast"],
       files: [{
         path: "registry/default/example/CalendarForm.vue",
         type: "registry:example",
@@ -17888,7 +18836,7 @@ export const Index: Record<string, any> = {
       name: "CalendarWithSelect",
       description: "",
       type: "registry:example",
-      registryDependencies: ["calendar","select","utils"],
+      registryDependencies: ["utils","calendar","select"],
       files: [{
         path: "registry/default/example/CalendarWithSelect.vue",
         type: "registry:example",
@@ -17903,7 +18851,7 @@ export const Index: Record<string, any> = {
       name: "CardChat",
       description: "",
       type: "registry:example",
-      registryDependencies: ["avatar","button","card","command","dialog","input","tooltip","utils"],
+      registryDependencies: ["utils","avatar","button","card","command","dialog","input","tooltip"],
       files: [{
         path: "registry/default/example/CardChat.vue",
         type: "registry:example",
@@ -17918,7 +18866,7 @@ export const Index: Record<string, any> = {
       name: "CardDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","card","switch","utils"],
+      registryDependencies: ["utils","button","card","switch"],
       files: [{
         path: "registry/default/example/CardDemo.vue",
         type: "registry:example",
@@ -18173,7 +19121,7 @@ export const Index: Record<string, any> = {
       name: "ComboboxDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","command","popover","utils"],
+      registryDependencies: ["utils","button","command","popover"],
       files: [{
         path: "registry/default/example/ComboboxDemo.vue",
         type: "registry:example",
@@ -18203,7 +19151,7 @@ export const Index: Record<string, any> = {
       name: "ComboboxForm",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","command","form","popover","toast","utils"],
+      registryDependencies: ["utils","button","command","form","popover","toast"],
       files: [{
         path: "registry/default/example/ComboboxForm.vue",
         type: "registry:example",
@@ -18218,7 +19166,7 @@ export const Index: Record<string, any> = {
       name: "ComboboxPopover",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","command","popover","utils"],
+      registryDependencies: ["utils","button","command","popover"],
       files: [{
         path: "registry/default/example/ComboboxPopover.vue",
         type: "registry:example",
@@ -18308,7 +19256,7 @@ export const Index: Record<string, any> = {
       name: "DataTableColumnPinningDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","checkbox","dropdown-menu","input","table","utils"],
+      registryDependencies: ["utils","button","checkbox","dropdown-menu","input","table"],
       files: [{
         path: "registry/default/example/DataTableColumnPinningDemo.vue",
         type: "registry:example",
@@ -18323,7 +19271,7 @@ export const Index: Record<string, any> = {
       name: "DataTableDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","checkbox","dropdown-menu","input","table","utils"],
+      registryDependencies: ["utils","button","checkbox","dropdown-menu","input","table"],
       files: [{
         path: "registry/default/example/DataTableDemo.vue",
         type: "registry:example",
@@ -18353,7 +19301,7 @@ export const Index: Record<string, any> = {
       name: "DataTableReactiveDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","checkbox","dropdown-menu","input","table","utils"],
+      registryDependencies: ["utils","button","checkbox","dropdown-menu","input","table"],
       files: [{
         path: "registry/default/example/DataTableReactiveDemo.vue",
         type: "registry:example",
@@ -18368,7 +19316,7 @@ export const Index: Record<string, any> = {
       name: "DatePickerDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","calendar","popover","utils"],
+      registryDependencies: ["utils","button","calendar","popover"],
       files: [{
         path: "registry/default/example/DatePickerDemo.vue",
         type: "registry:example",
@@ -18383,7 +19331,7 @@ export const Index: Record<string, any> = {
       name: "DatePickerForm",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","calendar","form","popover","toast","utils"],
+      registryDependencies: ["utils","button","calendar","form","popover","toast"],
       files: [{
         path: "registry/default/example/DatePickerForm.vue",
         type: "registry:example",
@@ -18398,7 +19346,7 @@ export const Index: Record<string, any> = {
       name: "DatePickerWithIndependentMonths",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","popover","range-calendar","utils"],
+      registryDependencies: ["utils","button","popover","range-calendar"],
       files: [{
         path: "registry/default/example/DatePickerWithIndependentMonths.vue",
         type: "registry:example",
@@ -18413,7 +19361,7 @@ export const Index: Record<string, any> = {
       name: "DatePickerWithPresets",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","calendar","popover","select","utils"],
+      registryDependencies: ["utils","button","calendar","popover","select"],
       files: [{
         path: "registry/default/example/DatePickerWithPresets.vue",
         type: "registry:example",
@@ -18428,7 +19376,7 @@ export const Index: Record<string, any> = {
       name: "DatePickerWithRange",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","popover","range-calendar","utils"],
+      registryDependencies: ["utils","button","popover","range-calendar"],
       files: [{
         path: "registry/default/example/DatePickerWithRange.vue",
         type: "registry:example",
@@ -19328,7 +20276,7 @@ export const Index: Record<string, any> = {
       name: "SliderDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["slider","utils"],
+      registryDependencies: ["utils","slider"],
       files: [{
         path: "registry/default/example/SliderDemo.vue",
         type: "registry:example",
@@ -20153,7 +21101,7 @@ export const Index: Record<string, any> = {
       name: "VDatePickerDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","popover","v-calendar","utils"],
+      registryDependencies: ["utils","button","popover","v-calendar"],
       files: [{
         path: "registry/default/example/VDatePickerDemo.vue",
         type: "registry:example",
@@ -20168,7 +21116,7 @@ export const Index: Record<string, any> = {
       name: "VDatePickerForm",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","form","popover","toast","v-calendar","utils"],
+      registryDependencies: ["utils","button","form","popover","toast","v-calendar"],
       files: [{
         path: "registry/default/example/VDatePickerForm.vue",
         type: "registry:example",
@@ -20183,7 +21131,7 @@ export const Index: Record<string, any> = {
       name: "VDatePickerWithPresets",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","popover","select","v-calendar","utils"],
+      registryDependencies: ["utils","button","popover","select","v-calendar"],
       files: [{
         path: "registry/default/example/VDatePickerWithPresets.vue",
         type: "registry:example",
@@ -20198,7 +21146,7 @@ export const Index: Record<string, any> = {
       name: "VDatePickerWithRange",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","popover","v-calendar","utils"],
+      registryDependencies: ["utils","button","popover","v-calendar"],
       files: [{
         path: "registry/default/example/VDatePickerWithRange.vue",
         type: "registry:example",
@@ -20213,7 +21161,7 @@ export const Index: Record<string, any> = {
       name: "VDateTimePickerDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","popover","v-calendar","utils"],
+      registryDependencies: ["utils","button","popover","v-calendar"],
       files: [{
         path: "registry/default/example/VDateTimePickerDemo.vue",
         type: "registry:example",
@@ -20228,13 +21176,329 @@ export const Index: Record<string, any> = {
       name: "VRangePickerWithSlot",
       description: "",
       type: "registry:example",
-      registryDependencies: ["button","popover","v-calendar","utils"],
+      registryDependencies: ["utils","button","popover","v-calendar"],
       files: [{
         path: "registry/default/example/VRangePickerWithSlot.vue",
         type: "registry:example",
         target: "VRangePickerWithSlot.vue"
       }],
       component: () => import("@/registry/default/example/VRangePickerWithSlot.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Authentication01": {
+      name: "Authentication01",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/default/block/Authentication01").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Authentication01": {
+      name: "Authentication01",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["button","card","input","label"],
+      files: [{
+        path: "registry/default/block/Authentication01.vue",
+        type: "registry:block",
+        target: "Authentication01.vue"
+      }],
+      component: () => import("@/registry/default/block/Authentication01.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Authentication02": {
+      name: "Authentication02",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/default/block/Authentication02").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Authentication02": {
+      name: "Authentication02",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["button","card","input","label"],
+      files: [{
+        path: "registry/default/block/Authentication02.vue",
+        type: "registry:block",
+        target: "Authentication02.vue"
+      }],
+      component: () => import("@/registry/default/block/Authentication02.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Authentication03": {
+      name: "Authentication03",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/default/block/Authentication03").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Authentication03": {
+      name: "Authentication03",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["button","card","input","label"],
+      files: [{
+        path: "registry/default/block/Authentication03.vue",
+        type: "registry:block",
+        target: "Authentication03.vue"
+      }],
+      component: () => import("@/registry/default/block/Authentication03.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Authentication04": {
+      name: "Authentication04",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/default/block/Authentication04").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Authentication04": {
+      name: "Authentication04",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["button","input","label"],
+      files: [{
+        path: "registry/default/block/Authentication04.vue",
+        type: "registry:block",
+        target: "Authentication04.vue"
+      }],
+      component: () => import("@/registry/default/block/Authentication04.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard01": {
+      name: "Dashboard01",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/default/block/Dashboard01").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard01": {
+      name: "Dashboard01",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["avatar","badge","button","card","dropdown-menu","input","sheet","table"],
+      files: [{
+        path: "registry/default/block/Dashboard01.vue",
+        type: "registry:block",
+        target: "Dashboard01.vue"
+      }],
+      component: () => import("@/registry/default/block/Dashboard01.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard02": {
+      name: "Dashboard02",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/default/block/Dashboard02").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard02": {
+      name: "Dashboard02",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["badge","button","card","dropdown-menu","input","sheet"],
+      files: [{
+        path: "registry/default/block/Dashboard02.vue",
+        type: "registry:block",
+        target: "Dashboard02.vue"
+      }],
+      component: () => import("@/registry/default/block/Dashboard02.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard03": {
+      name: "Dashboard03",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/default/block/Dashboard03").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard03": {
+      name: "Dashboard03",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["badge","button","drawer","input","label","select","textarea","tooltip"],
+      files: [{
+        path: "registry/default/block/Dashboard03.vue",
+        type: "registry:block",
+        target: "Dashboard03.vue"
+      }],
+      component: () => import("@/registry/default/block/Dashboard03.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard04": {
+      name: "Dashboard04",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/default/block/Dashboard04").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard04": {
+      name: "Dashboard04",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["button","card","checkbox","dropdown-menu","input","sheet"],
+      files: [{
+        path: "registry/default/block/Dashboard04.vue",
+        type: "registry:block",
+        target: "Dashboard04.vue"
+      }],
+      component: () => import("@/registry/default/block/Dashboard04.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard05": {
+      name: "Dashboard05",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/default/block/Dashboard05").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard05": {
+      name: "Dashboard05",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["badge","breadcrumb","button","card","checkbox","dropdown-menu","input","pagination","progress","separator","sheet","table","tabs","tooltip"],
+      files: [{
+        path: "registry/default/block/Dashboard05.vue",
+        type: "registry:block",
+        target: "Dashboard05.vue"
+      }],
+      component: () => import("@/registry/default/block/Dashboard05.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard06": {
+      name: "Dashboard06",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/default/block/Dashboard06").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard06": {
+      name: "Dashboard06",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["badge","breadcrumb","button","card","dropdown-menu","input","sheet","table","tabs","tooltip"],
+      files: [{
+        path: "registry/default/block/Dashboard06.vue",
+        type: "registry:block",
+        target: "Dashboard06.vue"
+      }],
+      component: () => import("@/registry/default/block/Dashboard06.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard07": {
+      name: "Dashboard07",
+      description: "",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [],
+      component: () => import("@/registry/default/block/Dashboard07").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Dashboard07": {
+      name: "Dashboard07",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["badge","breadcrumb","button","card","dropdown-menu","input","label","select","sheet","table","textarea","toggle-group","tooltip"],
+      files: [{
+        path: "registry/default/block/Dashboard07.vue",
+        type: "registry:block",
+        target: "Dashboard07.vue"
+      }],
+      component: () => import("@/registry/default/block/Dashboard07.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Sidebar01": {
+      name: "Sidebar01",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["breadcrumb","dropdown-menu","label","separator","sidebar"],
+      files: [{
+        path: "registry/default/block/Sidebar01/page.vue",
+        type: "registry:page",
+        target: "Sidebar01Page.vue"
+      }],
+      component: () => import("@/registry/default/block/Sidebar01/page.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Sidebar07": {
+      name: "Sidebar07",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["avatar","breadcrumb","collapsible","dropdown-menu","separator","sidebar"],
+      files: [{
+        path: "registry/default/block/Sidebar07/page.vue",
+        type: "registry:page",
+        target: "Sidebar07Page.vue"
+      }],
+      component: () => import("@/registry/default/block/Sidebar07/page.vue").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""

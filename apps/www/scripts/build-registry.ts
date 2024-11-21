@@ -6,7 +6,6 @@ import type {
 } from '../src/registry/schema'
 // @sts-nocheck
 import { existsSync, promises as fs } from 'node:fs'
-import { tmpdir } from 'node:os'
 import path from 'node:path'
 import { template } from 'lodash-es'
 import { rimraf } from 'rimraf'
@@ -21,7 +20,6 @@ import {
   registryEntrySchema,
   registrySchema,
 } from '../src/registry/schema'
-import { fixImport } from './fix-import'
 
 const REGISTRY_PATH = path.join(process.cwd(), 'src/public/r')
 
@@ -38,10 +36,10 @@ const REGISTRY_INDEX_WHITELIST: z.infer<typeof registryItemTypeSchema>[] = [
 //   compilerOptions: {},
 // })
 
-async function createTempSourceFile(filename: string) {
-  const dir = await fs.mkdtemp(path.join(tmpdir(), 'shadcn-'))
-  return path.join(dir, filename)
-}
+// async function createTempSourceFile(filename: string) {
+//   const dir = await fs.mkdtemp(path.join(tmpdir(), 'shadcn-'))
+//   return path.join(dir, filename)
+// }
 
 // ----------------------------------------------------------------------------
 // Build __registry__/index.ts.
@@ -70,206 +68,207 @@ export const Index: Record<string, any> = {
       }
 
       const type = item.type.split(':')[1]
-      let sourceFilename = ''
+      const sourceFilename = ''
 
       // const chunks: any = []
-      if (item.type === 'registry:block') {
-        const file = resolveFiles[0]
-        console.log(item, file)
-        let raw: string
-        try {
-          const filename = path.basename(file)
-          raw = await fs.readFile(file, 'utf8')
-        }
-        catch (error) {
-          continue
-        }
-        // const tempFile = await createTempSourceFile(filename)
-        // const sourceFile = project.createSourceFile(tempFile, raw, {
-        //   scriptKind: ScriptKind.TS,
-        // })
+      // if (item.type === 'registry:block') {
+      //   const file = resolveFiles[0]
+      //   let raw: string
+      //   try {
+      //     if (file) {
+      //       const filename = path.basename(file)
+      //     }
+      //     raw = await fs.readFile(file, 'utf8')
+      //   }
+      //   catch (error) {
+      //     continue
+      //   }
+      //   // const tempFile = await createTempSourceFile(filename)
+      //   // const sourceFile = project.createSourceFile(tempFile, raw, {
+      //   //   scriptKind: ScriptKind.TS,
+      //   // })
 
-        // const description = sourceFile
-        //   .getVariableDeclaration('description')
-        //   ?.getInitializerOrThrow()
-        //   .asKindOrThrow(SyntaxKind.StringLiteral)
-        //   .getLiteralValue()
+      //   // const description = sourceFile
+      //   //   .getVariableDeclaration('description')
+      //   //   ?.getInitializerOrThrow()
+      //   //   .asKindOrThrow(SyntaxKind.StringLiteral)
+      //   //   .getLiteralValue()
 
-        // item.description = description ?? ''
+      //   // item.description = description ?? ''
 
-        // // Find all imports.
-        // const imports = new Map<
-        //   string,
-        //   {
-        //     module: string
-        //     text: string
-        //     isDefault?: boolean
-        //   }
-        // >()
-        // sourceFile.getImportDeclarations().forEach((node) => {
-        //   const module = node.getModuleSpecifier().getLiteralValue()
-        //   node.getNamedImports().forEach((item) => {
-        //     imports.set(item.getText(), {
-        //       module,
-        //       text: node.getText(),
-        //     })
-        //   })
+      //   // // Find all imports.
+      //   // const imports = new Map<
+      //   //   string,
+      //   //   {
+      //   //     module: string
+      //   //     text: string
+      //   //     isDefault?: boolean
+      //   //   }
+      //   // >()
+      //   // sourceFile.getImportDeclarations().forEach((node) => {
+      //   //   const module = node.getModuleSpecifier().getLiteralValue()
+      //   //   node.getNamedImports().forEach((item) => {
+      //   //     imports.set(item.getText(), {
+      //   //       module,
+      //   //       text: node.getText(),
+      //   //     })
+      //   //   })
 
-        //   const defaultImport = node.getDefaultImport()
-        //   if (defaultImport) {
-        //     imports.set(defaultImport.getText(), {
-        //       module,
-        //       text: defaultImport.getText(),
-        //       isDefault: true,
-        //     })
-        //   }
-        // })
+      //   //   const defaultImport = node.getDefaultImport()
+      //   //   if (defaultImport) {
+      //   //     imports.set(defaultImport.getText(), {
+      //   //       module,
+      //   //       text: defaultImport.getText(),
+      //   //       isDefault: true,
+      //   //     })
+      //   //   }
+      //   // })
 
-        // Find all opening tags with x-chunk attribute.
-        // const components = sourceFile
-        //   .getDescendantsOfKind(SyntaxKind.JsxOpeningElement)
-        //   .filter((node) => {
-        //     return node.getAttribute('x-chunk') !== undefined
-        //   })
+      //   // Find all opening tags with x-chunk attribute.
+      //   // const components = sourceFile
+      //   //   .getDescendantsOfKind(SyntaxKind.JsxOpeningElement)
+      //   //   .filter((node) => {
+      //   //     return node.getAttribute('x-chunk') !== undefined
+      //   //   })
 
-        // chunks = await Promise.all(
-        //   components.map(async (component, index) => {
-        //     const chunkName = `${item.name}-chunk-${index}`
+      //   // chunks = await Promise.all(
+      //   //   components.map(async (component, index) => {
+      //   //     const chunkName = `${item.name}-chunk-${index}`
 
-        //     // Get the value of x-chunk attribute.
-        //     const attr = component
-        //       .getAttributeOrThrow('x-chunk')
-        //       .asKindOrThrow(SyntaxKind.JsxAttribute)
+      //   //     // Get the value of x-chunk attribute.
+      //   //     const attr = component
+      //   //       .getAttributeOrThrow('x-chunk')
+      //   //       .asKindOrThrow(SyntaxKind.JsxAttribute)
 
-        //     const description = attr
-        //       .getInitializerOrThrow()
-        //       .asKindOrThrow(SyntaxKind.StringLiteral)
-        //       .getLiteralValue()
+      //   //     const description = attr
+      //   //       .getInitializerOrThrow()
+      //   //       .asKindOrThrow(SyntaxKind.StringLiteral)
+      //   //       .getLiteralValue()
 
-        //     // Delete the x-chunk attribute.
-        //     attr.remove()
+      //   //     // Delete the x-chunk attribute.
+      //   //     attr.remove()
 
-        //     // Add a new attribute to the component.
-        //     component.addAttribute({
-        //       name: 'x-chunk',
-        //       initializer: `"${chunkName}"`,
-        //     })
+      //   //     // Add a new attribute to the component.
+      //   //     component.addAttribute({
+      //   //       name: 'x-chunk',
+      //   //       initializer: `"${chunkName}"`,
+      //   //     })
 
-        //     // Get the value of x-chunk-container attribute.
-        //     const containerAttr = component
-        //       .getAttribute('x-chunk-container')
-        //       ?.asKindOrThrow(SyntaxKind.JsxAttribute)
+      //   //     // Get the value of x-chunk-container attribute.
+      //   //     const containerAttr = component
+      //   //       .getAttribute('x-chunk-container')
+      //   //       ?.asKindOrThrow(SyntaxKind.JsxAttribute)
 
-        //     const containerClassName = containerAttr
-        //       ?.getInitializer()
-        //       ?.asKindOrThrow(SyntaxKind.StringLiteral)
-        //       .getLiteralValue()
+      //   //     const containerClassName = containerAttr
+      //   //       ?.getInitializer()
+      //   //       ?.asKindOrThrow(SyntaxKind.StringLiteral)
+      //   //       .getLiteralValue()
 
-        //     containerAttr?.remove()
+      //   //     containerAttr?.remove()
 
-        //     const parentJsxElement = component.getParentIfKindOrThrow(
-        //       SyntaxKind.JsxElement,
-        //     )
+      //   //     const parentJsxElement = component.getParentIfKindOrThrow(
+      //   //       SyntaxKind.JsxElement,
+      //   //     )
 
-        //     // Find all opening tags on component.
-        //     const children = parentJsxElement
-        //       .getDescendantsOfKind(SyntaxKind.JsxOpeningElement)
-        //       .map((node) => {
-        //         return node.getTagNameNode().getText()
-        //       })
-        //       .concat(
-        //         parentJsxElement
-        //           .getDescendantsOfKind(SyntaxKind.JsxSelfClosingElement)
-        //           .map((node) => {
-        //             return node.getTagNameNode().getText()
-        //           }),
-        //       )
+      //   //     // Find all opening tags on component.
+      //   //     const children = parentJsxElement
+      //   //       .getDescendantsOfKind(SyntaxKind.JsxOpeningElement)
+      //   //       .map((node) => {
+      //   //         return node.getTagNameNode().getText()
+      //   //       })
+      //   //       .concat(
+      //   //         parentJsxElement
+      //   //           .getDescendantsOfKind(SyntaxKind.JsxSelfClosingElement)
+      //   //           .map((node) => {
+      //   //             return node.getTagNameNode().getText()
+      //   //           }),
+      //   //       )
 
-        //     const componentImports = new Map<
-        //       string,
-        //       string | string[] | Set<string>
-        //     >()
-        //     children.forEach((child) => {
-        //       const importLine = imports.get(child)
-        //       if (importLine) {
-        //         const imports = componentImports.get(importLine.module) || []
+      //   //     const componentImports = new Map<
+      //   //       string,
+      //   //       string | string[] | Set<string>
+      //   //     >()
+      //   //     children.forEach((child) => {
+      //   //       const importLine = imports.get(child)
+      //   //       if (importLine) {
+      //   //         const imports = componentImports.get(importLine.module) || []
 
-        //         const newImports = importLine.isDefault
-        //           ? importLine.text
-        //           : new Set([...imports, child])
+      //   //         const newImports = importLine.isDefault
+      //   //           ? importLine.text
+      //   //           : new Set([...imports, child])
 
-        //         componentImports.set(
-        //           importLine.module,
-        //           importLine?.isDefault ? newImports : Array.from(newImports),
-        //         )
-        //       }
-        //     })
+      //   //         componentImports.set(
+      //   //           importLine.module,
+      //   //           importLine?.isDefault ? newImports : Array.from(newImports),
+      //   //         )
+      //   //       }
+      //   //     })
 
-        //     const componnetImportLines = Array.from(
-        //       componentImports.keys(),
-        //     ).map((key) => {
-        //       const values = componentImports.get(key)
-        //       const specifier = Array.isArray(values)
-        //         ? `{${values.join(',')}}`
-        //         : values
+      //   //     const componnetImportLines = Array.from(
+      //   //       componentImports.keys(),
+      //   //     ).map((key) => {
+      //   //       const values = componentImports.get(key)
+      //   //       const specifier = Array.isArray(values)
+      //   //         ? `{${values.join(',')}}`
+      //   //         : values
 
-        //       return `import ${specifier} from "${key}"`
-        //     })
+      //   //       return `import ${specifier} from "${key}"`
+      //   //     })
 
-        //     const code = `
-        //     'use client'
+      //   //     const code = `
+      //   //     'use client'
 
-        //     ${componnetImportLines.join('\n')}
+      //   //     ${componnetImportLines.join('\n')}
 
-        //     export default function Component() {
-        //       return (${parentJsxElement.getText()})
-        //     }`
+      //   //     export default function Component() {
+      //   //       return (${parentJsxElement.getText()})
+      //   //     }`
 
-        //     const targetFile = file.replace(item.name, `${chunkName}`)
-        //     const targetFilePath = path.join(
-        //       cwd(),
-        //       `registry/${style.name}/${type}/${chunkName}.ts`,
-        //     )
+      //   //     const targetFile = file.replace(item.name, `${chunkName}`)
+      //   //     const targetFilePath = path.join(
+      //   //       cwd(),
+      //   //       `registry/${style.name}/${type}/${chunkName}.ts`,
+      //   //     )
 
-        //     // Write component file.
-        //     rimraf.sync(targetFilePath)
-        //     await fs.writeFile(targetFilePath, code, 'utf8')
+      //   //     // Write component file.
+      //   //     rimraf.sync(targetFilePath)
+      //   //     await fs.writeFile(targetFilePath, code, 'utf8')
 
-        //     return {
-        //       name: chunkName,
-        //       description,
-        //       component: `React.lazy(() => import("@/registry/${style.name}/${type}/${chunkName}")),`,
-        //       file: targetFile,
-        //       container: {
-        //         className: containerClassName,
-        //       },
-        //     }
-        //   }),
-        // )
+      //   //     return {
+      //   //       name: chunkName,
+      //   //       description,
+      //   //       component: `React.lazy(() => import("@/registry/${style.name}/${type}/${chunkName}")),`,
+      //   //       file: targetFile,
+      //   //       container: {
+      //   //         className: containerClassName,
+      //   //       },
+      //   //     }
+      //   //   }),
+      //   // )
 
-        // // Write the source file for blocks only.
-        sourceFilename = `__registry__/${style.name}/${type}/${item.name}.ts`
+      //   // // Write the source file for blocks only.
+      //   sourceFilename = `__registry__/${style.name}/${type}/${item.name}.ts`
 
-        if (item.files) {
-          const files = item.files.map(file =>
-            typeof file === 'string'
-              ? { type: 'registry:page', path: file }
-              : file,
-          )
-          if (files?.length) {
-            sourceFilename = `__registry__/${style.name}/${files[0].path}`
-          }
-        }
+      //   if (item.files) {
+      //     const files = item.files.map(file =>
+      //       typeof file === 'string'
+      //         ? { type: 'registry:page', path: file }
+      //         : file,
+      //     )
+      //     if (files?.length) {
+      //       sourceFilename = `__registry__/${style.name}/${files[0].path}`
+      //     }
+      //   }
 
-        const sourcePath = path.join(process.cwd(), sourceFilename)
-        if (!existsSync(sourcePath)) {
-          await fs.mkdir(sourcePath, { recursive: true })
-        }
+      //   const sourcePath = path.join(process.cwd(), sourceFilename)
+      //   if (!existsSync(sourcePath)) {
+      //     await fs.mkdir(sourcePath, { recursive: true })
+      //   }
 
-        rimraf.sync(sourcePath)
-        // await fs.writeFile(sourcePath, sourceFile.getText())
-        await fs.writeFile(sourcePath, raw)
-      }
+      //   rimraf.sync(sourcePath)
+      //   // await fs.writeFile(sourcePath, sourceFile.getText())
+      //   await fs.writeFile(sourcePath, raw)
+      // }
 
       let componentPath = `@/registry/${style.name}/${type}/${item.name}`
 
@@ -340,14 +339,7 @@ export const Index: Record<string, any> = {
       return {
         ...item,
         files: item.files?.map((_file) => {
-          const file
-            = typeof _file === 'string'
-              ? {
-                  path: _file,
-                  type: item.type,
-                }
-              : _file
-
+          const file = { path: _file.path, type: item.type }
           return file
         }),
       }
@@ -386,27 +378,19 @@ async function buildStyles(registry: Registry) {
       if (item.files) {
         files = await Promise.all(
           item.files.map(async (_file) => {
-            const file
-              = typeof _file === 'string'
-                ? {
-                    path: _file,
-                    type: item.type,
-                    content: '',
-                    target: '',
-                  }
-                : _file
+            const file = {
+              path: _file.path,
+              type: _file.type,
+              content: '',
+              target: _file.target ?? '',
+            }
 
             let content: string
             try {
               content = await fs.readFile(
-                path.join(process.cwd(), 'registry', style.name, file.path),
+                path.join(process.cwd(), 'src', 'registry', style.name, file.path),
                 'utf8',
               )
-
-              // Only fix imports for v0- blocks.
-              if (item.name.startsWith('v0-')) {
-                content = fixImport(content)
-              }
             }
             catch (error) {
               return
@@ -422,30 +406,30 @@ async function buildStyles(registry: Registry) {
             // sourceFile.getVariableDeclaration('containerClassName')?.remove()
             // sourceFile.getVariableDeclaration('description')?.remove()
 
-            let target = file.target || ''
+            const target = file.target || ''
 
-            if ((!target || target === '') && item.name.startsWith('v0-')) {
-              const fileName = file.path.split('/').pop()
-              if (
-                file.type === 'registry:block'
-                || file.type === 'registry:component'
-                || file.type === 'registry:example'
-              ) {
-                target = `components/${fileName}`
-              }
+            // if ((!target || target === '') && item.name.startsWith('v0-')) {
+            //   const fileName = file.path.split('/').pop()
+            //   if (
+            //     file.type === 'registry:block'
+            //     || file.type === 'registry:component'
+            //     || file.type === 'registry:example'
+            //   ) {
+            //     target = `components/${fileName}`
+            //   }
 
-              if (file.type === 'registry:ui') {
-                target = `components/ui/${fileName}`
-              }
+            //   if (file.type === 'registry:ui') {
+            //     target = `components/ui/${fileName}`
+            //   }
 
-              if (file.type === 'registry:hook') {
-                target = `hooks/${fileName}`
-              }
+            //   if (file.type === 'registry:hook') {
+            //     target = `hooks/${fileName}`
+            //   }
 
-              if (file.type === 'registry:lib') {
-                target = `lib/${fileName}`
-              }
-            }
+            //   if (file.type === 'registry:lib') {
+            //     target = `lib/${fileName}`
+            //   }
+            // }
 
             return {
               path: file.path,
@@ -457,6 +441,9 @@ async function buildStyles(registry: Registry) {
           }),
         )
       }
+
+      // if (item.type === 'registry:block' && item.name === 'Sidebar01')
+      //   console.log(item.name, item.files?.[0], files?.[0])
 
       const payload = registryEntrySchema
         .omit({
@@ -473,7 +460,7 @@ async function buildStyles(registry: Registry) {
       if (payload.success) {
         await fs.writeFile(
           path.join(targetPath, `${item.name}.json`),
-          JSON.stringify(payload.data, null, 2),
+          `${JSON.stringify(payload.data, null, 2)}\r\n`,
           'utf8',
         )
       }
@@ -501,10 +488,10 @@ async function buildStylesIndex() {
     const dependencies = [
       'tailwindcss-animate',
       'class-variance-authority',
-      'lucide-react',
+      'lucide-vue-next',
     ]
 
-    // TODO: Remove this when we migrate to lucide-react.
+    // TODO: Remove this when we migrate to lucide-vue-next.
     // if (style.name === "new-york") {
     //   dependencies.push("@radix-ui/react-icons")
     // }
@@ -575,7 +562,7 @@ async function buildThemes() {
 
   await fs.writeFile(
     path.join(colorsTargetPath, 'index.json'),
-    JSON.stringify(colorsData, null, 2),
+    `${JSON.stringify(colorsData, null, 2)}\r\n`,
     'utf8',
   )
 
@@ -697,7 +684,7 @@ async function buildThemes() {
 
     await fs.writeFile(
       path.join(REGISTRY_PATH, `colors/${baseColor}.json`),
-      JSON.stringify(base, null, 2),
+      `${JSON.stringify(base, null, 2)}\r\n`,
       'utf8',
     )
 

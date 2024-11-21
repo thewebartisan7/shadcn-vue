@@ -3,15 +3,15 @@
   "type": "registry:example",
   "dependencies": [],
   "registryDependencies": [
+    "utils",
     "button",
     "popover",
-    "v-calendar",
-    "utils"
+    "v-calendar"
   ],
   "files": [
     {
       "path": "example/VDatePickerDemo.vue",
-      "content": "<script setup lang=\"ts\">\nimport { Button } from '@/registry/new-york/ui/button'\nimport {\n  Popover,\n  PopoverContent,\n  PopoverTrigger,\n} from '@/registry/new-york/ui/popover'\nimport { Calendar } from '@/registry/new-york/ui/v-calendar'\n\nimport { cn } from '@/lib/utils'\nimport { CalendarIcon } from '@radix-icons/vue'\nimport { format } from 'date-fns'\nimport { ref } from 'vue'\n\nconst date = ref<Date>()\n</script>\n\n<template>\n  <Popover>\n    <PopoverTrigger as-child>\n      <Button\n        :variant=\"'outline'\"\n        :class=\"cn(\n          'w-[280px] justify-start text-left font-normal',\n          !date && 'text-muted-foreground',\n        )\"\n      >\n        <CalendarIcon class=\"mr-2 h-4 w-4\" />\n        <span>{{ date ? format(date, \"PPP\") : \"Pick a date\" }}</span>\n      </Button>\n    </PopoverTrigger>\n    <PopoverContent class=\"w-auto p-0\">\n      <Calendar v-model=\"date\" />\n    </PopoverContent>\n  </Popover>\n</template>\n",
+      "content": "<script setup lang=\"ts\">\nimport { cn } from '@/lib/utils'\nimport { Button } from '@/registry/new-york/ui/button'\nimport {\n  Popover,\n  PopoverContent,\n  PopoverTrigger,\n} from '@/registry/new-york/ui/popover'\n\nimport { Calendar } from '@/registry/new-york/ui/v-calendar'\nimport { CalendarIcon } from '@radix-icons/vue'\nimport { format } from 'date-fns'\nimport { ref } from 'vue'\n\nconst date = ref<Date>()\n</script>\n\n<template>\n  <Popover>\n    <PopoverTrigger as-child>\n      <Button\n        :variant=\"'outline'\"\n        :class=\"cn(\n          'w-[280px] justify-start text-left font-normal',\n          !date && 'text-muted-foreground',\n        )\"\n      >\n        <CalendarIcon class=\"mr-2 h-4 w-4\" />\n        <span>{{ date ? format(date, \"PPP\") : \"Pick a date\" }}</span>\n      </Button>\n    </PopoverTrigger>\n    <PopoverContent class=\"w-auto p-0\">\n      <Calendar v-model=\"date\" />\n    </PopoverContent>\n  </Popover>\n</template>\n",
       "type": "registry:example",
       "target": "VDatePickerDemo.vue"
     }
