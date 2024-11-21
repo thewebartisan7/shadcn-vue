@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Button from '@/lib/registry/new-york/ui/button/Button.vue'
+import Button from '@/registry/new-york/ui/button/Button.vue'
 import Announcement from '../components/Announcement.vue'
 import ExamplesNav from '../components/ExamplesNav.vue'
 import PageAction from '../components/PageAction.vue'

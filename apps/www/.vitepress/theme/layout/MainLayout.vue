@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import { Button } from '@/lib/registry/default/ui/button'
-import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList, CommandSeparator } from '@/lib/registry/default/ui/command'
-import { Dialog, DialogContent } from '@/lib/registry/default/ui/dialog'
-import { Toaster as DefaultToaster } from '@/lib/registry/default/ui/toast'
-import { Toaster as NewYorkSonner } from '@/lib/registry/new-york/ui/sonner'
-import { Toaster as NewYorkToaster } from '@/lib/registry/new-york/ui/toast'
-import { TooltipProvider } from '@/lib/registry/new-york/ui/tooltip'
-
 import { cn } from '@/lib/utils'
+import { Button } from '@/registry/default/ui/button'
+import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList, CommandSeparator } from '@/registry/default/ui/command'
+import { Dialog, DialogContent } from '@/registry/default/ui/dialog'
+import { Toaster as DefaultToaster } from '@/registry/default/ui/toast'
+import { Toaster as NewYorkSonner } from '@/registry/new-york/ui/sonner'
+import { Toaster as NewYorkToaster } from '@/registry/new-york/ui/toast'
+
+import { TooltipProvider } from '@/registry/new-york/ui/tooltip'
 import { useConfigStore } from '@/stores/config'
 import { useMagicKeys, useToggle } from '@vueuse/core'
 

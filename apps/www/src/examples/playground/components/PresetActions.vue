@@ -7,8 +7,8 @@ import {
   AlertDialogFooter,
   AlertDialogHeader,
   AlertDialogTitle,
-} from '@/lib/registry/new-york/ui/alert-dialog'
-import { Button } from '@/lib/registry/new-york/ui/button'
+} from '@/registry/new-york/ui/alert-dialog'
+import { Button } from '@/registry/new-york/ui/button'
 
 import {
   Dialog,
@@ -17,20 +17,20 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-} from '@/lib/registry/new-york/ui/dialog'
+} from '@/registry/new-york/ui/dialog'
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from '@/lib/registry/new-york/ui/dropdown-menu'
-import { Label } from '@/lib/registry/new-york/ui/label'
-import { Switch } from '@/lib/registry/new-york/ui/switch'
+} from '@/registry/new-york/ui/dropdown-menu'
+import { Label } from '@/registry/new-york/ui/label'
+import { Switch } from '@/registry/new-york/ui/switch'
 import DotsHorizontalIcon from '~icons/radix-icons/dots-horizontal'
 import { ref } from 'vue'
 
-// import { toast } from "@/lib/registry/new-york/ui/use-toast"
+// import { toast } from "@/registry/new-york/ui/use-toast"
 
 const open = ref(false)
 const showDeleteDialog = ref(false)

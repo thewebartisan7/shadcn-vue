@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import { FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from '@/lib/registry/default/ui/form'
-import { RadioGroup, RadioGroupItem } from '@/lib/registry/default/ui/radio-group'
-import { Button, buttonVariants } from '@/lib/registry/new-york/ui/button'
-import { Separator } from '@/lib/registry/new-york/ui/separator'
-
-import { toast } from '@/lib/registry/new-york/ui/toast'
 import { cn } from '@/lib/utils'
+import { FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from '@/registry/default/ui/form'
+import { RadioGroup, RadioGroupItem } from '@/registry/default/ui/radio-group'
+import { Button, buttonVariants } from '@/registry/new-york/ui/button'
+
+import { Separator } from '@/registry/new-york/ui/separator'
+import { toast } from '@/registry/new-york/ui/toast'
 import { ChevronDownIcon } from '@radix-icons/vue'
 import { toTypedSchema } from '@vee-validate/zod'
 import { useForm } from 'vee-validate'

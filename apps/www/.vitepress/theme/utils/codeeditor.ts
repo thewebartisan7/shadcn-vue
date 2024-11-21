@@ -1,4 +1,4 @@
-import type { Style } from '@/lib/registry/styles'
+import type { Style } from '@/registry/registry-styles'
 import sdk from '@stackblitz/sdk'
 import { getParameters } from 'codesandbox/lib/api/define'
 import { Index as demoIndex } from '../../../../www/__registry__'
@@ -117,7 +117,7 @@ function constructFiles(componentName: string, style: Style, sources: Record<str
   // We have static replace here as this is only showing for code reproduction, doesn't need dynamic codeConfig
   const transformImportPath = (code: string) => {
     let parsed = code
-    parsed = parsed.replaceAll(`@/lib/registry/${style}`, '@/components')
+    parsed = parsed.replaceAll(`@/registry/${style}`, '@/components')
     parsed = parsed.replaceAll('@/lib/utils', '@/utils')
     return parsed
   }

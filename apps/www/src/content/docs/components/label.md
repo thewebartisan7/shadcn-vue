@@ -29,7 +29,7 @@ npm install reka-ui
 
 ### Copy and paste the following code into your project:
 
-<<< @/lib/registry/default/ui/label/Label.vue
+<<< @/registry/default/ui/label/Label.vue
 
 </Steps>
 

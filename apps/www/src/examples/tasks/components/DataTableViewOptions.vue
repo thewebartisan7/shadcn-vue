@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { Table } from '@tanstack/vue-table'
 import type { Task } from '../data/schema'
-import { Button } from '@/lib/registry/new-york/ui/button'
+import { Button } from '@/registry/new-york/ui/button'
 import {
   DropdownMenu,
   DropdownMenuCheckboxItem,
@@ -9,7 +9,7 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from '@/lib/registry/new-york/ui/dropdown-menu'
+} from '@/registry/new-york/ui/dropdown-menu'
 
 import MixerHorizontalIcon from '~icons/radix-icons/mixer-horizontal'
 import { computed } from 'vue'

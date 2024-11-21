@@ -1,0 +1,20 @@
+{
+  "name": "aspect-ratio",
+  "type": "registry:ui",
+  "dependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "ui/aspect-ratio/AspectRatio.vue",
+      "content": "<script setup lang=\"ts\">\nimport { AspectRatio, type AspectRatioProps } from 'reka-ui'\n\nconst props = defineProps<AspectRatioProps>()\n</script>\n\n<template>\n  <AspectRatio v-bind=\"props\">\n    <slot />\n  </AspectRatio>\n</template>\n",
+      "type": "registry:ui",
+      "target": "aspect-ratio/AspectRatio.vue"
+    },
+    {
+      "path": "ui/aspect-ratio/index.ts",
+      "content": "export { default as AspectRatio } from './AspectRatio.vue'\n",
+      "type": "registry:ui",
+      "target": "aspect-ratio/index.ts"
+    }
+  ]
+}

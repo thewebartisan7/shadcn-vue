@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ScrollArea, ScrollBar } from '@/lib/registry/default/ui/scroll-area'
 import { cn } from '@/lib/utils'
+import { ScrollArea, ScrollBar } from '@/registry/default/ui/scroll-area'
 import { useRoute } from 'vitepress'
 import { computed, toRefs } from 'vue'
 

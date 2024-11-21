@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import { Button } from '@/lib/registry/new-york/ui/button'
+import { Button } from '@/registry/new-york/ui/button'
 import {
   Tooltip,
   TooltipContent,
   TooltipTrigger,
-} from '@/lib/registry/new-york/ui/tooltip'
+} from '@/registry/new-york/ui/tooltip'
 import { CheckIcon, ClipboardIcon } from '@radix-icons/vue'
 import { useClipboard } from '@vueuse/core'
 import { toRefs } from 'vue'

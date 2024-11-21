@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { Style } from '@/lib/registry/styles'
-import { Button } from '@/lib/registry/new-york/ui/button'
+import type { Style } from '@/registry/registry-styles'
+import { Button } from '@/registry/new-york/ui/button'
 import { Icon } from '@iconify/vue'
 import { ref, toRefs, watch } from 'vue'
 import { makeStackblitzParams } from '../utils/codeeditor'

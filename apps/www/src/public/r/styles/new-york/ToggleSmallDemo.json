@@ -1,0 +1,16 @@
+{
+  "name": "ToggleSmallDemo",
+  "type": "registry:example",
+  "dependencies": [],
+  "registryDependencies": [
+    "toggle"
+  ],
+  "files": [
+    {
+      "path": "example/ToggleSmallDemo.vue",
+      "content": "<script setup lang=\"ts\">\nimport { Toggle } from '@/registry/new-york/ui/toggle'\n\nimport { FontItalicIcon } from '@radix-icons/vue'\n</script>\n\n<template>\n  <Toggle size=\"sm\" aria-label=\"Toggle italic\">\n    <FontItalicIcon class=\"w-4 h-4\" />\n  </Toggle>\n</template>\n",
+      "type": "registry:example",
+      "target": "ToggleSmallDemo.vue"
+    }
+  ]
+}

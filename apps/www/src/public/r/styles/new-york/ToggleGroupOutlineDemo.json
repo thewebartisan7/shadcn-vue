@@ -1,0 +1,16 @@
+{
+  "name": "ToggleGroupOutlineDemo",
+  "type": "registry:example",
+  "dependencies": [],
+  "registryDependencies": [
+    "toggle-group"
+  ],
+  "files": [
+    {
+      "path": "example/ToggleGroupOutlineDemo.vue",
+      "content": "<script setup lang=\"ts\">\nimport { ToggleGroup, ToggleGroupItem } from '@/registry/new-york/ui/toggle-group'\n\nimport {\n  FontBoldIcon,\n  FontItalicIcon,\n  UnderlineIcon,\n} from '@radix-icons/vue'\n</script>\n\n<template>\n  <ToggleGroup type=\"multiple\" variant=\"outline\">\n    <ToggleGroupItem value=\"bold\" aria-label=\"Toggle bold\">\n      <FontBoldIcon class=\"h-4 w-4\" />\n    </ToggleGroupItem>\n    <ToggleGroupItem value=\"italic\" aria-label=\"Toggle italic\">\n      <FontItalicIcon class=\"h-4 w-4\" />\n    </ToggleGroupItem>\n    <ToggleGroupItem value=\"underline\" aria-label=\"Toggle underline\">\n      <UnderlineIcon class=\"h-4 w-4\" />\n    </ToggleGroupItem>\n  </ToggleGroup>\n</template>\n",
+      "type": "registry:example",
+      "target": "ToggleGroupOutlineDemo.vue"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { buttonVariants } from '@/lib/registry/new-york/ui/button'
 import { cn } from '@/lib/utils'
+import { buttonVariants } from '@/registry/new-york/ui/button'
 import GitHubIcon from '~icons/radix-icons/github-logo'
 import { ref } from 'vue'
 import Announcement from '../components/Announcement.vue'

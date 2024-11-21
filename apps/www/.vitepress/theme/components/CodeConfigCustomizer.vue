@@ -1,8 +1,8 @@
 <script lang="ts" setup>
-import { Button } from '@/lib/registry/new-york/ui/button'
-import { FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from '@/lib/registry/new-york/ui/form'
-import { Input } from '@/lib/registry/new-york/ui/input'
-import { Sheet, SheetClose, SheetContent, SheetDescription, SheetFooter, SheetHeader, SheetTitle, SheetTrigger } from '@/lib/registry/new-york/ui/sheet'
+import { Button } from '@/registry/new-york/ui/button'
+import { FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from '@/registry/new-york/ui/form'
+import { Input } from '@/registry/new-york/ui/input'
+import { Sheet, SheetClose, SheetContent, SheetDescription, SheetFooter, SheetHeader, SheetTitle, SheetTrigger } from '@/registry/new-york/ui/sheet'
 import { useConfigStore } from '@/stores/config'
 import { toTypedSchema } from '@vee-validate/zod'
 import RadixIconsGear from '~icons/radix-icons/gear'

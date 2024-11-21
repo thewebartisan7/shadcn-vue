@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import type { Color } from '../types/colors'
-import { Button } from '@/lib/registry/new-york/ui/button'
-import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from '@/lib/registry/new-york/ui/dialog'
-import { Drawer, DrawerContent, DrawerTrigger } from '@/lib/registry/new-york/ui/drawer'
-import { Popover, PopoverContent, PopoverTrigger } from '@/lib/registry/new-york/ui/popover'
+import { Button } from '@/registry/new-york/ui/button'
+import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from '@/registry/new-york/ui/dialog'
+import { Drawer, DrawerContent, DrawerTrigger } from '@/registry/new-york/ui/drawer'
+import { Popover, PopoverContent, PopoverTrigger } from '@/registry/new-york/ui/popover'
 import { useConfigStore } from '@/stores/config'
 import { Paintbrush } from 'lucide-vue-next'
 import { onMounted, watch } from 'vue'

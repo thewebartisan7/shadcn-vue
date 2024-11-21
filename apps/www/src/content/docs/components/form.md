@@ -115,27 +115,27 @@ npm install reka-ui vee-validate @vee-validate/zod zod
 
 `index.ts`
 
-<<< @/lib/registry/default/ui/form/index.ts
+<<< @/registry/default/ui/form/index.ts
 
 `FormItem.vue`
 
-<<< @/lib/registry/default/ui/form/FormItem.vue
+<<< @/registry/default/ui/form/FormItem.vue
 
 `FormLabel.vue`
 
-<<< @/lib/registry/default/ui/form/FormLabel.vue
+<<< @/registry/default/ui/form/FormLabel.vue
 
 `FormControl.vue`
 
-<<< @/lib/registry/default/ui/form/FormControl.vue
+<<< @/registry/default/ui/form/FormControl.vue
 
 `FormMessage.vue`
 
-<<< @/lib/registry/default/ui/form/FormMessage.vue
+<<< @/registry/default/ui/form/FormMessage.vue
 
 `FormDescription.vue`
 
-<<< @/lib/registry/default/ui/form/FormDescription.vue
+<<< @/registry/default/ui/form/FormDescription.vue
 
 ### Update the import paths to match your project setup.
 

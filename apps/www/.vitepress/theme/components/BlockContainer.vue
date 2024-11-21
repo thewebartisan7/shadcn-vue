@@ -9,12 +9,12 @@ import BlockCopyButton from './BlockCopyButton.vue'
 import StyleSwitcher from './StyleSwitcher.vue'
 
 // import { V0Button } from '@/components/v0-button'
-import { Badge } from '@/lib/registry/new-york/ui/badge'
-import { Popover, PopoverContent, PopoverTrigger } from '@/lib/registry/new-york/ui/popover'
-import { ResizableHandle, ResizablePanel, ResizablePanelGroup } from '@/lib/registry/new-york/ui/resizable'
-import { Separator } from '@/lib/registry/new-york/ui/separator'
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/lib/registry/new-york/ui/tabs'
-import { ToggleGroup, ToggleGroupItem } from '@/lib/registry/new-york/ui/toggle-group'
+import { Badge } from '@/registry/new-york/ui/badge'
+import { Popover, PopoverContent, PopoverTrigger } from '@/registry/new-york/ui/popover'
+import { ResizableHandle, ResizablePanel, ResizablePanelGroup } from '@/registry/new-york/ui/resizable'
+import { Separator } from '@/registry/new-york/ui/separator'
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/registry/new-york/ui/tabs'
+import { ToggleGroup, ToggleGroupItem } from '@/registry/new-york/ui/toggle-group'
 import BlockPreview from './BlockPreview.vue'
 
 const props = defineProps<{
@@ -50,7 +50,7 @@ function removeScript(code: string) {
 
 function transformImportPath(code: string) {
   const s = new MagicString(code)
-  s.replaceAll(`@/lib/registry/${style.value}`, codeConfig.value.componentsPath)
+  s.replaceAll(`@/registry/${style.value}`, codeConfig.value.componentsPath)
   s.replaceAll(`@/lib/utils`, codeConfig.value.utilsPath)
   return s.toString()
 }

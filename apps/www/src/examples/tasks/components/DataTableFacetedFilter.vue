@@ -2,17 +2,17 @@
 import type { Column } from '@tanstack/vue-table'
 import type { Component } from 'vue'
 import type { Task } from '../data/schema'
-import { Badge } from '@/lib/registry/new-york/ui/badge'
-import { Button } from '@/lib/registry/new-york/ui/button'
-import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList, CommandSeparator } from '@/lib/registry/new-york/ui/command'
+import { cn } from '@/lib/utils'
+import { Badge } from '@/registry/new-york/ui/badge'
+import { Button } from '@/registry/new-york/ui/button'
 
+import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList, CommandSeparator } from '@/registry/new-york/ui/command'
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from '@/lib/registry/new-york/ui/popover'
-import { Separator } from '@/lib/registry/new-york/ui/separator'
-import { cn } from '@/lib/utils'
+} from '@/registry/new-york/ui/popover'
+import { Separator } from '@/registry/new-york/ui/separator'
 
 import CheckIcon from '~icons/radix-icons/check'
 import PlusCircledIcon from '~icons/radix-icons/plus-circled'

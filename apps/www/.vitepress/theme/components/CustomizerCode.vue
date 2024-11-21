@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { themes } from '@/lib/registry'
-import { Button } from '@/lib/registry/new-york/ui/button'
+import { themes } from '@/registry'
+import { Button } from '@/registry/new-york/ui/button'
 import { useConfigStore } from '@/stores/config'
 import { useClipboard } from '@vueuse/core'
 import CheckIcon from '~icons/radix-icons/check'

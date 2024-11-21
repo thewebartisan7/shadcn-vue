@@ -3,7 +3,7 @@ import type {
   Registry,
   RegistryEntry,
   registryItemTypeSchema,
-} from '../registry/schema'
+} from '../src/registry/schema'
 // @sts-nocheck
 import { existsSync, promises as fs } from 'node:fs'
 import { tmpdir } from 'node:os'
@@ -11,16 +11,16 @@ import path from 'node:path'
 import { template } from 'lodash-es'
 import { rimraf } from 'rimraf'
 
-import { registry } from '../registry'
-import { buildRegistry as crawlContent } from '../registry/crawl-content'
-import { baseColors } from '../registry/registry-base-colors'
-import { colorMapping, colors } from '../registry/registry-colors'
-import { iconLibraries, icons } from '../registry/registry-icons'
-import { styles } from '../registry/registry-styles'
+import { registry } from '../src/registry'
+import { buildRegistry as crawlContent } from '../src/registry/crawl-content'
+import { baseColors } from '../src/registry/registry-base-colors'
+import { colorMapping, colors } from '../src/registry/registry-colors'
+import { iconLibraries, icons } from '../src/registry/registry-icons'
+import { styles } from '../src/registry/registry-styles'
 import {
   registryEntrySchema,
   registrySchema,
-} from '../registry/schema'
+} from '../src/registry/schema'
 import { fixImport } from './fix-import'
 
 const REGISTRY_PATH = path.join(process.cwd(), 'src/public/r')
@@ -75,9 +75,10 @@ export const Index: Record<string, any> = {
       // const chunks: any = []
       if (item.type === 'registry:block') {
         const file = resolveFiles[0]
-        const filename = path.basename(file)
+        console.log(item, file)
         let raw: string
         try {
+          const filename = path.basename(file)
           raw = await fs.readFile(file, 'utf8')
         }
         catch (error) {
@@ -302,7 +303,7 @@ export const Index: Record<string, any> = {
         target: "${file.target ?? ''}"
       }`
       })}],
-      component: React.lazy(() => import("${componentPath}")),
+      component: () => import("${componentPath}").then((m) => m.default),
       source: "${sourceFilename}",
       category: "${item.category ?? ''}",
       subcategory: "${item.subcategory ?? ''}"
@@ -867,9 +868,9 @@ export const Icons = {
       const packageName = iconLibraries[library as keyof typeof iconLibraries].package
       if (packageName) {
         index += `
-  ${library}: React.lazy(() => import("${packageName}").then(mod => ({
+  ${library}:  () => import("${packageName}").then(mod => ({
     default: mod.${componentName}
-  }))),`
+  })),`
       }
     }
     index += `
@@ -893,6 +894,12 @@ try {
   const content = await crawlContent()
   const result = registrySchema.safeParse([...registry, ...content])
 
+  await fs.writeFile(
+    path.join(REGISTRY_PATH, 'temp.json'),
+    JSON.stringify(result.data ?? '', null, 2),
+    'utf8',
+  )
+
   if (!result.success) {
     console.error(result.error)
     process.exit(1)
@@ -903,8 +910,8 @@ try {
   await buildStylesIndex()
   await buildThemes()
 
-  await buildRegistryIcons()
-  await buildIcons()
+  // await buildRegistryIcons()
+  // await buildIcons()
 
   // eslint-disable-next-line no-console
   console.log('✅ Done!')

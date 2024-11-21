@@ -1,11 +1,13 @@
 <script setup lang="ts">
+import { cn } from '@/lib/utils'
 import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from '@/lib/registry/new-york/ui/avatar'
-import { Button } from '@/lib/registry/new-york/ui/button'
-import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList, CommandSeparator } from '@/lib/registry/new-york/ui/command'
+} from '@/registry/new-york/ui/avatar'
+import { Button } from '@/registry/new-york/ui/button'
+import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList, CommandSeparator } from '@/registry/new-york/ui/command'
+
 import {
   Dialog,
   DialogContent,
@@ -14,24 +16,22 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from '@/lib/registry/new-york/ui/dialog'
+} from '@/registry/new-york/ui/dialog'
+import { Input } from '@/registry/new-york/ui/input'
+import { Label } from '@/registry/new-york/ui/label'
 
-import { Input } from '@/lib/registry/new-york/ui/input'
-import { Label } from '@/lib/registry/new-york/ui/label'
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from '@/lib/registry/new-york/ui/popover'
-
+} from '@/registry/new-york/ui/popover'
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from '@/lib/registry/new-york/ui/select'
-import { cn } from '@/lib/utils'
+} from '@/registry/new-york/ui/select'
 import CaretSortIcon from '~icons/radix-icons/caret-sort'
 import CheckIcon from '~icons/radix-icons/check'
 import PlusCircledIcon from '~icons/radix-icons/plus-circled'

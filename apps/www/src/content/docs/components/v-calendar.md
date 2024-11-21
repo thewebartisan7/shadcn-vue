@@ -33,7 +33,7 @@ npm install v-calendar
 
 ### Copy and paste the following code into your project
 
-<<< @/lib/registry/default/ui/v-calendar/Calendar.vue
+<<< @/registry/default/ui/v-calendar/Calendar.vue
 
 </Steps>
 

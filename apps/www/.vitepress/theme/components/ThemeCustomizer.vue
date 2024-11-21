@@ -1,8 +1,8 @@
 <script lang="ts" setup>
 import type { Color } from '../types/colors'
-import { colors } from '@/lib/registry'
-import { Button } from '@/lib/registry/new-york/ui/button'
-import { Label } from '@/lib/registry/new-york/ui/label'
+import { Button } from '@/registry/new-york/ui/button'
+import { Label } from '@/registry/new-york/ui/label'
+import { colors } from '@/registry/registry-colors'
 import { RADII, useConfigStore } from '@/stores/config'
 import RadixIconsCheck from '~icons/radix-icons/check'
 import RadixIconsMoon from '~icons/radix-icons/moon'

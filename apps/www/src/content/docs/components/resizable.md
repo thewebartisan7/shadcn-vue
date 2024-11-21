@@ -31,15 +31,15 @@ npm install reka-ui
 
 `index.ts`
 
-<<< @/lib/registry/default/ui/resizable/index.ts
+<<< @/registry/default/ui/resizable/index.ts
 
 `ResizablePanelGroup.vue`
 
-<<< @/lib/registry/default/ui/resizable/ResizablePanelGroup.vue
+<<< @/registry/default/ui/resizable/ResizablePanelGroup.vue
 
 `ResizableHandle.vue`
 
-<<< @/lib/registry/default/ui/resizable/ResizableHandle.vue
+<<< @/registry/default/ui/resizable/ResizableHandle.vue
 
 </Steps>
 

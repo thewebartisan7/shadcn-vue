@@ -1,7 +1,8 @@
 <script setup lang="ts">
-import { FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from '@/lib/registry/default/ui/form'
-import { Button } from '@/lib/registry/new-york/ui/button'
-import { Input } from '@/lib/registry/new-york/ui/input'
+import { cn } from '@/lib/utils'
+import { FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from '@/registry/default/ui/form'
+import { Button } from '@/registry/new-york/ui/button'
+import { Input } from '@/registry/new-york/ui/input'
 import {
   Select,
   SelectContent,
@@ -9,12 +10,11 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from '@/lib/registry/new-york/ui/select'
-import { Separator } from '@/lib/registry/new-york/ui/separator'
-import { Textarea } from '@/lib/registry/new-york/ui/textarea'
+} from '@/registry/new-york/ui/select'
+import { Separator } from '@/registry/new-york/ui/separator'
 
-import { toast } from '@/lib/registry/new-york/ui/toast'
-import { cn } from '@/lib/utils'
+import { Textarea } from '@/registry/new-york/ui/textarea'
+import { toast } from '@/registry/new-york/ui/toast'
 import { Cross1Icon } from '@radix-icons/vue'
 import { toTypedSchema } from '@vee-validate/zod'
 import { FieldArray, useForm } from 'vee-validate'

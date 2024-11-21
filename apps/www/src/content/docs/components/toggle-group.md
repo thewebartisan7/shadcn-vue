@@ -29,7 +29,7 @@ npm install reka-ui
 
 ### Copy and paste the following code into your project
 
-<<< @/lib/registry/default/ui/toggle-group/ToggleGroup.vue
+<<< @/registry/default/ui/toggle-group/ToggleGroup.vue
 
 </Steps>
 

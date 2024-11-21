@@ -29,7 +29,7 @@ npm install reka-ui
 
 ### Copy and paste the following code into your project
 
-<<< @/lib/registry/default/ui/separator/Separator.vue
+<<< @/registry/default/ui/separator/Separator.vue
 
 </Steps>
 

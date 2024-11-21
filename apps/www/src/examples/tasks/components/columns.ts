@@ -1,8 +1,8 @@
 import type { ColumnDef } from '@tanstack/vue-table'
 import type { Task } from '../data/schema'
 
-import { Badge } from '@/lib/registry/new-york/ui/badge'
-import { Checkbox } from '@/lib/registry/new-york/ui/checkbox'
+import { Badge } from '@/registry/new-york/ui/badge'
+import { Checkbox } from '@/registry/new-york/ui/checkbox'
 import { h } from 'vue'
 import { labels, priorities, statuses } from '../data/data'
 import DataTableColumnHeader from './DataTableColumnHeader.vue'
