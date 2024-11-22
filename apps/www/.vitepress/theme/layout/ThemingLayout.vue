@@ -54,7 +54,7 @@ watch(radius, (radius) => {
 </script>
 
 <template>
-  <div class="container relative">
+  <div>
     <PageHeader>
       <PageHeaderHeading class="hidden md:block">
         Add colors. Make it yours.
@@ -111,9 +111,8 @@ watch(radius, (radius) => {
         </Dialog>
       </PageAction>
     </PageHeader>
-
-    <section>
-      <slot />
-    </section>
   </div>
+  <section class="container py-6">
+    <slot />
+  </section>
 </template>

@@ -176,3 +176,5 @@ export const themes: Registry = [
     },
   },
 ]
+
+export type Theme = Registry[number]

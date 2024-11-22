@@ -36,7 +36,7 @@ packages
 | ----------------------------| -------------------------------------------|
 | `apps/www/.vitepress`       | The Vitepress application for the website. |
 | `apps/www/src/content`      | The content for the website.               |
-| `apps/www/src/lib/registry` | The registry for the components.           |
+| `apps/www/registry` | The registry for the components.           |
 | `packages/cli`              | The `shadcn-vue` package.                  |
 
 ## Development
@@ -83,7 +83,7 @@ Documentation is written using [md](https://vitepress.dev/guide/markdown). You c
 
 ## Components
 
-We use a registry system for developing components. You can find the source code for the components under `apps/www/src/lib/registry`. The components are organized by styles.
+We use a registry system for developing components. You can find the source code for the components under `apps/www/registry`. The components are organized by styles.
 
 ```bash
 apps

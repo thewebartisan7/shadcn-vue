@@ -1,7 +1,7 @@
 ---
 title: PIN Input
 description: Allows users to input a sequence of one-character alphanumeric inputs.
-source: apps/www/src/lib/registry/default/ui/pin-input
+source: apps/www/registry/default/ui/pin-input
 primitive: https://www.reka-ui.com/docs/components/pin-input.html
 ---
 

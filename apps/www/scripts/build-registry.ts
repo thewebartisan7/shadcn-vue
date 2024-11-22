@@ -303,6 +303,7 @@ export const Index: Record<string, any> = {
       }`
       })}],
       component: () => import("${componentPath}").then((m) => m.default),
+      raw: () => import("${componentPath}?raw").then((m) => m.default),
       source: "${sourceFilename}",
       category: "${item.category ?? ''}",
       subcategory: "${item.subcategory ?? ''}"

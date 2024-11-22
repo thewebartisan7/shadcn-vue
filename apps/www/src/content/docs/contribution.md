@@ -63,7 +63,7 @@ This folder holds all the documentation for the `/docs` route. Each component ha
 8. **examples** -
 Holds all examples not part of `/docs`, like the [main page](/).
 
-9. **lib/registry** -
+9. **registry** -
 The main folder hosts the source code for different styles of every component. This is likely the main folder you'll be changing.
 
 We support two different styles for every component in `shadcn/vue`:
@@ -170,7 +170,7 @@ If you are interested in the detailed specification you can visit [Conventional 
 
 Multiple components are integrated into one file in `shadcn/ui` - the React version of `shadcn` - while Vue only supports one component per file, hence the name Single File Component (SFC). In such cases, you need to create separate files for each component part and then export them all in an `index.ts` file.
 
-See the [`Accordion`](https://github.com/unovue/shadcn-vue/tree/v0.10.2/apps/www/src/lib/registry/default/ui/accordion) source code as an example.
+See the [`Accordion`](https://github.com/unovue/shadcn-vue/tree/v0.10.2/apps/www/registry/default/ui/accordion) source code as an example.
 
 ## Wrapping Reka UI Components
 

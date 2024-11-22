@@ -2,20 +2,17 @@
 import { cn } from '@/lib/utils'
 import { buttonVariants } from '@/registry/new-york/ui/button'
 import GitHubIcon from '~icons/radix-icons/github-logo'
-import { ref } from 'vue'
+import { Index } from '../../../__registry__'
 import Announcement from '../components/Announcement.vue'
 import PageAction from '../components/PageAction.vue'
+
 import PageHeader from '../components/PageHeader.vue'
 import PageHeaderDescription from '../components/PageHeaderDescription.vue'
 
 import PageHeaderHeading from '../components/PageHeaderHeading.vue'
 import BlockContainer from './BlockContainer.vue'
 
-const blocks = ref<string[]>([])
-
-import('../../../__registry__/index').then((res) => {
-  blocks.value = Object.values(res.Index.default).filter(i => i.type === 'components:block').map(i => i.name)
-})
+const blocks = Object.values(Index['new-york']).filter((i: any) => i.type === 'registry:block').map((i: any) => i.name)
 </script>
 
 <template>
@@ -47,7 +44,7 @@ import('../../../__registry__/index').then((res) => {
     </PageAction>
   </PageHeader>
 
-  <section id="blocks" class="grid scroll-mt-24 gap-24 lg:gap-48">
+  <section id="blocks" class="grid scroll-mt-24 gap-24 lg:gap-48 container py-6">
     <BlockContainer v-for="block in blocks" :key="block" :name="block" />
   </section>
 </template>

@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import type { Color } from '../types/colors'
-import { colors } from '@/registry'
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/registry/new-york/ui/tooltip'
+import { colors } from '@/registry/registry-colors'
 import { useConfigStore } from '@/stores/config'
 import RadixIconsCheck from '~icons/radix-icons/check'
 

@@ -20,7 +20,7 @@ export const RADII = [0, 0.25, 0.5, 0.75, 1]
 
 export function useConfigStore() {
   const { isDark } = useData()
-  const config = useStorage<Config>('config', {
+  const config = useStorage('config', {
     theme: 'zinc',
     radius: 0.5,
     style: styles[0].name,
@@ -47,8 +47,7 @@ export function useConfigStore() {
 
   const themePrimary = computed(() => {
     const t = themes.find(t => t.name === theme.value)
-    return `hsl(${
-      t?.cssVars[isDark ? 'dark' : 'light'].primary
+    return `hsl(${t?.cssVars?.[isDark ? 'dark' : 'light']?.primary
     })`
   })
 

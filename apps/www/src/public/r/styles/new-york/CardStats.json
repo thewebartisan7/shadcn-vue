@@ -7,7 +7,7 @@
   ],
   "registryDependencies": [
     "card",
-    "themes",
+    "registry-themes",
     "config"
   ],
   "files": [

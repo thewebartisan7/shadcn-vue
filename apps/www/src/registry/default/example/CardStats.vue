@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { Card, CardContent, CardHeader, CardTitle } from '@/registry/default/ui/card'
-import { themes } from '@/registry/themes'
+import { themes } from '@/registry/registry-themes'
 import { useConfigStore } from '@/stores/config'
 import { VisLine, VisScatter, VisStackedBar, VisXYContainer } from '@unovis/vue'
 import { useData } from 'vitepress'
@@ -78,7 +78,7 @@ const lineY = (d: Data) => d.revenue
           <VisXYContainer
             height="80px" :data="data" :style="{
               '--theme-primary': `hsl(${
-                theme?.cssVars[isDark ? 'dark' : 'light'].primary
+                theme?.cssVars?.[isDark ? 'dark' : 'light']?.primary
               })`,
             }"
           >

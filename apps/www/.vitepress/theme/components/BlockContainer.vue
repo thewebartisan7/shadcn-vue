@@ -1,21 +1,21 @@
 <script setup lang="ts">
-import { useConfigStore } from '@/stores/config'
-import { CircleHelp, Info, Monitor, Smartphone, Tablet } from 'lucide-vue-next'
-import MagicString from 'magic-string'
-import { reactive, ref, watch } from 'vue'
-import { compileScript, parse, walk } from 'vue/compiler-sfc'
-import { highlight } from '../config/shiki'
-import BlockCopyButton from './BlockCopyButton.vue'
-import StyleSwitcher from './StyleSwitcher.vue'
-
-// import { V0Button } from '@/components/v0-button'
 import { Badge } from '@/registry/new-york/ui/badge'
 import { Popover, PopoverContent, PopoverTrigger } from '@/registry/new-york/ui/popover'
 import { ResizableHandle, ResizablePanel, ResizablePanelGroup } from '@/registry/new-york/ui/resizable'
 import { Separator } from '@/registry/new-york/ui/separator'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/registry/new-york/ui/tabs'
 import { ToggleGroup, ToggleGroupItem } from '@/registry/new-york/ui/toggle-group'
+import { useConfigStore } from '@/stores/config'
+import { CircleHelp, Info, Monitor, Smartphone, Tablet } from 'lucide-vue-next'
+import MagicString from 'magic-string'
+
+import { reactive, ref, watch } from 'vue'
+import { compileScript, parse, walk } from 'vue/compiler-sfc'
+import { Index } from '../../../__registry__'
+import { highlight } from '../config/shiki'
+import BlockCopyButton from './BlockCopyButton.vue'
 import BlockPreview from './BlockPreview.vue'
+import StyleSwitcher from './StyleSwitcher.vue'
 
 const props = defineProps<{
   name: string
@@ -57,11 +57,12 @@ function transformImportPath(code: string) {
 
 watch([style, codeConfig], async () => {
   try {
-    const baseRawString = await import(`../../../src/lib/registry/${style.value}/block/${props.name}.vue?raw`).then(res => res.default.trim())
-    rawString.value = transformImportPath(removeScript(baseRawString))
+    const styleIndex = Index[style.value]
+    const componentRegistry = styleIndex[props.name]
 
+    const rawString = await componentRegistry.raw()
     if (!metadata.description) {
-      const { descriptor } = parse(baseRawString)
+      const { descriptor } = parse(rawString)
       const ast = compileScript(descriptor, { id: '' })
       walk(ast.scriptAst, {
         enter(node: any) {
@@ -78,7 +79,7 @@ watch([style, codeConfig], async () => {
       })
     }
 
-    codeHtml.value = highlight(rawString.value, 'vue')
+    codeHtml.value = highlight(removeScript(rawString), 'vue')
   }
   catch (err) {
     console.error(err)
