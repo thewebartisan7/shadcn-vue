@@ -3,7 +3,6 @@ import type {
   Config,
   RawConfig,
 } from '@/src/utils/get-config'
-import path from 'node:path'
 import { FRAMEWORKS } from '@/src/utils/frameworks'
 import {
   getConfig,
@@ -12,14 +11,13 @@ import {
 import { getPackageInfo } from '@/src/utils/get-package-info'
 import fg from 'fast-glob'
 import fs from 'fs-extra'
+import path from 'pathe'
 import { loadConfig } from 'tsconfig-paths'
 import { z } from 'zod'
 
 export interface ProjectInfo {
   framework: Framework
-  isSrcDir: boolean
-  isRSC: boolean
-  isTsx: boolean
+  typescript: boolean
   tailwindConfigFile: string | null
   tailwindCssFile: string | null
   aliasPrefix: string | null
@@ -42,8 +40,7 @@ const TS_CONFIG_SCHEMA = z.object({
 export async function getProjectInfo(cwd: string): Promise<ProjectInfo | null> {
   const [
     configFiles,
-    isSrcDir,
-    isTsx,
+    typescript,
     tailwindConfigFile,
     tailwindCssFile,
     aliasPrefix,
@@ -54,7 +51,6 @@ export async function getProjectInfo(cwd: string): Promise<ProjectInfo | null> {
       deep: 3,
       ignore: PROJECT_SHARED_IGNORE,
     }),
-    fs.pathExists(path.resolve(cwd, 'src')),
     isTypeScriptProject(cwd),
     getTailwindConfigFile(cwd),
     getTailwindCssFile(cwd),
@@ -62,15 +58,9 @@ export async function getProjectInfo(cwd: string): Promise<ProjectInfo | null> {
     getPackageInfo(cwd, false),
   ])
 
-  const isUsingAppDir = await fs.pathExists(
-    path.resolve(cwd, `${isSrcDir ? 'src/' : ''}app`),
-  )
-
   const type: ProjectInfo = {
     framework: FRAMEWORKS.vite, // TODO: Maybe add a manual installation
-    isSrcDir,
-    isRSC: false,
-    isTsx,
+    typescript,
     tailwindConfigFile,
     tailwindCssFile,
     aliasPrefix,
@@ -158,7 +148,9 @@ export async function getTsConfigAliasPrefix(cwd: string) {
       || paths.includes('./app/*')
       || paths.includes('./resources/js/*') // Laravel.
     ) {
-      return alias.replace(/\/\*$/, '') ?? null
+      const cleanAlias = alias.replace(/\/\*$/, '') ?? null
+      // handle Nuxt
+      return cleanAlias === '#build' ? '@' : cleanAlias
     }
   }
 
@@ -241,7 +233,7 @@ export async function getProjectConfig(
     aliases: {
       components: `${projectInfo.aliasPrefix}/components`,
       ui: `${projectInfo.aliasPrefix}/components/ui`,
-      hooks: `${projectInfo.aliasPrefix}/hooks`,
+      // hooks: `${projectInfo.aliasPrefix}/hooks`,
       lib: `${projectInfo.aliasPrefix}/lib`,
       utils: `${projectInfo.aliasPrefix}/lib/utils`,
     },

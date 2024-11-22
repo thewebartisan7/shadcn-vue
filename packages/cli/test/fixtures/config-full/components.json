@@ -10,6 +10,8 @@
   "aliases": {
     "utils": "~/lib/utils",
     "components": "~/components",
+    "lib": "~/lib",
     "ui": "~/ui"
-  }
+  },
+  "iconLibrary": "lucide"
 }

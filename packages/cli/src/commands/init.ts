@@ -1,6 +1,5 @@
 import { promises as fs } from 'node:fs'
 import path from 'node:path'
-import { preFlightInit } from '@/src/preflights/preflight-init'
 import { addComponents } from '@/src/utils/add-components'
 import {
   type Config,
@@ -84,24 +83,27 @@ export async function runInit(
     skipPreflight?: boolean
   },
 ) {
-  let projectInfo
-  if (!options.skipPreflight) {
-    const preflight = await preFlightInit(options)
-    // if (preflight.errors[ERRORS.MISSING_DIR_OR_EMPTY_PROJECT]) {
-    //   const { projectPath } = await createProject(options)
-    //   if (!projectPath) {
-    //     process.exit(1)
-    //   }
-    //   options.cwd = projectPath
-    //   options.isNewProject = true
-    // }
-    projectInfo = preflight.projectInfo
-  }
-  else {
-    projectInfo = await getProjectInfo(options.cwd)
-  }
-
+  // let projectInfo
+  // if (!options.skipPreflight) {
+  //   const preflight = await preFlightInit(options)
+  //   if (preflight.errors[ERRORS.MISSING_DIR_OR_EMPTY_PROJECT]) {
+  //     process.exit(1)
+  //   }
+  //   // if (preflight.errors[ERRORS.MISSING_DIR_OR_EMPTY_PROJECT]) {
+  //   //   const { projectPath } = await createProject(options)
+  //   //   if (!projectPath) {
+  //   //     process.exit(1)
+  //   //   }
+  //   //   options.cwd = projectPath
+  //   //   options.isNewProject = true
+  //   // }
+  //   projectInfo = preflight.projectInfo
+  // }
+  // else {
+  // }
+  const projectInfo = await getProjectInfo(options.cwd)
   const projectConfig = await getProjectConfig(options.cwd, projectInfo)
+
   const config = projectConfig
     ? await promptForMinimalConfig(projectConfig, options)
     : await promptForConfig(await getConfig(options.cwd))
@@ -240,7 +242,7 @@ async function promptForConfig(defaultConfig: Config | null = null) {
   ])
 
   return rawConfigSchema.parse({
-    $schema: 'https://ui.shadcn.com/schema.json',
+    $schema: 'https://shadcn-vue.com/schema.json',
     style: options.style,
     tailwind: {
       config: options.tailwindConfig,
@@ -255,7 +257,7 @@ async function promptForConfig(defaultConfig: Config | null = null) {
       components: options.components,
       // TODO: fix this.
       lib: options.components.replace(/\/components$/, 'lib'),
-      hooks: options.components.replace(/\/components$/, 'hooks'),
+      // hooks: options.components.replace(/\/components$/, 'hooks'),
     },
   })
 }

@@ -4,7 +4,6 @@ import type {
 } from '@/src/utils/registry/schema'
 import path from 'node:path'
 import { handleError } from '@/src/utils/handle-error'
-import { highlighter } from '@/src/utils/highlighter'
 import { logger } from '@/src/utils/logger'
 import {
   iconsSchema,
@@ -183,52 +182,12 @@ async function fetchRegistry(paths: string[]) {
     const results = await Promise.all(
       paths.map(async (path) => {
         const url = getRegistryUrl(path)
-        const response = await ofetch(url, { agent })
+        const response = await ofetch(url, { agent, parseResponse: JSON.parse })
+          .catch((error) => {
+            throw new Error(error.data)
+          })
 
-        if (!response.ok) {
-          const errorMessages: { [key: number]: string } = {
-            400: 'Bad request',
-            401: 'Unauthorized',
-            403: 'Forbidden',
-            404: 'Not found',
-            500: 'Internal server error',
-          }
-
-          if (response.status === 401) {
-            throw new Error(
-              `You are not authorized to access the component at ${highlighter.info(
-                url,
-              )}.\nIf this is a remote registry, you may need to authenticate.`,
-            )
-          }
-
-          if (response.status === 404) {
-            throw new Error(
-              `The component at ${highlighter.info(
-                url,
-              )} was not found.\nIt may not exist at the registry. Please make sure it is a valid component.`,
-            )
-          }
-
-          if (response.status === 403) {
-            throw new Error(
-              `You do not have access to the component at ${highlighter.info(
-                url,
-              )}.\nIf this is a remote registry, you may need to authenticate or a token.`,
-            )
-          }
-
-          const result = await response.json()
-          const message
-            = result && typeof result === 'object' && 'error' in result
-              ? result.error
-              : response.statusText || errorMessages[response.status]
-          throw new Error(
-            `Failed to fetch from ${highlighter.info(url)}.\n${message}`,
-          )
-        }
-
-        return response.json()
+        return response
       }),
     )
 
@@ -262,9 +221,9 @@ export function getRegistryItemFileTargetPath(
     return config.resolvedPaths.components
   }
 
-  if (file.type === 'registry:hook') {
-    return config.resolvedPaths.hooks
-  }
+  // if (file.type === 'registry:hook') {
+  //   return config.resolvedPaths.hooks
+  // }
 
   // TODO: we put this in components for now.
   // We should move this to pages as per framework.

@@ -6476,13 +6476,6 @@
     "name": "Authentication01",
     "type": "registry:block",
     "dependencies": [],
-    "registryDependencies": [],
-    "files": []
-  },
-  {
-    "name": "Authentication01",
-    "type": "registry:block",
-    "dependencies": [],
     "registryDependencies": [
       "button",
       "card",
@@ -6497,13 +6490,6 @@
         "target": "Authentication01.vue"
       }
     ]
-  },
-  {
-    "name": "Authentication02",
-    "type": "registry:block",
-    "dependencies": [],
-    "registryDependencies": [],
-    "files": []
   },
   {
     "name": "Authentication02",
@@ -6528,13 +6514,6 @@
     "name": "Authentication03",
     "type": "registry:block",
     "dependencies": [],
-    "registryDependencies": [],
-    "files": []
-  },
-  {
-    "name": "Authentication03",
-    "type": "registry:block",
-    "dependencies": [],
     "registryDependencies": [
       "button",
       "card",
@@ -6554,13 +6533,6 @@
     "name": "Authentication04",
     "type": "registry:block",
     "dependencies": [],
-    "registryDependencies": [],
-    "files": []
-  },
-  {
-    "name": "Authentication04",
-    "type": "registry:block",
-    "dependencies": [],
     "registryDependencies": [
       "button",
       "input",
@@ -6574,13 +6546,6 @@
         "target": "Authentication04.vue"
       }
     ]
-  },
-  {
-    "name": "Dashboard01",
-    "type": "registry:block",
-    "dependencies": [],
-    "registryDependencies": [],
-    "files": []
   },
   {
     "name": "Dashboard01",
@@ -6609,13 +6574,6 @@
     "name": "Dashboard02",
     "type": "registry:block",
     "dependencies": [],
-    "registryDependencies": [],
-    "files": []
-  },
-  {
-    "name": "Dashboard02",
-    "type": "registry:block",
-    "dependencies": [],
     "registryDependencies": [
       "badge",
       "button",
@@ -6632,13 +6590,6 @@
         "target": "Dashboard02.vue"
       }
     ]
-  },
-  {
-    "name": "Dashboard03",
-    "type": "registry:block",
-    "dependencies": [],
-    "registryDependencies": [],
-    "files": []
   },
   {
     "name": "Dashboard03",
@@ -6667,13 +6618,6 @@
     "name": "Dashboard04",
     "type": "registry:block",
     "dependencies": [],
-    "registryDependencies": [],
-    "files": []
-  },
-  {
-    "name": "Dashboard04",
-    "type": "registry:block",
-    "dependencies": [],
     "registryDependencies": [
       "button",
       "card",
@@ -6690,13 +6634,6 @@
         "target": "Dashboard04.vue"
       }
     ]
-  },
-  {
-    "name": "Dashboard05",
-    "type": "registry:block",
-    "dependencies": [],
-    "registryDependencies": [],
-    "files": []
   },
   {
     "name": "Dashboard05",
@@ -6731,13 +6668,6 @@
     "name": "Dashboard06",
     "type": "registry:block",
     "dependencies": [],
-    "registryDependencies": [],
-    "files": []
-  },
-  {
-    "name": "Dashboard06",
-    "type": "registry:block",
-    "dependencies": [],
     "registryDependencies": [
       "badge",
       "breadcrumb",
@@ -6758,13 +6688,6 @@
         "target": "Dashboard06.vue"
       }
     ]
-  },
-  {
-    "name": "Dashboard07",
-    "type": "registry:block",
-    "dependencies": [],
-    "registryDependencies": [],
-    "files": []
   },
   {
     "name": "Dashboard07",
@@ -13125,13 +13048,6 @@
     "name": "Authentication01",
     "type": "registry:block",
     "dependencies": [],
-    "registryDependencies": [],
-    "files": []
-  },
-  {
-    "name": "Authentication01",
-    "type": "registry:block",
-    "dependencies": [],
     "registryDependencies": [
       "button",
       "card",
@@ -13146,13 +13062,6 @@
         "target": "Authentication01.vue"
       }
     ]
-  },
-  {
-    "name": "Authentication02",
-    "type": "registry:block",
-    "dependencies": [],
-    "registryDependencies": [],
-    "files": []
   },
   {
     "name": "Authentication02",
@@ -13177,13 +13086,6 @@
     "name": "Authentication03",
     "type": "registry:block",
     "dependencies": [],
-    "registryDependencies": [],
-    "files": []
-  },
-  {
-    "name": "Authentication03",
-    "type": "registry:block",
-    "dependencies": [],
     "registryDependencies": [
       "button",
       "card",
@@ -13203,13 +13105,6 @@
     "name": "Authentication04",
     "type": "registry:block",
     "dependencies": [],
-    "registryDependencies": [],
-    "files": []
-  },
-  {
-    "name": "Authentication04",
-    "type": "registry:block",
-    "dependencies": [],
     "registryDependencies": [
       "button",
       "input",
@@ -13223,13 +13118,6 @@
         "target": "Authentication04.vue"
       }
     ]
-  },
-  {
-    "name": "Dashboard01",
-    "type": "registry:block",
-    "dependencies": [],
-    "registryDependencies": [],
-    "files": []
   },
   {
     "name": "Dashboard01",
@@ -13258,13 +13146,6 @@
     "name": "Dashboard02",
     "type": "registry:block",
     "dependencies": [],
-    "registryDependencies": [],
-    "files": []
-  },
-  {
-    "name": "Dashboard02",
-    "type": "registry:block",
-    "dependencies": [],
     "registryDependencies": [
       "badge",
       "button",
@@ -13281,13 +13162,6 @@
         "target": "Dashboard02.vue"
       }
     ]
-  },
-  {
-    "name": "Dashboard03",
-    "type": "registry:block",
-    "dependencies": [],
-    "registryDependencies": [],
-    "files": []
   },
   {
     "name": "Dashboard03",
@@ -13316,13 +13190,6 @@
     "name": "Dashboard04",
     "type": "registry:block",
     "dependencies": [],
-    "registryDependencies": [],
-    "files": []
-  },
-  {
-    "name": "Dashboard04",
-    "type": "registry:block",
-    "dependencies": [],
     "registryDependencies": [
       "button",
       "card",
@@ -13339,13 +13206,6 @@
         "target": "Dashboard04.vue"
       }
     ]
-  },
-  {
-    "name": "Dashboard05",
-    "type": "registry:block",
-    "dependencies": [],
-    "registryDependencies": [],
-    "files": []
   },
   {
     "name": "Dashboard05",
@@ -13380,13 +13240,6 @@
     "name": "Dashboard06",
     "type": "registry:block",
     "dependencies": [],
-    "registryDependencies": [],
-    "files": []
-  },
-  {
-    "name": "Dashboard06",
-    "type": "registry:block",
-    "dependencies": [],
     "registryDependencies": [
       "badge",
       "breadcrumb",
@@ -13407,13 +13260,6 @@
         "target": "Dashboard06.vue"
       }
     ]
-  },
-  {
-    "name": "Dashboard07",
-    "type": "registry:block",
-    "dependencies": [],
-    "registryDependencies": [],
-    "files": []
   },
   {
     "name": "Dashboard07",

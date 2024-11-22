@@ -1,13 +1,13 @@
-import type { Style } from '@/registry/registry-styles'
+import type { RegistryStyle } from '@/registry/registry-styles'
 import sdk from '@stackblitz/sdk'
 import { getParameters } from 'codesandbox/lib/api/define'
 import { Index as demoIndex } from '../../../../www/__registry__'
 // @ts-expect-error ?raw
 import tailwindConfigRaw from '../../../tailwind.config?raw'
 // @ts-expect-error ?raw
-import cssRaw from '../../../../../packages/cli/test/fixtures/nuxt/assets/css/tailwind.css?raw'
+import cssRaw from '../../../../../packages/cli/test/fixtures/frameworks/nuxt/assets/css/tailwind.css?raw'
 
-export function makeCodeSandboxParams(componentName: string, style: Style, sources: Record<string, string>) {
+export function makeCodeSandboxParams(componentName: string, style: RegistryStyle, sources: Record<string, string>) {
   let files: Record<string, any> = {}
   files = constructFiles(componentName, style, sources)
   files['.codesandbox/Dockerfile'] = {
@@ -16,7 +16,7 @@ export function makeCodeSandboxParams(componentName: string, style: Style, sourc
   return getParameters({ files, template: 'node' })
 }
 
-export function makeStackblitzParams(componentName: string, style: Style, sources: Record<string, string>) {
+export function makeStackblitzParams(componentName: string, style: RegistryStyle, sources: Record<string, string>) {
   const files: Record<string, string> = {}
   Object.entries(constructFiles(componentName, style, sources)).forEach(([k, v]) => (files[`${k}`] = typeof v.content === 'object' ? JSON.stringify(v.content, null, 2) : v.content))
 
@@ -73,7 +73,7 @@ export default defineConfig({
   },
 }
 
-function constructFiles(componentName: string, style: Style, sources: Record<string, string>) {
+function constructFiles(componentName: string, style: RegistryStyle, sources: Record<string, string>) {
   const componentsJson = {
     style,
     tailwind: {

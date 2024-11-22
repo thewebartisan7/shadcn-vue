@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Style } from '@/registry/registry-styles'
+import type { RegistryStyle } from '@/registry/registry-styles'
 import { Button } from '@/registry/new-york/ui/button'
 import { Icon } from '@iconify/vue'
 import { ref, toRefs, watch } from 'vue'
@@ -9,7 +9,7 @@ import Tooltip from './Tooltip.vue'
 const props = defineProps<{
   name: string
   code: string
-  style: Style
+  style: RegistryStyle
 }>()
 
 const { code } = toRefs(props)

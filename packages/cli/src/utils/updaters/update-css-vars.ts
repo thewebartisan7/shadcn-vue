@@ -54,7 +54,7 @@ export async function transformCssVars(
   input: string,
   cssVars: z.infer<typeof registryItemCssVarsSchema>,
   config: Config,
-  options: {
+  options?: {
     cleanupDefaultNextStyles?: boolean
   },
 ) {

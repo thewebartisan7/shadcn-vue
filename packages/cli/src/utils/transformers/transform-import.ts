@@ -19,10 +19,10 @@ export function transformImport(opts: TransformOpts): CodemodPlugin {
               // Replace @/registry/[style] with the components alias.
               if (sourcePath.startsWith('@/registry/')) {
                 if (config.aliases.ui) {
-                  path.node.source.value = sourcePath.replace(/^@\/lib\/registry\/[^/]+\/ui/, config.aliases.ui)
+                  path.node.source.value = sourcePath.replace(/^@\/registry\/[^/]+\/ui/, config.aliases.ui)
                 }
                 else {
-                  path.node.source.value = sourcePath.replace(/^@\/lib\/registry\/[^/]+/, config.aliases.components)
+                  path.node.source.value = sourcePath.replace(/^@\/registry\/[^/]+/, config.aliases.components)
                 }
               }
 

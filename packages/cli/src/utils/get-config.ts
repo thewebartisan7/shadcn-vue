@@ -36,7 +36,7 @@ export const rawConfigSchema = z
       utils: z.string(),
       ui: z.string().optional(),
       lib: z.string().optional(),
-      hooks: z.string().optional(),
+      // hooks: z.string().optional(),
     }),
     iconLibrary: z.string().optional(),
   })
@@ -52,7 +52,7 @@ export const configSchema = rawConfigSchema.extend({
     utils: z.string(),
     components: z.string(),
     lib: z.string(),
-    hooks: z.string(),
+    // hooks: z.string(),
     ui: z.string(),
   }),
 })
@@ -109,17 +109,18 @@ export async function resolveConfigPaths(cwd: string, config: RawConfig) {
           (await resolveImport(config.aliases.utils, tsConfig)) ?? cwd,
           '..',
         ),
-      hooks: config.aliases.hooks
-        ? await resolveImport(config.aliases.hooks, tsConfig)
-        : path.resolve(
-          (await resolveImport(config.aliases.components, tsConfig))
-          ?? cwd,
-          '..',
-          'hooks',
-        ),
+      // hooks: config.aliases.hooks
+      //   ? await resolveImport(config.aliases.hooks, tsConfig)
+      //   : path.resolve(
+      //     (await resolveImport(config.aliases.components, tsConfig))
+      //     ?? cwd,
+      //     '..',
+      //     'hooks',
+      //   ),
     },
   })
 }
+
 export async function getRawConfig(cwd: string): Promise<RawConfig | null> {
   try {
     const configResult = await c12LoadConfig({

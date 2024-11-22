@@ -118,7 +118,11 @@ async function crawlBlock(rootPath: string) {
         `${rootPath}/${dirent.name}`,
         dirent.name,
       )
-      registry.push(result)
+
+      // console.log(result.name, result.files.length)
+      if (result.files.length) {
+        registry.push(result)
+      }
       continue
     }
     if (!dirent.name.endsWith('.vue') || !dirent.isFile())

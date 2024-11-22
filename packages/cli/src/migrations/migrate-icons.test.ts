@@ -29,14 +29,14 @@ describe('migrateIconsFile', () => {
         },
       }),
     ).toMatchInlineSnapshot(`
-      "import { Something } from "other-package"
-      import { Check, X } from "lucide-react";
+      "import { CheckIcon, CloseIcon } from "@radix-ui/react-icons"
+            import { Something } from "other-package"
 
             export function Component() {
               return (
                 <div>
-                  <Check className="w-4 h-4" />
-                  <X />
+                  <CheckIcon className="w-4 h-4" />
+                  <CloseIcon />
                 </div>
               )
             }"
@@ -90,16 +90,17 @@ describe('migrateIconsFile', () => {
         },
       }),
     ).toMatchInlineSnapshot(`
-      "import { AlertCircle } from "lucide-react"
+      "import { CheckIcon } from "@radix-ui/react-icons"
+            import { AlertCircle } from "lucide-react"
             import { Something } from "other-package"
-      import { Check, X } from "lucide-react";
+            import { Cross2Icon } from "@radix-ui/react-icons"
 
             export function Component() {
               return (
                 <div>
-                  <Check className="w-4 h-4" />
+                  <CheckIcon className="w-4 h-4" />
                   <AlertCircle />
-                  <X />
+                  <Cross2Icon />
                 </div>
               )
             }"
@@ -137,9 +138,9 @@ describe('migrateIconsFile', () => {
         },
       }),
     ).toMatchInlineSnapshot(`
-      "import { Check, X } from "lucide-react";
+      "import { CheckIcon, Cross2Icon } from "@radix-ui/react-icons"
 
-                  export function Component() {
+            export function Component() {
               return (
                 <div>
                   <CheckIcon
@@ -149,7 +150,7 @@ describe('migrateIconsFile', () => {
                   >
                     <span>Child content</span>
                   </CheckIcon>
-                  <X style={{ color: 'red' }} aria-label="Close" />
+                  <Cross2Icon style={{ color: 'red' }} aria-label="Close" />
                 </div>
               )
             }"
