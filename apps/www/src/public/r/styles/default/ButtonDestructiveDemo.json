@@ -10,7 +10,7 @@
       "path": "example/ButtonDestructiveDemo.vue",
       "content": "<script setup lang=\"ts\">\nimport { Button } from '@/registry/default/ui/button'\n</script>\n\n<template>\n  <Button variant=\"destructive\">\n    Destructive\n  </Button>\n</template>\n",
       "type": "registry:example",
-      "target": "ButtonDestructiveDemo.vue"
+      "target": ""
     }
   ]
 }

@@ -10,7 +10,7 @@
       "path": "example/ButtonGhostDemo.vue",
       "content": "<script setup lang=\"ts\">\nimport { Button } from '@/registry/default/ui/button'\n</script>\n\n<template>\n  <Button variant=\"ghost\">\n    Ghost\n  </Button>\n</template>\n",
       "type": "registry:example",
-      "target": "ButtonGhostDemo.vue"
+      "target": ""
     }
   ]
 }

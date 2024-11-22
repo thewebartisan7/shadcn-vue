@@ -11,7 +11,7 @@
       "path": "example/SwitchDemo.vue",
       "content": "<script setup lang=\"ts\">\nimport { Label } from '@/registry/default/ui/label'\nimport { Switch } from '@/registry/default/ui/switch'\n</script>\n\n<template>\n  <div class=\"flex items-center space-x-2\">\n    <Switch id=\"airplane-mode\" />\n    <Label for=\"airplane-mode\">Airplane Mode</Label>\n  </div>\n</template>\n",
       "type": "registry:example",
-      "target": "SwitchDemo.vue"
+      "target": ""
     }
   ]
 }

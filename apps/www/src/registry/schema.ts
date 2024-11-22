@@ -76,12 +76,16 @@ export const blockSchema = registryEntrySchema.extend({
   type: z.literal('registry:block'),
   style: z.enum(['default', 'new-york']),
   component: z.any(),
+  raw: z.any(),
   container: z
     .object({
       height: z.string().nullish(),
       className: z.string().nullish(),
     })
     .optional(),
+  files: z.array(registryItemFileSchema.extend({
+    raw: z.any(),
+  })).optional(),
   code: z.string(),
   highlightedCode: z.string(),
 })

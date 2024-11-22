@@ -2,7 +2,7 @@ import type { Registry, RegistryFiles } from './schema'
 import { readdir, readFile } from 'node:fs/promises'
 import { parseSync } from '@oxc-parser/wasm'
 import { join, resolve } from 'pathe'
-import { compileScript, parse } from 'vue/compiler-sfc'
+import { compileScript, parse, walk } from 'vue/compiler-sfc'
 import { type RegistryStyle, styles } from './registry-styles'
 
 // [Dependency, [...PeerDependencies]]
@@ -87,7 +87,7 @@ async function crawlExample(rootPath: string) {
       content: source,
       path: relativePath,
       // style,
-      target: dirent.name,
+      target: '',
       type,
     }
     const { dependencies, registryDependencies } = await getFileDependencies(filepath, source)
@@ -134,11 +134,13 @@ async function crawlBlock(rootPath: string) {
     const source = await readFile(filepath, { encoding: 'utf8' })
     const relativePath = join('block', dirent.name)
 
+    const target = 'pages/dashboard/index.vue'
+
     const file = {
       name: dirent.name,
       content: source,
       path: relativePath,
-      target: dirent.name,
+      target,
       type,
     }
     const { dependencies, registryDependencies } = await getFileDependencies(filepath, source)
@@ -249,12 +251,11 @@ async function buildBlockRegistry(blockPath: string, blockName: string) {
     const isPage = dirent.name === 'page.vue'
     const type = isPage ? 'registry:page' : 'registry:component'
 
-    // TODO: fix
     const compPath = isPage ? dirent.name : `components/${dirent.name}`
     const filepath = join(blockPath, compPath)
     const relativePath = join('block', blockName, compPath)
     const source = await readFile(filepath, { encoding: 'utf8' })
-    const target = isPage ? `${blockName}Page.vue` : dirent.name
+    const target = isPage ? `pages/dashboard/index.vue` : ''
 
     files.push({ content: source, path: relativePath, type, target })
 
@@ -319,4 +320,34 @@ async function getFileDependencies(filename: string, sourceCode: string) {
   }
 
   return { registryDependencies, dependencies }
+}
+
+export async function getBlockMetadata(filename: string, sourceCode: string) {
+  const metadata = {
+    description: null as string | null,
+    iframeHeight: null as string | null,
+    containerClass: null as string | null,
+  }
+
+  if (filename.endsWith('.vue')) {
+    const { descriptor } = parse(sourceCode, { filename })
+    if (descriptor.script?.content) {
+      const ast = compileScript(descriptor, { id: '' })
+      walk(ast.scriptAst, {
+        enter(node: any) {
+          const declaration = node.declaration
+          // Check if the declaration is a variable declaration
+          if (declaration?.type === 'VariableDeclaration') {
+            // Extract variable names and their values
+            declaration.declarations.forEach((decl: any) => {
+              // @ts-expect-error ignore missing type
+              metadata[decl.id.name] = decl.init ? decl.init.value : null
+            })
+          }
+        },
+      })
+    }
+  }
+
+  return metadata
 }

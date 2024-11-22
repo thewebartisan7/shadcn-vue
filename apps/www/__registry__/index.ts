@@ -15,7 +15,6 @@ export const Index: Record<string, any> = {
         target: ""
       }],
       component: () => import("@/registry/new-york/lib/utils.ts").then((m) => m.default),
-      raw: () => import("@/registry/new-york/lib/utils.ts?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -47,7 +46,6 @@ export const Index: Record<string, any> = {
         target: "accordion/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/accordion/Accordion.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/accordion/Accordion.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -75,7 +73,6 @@ export const Index: Record<string, any> = {
         target: "alert/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/alert/Alert.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/alert/Alert.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -127,7 +124,6 @@ export const Index: Record<string, any> = {
         target: "alert-dialog/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/alert-dialog/AlertDialog.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/alert-dialog/AlertDialog.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -147,7 +143,6 @@ export const Index: Record<string, any> = {
         target: "aspect-ratio/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/aspect-ratio/AspectRatio.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/aspect-ratio/AspectRatio.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -223,7 +218,6 @@ export const Index: Record<string, any> = {
         target: "auto-form/utils.ts"
       }],
       component: () => import("@/registry/new-york/ui/auto-form/AutoForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/auto-form/AutoForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -251,7 +245,6 @@ export const Index: Record<string, any> = {
         target: "avatar/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/avatar/Avatar.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/avatar/Avatar.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -271,7 +264,6 @@ export const Index: Record<string, any> = {
         target: "badge/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/badge/Badge.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/badge/Badge.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -315,7 +307,6 @@ export const Index: Record<string, any> = {
         target: "breadcrumb/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/breadcrumb/Breadcrumb.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/breadcrumb/Breadcrumb.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -335,7 +326,6 @@ export const Index: Record<string, any> = {
         target: "button/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/button/Button.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/button/Button.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -399,7 +389,6 @@ export const Index: Record<string, any> = {
         target: "calendar/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/calendar/Calendar.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/calendar/Calendar.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -439,7 +428,6 @@ export const Index: Record<string, any> = {
         target: "card/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/card/Card.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/card/Card.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -483,7 +471,6 @@ export const Index: Record<string, any> = {
         target: "carousel/useCarousel.ts"
       }],
       component: () => import("@/registry/new-york/ui/carousel/Carousel.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/carousel/Carousel.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -519,7 +506,6 @@ export const Index: Record<string, any> = {
         target: "chart/interface.ts"
       }],
       component: () => import("@/registry/new-york/ui/chart/ChartCrosshair.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/chart/ChartCrosshair.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -539,7 +525,6 @@ export const Index: Record<string, any> = {
         target: "chart-area/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/chart-area/AreaChart.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/chart-area/AreaChart.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -559,7 +544,6 @@ export const Index: Record<string, any> = {
         target: "chart-bar/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/chart-bar/BarChart.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/chart-bar/BarChart.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -579,7 +563,6 @@ export const Index: Record<string, any> = {
         target: "chart-donut/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/chart-donut/DonutChart.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/chart-donut/DonutChart.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -599,7 +582,6 @@ export const Index: Record<string, any> = {
         target: "chart-line/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/chart-line/LineChart.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/chart-line/LineChart.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -619,7 +601,6 @@ export const Index: Record<string, any> = {
         target: "checkbox/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/checkbox/Checkbox.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/checkbox/Checkbox.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -647,7 +628,6 @@ export const Index: Record<string, any> = {
         target: "collapsible/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/collapsible/Collapsible.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/collapsible/Collapsible.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -699,7 +679,6 @@ export const Index: Record<string, any> = {
         target: "command/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/command/Command.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/command/Command.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -775,7 +754,6 @@ export const Index: Record<string, any> = {
         target: "context-menu/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/context-menu/ContextMenu.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/context-menu/ContextMenu.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -827,7 +805,6 @@ export const Index: Record<string, any> = {
         target: "dialog/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/dialog/Dialog.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/dialog/Dialog.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -871,7 +848,6 @@ export const Index: Record<string, any> = {
         target: "drawer/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/drawer/Drawer.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/drawer/Drawer.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -943,7 +919,6 @@ export const Index: Record<string, any> = {
         target: "dropdown-menu/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/dropdown-menu/DropdownMenu.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/dropdown-menu/DropdownMenu.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -987,7 +962,6 @@ export const Index: Record<string, any> = {
         target: "form/useFormField.ts"
       }],
       component: () => import("@/registry/new-york/ui/form/FormControl.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/form/FormControl.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -1015,7 +989,6 @@ export const Index: Record<string, any> = {
         target: "hover-card/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/hover-card/HoverCard.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/hover-card/HoverCard.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -1035,7 +1008,6 @@ export const Index: Record<string, any> = {
         target: "input/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/input/Input.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/input/Input.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -1055,7 +1027,6 @@ export const Index: Record<string, any> = {
         target: "label/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/label/Label.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/label/Label.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -1131,7 +1102,6 @@ export const Index: Record<string, any> = {
         target: "menubar/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/menubar/Menubar.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/menubar/Menubar.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -1179,7 +1149,6 @@ export const Index: Record<string, any> = {
         target: "navigation-menu/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/navigation-menu/NavigationMenu.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/navigation-menu/NavigationMenu.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -1215,7 +1184,6 @@ export const Index: Record<string, any> = {
         target: "number-field/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/number-field/NumberField.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/number-field/NumberField.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -1251,7 +1219,6 @@ export const Index: Record<string, any> = {
         target: "pagination/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/pagination/PaginationEllipsis.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/pagination/PaginationEllipsis.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -1283,7 +1250,6 @@ export const Index: Record<string, any> = {
         target: "pin-input/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/pin-input/PinInput.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/pin-input/PinInput.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -1311,7 +1277,6 @@ export const Index: Record<string, any> = {
         target: "popover/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/popover/Popover.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/popover/Popover.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -1331,7 +1296,6 @@ export const Index: Record<string, any> = {
         target: "progress/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/progress/Progress.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/progress/Progress.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -1355,7 +1319,6 @@ export const Index: Record<string, any> = {
         target: "radio-group/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/radio-group/RadioGroup.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/radio-group/RadioGroup.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -1419,7 +1382,6 @@ export const Index: Record<string, any> = {
         target: "range-calendar/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/range-calendar/RangeCalendar.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/range-calendar/RangeCalendar.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -1443,7 +1405,6 @@ export const Index: Record<string, any> = {
         target: "resizable/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/resizable/ResizableHandle.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/resizable/ResizableHandle.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -1467,7 +1428,6 @@ export const Index: Record<string, any> = {
         target: "scroll-area/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/scroll-area/ScrollArea.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/scroll-area/ScrollArea.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -1527,7 +1487,6 @@ export const Index: Record<string, any> = {
         target: "select/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/select/Select.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/select/Select.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -1547,7 +1506,6 @@ export const Index: Record<string, any> = {
         target: "separator/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/separator/Separator.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/separator/Separator.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -1595,7 +1553,6 @@ export const Index: Record<string, any> = {
         target: "sheet/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/sheet/Sheet.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/sheet/Sheet.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -1711,7 +1668,6 @@ export const Index: Record<string, any> = {
         target: "sidebar/utils.ts"
       }],
       component: () => import("@/registry/new-york/ui/sidebar/Sidebar.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/sidebar/Sidebar.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -1731,7 +1687,6 @@ export const Index: Record<string, any> = {
         target: "skeleton/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/skeleton/Skeleton.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/skeleton/Skeleton.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -1751,7 +1706,6 @@ export const Index: Record<string, any> = {
         target: "slider/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/slider/Slider.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/slider/Slider.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -1771,7 +1725,6 @@ export const Index: Record<string, any> = {
         target: "sonner/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/sonner/Sonner.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/sonner/Sonner.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -1815,7 +1768,6 @@ export const Index: Record<string, any> = {
         target: "stepper/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/stepper/Stepper.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/stepper/Stepper.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -1835,7 +1787,6 @@ export const Index: Record<string, any> = {
         target: "switch/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/switch/Switch.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/switch/Switch.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -1887,7 +1838,6 @@ export const Index: Record<string, any> = {
         target: "table/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/table/Table.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/table/Table.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -1919,7 +1869,6 @@ export const Index: Record<string, any> = {
         target: "tabs/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/tabs/Tabs.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/tabs/Tabs.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -1955,7 +1904,6 @@ export const Index: Record<string, any> = {
         target: "tags-input/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/tags-input/TagsInput.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/tags-input/TagsInput.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -1975,7 +1923,6 @@ export const Index: Record<string, any> = {
         target: "textarea/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/textarea/Textarea.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/textarea/Textarea.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2027,7 +1974,6 @@ export const Index: Record<string, any> = {
         target: "toast/use-toast.ts"
       }],
       component: () => import("@/registry/new-york/ui/toast/Toast.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/toast/Toast.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2047,7 +1993,6 @@ export const Index: Record<string, any> = {
         target: "toggle/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/toggle/Toggle.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/toggle/Toggle.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2071,7 +2016,6 @@ export const Index: Record<string, any> = {
         target: "toggle-group/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/toggle-group/ToggleGroup.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/toggle-group/ToggleGroup.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2103,7 +2047,6 @@ export const Index: Record<string, any> = {
         target: "tooltip/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/tooltip/Tooltip.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/tooltip/Tooltip.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2123,7 +2066,6 @@ export const Index: Record<string, any> = {
         target: "v-calendar/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/v-calendar/Calendar.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/v-calendar/Calendar.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2136,10 +2078,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/AccordionDemo.vue",
         type: "registry:example",
-        target: "AccordionDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/AccordionDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/AccordionDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2152,10 +2093,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/AlertDemo.vue",
         type: "registry:example",
-        target: "AlertDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/AlertDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/AlertDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2168,10 +2108,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/AlertDestructiveDemo.vue",
         type: "registry:example",
-        target: "AlertDestructiveDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/AlertDestructiveDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/AlertDestructiveDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2184,10 +2123,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/AlertDialogDemo.vue",
         type: "registry:example",
-        target: "AlertDialogDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/AlertDialogDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/AlertDialogDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2200,10 +2138,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/AreaChartCustomTooltip.vue",
         type: "registry:example",
-        target: "AreaChartCustomTooltip.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/AreaChartCustomTooltip.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/AreaChartCustomTooltip.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2216,10 +2153,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/AreaChartDemo.vue",
         type: "registry:example",
-        target: "AreaChartDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/AreaChartDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/AreaChartDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2232,10 +2168,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/AreaChartSparkline.vue",
         type: "registry:example",
-        target: "AreaChartSparkline.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/AreaChartSparkline.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/AreaChartSparkline.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2248,10 +2183,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/AspectRatioDemo.vue",
         type: "registry:example",
-        target: "AspectRatioDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/AspectRatioDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/AspectRatioDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2264,10 +2198,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/AutoFormApi.vue",
         type: "registry:example",
-        target: "AutoFormApi.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/AutoFormApi.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/AutoFormApi.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2280,10 +2213,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/AutoFormArray.vue",
         type: "registry:example",
-        target: "AutoFormArray.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/AutoFormArray.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/AutoFormArray.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2296,10 +2228,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/AutoFormBasic.vue",
         type: "registry:example",
-        target: "AutoFormBasic.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/AutoFormBasic.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/AutoFormBasic.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2312,10 +2243,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/AutoFormConfirmPassword.vue",
         type: "registry:example",
-        target: "AutoFormConfirmPassword.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/AutoFormConfirmPassword.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/AutoFormConfirmPassword.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2328,10 +2258,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/AutoFormControlled.vue",
         type: "registry:example",
-        target: "AutoFormControlled.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/AutoFormControlled.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/AutoFormControlled.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2344,10 +2273,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/AutoFormDependencies.vue",
         type: "registry:example",
-        target: "AutoFormDependencies.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/AutoFormDependencies.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/AutoFormDependencies.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2360,10 +2288,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/AutoFormInputWithoutLabel.vue",
         type: "registry:example",
-        target: "AutoFormInputWithoutLabel.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/AutoFormInputWithoutLabel.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/AutoFormInputWithoutLabel.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2376,10 +2303,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/AutoFormSubObject.vue",
         type: "registry:example",
-        target: "AutoFormSubObject.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/AutoFormSubObject.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/AutoFormSubObject.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2392,10 +2318,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/AvatarDemo.vue",
         type: "registry:example",
-        target: "AvatarDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/AvatarDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/AvatarDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2408,10 +2333,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/BadgeDemo.vue",
         type: "registry:example",
-        target: "BadgeDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/BadgeDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/BadgeDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2424,10 +2348,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/BadgeDestructiveDemo.vue",
         type: "registry:example",
-        target: "BadgeDestructiveDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/BadgeDestructiveDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/BadgeDestructiveDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2440,10 +2363,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/BadgeOutlineDemo.vue",
         type: "registry:example",
-        target: "BadgeOutlineDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/BadgeOutlineDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/BadgeOutlineDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2456,10 +2378,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/BadgeSecondaryDemo.vue",
         type: "registry:example",
-        target: "BadgeSecondaryDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/BadgeSecondaryDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/BadgeSecondaryDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2472,10 +2393,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/BarChartCustomTooltip.vue",
         type: "registry:example",
-        target: "BarChartCustomTooltip.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/BarChartCustomTooltip.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/BarChartCustomTooltip.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2488,10 +2408,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/BarChartDemo.vue",
         type: "registry:example",
-        target: "BarChartDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/BarChartDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/BarChartDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2504,10 +2423,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/BarChartRounded.vue",
         type: "registry:example",
-        target: "BarChartRounded.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/BarChartRounded.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/BarChartRounded.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2520,10 +2438,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/BarChartStacked.vue",
         type: "registry:example",
-        target: "BarChartStacked.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/BarChartStacked.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/BarChartStacked.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2536,10 +2453,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/BreadcrumbDemo.vue",
         type: "registry:example",
-        target: "BreadcrumbDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/BreadcrumbDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/BreadcrumbDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2552,10 +2468,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/BreadcrumbDropdown.vue",
         type: "registry:example",
-        target: "BreadcrumbDropdown.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/BreadcrumbDropdown.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/BreadcrumbDropdown.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2568,10 +2483,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/BreadcrumbEllipsisDemo.vue",
         type: "registry:example",
-        target: "BreadcrumbEllipsisDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/BreadcrumbEllipsisDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/BreadcrumbEllipsisDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2584,10 +2498,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/BreadcrumbLinkDemo.vue",
         type: "registry:example",
-        target: "BreadcrumbLinkDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/BreadcrumbLinkDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/BreadcrumbLinkDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2600,10 +2513,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/BreadcrumbResponsive.vue",
         type: "registry:example",
-        target: "BreadcrumbResponsive.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/BreadcrumbResponsive.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/BreadcrumbResponsive.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2616,10 +2528,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/BreadcrumbSeparatorDemo.vue",
         type: "registry:example",
-        target: "BreadcrumbSeparatorDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/BreadcrumbSeparatorDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/BreadcrumbSeparatorDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2632,10 +2543,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ButtonAsChildDemo.vue",
         type: "registry:example",
-        target: "ButtonAsChildDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ButtonAsChildDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ButtonAsChildDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2648,10 +2558,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ButtonDemo.vue",
         type: "registry:example",
-        target: "ButtonDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ButtonDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ButtonDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2664,10 +2573,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ButtonDestructiveDemo.vue",
         type: "registry:example",
-        target: "ButtonDestructiveDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ButtonDestructiveDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ButtonDestructiveDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2680,10 +2588,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ButtonGhostDemo.vue",
         type: "registry:example",
-        target: "ButtonGhostDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ButtonGhostDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ButtonGhostDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2696,10 +2603,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ButtonIconDemo.vue",
         type: "registry:example",
-        target: "ButtonIconDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ButtonIconDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ButtonIconDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2712,10 +2618,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ButtonLinkDemo.vue",
         type: "registry:example",
-        target: "ButtonLinkDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ButtonLinkDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ButtonLinkDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2728,10 +2633,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ButtonLoadingDemo.vue",
         type: "registry:example",
-        target: "ButtonLoadingDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ButtonLoadingDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ButtonLoadingDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2744,10 +2648,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ButtonOutlineDemo.vue",
         type: "registry:example",
-        target: "ButtonOutlineDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ButtonOutlineDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ButtonOutlineDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2760,10 +2663,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ButtonSecondaryDemo.vue",
         type: "registry:example",
-        target: "ButtonSecondaryDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ButtonSecondaryDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ButtonSecondaryDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2776,10 +2678,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ButtonWithIconDemo.vue",
         type: "registry:example",
-        target: "ButtonWithIconDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ButtonWithIconDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ButtonWithIconDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2792,10 +2693,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CalendarDemo.vue",
         type: "registry:example",
-        target: "CalendarDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CalendarDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CalendarDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2808,10 +2708,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CalendarForm.vue",
         type: "registry:example",
-        target: "CalendarForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CalendarForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CalendarForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2824,10 +2723,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CalendarWithSelect.vue",
         type: "registry:example",
-        target: "CalendarWithSelect.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CalendarWithSelect.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CalendarWithSelect.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2840,10 +2738,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CardChat.vue",
         type: "registry:example",
-        target: "CardChat.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CardChat.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CardChat.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2856,10 +2753,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CardDemo.vue",
         type: "registry:example",
-        target: "CardDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CardDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CardDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2872,10 +2768,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CardFormDemo.vue",
         type: "registry:example",
-        target: "CardFormDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CardFormDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CardFormDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2888,10 +2783,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CardStats.vue",
         type: "registry:example",
-        target: "CardStats.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CardStats.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CardStats.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2904,10 +2798,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CardWithForm.vue",
         type: "registry:example",
-        target: "CardWithForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CardWithForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CardWithForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2920,10 +2813,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CarouselApi.vue",
         type: "registry:example",
-        target: "CarouselApi.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CarouselApi.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CarouselApi.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2936,10 +2828,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CarouselDemo.vue",
         type: "registry:example",
-        target: "CarouselDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CarouselDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CarouselDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2952,10 +2843,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CarouselOrientation.vue",
         type: "registry:example",
-        target: "CarouselOrientation.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CarouselOrientation.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CarouselOrientation.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2968,10 +2858,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CarouselPlugin.vue",
         type: "registry:example",
-        target: "CarouselPlugin.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CarouselPlugin.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CarouselPlugin.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -2984,10 +2873,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CarouselSize.vue",
         type: "registry:example",
-        target: "CarouselSize.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CarouselSize.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CarouselSize.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3000,10 +2888,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CarouselSpacing.vue",
         type: "registry:example",
-        target: "CarouselSpacing.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CarouselSpacing.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CarouselSpacing.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3016,10 +2903,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CarouselThumbnails.vue",
         type: "registry:example",
-        target: "CarouselThumbnails.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CarouselThumbnails.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CarouselThumbnails.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3032,10 +2918,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CheckboxDemo.vue",
         type: "registry:example",
-        target: "CheckboxDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CheckboxDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CheckboxDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3048,10 +2933,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CheckboxDisabled.vue",
         type: "registry:example",
-        target: "CheckboxDisabled.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CheckboxDisabled.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CheckboxDisabled.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3064,10 +2948,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CheckboxFormMultiple.vue",
         type: "registry:example",
-        target: "CheckboxFormMultiple.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CheckboxFormMultiple.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CheckboxFormMultiple.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3080,10 +2963,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CheckboxFormSingle.vue",
         type: "registry:example",
-        target: "CheckboxFormSingle.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CheckboxFormSingle.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CheckboxFormSingle.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3096,10 +2978,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CheckboxWithText.vue",
         type: "registry:example",
-        target: "CheckboxWithText.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CheckboxWithText.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CheckboxWithText.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3112,10 +2993,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CollapsibleDemo.vue",
         type: "registry:example",
-        target: "CollapsibleDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CollapsibleDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CollapsibleDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3128,10 +3008,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ComboboxDemo.vue",
         type: "registry:example",
-        target: "ComboboxDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ComboboxDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ComboboxDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3144,10 +3023,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ComboboxDropdownMenu.vue",
         type: "registry:example",
-        target: "ComboboxDropdownMenu.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ComboboxDropdownMenu.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ComboboxDropdownMenu.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3160,10 +3038,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ComboboxForm.vue",
         type: "registry:example",
-        target: "ComboboxForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ComboboxForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ComboboxForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3176,10 +3053,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ComboboxPopover.vue",
         type: "registry:example",
-        target: "ComboboxPopover.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ComboboxPopover.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ComboboxPopover.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3192,10 +3068,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ComboboxResponsive.vue",
         type: "registry:example",
-        target: "ComboboxResponsive.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ComboboxResponsive.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ComboboxResponsive.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3208,10 +3083,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CommandDemo.vue",
         type: "registry:example",
-        target: "CommandDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CommandDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CommandDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3224,10 +3098,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CommandDialogDemo.vue",
         type: "registry:example",
-        target: "CommandDialogDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CommandDialogDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CommandDialogDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3240,10 +3113,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ContextMenuDemo.vue",
         type: "registry:example",
-        target: "ContextMenuDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ContextMenuDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ContextMenuDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3256,10 +3128,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CustomChartTooltip.vue",
         type: "registry:example",
-        target: "CustomChartTooltip.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CustomChartTooltip.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CustomChartTooltip.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3272,10 +3143,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DataTableColumnPinningDemo.vue",
         type: "registry:example",
-        target: "DataTableColumnPinningDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DataTableColumnPinningDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DataTableColumnPinningDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3288,10 +3158,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DataTableDemo.vue",
         type: "registry:example",
-        target: "DataTableDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DataTableDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DataTableDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3304,10 +3173,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DataTableDemoColumn.vue",
         type: "registry:example",
-        target: "DataTableDemoColumn.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DataTableDemoColumn.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DataTableDemoColumn.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3320,10 +3188,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DataTableReactiveDemo.vue",
         type: "registry:example",
-        target: "DataTableReactiveDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DataTableReactiveDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DataTableReactiveDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3336,10 +3203,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DatePickerDemo.vue",
         type: "registry:example",
-        target: "DatePickerDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DatePickerDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DatePickerDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3352,10 +3218,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DatePickerForm.vue",
         type: "registry:example",
-        target: "DatePickerForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DatePickerForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DatePickerForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3368,10 +3233,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DatePickerWithIndependentMonths.vue",
         type: "registry:example",
-        target: "DatePickerWithIndependentMonths.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DatePickerWithIndependentMonths.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DatePickerWithIndependentMonths.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3384,10 +3248,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DatePickerWithPresets.vue",
         type: "registry:example",
-        target: "DatePickerWithPresets.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DatePickerWithPresets.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DatePickerWithPresets.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3400,10 +3263,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DatePickerWithRange.vue",
         type: "registry:example",
-        target: "DatePickerWithRange.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DatePickerWithRange.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DatePickerWithRange.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3416,10 +3278,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DialogCustomCloseButton.vue",
         type: "registry:example",
-        target: "DialogCustomCloseButton.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DialogCustomCloseButton.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DialogCustomCloseButton.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3432,10 +3293,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DialogDemo.vue",
         type: "registry:example",
-        target: "DialogDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DialogDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DialogDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3448,10 +3308,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DialogForm.vue",
         type: "registry:example",
-        target: "DialogForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DialogForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DialogForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3464,10 +3323,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DialogScrollBodyDemo.vue",
         type: "registry:example",
-        target: "DialogScrollBodyDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DialogScrollBodyDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DialogScrollBodyDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3480,10 +3338,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DialogScrollOverlayDemo.vue",
         type: "registry:example",
-        target: "DialogScrollOverlayDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DialogScrollOverlayDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DialogScrollOverlayDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3496,10 +3353,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DonutChartColor.vue",
         type: "registry:example",
-        target: "DonutChartColor.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DonutChartColor.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DonutChartColor.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3512,10 +3368,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DonutChartCustomTooltip.vue",
         type: "registry:example",
-        target: "DonutChartCustomTooltip.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DonutChartCustomTooltip.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DonutChartCustomTooltip.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3528,10 +3383,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DonutChartDemo.vue",
         type: "registry:example",
-        target: "DonutChartDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DonutChartDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DonutChartDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3544,10 +3398,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DonutChartPie.vue",
         type: "registry:example",
-        target: "DonutChartPie.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DonutChartPie.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DonutChartPie.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3560,10 +3413,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DrawerDemo.vue",
         type: "registry:example",
-        target: "DrawerDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DrawerDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DrawerDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3576,10 +3428,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DrawerDialog.vue",
         type: "registry:example",
-        target: "DrawerDialog.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DrawerDialog.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DrawerDialog.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3592,10 +3443,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DropdownMenuCheckboxes.vue",
         type: "registry:example",
-        target: "DropdownMenuCheckboxes.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DropdownMenuCheckboxes.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DropdownMenuCheckboxes.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3608,10 +3458,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DropdownMenuDemo.vue",
         type: "registry:example",
-        target: "DropdownMenuDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DropdownMenuDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DropdownMenuDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3624,10 +3473,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DropdownMenuRadioGroup.vue",
         type: "registry:example",
-        target: "DropdownMenuRadioGroup.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DropdownMenuRadioGroup.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DropdownMenuRadioGroup.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3640,10 +3488,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/HoverCardDemo.vue",
         type: "registry:example",
-        target: "HoverCardDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/HoverCardDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/HoverCardDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3656,10 +3503,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/InputDemo.vue",
         type: "registry:example",
-        target: "InputDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/InputDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/InputDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3672,10 +3518,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/InputDisabled.vue",
         type: "registry:example",
-        target: "InputDisabled.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/InputDisabled.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/InputDisabled.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3688,10 +3533,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/InputFile.vue",
         type: "registry:example",
-        target: "InputFile.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/InputFile.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/InputFile.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3704,10 +3548,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/InputForm.vue",
         type: "registry:example",
-        target: "InputForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/InputForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/InputForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3720,10 +3563,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/InputFormAutoAnimate.vue",
         type: "registry:example",
-        target: "InputFormAutoAnimate.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/InputFormAutoAnimate.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/InputFormAutoAnimate.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3736,10 +3578,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/InputWithButton.vue",
         type: "registry:example",
-        target: "InputWithButton.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/InputWithButton.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/InputWithButton.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3752,10 +3593,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/InputWithIcon.vue",
         type: "registry:example",
-        target: "InputWithIcon.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/InputWithIcon.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/InputWithIcon.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3768,10 +3608,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/InputWithLabel.vue",
         type: "registry:example",
-        target: "InputWithLabel.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/InputWithLabel.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/InputWithLabel.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3784,10 +3623,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/LabelDemo.vue",
         type: "registry:example",
-        target: "LabelDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/LabelDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/LabelDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3800,10 +3638,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/LineChartCustomTooltip.vue",
         type: "registry:example",
-        target: "LineChartCustomTooltip.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/LineChartCustomTooltip.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/LineChartCustomTooltip.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3816,10 +3653,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/LineChartDemo.vue",
         type: "registry:example",
-        target: "LineChartDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/LineChartDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/LineChartDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3832,10 +3668,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/LineChartSparkline.vue",
         type: "registry:example",
-        target: "LineChartSparkline.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/LineChartSparkline.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/LineChartSparkline.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3848,10 +3683,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/MenubarDemo.vue",
         type: "registry:example",
-        target: "MenubarDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/MenubarDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/MenubarDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3864,10 +3698,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/NavigationMenuDemo.vue",
         type: "registry:example",
-        target: "NavigationMenuDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/NavigationMenuDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/NavigationMenuDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3880,10 +3713,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/NumberFieldCurrency.vue",
         type: "registry:example",
-        target: "NumberFieldCurrency.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/NumberFieldCurrency.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/NumberFieldCurrency.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3896,10 +3728,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/NumberFieldDecimal.vue",
         type: "registry:example",
-        target: "NumberFieldDecimal.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/NumberFieldDecimal.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/NumberFieldDecimal.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3912,10 +3743,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/NumberFieldDemo.vue",
         type: "registry:example",
-        target: "NumberFieldDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/NumberFieldDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/NumberFieldDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3928,10 +3758,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/NumberFieldDisabled.vue",
         type: "registry:example",
-        target: "NumberFieldDisabled.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/NumberFieldDisabled.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/NumberFieldDisabled.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3944,10 +3773,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/NumberFieldForm.vue",
         type: "registry:example",
-        target: "NumberFieldForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/NumberFieldForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/NumberFieldForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3960,10 +3788,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/NumberFieldPercentage.vue",
         type: "registry:example",
-        target: "NumberFieldPercentage.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/NumberFieldPercentage.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/NumberFieldPercentage.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3976,10 +3803,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/PaginationDemo.vue",
         type: "registry:example",
-        target: "PaginationDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/PaginationDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/PaginationDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -3992,10 +3818,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/PinInputControlled.vue",
         type: "registry:example",
-        target: "PinInputControlled.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/PinInputControlled.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/PinInputControlled.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4008,10 +3833,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/PinInputDemo.vue",
         type: "registry:example",
-        target: "PinInputDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/PinInputDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/PinInputDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4024,10 +3848,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/PinInputDisabled.vue",
         type: "registry:example",
-        target: "PinInputDisabled.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/PinInputDisabled.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/PinInputDisabled.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4040,10 +3863,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/PinInputFormDemo.vue",
         type: "registry:example",
-        target: "PinInputFormDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/PinInputFormDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/PinInputFormDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4056,10 +3878,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/PinInputSeparatorDemo.vue",
         type: "registry:example",
-        target: "PinInputSeparatorDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/PinInputSeparatorDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/PinInputSeparatorDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4072,10 +3893,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/PopoverDemo.vue",
         type: "registry:example",
-        target: "PopoverDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/PopoverDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/PopoverDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4088,10 +3908,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ProgressDemo.vue",
         type: "registry:example",
-        target: "ProgressDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ProgressDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ProgressDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4104,10 +3923,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/RadioGroupDemo.vue",
         type: "registry:example",
-        target: "RadioGroupDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/RadioGroupDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/RadioGroupDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4120,10 +3938,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/RadioGroupForm.vue",
         type: "registry:example",
-        target: "RadioGroupForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/RadioGroupForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/RadioGroupForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4136,10 +3953,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/RangeCalendarDemo.vue",
         type: "registry:example",
-        target: "RangeCalendarDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/RangeCalendarDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/RangeCalendarDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4152,10 +3968,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ResizableDemo.vue",
         type: "registry:example",
-        target: "ResizableDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ResizableDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ResizableDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4168,10 +3983,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ResizableHandleDemo.vue",
         type: "registry:example",
-        target: "ResizableHandleDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ResizableHandleDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ResizableHandleDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4184,10 +3998,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ResizableVerticalDemo.vue",
         type: "registry:example",
-        target: "ResizableVerticalDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ResizableVerticalDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ResizableVerticalDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4200,10 +4013,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ScrollAreaDemo.vue",
         type: "registry:example",
-        target: "ScrollAreaDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ScrollAreaDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ScrollAreaDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4216,10 +4028,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ScrollAreaHorizontalDemo.vue",
         type: "registry:example",
-        target: "ScrollAreaHorizontalDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ScrollAreaHorizontalDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ScrollAreaHorizontalDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4232,10 +4043,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/SelectDemo.vue",
         type: "registry:example",
-        target: "SelectDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/SelectDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/SelectDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4248,10 +4058,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/SelectForm.vue",
         type: "registry:example",
-        target: "SelectForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/SelectForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/SelectForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4264,10 +4073,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/SelectScrollable.vue",
         type: "registry:example",
-        target: "SelectScrollable.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/SelectScrollable.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/SelectScrollable.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4280,10 +4088,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/SeparatorDemo.vue",
         type: "registry:example",
-        target: "SeparatorDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/SeparatorDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/SeparatorDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4296,10 +4103,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/SheetDemo.vue",
         type: "registry:example",
-        target: "SheetDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/SheetDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/SheetDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4312,10 +4118,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/SheetSideDemo.vue",
         type: "registry:example",
-        target: "SheetSideDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/SheetSideDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/SheetSideDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4328,10 +4133,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/SkeletonCard.vue",
         type: "registry:example",
-        target: "SkeletonCard.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/SkeletonCard.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/SkeletonCard.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4344,10 +4148,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/SkeletonDemo.vue",
         type: "registry:example",
-        target: "SkeletonDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/SkeletonDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/SkeletonDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4360,10 +4163,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/SliderDemo.vue",
         type: "registry:example",
-        target: "SliderDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/SliderDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/SliderDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4376,10 +4178,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/SliderForm.vue",
         type: "registry:example",
-        target: "SliderForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/SliderForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/SliderForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4392,10 +4193,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/SonnerDemo.vue",
         type: "registry:example",
-        target: "SonnerDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/SonnerDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/SonnerDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4408,10 +4208,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/SonnerWithDialog.vue",
         type: "registry:example",
-        target: "SonnerWithDialog.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/SonnerWithDialog.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/SonnerWithDialog.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4424,10 +4223,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/StepperDemo.vue",
         type: "registry:example",
-        target: "StepperDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/StepperDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/StepperDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4440,10 +4238,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/StepperForm.vue",
         type: "registry:example",
-        target: "StepperForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/StepperForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/StepperForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4456,10 +4253,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/StepperHorizental.vue",
         type: "registry:example",
-        target: "StepperHorizental.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/StepperHorizental.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/StepperHorizental.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4472,10 +4268,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/StepperVertical.vue",
         type: "registry:example",
-        target: "StepperVertical.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/StepperVertical.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/StepperVertical.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4488,10 +4283,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/SwitchDemo.vue",
         type: "registry:example",
-        target: "SwitchDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/SwitchDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/SwitchDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4504,10 +4298,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/SwitchForm.vue",
         type: "registry:example",
-        target: "SwitchForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/SwitchForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/SwitchForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4520,10 +4313,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TableDemo.vue",
         type: "registry:example",
-        target: "TableDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TableDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TableDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4536,10 +4328,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TabsDemo.vue",
         type: "registry:example",
-        target: "TabsDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TabsDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TabsDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4552,10 +4343,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TabsVerticalDemo.vue",
         type: "registry:example",
-        target: "TabsVerticalDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TabsVerticalDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TabsVerticalDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4568,10 +4358,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TagsInputComboboxDemo.vue",
         type: "registry:example",
-        target: "TagsInputComboboxDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TagsInputComboboxDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TagsInputComboboxDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4584,10 +4373,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TagsInputDemo.vue",
         type: "registry:example",
-        target: "TagsInputDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TagsInputDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TagsInputDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4600,10 +4388,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TagsInputFormDemo.vue",
         type: "registry:example",
-        target: "TagsInputFormDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TagsInputFormDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TagsInputFormDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4616,10 +4403,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TextareaDemo.vue",
         type: "registry:example",
-        target: "TextareaDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TextareaDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TextareaDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4632,10 +4418,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TextareaDisabled.vue",
         type: "registry:example",
-        target: "TextareaDisabled.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TextareaDisabled.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TextareaDisabled.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4648,10 +4433,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TextareaForm.vue",
         type: "registry:example",
-        target: "TextareaForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TextareaForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TextareaForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4664,10 +4448,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TextareaWithButton.vue",
         type: "registry:example",
-        target: "TextareaWithButton.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TextareaWithButton.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TextareaWithButton.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4680,10 +4463,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TextareaWithLabel.vue",
         type: "registry:example",
-        target: "TextareaWithLabel.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TextareaWithLabel.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TextareaWithLabel.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4696,10 +4478,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TextareaWithText.vue",
         type: "registry:example",
-        target: "TextareaWithText.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TextareaWithText.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TextareaWithText.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4712,10 +4493,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ToastDemo.vue",
         type: "registry:example",
-        target: "ToastDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ToastDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ToastDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4728,10 +4508,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ToastDestructive.vue",
         type: "registry:example",
-        target: "ToastDestructive.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ToastDestructive.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ToastDestructive.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4744,10 +4523,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ToastSimple.vue",
         type: "registry:example",
-        target: "ToastSimple.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ToastSimple.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ToastSimple.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4760,10 +4538,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ToastWithAction.vue",
         type: "registry:example",
-        target: "ToastWithAction.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ToastWithAction.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ToastWithAction.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4776,10 +4553,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ToastWithTitle.vue",
         type: "registry:example",
-        target: "ToastWithTitle.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ToastWithTitle.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ToastWithTitle.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4792,10 +4568,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ToggleDemo.vue",
         type: "registry:example",
-        target: "ToggleDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ToggleDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ToggleDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4808,10 +4583,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ToggleDisabledDemo.vue",
         type: "registry:example",
-        target: "ToggleDisabledDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ToggleDisabledDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ToggleDisabledDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4824,10 +4598,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ToggleGroupDemo.vue",
         type: "registry:example",
-        target: "ToggleGroupDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ToggleGroupDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ToggleGroupDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4840,10 +4613,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ToggleGroupDisabledDemo.vue",
         type: "registry:example",
-        target: "ToggleGroupDisabledDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ToggleGroupDisabledDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ToggleGroupDisabledDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4856,10 +4628,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ToggleGroupLargeDemo.vue",
         type: "registry:example",
-        target: "ToggleGroupLargeDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ToggleGroupLargeDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ToggleGroupLargeDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4872,10 +4643,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ToggleGroupOutlineDemo.vue",
         type: "registry:example",
-        target: "ToggleGroupOutlineDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ToggleGroupOutlineDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ToggleGroupOutlineDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4888,10 +4658,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ToggleGroupSingleDemo.vue",
         type: "registry:example",
-        target: "ToggleGroupSingleDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ToggleGroupSingleDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ToggleGroupSingleDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4904,10 +4673,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ToggleGroupSmallDemo.vue",
         type: "registry:example",
-        target: "ToggleGroupSmallDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ToggleGroupSmallDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ToggleGroupSmallDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4920,10 +4688,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ToggleItalicDemo.vue",
         type: "registry:example",
-        target: "ToggleItalicDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ToggleItalicDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ToggleItalicDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4936,10 +4703,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ToggleItalicWithTextDemo.vue",
         type: "registry:example",
-        target: "ToggleItalicWithTextDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ToggleItalicWithTextDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ToggleItalicWithTextDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4952,10 +4718,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ToggleLargeDemo.vue",
         type: "registry:example",
-        target: "ToggleLargeDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ToggleLargeDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ToggleLargeDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4968,10 +4733,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ToggleSmallDemo.vue",
         type: "registry:example",
-        target: "ToggleSmallDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ToggleSmallDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ToggleSmallDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -4984,10 +4748,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TooltipDemo.vue",
         type: "registry:example",
-        target: "TooltipDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TooltipDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TooltipDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5000,10 +4763,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TypographyBlockquote.vue",
         type: "registry:example",
-        target: "TypographyBlockquote.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TypographyBlockquote.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TypographyBlockquote.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5016,10 +4778,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TypographyDemo.vue",
         type: "registry:example",
-        target: "TypographyDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TypographyDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TypographyDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5032,10 +4793,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TypographyH1.vue",
         type: "registry:example",
-        target: "TypographyH1.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TypographyH1.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TypographyH1.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5048,10 +4808,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TypographyH2.vue",
         type: "registry:example",
-        target: "TypographyH2.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TypographyH2.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TypographyH2.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5064,10 +4823,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TypographyH3.vue",
         type: "registry:example",
-        target: "TypographyH3.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TypographyH3.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TypographyH3.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5080,10 +4838,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TypographyH4.vue",
         type: "registry:example",
-        target: "TypographyH4.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TypographyH4.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TypographyH4.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5096,10 +4853,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TypographyInlineCode.vue",
         type: "registry:example",
-        target: "TypographyInlineCode.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TypographyInlineCode.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TypographyInlineCode.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5112,10 +4868,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TypographyLarge.vue",
         type: "registry:example",
-        target: "TypographyLarge.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TypographyLarge.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TypographyLarge.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5128,10 +4883,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TypographyLead.vue",
         type: "registry:example",
-        target: "TypographyLead.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TypographyLead.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TypographyLead.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5144,10 +4898,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TypographyList.vue",
         type: "registry:example",
-        target: "TypographyList.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TypographyList.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TypographyList.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5160,10 +4913,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TypographyMuted.vue",
         type: "registry:example",
-        target: "TypographyMuted.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TypographyMuted.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TypographyMuted.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5176,10 +4928,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TypographyP.vue",
         type: "registry:example",
-        target: "TypographyP.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TypographyP.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TypographyP.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5192,10 +4943,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TypographySmall.vue",
         type: "registry:example",
-        target: "TypographySmall.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TypographySmall.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TypographySmall.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5208,10 +4958,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TypographyTable.vue",
         type: "registry:example",
-        target: "TypographyTable.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TypographyTable.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TypographyTable.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5224,10 +4973,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/VCalendarDemo.vue",
         type: "registry:example",
-        target: "VCalendarDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/VCalendarDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/VCalendarDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5240,10 +4988,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/VDatePickerDemo.vue",
         type: "registry:example",
-        target: "VDatePickerDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/VDatePickerDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/VDatePickerDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5256,10 +5003,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/VDatePickerForm.vue",
         type: "registry:example",
-        target: "VDatePickerForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/VDatePickerForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/VDatePickerForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5272,10 +5018,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/VDatePickerWithPresets.vue",
         type: "registry:example",
-        target: "VDatePickerWithPresets.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/VDatePickerWithPresets.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/VDatePickerWithPresets.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5288,10 +5033,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/VDatePickerWithRange.vue",
         type: "registry:example",
-        target: "VDatePickerWithRange.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/VDatePickerWithRange.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/VDatePickerWithRange.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5304,10 +5048,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/VDateTimePickerDemo.vue",
         type: "registry:example",
-        target: "VDateTimePickerDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/VDateTimePickerDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/VDateTimePickerDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5320,10 +5063,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/VRangePickerWithSlot.vue",
         type: "registry:example",
-        target: "VRangePickerWithSlot.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/VRangePickerWithSlot.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/VRangePickerWithSlot.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5336,10 +5078,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/block/Authentication01.vue",
         type: "registry:block",
-        target: "Authentication01.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/new-york/block/Authentication01.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/block/Authentication01.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5352,10 +5093,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/block/Authentication02.vue",
         type: "registry:block",
-        target: "Authentication02.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/new-york/block/Authentication02.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/block/Authentication02.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5368,10 +5108,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/block/Authentication03.vue",
         type: "registry:block",
-        target: "Authentication03.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/new-york/block/Authentication03.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/block/Authentication03.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5384,10 +5123,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/block/Authentication04.vue",
         type: "registry:block",
-        target: "Authentication04.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/new-york/block/Authentication04.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/block/Authentication04.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5400,10 +5138,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/block/Dashboard01.vue",
         type: "registry:block",
-        target: "Dashboard01.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/new-york/block/Dashboard01.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/block/Dashboard01.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5416,10 +5153,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/block/Dashboard02.vue",
         type: "registry:block",
-        target: "Dashboard02.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/new-york/block/Dashboard02.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/block/Dashboard02.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5432,10 +5168,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/block/Dashboard03.vue",
         type: "registry:block",
-        target: "Dashboard03.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/new-york/block/Dashboard03.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/block/Dashboard03.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5448,10 +5183,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/block/Dashboard04.vue",
         type: "registry:block",
-        target: "Dashboard04.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/new-york/block/Dashboard04.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/block/Dashboard04.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5464,10 +5198,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/block/Dashboard05.vue",
         type: "registry:block",
-        target: "Dashboard05.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/new-york/block/Dashboard05.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/block/Dashboard05.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5480,10 +5213,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/block/Dashboard06.vue",
         type: "registry:block",
-        target: "Dashboard06.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/new-york/block/Dashboard06.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/block/Dashboard06.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5496,10 +5228,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/block/Dashboard07.vue",
         type: "registry:block",
-        target: "Dashboard07.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/new-york/block/Dashboard07.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/block/Dashboard07.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5512,10 +5243,36 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/block/Sidebar01/page.vue",
         type: "registry:page",
-        target: "Sidebar01Page.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/new-york/block/Sidebar01/page.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/block/Sidebar01/page.vue?raw").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Sidebar02": {
+      name: "Sidebar02",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","SearchForm.vue","VersionSwitcher.vue","collapsible","label","dropdown-menu"],
+      files: [{
+        path: "registry/new-york/block/Sidebar02/page.vue",
+        type: "registry:page",
+        target: "pages/dashboard/index.vue"
+      },{
+        path: "registry/new-york/block/Sidebar02/components/AppSidebar.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar02/components/SearchForm.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar02/components/VersionSwitcher.vue",
+        type: "registry:component",
+        target: ""
+      }],
+      component: () => import("@/registry/new-york/block/Sidebar02/page.vue").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5528,10 +5285,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/block/Sidebar07/page.vue",
         type: "registry:page",
-        target: "Sidebar07Page.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/new-york/block/Sidebar07/page.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/block/Sidebar07/page.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5563,7 +5319,6 @@ export const Index: Record<string, any> = {
         target: "accordion/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/accordion/Accordion.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/accordion/Accordion.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5591,7 +5346,6 @@ export const Index: Record<string, any> = {
         target: "alert/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/alert/Alert.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/alert/Alert.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5643,7 +5397,6 @@ export const Index: Record<string, any> = {
         target: "alert-dialog/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/alert-dialog/AlertDialog.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/alert-dialog/AlertDialog.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5663,7 +5416,6 @@ export const Index: Record<string, any> = {
         target: "aspect-ratio/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/aspect-ratio/AspectRatio.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/aspect-ratio/AspectRatio.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5739,7 +5491,6 @@ export const Index: Record<string, any> = {
         target: "auto-form/utils.ts"
       }],
       component: () => import("@/registry/new-york/ui/auto-form/AutoForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/auto-form/AutoForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5767,7 +5518,6 @@ export const Index: Record<string, any> = {
         target: "avatar/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/avatar/Avatar.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/avatar/Avatar.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5787,7 +5537,6 @@ export const Index: Record<string, any> = {
         target: "badge/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/badge/Badge.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/badge/Badge.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5831,7 +5580,6 @@ export const Index: Record<string, any> = {
         target: "breadcrumb/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/breadcrumb/Breadcrumb.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/breadcrumb/Breadcrumb.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5851,7 +5599,6 @@ export const Index: Record<string, any> = {
         target: "button/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/button/Button.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/button/Button.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5915,7 +5662,6 @@ export const Index: Record<string, any> = {
         target: "calendar/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/calendar/Calendar.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/calendar/Calendar.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5955,7 +5701,6 @@ export const Index: Record<string, any> = {
         target: "card/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/card/Card.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/card/Card.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -5999,7 +5744,6 @@ export const Index: Record<string, any> = {
         target: "carousel/useCarousel.ts"
       }],
       component: () => import("@/registry/new-york/ui/carousel/Carousel.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/carousel/Carousel.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -6035,7 +5779,6 @@ export const Index: Record<string, any> = {
         target: "chart/interface.ts"
       }],
       component: () => import("@/registry/new-york/ui/chart/ChartCrosshair.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/chart/ChartCrosshair.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -6055,7 +5798,6 @@ export const Index: Record<string, any> = {
         target: "chart-area/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/chart-area/AreaChart.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/chart-area/AreaChart.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -6075,7 +5817,6 @@ export const Index: Record<string, any> = {
         target: "chart-bar/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/chart-bar/BarChart.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/chart-bar/BarChart.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -6095,7 +5836,6 @@ export const Index: Record<string, any> = {
         target: "chart-donut/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/chart-donut/DonutChart.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/chart-donut/DonutChart.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -6115,7 +5855,6 @@ export const Index: Record<string, any> = {
         target: "chart-line/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/chart-line/LineChart.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/chart-line/LineChart.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -6135,7 +5874,6 @@ export const Index: Record<string, any> = {
         target: "checkbox/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/checkbox/Checkbox.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/checkbox/Checkbox.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -6163,7 +5901,6 @@ export const Index: Record<string, any> = {
         target: "collapsible/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/collapsible/Collapsible.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/collapsible/Collapsible.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -6215,7 +5952,6 @@ export const Index: Record<string, any> = {
         target: "command/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/command/Command.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/command/Command.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -6291,7 +6027,6 @@ export const Index: Record<string, any> = {
         target: "context-menu/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/context-menu/ContextMenu.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/context-menu/ContextMenu.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -6343,7 +6078,6 @@ export const Index: Record<string, any> = {
         target: "dialog/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/dialog/Dialog.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/dialog/Dialog.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -6387,7 +6121,6 @@ export const Index: Record<string, any> = {
         target: "drawer/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/drawer/Drawer.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/drawer/Drawer.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -6459,7 +6192,6 @@ export const Index: Record<string, any> = {
         target: "dropdown-menu/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/dropdown-menu/DropdownMenu.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/dropdown-menu/DropdownMenu.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -6503,7 +6235,6 @@ export const Index: Record<string, any> = {
         target: "form/useFormField.ts"
       }],
       component: () => import("@/registry/new-york/ui/form/FormControl.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/form/FormControl.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -6531,7 +6262,6 @@ export const Index: Record<string, any> = {
         target: "hover-card/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/hover-card/HoverCard.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/hover-card/HoverCard.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -6551,7 +6281,6 @@ export const Index: Record<string, any> = {
         target: "input/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/input/Input.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/input/Input.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -6571,7 +6300,6 @@ export const Index: Record<string, any> = {
         target: "label/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/label/Label.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/label/Label.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -6647,7 +6375,6 @@ export const Index: Record<string, any> = {
         target: "menubar/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/menubar/Menubar.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/menubar/Menubar.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -6695,7 +6422,6 @@ export const Index: Record<string, any> = {
         target: "navigation-menu/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/navigation-menu/NavigationMenu.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/navigation-menu/NavigationMenu.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -6731,7 +6457,6 @@ export const Index: Record<string, any> = {
         target: "number-field/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/number-field/NumberField.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/number-field/NumberField.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -6767,7 +6492,6 @@ export const Index: Record<string, any> = {
         target: "pagination/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/pagination/PaginationEllipsis.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/pagination/PaginationEllipsis.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -6799,7 +6523,6 @@ export const Index: Record<string, any> = {
         target: "pin-input/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/pin-input/PinInput.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/pin-input/PinInput.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -6827,7 +6550,6 @@ export const Index: Record<string, any> = {
         target: "popover/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/popover/Popover.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/popover/Popover.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -6847,7 +6569,6 @@ export const Index: Record<string, any> = {
         target: "progress/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/progress/Progress.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/progress/Progress.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -6871,7 +6592,6 @@ export const Index: Record<string, any> = {
         target: "radio-group/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/radio-group/RadioGroup.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/radio-group/RadioGroup.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -6935,7 +6655,6 @@ export const Index: Record<string, any> = {
         target: "range-calendar/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/range-calendar/RangeCalendar.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/range-calendar/RangeCalendar.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -6959,7 +6678,6 @@ export const Index: Record<string, any> = {
         target: "resizable/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/resizable/ResizableHandle.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/resizable/ResizableHandle.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -6983,7 +6701,6 @@ export const Index: Record<string, any> = {
         target: "scroll-area/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/scroll-area/ScrollArea.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/scroll-area/ScrollArea.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7043,7 +6760,6 @@ export const Index: Record<string, any> = {
         target: "select/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/select/Select.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/select/Select.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7063,7 +6779,6 @@ export const Index: Record<string, any> = {
         target: "separator/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/separator/Separator.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/separator/Separator.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7111,7 +6826,6 @@ export const Index: Record<string, any> = {
         target: "sheet/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/sheet/Sheet.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/sheet/Sheet.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7227,7 +6941,6 @@ export const Index: Record<string, any> = {
         target: "sidebar/utils.ts"
       }],
       component: () => import("@/registry/new-york/ui/sidebar/Sidebar.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/sidebar/Sidebar.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7247,7 +6960,6 @@ export const Index: Record<string, any> = {
         target: "skeleton/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/skeleton/Skeleton.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/skeleton/Skeleton.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7267,7 +6979,6 @@ export const Index: Record<string, any> = {
         target: "slider/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/slider/Slider.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/slider/Slider.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7287,7 +6998,6 @@ export const Index: Record<string, any> = {
         target: "sonner/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/sonner/Sonner.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/sonner/Sonner.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7331,7 +7041,6 @@ export const Index: Record<string, any> = {
         target: "stepper/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/stepper/Stepper.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/stepper/Stepper.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7351,7 +7060,6 @@ export const Index: Record<string, any> = {
         target: "switch/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/switch/Switch.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/switch/Switch.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7403,7 +7111,6 @@ export const Index: Record<string, any> = {
         target: "table/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/table/Table.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/table/Table.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7435,7 +7142,6 @@ export const Index: Record<string, any> = {
         target: "tabs/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/tabs/Tabs.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/tabs/Tabs.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7471,7 +7177,6 @@ export const Index: Record<string, any> = {
         target: "tags-input/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/tags-input/TagsInput.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/tags-input/TagsInput.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7491,7 +7196,6 @@ export const Index: Record<string, any> = {
         target: "textarea/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/textarea/Textarea.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/textarea/Textarea.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7543,7 +7247,6 @@ export const Index: Record<string, any> = {
         target: "toast/use-toast.ts"
       }],
       component: () => import("@/registry/new-york/ui/toast/Toast.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/toast/Toast.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7563,7 +7266,6 @@ export const Index: Record<string, any> = {
         target: "toggle/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/toggle/Toggle.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/toggle/Toggle.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7587,7 +7289,6 @@ export const Index: Record<string, any> = {
         target: "toggle-group/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/toggle-group/ToggleGroup.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/toggle-group/ToggleGroup.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7619,7 +7320,6 @@ export const Index: Record<string, any> = {
         target: "tooltip/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/tooltip/Tooltip.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/tooltip/Tooltip.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7639,7 +7339,6 @@ export const Index: Record<string, any> = {
         target: "v-calendar/index.ts"
       }],
       component: () => import("@/registry/new-york/ui/v-calendar/Calendar.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/ui/v-calendar/Calendar.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7652,10 +7351,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/AccordionDemo.vue",
         type: "registry:example",
-        target: "AccordionDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/AccordionDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/AccordionDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7668,10 +7366,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/AlertDemo.vue",
         type: "registry:example",
-        target: "AlertDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/AlertDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/AlertDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7684,10 +7381,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/AlertDestructiveDemo.vue",
         type: "registry:example",
-        target: "AlertDestructiveDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/AlertDestructiveDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/AlertDestructiveDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7700,10 +7396,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/AlertDialogDemo.vue",
         type: "registry:example",
-        target: "AlertDialogDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/AlertDialogDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/AlertDialogDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7716,10 +7411,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/AreaChartCustomTooltip.vue",
         type: "registry:example",
-        target: "AreaChartCustomTooltip.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/AreaChartCustomTooltip.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/AreaChartCustomTooltip.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7732,10 +7426,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/AreaChartDemo.vue",
         type: "registry:example",
-        target: "AreaChartDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/AreaChartDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/AreaChartDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7748,10 +7441,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/AreaChartSparkline.vue",
         type: "registry:example",
-        target: "AreaChartSparkline.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/AreaChartSparkline.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/AreaChartSparkline.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7764,10 +7456,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/AspectRatioDemo.vue",
         type: "registry:example",
-        target: "AspectRatioDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/AspectRatioDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/AspectRatioDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7780,10 +7471,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/AutoFormApi.vue",
         type: "registry:example",
-        target: "AutoFormApi.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/AutoFormApi.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/AutoFormApi.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7796,10 +7486,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/AutoFormArray.vue",
         type: "registry:example",
-        target: "AutoFormArray.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/AutoFormArray.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/AutoFormArray.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7812,10 +7501,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/AutoFormBasic.vue",
         type: "registry:example",
-        target: "AutoFormBasic.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/AutoFormBasic.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/AutoFormBasic.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7828,10 +7516,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/AutoFormConfirmPassword.vue",
         type: "registry:example",
-        target: "AutoFormConfirmPassword.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/AutoFormConfirmPassword.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/AutoFormConfirmPassword.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7844,10 +7531,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/AutoFormControlled.vue",
         type: "registry:example",
-        target: "AutoFormControlled.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/AutoFormControlled.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/AutoFormControlled.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7860,10 +7546,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/AutoFormDependencies.vue",
         type: "registry:example",
-        target: "AutoFormDependencies.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/AutoFormDependencies.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/AutoFormDependencies.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7876,10 +7561,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/AutoFormInputWithoutLabel.vue",
         type: "registry:example",
-        target: "AutoFormInputWithoutLabel.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/AutoFormInputWithoutLabel.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/AutoFormInputWithoutLabel.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7892,10 +7576,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/AutoFormSubObject.vue",
         type: "registry:example",
-        target: "AutoFormSubObject.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/AutoFormSubObject.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/AutoFormSubObject.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7908,10 +7591,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/AvatarDemo.vue",
         type: "registry:example",
-        target: "AvatarDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/AvatarDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/AvatarDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7924,10 +7606,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/BadgeDemo.vue",
         type: "registry:example",
-        target: "BadgeDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/BadgeDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/BadgeDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7940,10 +7621,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/BadgeDestructiveDemo.vue",
         type: "registry:example",
-        target: "BadgeDestructiveDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/BadgeDestructiveDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/BadgeDestructiveDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7956,10 +7636,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/BadgeOutlineDemo.vue",
         type: "registry:example",
-        target: "BadgeOutlineDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/BadgeOutlineDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/BadgeOutlineDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7972,10 +7651,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/BadgeSecondaryDemo.vue",
         type: "registry:example",
-        target: "BadgeSecondaryDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/BadgeSecondaryDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/BadgeSecondaryDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -7988,10 +7666,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/BarChartCustomTooltip.vue",
         type: "registry:example",
-        target: "BarChartCustomTooltip.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/BarChartCustomTooltip.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/BarChartCustomTooltip.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8004,10 +7681,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/BarChartDemo.vue",
         type: "registry:example",
-        target: "BarChartDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/BarChartDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/BarChartDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8020,10 +7696,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/BarChartRounded.vue",
         type: "registry:example",
-        target: "BarChartRounded.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/BarChartRounded.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/BarChartRounded.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8036,10 +7711,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/BarChartStacked.vue",
         type: "registry:example",
-        target: "BarChartStacked.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/BarChartStacked.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/BarChartStacked.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8052,10 +7726,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/BreadcrumbDemo.vue",
         type: "registry:example",
-        target: "BreadcrumbDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/BreadcrumbDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/BreadcrumbDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8068,10 +7741,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/BreadcrumbDropdown.vue",
         type: "registry:example",
-        target: "BreadcrumbDropdown.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/BreadcrumbDropdown.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/BreadcrumbDropdown.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8084,10 +7756,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/BreadcrumbEllipsisDemo.vue",
         type: "registry:example",
-        target: "BreadcrumbEllipsisDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/BreadcrumbEllipsisDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/BreadcrumbEllipsisDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8100,10 +7771,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/BreadcrumbLinkDemo.vue",
         type: "registry:example",
-        target: "BreadcrumbLinkDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/BreadcrumbLinkDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/BreadcrumbLinkDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8116,10 +7786,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/BreadcrumbResponsive.vue",
         type: "registry:example",
-        target: "BreadcrumbResponsive.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/BreadcrumbResponsive.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/BreadcrumbResponsive.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8132,10 +7801,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/BreadcrumbSeparatorDemo.vue",
         type: "registry:example",
-        target: "BreadcrumbSeparatorDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/BreadcrumbSeparatorDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/BreadcrumbSeparatorDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8148,10 +7816,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ButtonAsChildDemo.vue",
         type: "registry:example",
-        target: "ButtonAsChildDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ButtonAsChildDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ButtonAsChildDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8164,10 +7831,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ButtonDemo.vue",
         type: "registry:example",
-        target: "ButtonDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ButtonDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ButtonDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8180,10 +7846,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ButtonDestructiveDemo.vue",
         type: "registry:example",
-        target: "ButtonDestructiveDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ButtonDestructiveDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ButtonDestructiveDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8196,10 +7861,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ButtonGhostDemo.vue",
         type: "registry:example",
-        target: "ButtonGhostDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ButtonGhostDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ButtonGhostDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8212,10 +7876,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ButtonIconDemo.vue",
         type: "registry:example",
-        target: "ButtonIconDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ButtonIconDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ButtonIconDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8228,10 +7891,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ButtonLinkDemo.vue",
         type: "registry:example",
-        target: "ButtonLinkDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ButtonLinkDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ButtonLinkDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8244,10 +7906,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ButtonLoadingDemo.vue",
         type: "registry:example",
-        target: "ButtonLoadingDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ButtonLoadingDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ButtonLoadingDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8260,10 +7921,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ButtonOutlineDemo.vue",
         type: "registry:example",
-        target: "ButtonOutlineDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ButtonOutlineDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ButtonOutlineDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8276,10 +7936,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ButtonSecondaryDemo.vue",
         type: "registry:example",
-        target: "ButtonSecondaryDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ButtonSecondaryDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ButtonSecondaryDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8292,10 +7951,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ButtonWithIconDemo.vue",
         type: "registry:example",
-        target: "ButtonWithIconDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ButtonWithIconDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ButtonWithIconDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8308,10 +7966,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CalendarDemo.vue",
         type: "registry:example",
-        target: "CalendarDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CalendarDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CalendarDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8324,10 +7981,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CalendarForm.vue",
         type: "registry:example",
-        target: "CalendarForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CalendarForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CalendarForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8340,10 +7996,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CalendarWithSelect.vue",
         type: "registry:example",
-        target: "CalendarWithSelect.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CalendarWithSelect.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CalendarWithSelect.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8356,10 +8011,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CardChat.vue",
         type: "registry:example",
-        target: "CardChat.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CardChat.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CardChat.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8372,10 +8026,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CardDemo.vue",
         type: "registry:example",
-        target: "CardDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CardDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CardDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8388,10 +8041,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CardFormDemo.vue",
         type: "registry:example",
-        target: "CardFormDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CardFormDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CardFormDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8404,10 +8056,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CardStats.vue",
         type: "registry:example",
-        target: "CardStats.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CardStats.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CardStats.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8420,10 +8071,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CardWithForm.vue",
         type: "registry:example",
-        target: "CardWithForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CardWithForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CardWithForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8436,10 +8086,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CarouselApi.vue",
         type: "registry:example",
-        target: "CarouselApi.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CarouselApi.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CarouselApi.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8452,10 +8101,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CarouselDemo.vue",
         type: "registry:example",
-        target: "CarouselDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CarouselDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CarouselDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8468,10 +8116,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CarouselOrientation.vue",
         type: "registry:example",
-        target: "CarouselOrientation.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CarouselOrientation.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CarouselOrientation.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8484,10 +8131,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CarouselPlugin.vue",
         type: "registry:example",
-        target: "CarouselPlugin.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CarouselPlugin.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CarouselPlugin.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8500,10 +8146,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CarouselSize.vue",
         type: "registry:example",
-        target: "CarouselSize.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CarouselSize.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CarouselSize.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8516,10 +8161,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CarouselSpacing.vue",
         type: "registry:example",
-        target: "CarouselSpacing.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CarouselSpacing.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CarouselSpacing.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8532,10 +8176,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CarouselThumbnails.vue",
         type: "registry:example",
-        target: "CarouselThumbnails.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CarouselThumbnails.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CarouselThumbnails.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8548,10 +8191,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CheckboxDemo.vue",
         type: "registry:example",
-        target: "CheckboxDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CheckboxDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CheckboxDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8564,10 +8206,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CheckboxDisabled.vue",
         type: "registry:example",
-        target: "CheckboxDisabled.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CheckboxDisabled.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CheckboxDisabled.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8580,10 +8221,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CheckboxFormMultiple.vue",
         type: "registry:example",
-        target: "CheckboxFormMultiple.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CheckboxFormMultiple.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CheckboxFormMultiple.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8596,10 +8236,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CheckboxFormSingle.vue",
         type: "registry:example",
-        target: "CheckboxFormSingle.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CheckboxFormSingle.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CheckboxFormSingle.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8612,10 +8251,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CheckboxWithText.vue",
         type: "registry:example",
-        target: "CheckboxWithText.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CheckboxWithText.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CheckboxWithText.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8628,10 +8266,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CollapsibleDemo.vue",
         type: "registry:example",
-        target: "CollapsibleDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CollapsibleDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CollapsibleDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8644,10 +8281,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ComboboxDemo.vue",
         type: "registry:example",
-        target: "ComboboxDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ComboboxDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ComboboxDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8660,10 +8296,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ComboboxDropdownMenu.vue",
         type: "registry:example",
-        target: "ComboboxDropdownMenu.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ComboboxDropdownMenu.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ComboboxDropdownMenu.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8676,10 +8311,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ComboboxForm.vue",
         type: "registry:example",
-        target: "ComboboxForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ComboboxForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ComboboxForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8692,10 +8326,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ComboboxPopover.vue",
         type: "registry:example",
-        target: "ComboboxPopover.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ComboboxPopover.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ComboboxPopover.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8708,10 +8341,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ComboboxResponsive.vue",
         type: "registry:example",
-        target: "ComboboxResponsive.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ComboboxResponsive.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ComboboxResponsive.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8724,10 +8356,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CommandDemo.vue",
         type: "registry:example",
-        target: "CommandDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CommandDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CommandDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8740,10 +8371,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CommandDialogDemo.vue",
         type: "registry:example",
-        target: "CommandDialogDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CommandDialogDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CommandDialogDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8756,10 +8386,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ContextMenuDemo.vue",
         type: "registry:example",
-        target: "ContextMenuDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ContextMenuDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ContextMenuDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8772,10 +8401,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/CustomChartTooltip.vue",
         type: "registry:example",
-        target: "CustomChartTooltip.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/CustomChartTooltip.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/CustomChartTooltip.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8788,10 +8416,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DataTableColumnPinningDemo.vue",
         type: "registry:example",
-        target: "DataTableColumnPinningDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DataTableColumnPinningDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DataTableColumnPinningDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8804,10 +8431,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DataTableDemo.vue",
         type: "registry:example",
-        target: "DataTableDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DataTableDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DataTableDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8820,10 +8446,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DataTableDemoColumn.vue",
         type: "registry:example",
-        target: "DataTableDemoColumn.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DataTableDemoColumn.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DataTableDemoColumn.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8836,10 +8461,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DataTableReactiveDemo.vue",
         type: "registry:example",
-        target: "DataTableReactiveDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DataTableReactiveDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DataTableReactiveDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8852,10 +8476,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DatePickerDemo.vue",
         type: "registry:example",
-        target: "DatePickerDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DatePickerDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DatePickerDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8868,10 +8491,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DatePickerForm.vue",
         type: "registry:example",
-        target: "DatePickerForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DatePickerForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DatePickerForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8884,10 +8506,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DatePickerWithIndependentMonths.vue",
         type: "registry:example",
-        target: "DatePickerWithIndependentMonths.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DatePickerWithIndependentMonths.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DatePickerWithIndependentMonths.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8900,10 +8521,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DatePickerWithPresets.vue",
         type: "registry:example",
-        target: "DatePickerWithPresets.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DatePickerWithPresets.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DatePickerWithPresets.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8916,10 +8536,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DatePickerWithRange.vue",
         type: "registry:example",
-        target: "DatePickerWithRange.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DatePickerWithRange.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DatePickerWithRange.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8932,10 +8551,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DialogCustomCloseButton.vue",
         type: "registry:example",
-        target: "DialogCustomCloseButton.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DialogCustomCloseButton.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DialogCustomCloseButton.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8948,10 +8566,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DialogDemo.vue",
         type: "registry:example",
-        target: "DialogDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DialogDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DialogDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8964,10 +8581,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DialogForm.vue",
         type: "registry:example",
-        target: "DialogForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DialogForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DialogForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8980,10 +8596,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DialogScrollBodyDemo.vue",
         type: "registry:example",
-        target: "DialogScrollBodyDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DialogScrollBodyDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DialogScrollBodyDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -8996,10 +8611,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DialogScrollOverlayDemo.vue",
         type: "registry:example",
-        target: "DialogScrollOverlayDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DialogScrollOverlayDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DialogScrollOverlayDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9012,10 +8626,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DonutChartColor.vue",
         type: "registry:example",
-        target: "DonutChartColor.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DonutChartColor.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DonutChartColor.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9028,10 +8641,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DonutChartCustomTooltip.vue",
         type: "registry:example",
-        target: "DonutChartCustomTooltip.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DonutChartCustomTooltip.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DonutChartCustomTooltip.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9044,10 +8656,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DonutChartDemo.vue",
         type: "registry:example",
-        target: "DonutChartDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DonutChartDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DonutChartDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9060,10 +8671,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DonutChartPie.vue",
         type: "registry:example",
-        target: "DonutChartPie.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DonutChartPie.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DonutChartPie.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9076,10 +8686,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DrawerDemo.vue",
         type: "registry:example",
-        target: "DrawerDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DrawerDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DrawerDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9092,10 +8701,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DrawerDialog.vue",
         type: "registry:example",
-        target: "DrawerDialog.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DrawerDialog.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DrawerDialog.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9108,10 +8716,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DropdownMenuCheckboxes.vue",
         type: "registry:example",
-        target: "DropdownMenuCheckboxes.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DropdownMenuCheckboxes.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DropdownMenuCheckboxes.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9124,10 +8731,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DropdownMenuDemo.vue",
         type: "registry:example",
-        target: "DropdownMenuDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DropdownMenuDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DropdownMenuDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9140,10 +8746,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/DropdownMenuRadioGroup.vue",
         type: "registry:example",
-        target: "DropdownMenuRadioGroup.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/DropdownMenuRadioGroup.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/DropdownMenuRadioGroup.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9156,10 +8761,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/HoverCardDemo.vue",
         type: "registry:example",
-        target: "HoverCardDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/HoverCardDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/HoverCardDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9172,10 +8776,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/InputDemo.vue",
         type: "registry:example",
-        target: "InputDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/InputDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/InputDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9188,10 +8791,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/InputDisabled.vue",
         type: "registry:example",
-        target: "InputDisabled.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/InputDisabled.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/InputDisabled.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9204,10 +8806,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/InputFile.vue",
         type: "registry:example",
-        target: "InputFile.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/InputFile.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/InputFile.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9220,10 +8821,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/InputForm.vue",
         type: "registry:example",
-        target: "InputForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/InputForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/InputForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9236,10 +8836,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/InputFormAutoAnimate.vue",
         type: "registry:example",
-        target: "InputFormAutoAnimate.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/InputFormAutoAnimate.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/InputFormAutoAnimate.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9252,10 +8851,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/InputWithButton.vue",
         type: "registry:example",
-        target: "InputWithButton.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/InputWithButton.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/InputWithButton.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9268,10 +8866,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/InputWithIcon.vue",
         type: "registry:example",
-        target: "InputWithIcon.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/InputWithIcon.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/InputWithIcon.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9284,10 +8881,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/InputWithLabel.vue",
         type: "registry:example",
-        target: "InputWithLabel.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/InputWithLabel.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/InputWithLabel.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9300,10 +8896,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/LabelDemo.vue",
         type: "registry:example",
-        target: "LabelDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/LabelDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/LabelDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9316,10 +8911,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/LineChartCustomTooltip.vue",
         type: "registry:example",
-        target: "LineChartCustomTooltip.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/LineChartCustomTooltip.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/LineChartCustomTooltip.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9332,10 +8926,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/LineChartDemo.vue",
         type: "registry:example",
-        target: "LineChartDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/LineChartDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/LineChartDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9348,10 +8941,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/LineChartSparkline.vue",
         type: "registry:example",
-        target: "LineChartSparkline.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/LineChartSparkline.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/LineChartSparkline.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9364,10 +8956,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/MenubarDemo.vue",
         type: "registry:example",
-        target: "MenubarDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/MenubarDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/MenubarDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9380,10 +8971,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/NavigationMenuDemo.vue",
         type: "registry:example",
-        target: "NavigationMenuDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/NavigationMenuDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/NavigationMenuDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9396,10 +8986,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/NumberFieldCurrency.vue",
         type: "registry:example",
-        target: "NumberFieldCurrency.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/NumberFieldCurrency.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/NumberFieldCurrency.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9412,10 +9001,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/NumberFieldDecimal.vue",
         type: "registry:example",
-        target: "NumberFieldDecimal.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/NumberFieldDecimal.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/NumberFieldDecimal.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9428,10 +9016,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/NumberFieldDemo.vue",
         type: "registry:example",
-        target: "NumberFieldDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/NumberFieldDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/NumberFieldDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9444,10 +9031,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/NumberFieldDisabled.vue",
         type: "registry:example",
-        target: "NumberFieldDisabled.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/NumberFieldDisabled.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/NumberFieldDisabled.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9460,10 +9046,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/NumberFieldForm.vue",
         type: "registry:example",
-        target: "NumberFieldForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/NumberFieldForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/NumberFieldForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9476,10 +9061,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/NumberFieldPercentage.vue",
         type: "registry:example",
-        target: "NumberFieldPercentage.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/NumberFieldPercentage.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/NumberFieldPercentage.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9492,10 +9076,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/PaginationDemo.vue",
         type: "registry:example",
-        target: "PaginationDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/PaginationDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/PaginationDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9508,10 +9091,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/PinInputControlled.vue",
         type: "registry:example",
-        target: "PinInputControlled.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/PinInputControlled.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/PinInputControlled.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9524,10 +9106,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/PinInputDemo.vue",
         type: "registry:example",
-        target: "PinInputDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/PinInputDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/PinInputDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9540,10 +9121,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/PinInputDisabled.vue",
         type: "registry:example",
-        target: "PinInputDisabled.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/PinInputDisabled.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/PinInputDisabled.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9556,10 +9136,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/PinInputFormDemo.vue",
         type: "registry:example",
-        target: "PinInputFormDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/PinInputFormDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/PinInputFormDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9572,10 +9151,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/PinInputSeparatorDemo.vue",
         type: "registry:example",
-        target: "PinInputSeparatorDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/PinInputSeparatorDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/PinInputSeparatorDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9588,10 +9166,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/PopoverDemo.vue",
         type: "registry:example",
-        target: "PopoverDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/PopoverDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/PopoverDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9604,10 +9181,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ProgressDemo.vue",
         type: "registry:example",
-        target: "ProgressDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ProgressDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ProgressDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9620,10 +9196,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/RadioGroupDemo.vue",
         type: "registry:example",
-        target: "RadioGroupDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/RadioGroupDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/RadioGroupDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9636,10 +9211,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/RadioGroupForm.vue",
         type: "registry:example",
-        target: "RadioGroupForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/RadioGroupForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/RadioGroupForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9652,10 +9226,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/RangeCalendarDemo.vue",
         type: "registry:example",
-        target: "RangeCalendarDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/RangeCalendarDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/RangeCalendarDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9668,10 +9241,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ResizableDemo.vue",
         type: "registry:example",
-        target: "ResizableDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ResizableDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ResizableDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9684,10 +9256,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ResizableHandleDemo.vue",
         type: "registry:example",
-        target: "ResizableHandleDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ResizableHandleDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ResizableHandleDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9700,10 +9271,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ResizableVerticalDemo.vue",
         type: "registry:example",
-        target: "ResizableVerticalDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ResizableVerticalDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ResizableVerticalDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9716,10 +9286,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ScrollAreaDemo.vue",
         type: "registry:example",
-        target: "ScrollAreaDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ScrollAreaDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ScrollAreaDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9732,10 +9301,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ScrollAreaHorizontalDemo.vue",
         type: "registry:example",
-        target: "ScrollAreaHorizontalDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ScrollAreaHorizontalDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ScrollAreaHorizontalDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9748,10 +9316,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/SelectDemo.vue",
         type: "registry:example",
-        target: "SelectDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/SelectDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/SelectDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9764,10 +9331,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/SelectForm.vue",
         type: "registry:example",
-        target: "SelectForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/SelectForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/SelectForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9780,10 +9346,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/SelectScrollable.vue",
         type: "registry:example",
-        target: "SelectScrollable.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/SelectScrollable.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/SelectScrollable.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9796,10 +9361,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/SeparatorDemo.vue",
         type: "registry:example",
-        target: "SeparatorDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/SeparatorDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/SeparatorDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9812,10 +9376,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/SheetDemo.vue",
         type: "registry:example",
-        target: "SheetDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/SheetDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/SheetDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9828,10 +9391,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/SheetSideDemo.vue",
         type: "registry:example",
-        target: "SheetSideDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/SheetSideDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/SheetSideDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9844,10 +9406,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/SkeletonCard.vue",
         type: "registry:example",
-        target: "SkeletonCard.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/SkeletonCard.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/SkeletonCard.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9860,10 +9421,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/SkeletonDemo.vue",
         type: "registry:example",
-        target: "SkeletonDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/SkeletonDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/SkeletonDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9876,10 +9436,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/SliderDemo.vue",
         type: "registry:example",
-        target: "SliderDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/SliderDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/SliderDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9892,10 +9451,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/SliderForm.vue",
         type: "registry:example",
-        target: "SliderForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/SliderForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/SliderForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9908,10 +9466,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/SonnerDemo.vue",
         type: "registry:example",
-        target: "SonnerDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/SonnerDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/SonnerDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9924,10 +9481,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/SonnerWithDialog.vue",
         type: "registry:example",
-        target: "SonnerWithDialog.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/SonnerWithDialog.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/SonnerWithDialog.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9940,10 +9496,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/StepperDemo.vue",
         type: "registry:example",
-        target: "StepperDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/StepperDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/StepperDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9956,10 +9511,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/StepperForm.vue",
         type: "registry:example",
-        target: "StepperForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/StepperForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/StepperForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9972,10 +9526,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/StepperHorizental.vue",
         type: "registry:example",
-        target: "StepperHorizental.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/StepperHorizental.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/StepperHorizental.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -9988,10 +9541,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/StepperVertical.vue",
         type: "registry:example",
-        target: "StepperVertical.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/StepperVertical.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/StepperVertical.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10004,10 +9556,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/SwitchDemo.vue",
         type: "registry:example",
-        target: "SwitchDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/SwitchDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/SwitchDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10020,10 +9571,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/SwitchForm.vue",
         type: "registry:example",
-        target: "SwitchForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/SwitchForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/SwitchForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10036,10 +9586,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TableDemo.vue",
         type: "registry:example",
-        target: "TableDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TableDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TableDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10052,10 +9601,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TabsDemo.vue",
         type: "registry:example",
-        target: "TabsDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TabsDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TabsDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10068,10 +9616,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TabsVerticalDemo.vue",
         type: "registry:example",
-        target: "TabsVerticalDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TabsVerticalDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TabsVerticalDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10084,10 +9631,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TagsInputComboboxDemo.vue",
         type: "registry:example",
-        target: "TagsInputComboboxDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TagsInputComboboxDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TagsInputComboboxDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10100,10 +9646,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TagsInputDemo.vue",
         type: "registry:example",
-        target: "TagsInputDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TagsInputDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TagsInputDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10116,10 +9661,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TagsInputFormDemo.vue",
         type: "registry:example",
-        target: "TagsInputFormDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TagsInputFormDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TagsInputFormDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10132,10 +9676,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TextareaDemo.vue",
         type: "registry:example",
-        target: "TextareaDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TextareaDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TextareaDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10148,10 +9691,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TextareaDisabled.vue",
         type: "registry:example",
-        target: "TextareaDisabled.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TextareaDisabled.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TextareaDisabled.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10164,10 +9706,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TextareaForm.vue",
         type: "registry:example",
-        target: "TextareaForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TextareaForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TextareaForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10180,10 +9721,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TextareaWithButton.vue",
         type: "registry:example",
-        target: "TextareaWithButton.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TextareaWithButton.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TextareaWithButton.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10196,10 +9736,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TextareaWithLabel.vue",
         type: "registry:example",
-        target: "TextareaWithLabel.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TextareaWithLabel.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TextareaWithLabel.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10212,10 +9751,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TextareaWithText.vue",
         type: "registry:example",
-        target: "TextareaWithText.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TextareaWithText.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TextareaWithText.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10228,10 +9766,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ToastDemo.vue",
         type: "registry:example",
-        target: "ToastDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ToastDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ToastDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10244,10 +9781,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ToastDestructive.vue",
         type: "registry:example",
-        target: "ToastDestructive.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ToastDestructive.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ToastDestructive.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10260,10 +9796,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ToastSimple.vue",
         type: "registry:example",
-        target: "ToastSimple.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ToastSimple.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ToastSimple.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10276,10 +9811,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ToastWithAction.vue",
         type: "registry:example",
-        target: "ToastWithAction.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ToastWithAction.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ToastWithAction.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10292,10 +9826,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ToastWithTitle.vue",
         type: "registry:example",
-        target: "ToastWithTitle.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ToastWithTitle.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ToastWithTitle.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10308,10 +9841,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ToggleDemo.vue",
         type: "registry:example",
-        target: "ToggleDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ToggleDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ToggleDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10324,10 +9856,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ToggleDisabledDemo.vue",
         type: "registry:example",
-        target: "ToggleDisabledDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ToggleDisabledDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ToggleDisabledDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10340,10 +9871,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ToggleGroupDemo.vue",
         type: "registry:example",
-        target: "ToggleGroupDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ToggleGroupDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ToggleGroupDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10356,10 +9886,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ToggleGroupDisabledDemo.vue",
         type: "registry:example",
-        target: "ToggleGroupDisabledDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ToggleGroupDisabledDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ToggleGroupDisabledDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10372,10 +9901,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ToggleGroupLargeDemo.vue",
         type: "registry:example",
-        target: "ToggleGroupLargeDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ToggleGroupLargeDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ToggleGroupLargeDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10388,10 +9916,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ToggleGroupOutlineDemo.vue",
         type: "registry:example",
-        target: "ToggleGroupOutlineDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ToggleGroupOutlineDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ToggleGroupOutlineDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10404,10 +9931,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ToggleGroupSingleDemo.vue",
         type: "registry:example",
-        target: "ToggleGroupSingleDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ToggleGroupSingleDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ToggleGroupSingleDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10420,10 +9946,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ToggleGroupSmallDemo.vue",
         type: "registry:example",
-        target: "ToggleGroupSmallDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ToggleGroupSmallDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ToggleGroupSmallDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10436,10 +9961,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ToggleItalicDemo.vue",
         type: "registry:example",
-        target: "ToggleItalicDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ToggleItalicDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ToggleItalicDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10452,10 +9976,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ToggleItalicWithTextDemo.vue",
         type: "registry:example",
-        target: "ToggleItalicWithTextDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ToggleItalicWithTextDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ToggleItalicWithTextDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10468,10 +9991,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ToggleLargeDemo.vue",
         type: "registry:example",
-        target: "ToggleLargeDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ToggleLargeDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ToggleLargeDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10484,10 +10006,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/ToggleSmallDemo.vue",
         type: "registry:example",
-        target: "ToggleSmallDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/ToggleSmallDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/ToggleSmallDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10500,10 +10021,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TooltipDemo.vue",
         type: "registry:example",
-        target: "TooltipDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TooltipDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TooltipDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10516,10 +10036,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TypographyBlockquote.vue",
         type: "registry:example",
-        target: "TypographyBlockquote.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TypographyBlockquote.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TypographyBlockquote.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10532,10 +10051,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TypographyDemo.vue",
         type: "registry:example",
-        target: "TypographyDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TypographyDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TypographyDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10548,10 +10066,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TypographyH1.vue",
         type: "registry:example",
-        target: "TypographyH1.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TypographyH1.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TypographyH1.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10564,10 +10081,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TypographyH2.vue",
         type: "registry:example",
-        target: "TypographyH2.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TypographyH2.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TypographyH2.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10580,10 +10096,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TypographyH3.vue",
         type: "registry:example",
-        target: "TypographyH3.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TypographyH3.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TypographyH3.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10596,10 +10111,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TypographyH4.vue",
         type: "registry:example",
-        target: "TypographyH4.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TypographyH4.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TypographyH4.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10612,10 +10126,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TypographyInlineCode.vue",
         type: "registry:example",
-        target: "TypographyInlineCode.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TypographyInlineCode.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TypographyInlineCode.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10628,10 +10141,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TypographyLarge.vue",
         type: "registry:example",
-        target: "TypographyLarge.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TypographyLarge.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TypographyLarge.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10644,10 +10156,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TypographyLead.vue",
         type: "registry:example",
-        target: "TypographyLead.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TypographyLead.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TypographyLead.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10660,10 +10171,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TypographyList.vue",
         type: "registry:example",
-        target: "TypographyList.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TypographyList.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TypographyList.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10676,10 +10186,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TypographyMuted.vue",
         type: "registry:example",
-        target: "TypographyMuted.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TypographyMuted.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TypographyMuted.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10692,10 +10201,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TypographyP.vue",
         type: "registry:example",
-        target: "TypographyP.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TypographyP.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TypographyP.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10708,10 +10216,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TypographySmall.vue",
         type: "registry:example",
-        target: "TypographySmall.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TypographySmall.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TypographySmall.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10724,10 +10231,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/TypographyTable.vue",
         type: "registry:example",
-        target: "TypographyTable.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/TypographyTable.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/TypographyTable.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10740,10 +10246,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/VCalendarDemo.vue",
         type: "registry:example",
-        target: "VCalendarDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/VCalendarDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/VCalendarDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10756,10 +10261,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/VDatePickerDemo.vue",
         type: "registry:example",
-        target: "VDatePickerDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/VDatePickerDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/VDatePickerDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10772,10 +10276,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/VDatePickerForm.vue",
         type: "registry:example",
-        target: "VDatePickerForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/VDatePickerForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/VDatePickerForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10788,10 +10291,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/VDatePickerWithPresets.vue",
         type: "registry:example",
-        target: "VDatePickerWithPresets.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/VDatePickerWithPresets.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/VDatePickerWithPresets.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10804,10 +10306,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/VDatePickerWithRange.vue",
         type: "registry:example",
-        target: "VDatePickerWithRange.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/VDatePickerWithRange.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/VDatePickerWithRange.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10820,10 +10321,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/VDateTimePickerDemo.vue",
         type: "registry:example",
-        target: "VDateTimePickerDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/VDateTimePickerDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/VDateTimePickerDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10836,10 +10336,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/example/VRangePickerWithSlot.vue",
         type: "registry:example",
-        target: "VRangePickerWithSlot.vue"
+        target: ""
       }],
       component: () => import("@/registry/new-york/example/VRangePickerWithSlot.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/example/VRangePickerWithSlot.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10852,10 +10351,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/block/Authentication01.vue",
         type: "registry:block",
-        target: "Authentication01.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/new-york/block/Authentication01.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/block/Authentication01.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10868,10 +10366,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/block/Authentication02.vue",
         type: "registry:block",
-        target: "Authentication02.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/new-york/block/Authentication02.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/block/Authentication02.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10884,10 +10381,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/block/Authentication03.vue",
         type: "registry:block",
-        target: "Authentication03.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/new-york/block/Authentication03.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/block/Authentication03.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10900,10 +10396,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/block/Authentication04.vue",
         type: "registry:block",
-        target: "Authentication04.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/new-york/block/Authentication04.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/block/Authentication04.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10916,10 +10411,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/block/Dashboard01.vue",
         type: "registry:block",
-        target: "Dashboard01.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/new-york/block/Dashboard01.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/block/Dashboard01.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10932,10 +10426,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/block/Dashboard02.vue",
         type: "registry:block",
-        target: "Dashboard02.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/new-york/block/Dashboard02.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/block/Dashboard02.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10948,10 +10441,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/block/Dashboard03.vue",
         type: "registry:block",
-        target: "Dashboard03.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/new-york/block/Dashboard03.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/block/Dashboard03.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10964,10 +10456,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/block/Dashboard04.vue",
         type: "registry:block",
-        target: "Dashboard04.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/new-york/block/Dashboard04.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/block/Dashboard04.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10980,10 +10471,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/block/Dashboard05.vue",
         type: "registry:block",
-        target: "Dashboard05.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/new-york/block/Dashboard05.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/block/Dashboard05.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10996,10 +10486,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/block/Dashboard06.vue",
         type: "registry:block",
-        target: "Dashboard06.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/new-york/block/Dashboard06.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/block/Dashboard06.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -11012,10 +10501,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/block/Dashboard07.vue",
         type: "registry:block",
-        target: "Dashboard07.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/new-york/block/Dashboard07.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/block/Dashboard07.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -11028,10 +10516,36 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/block/Sidebar01/page.vue",
         type: "registry:page",
-        target: "Sidebar01Page.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/new-york/block/Sidebar01/page.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/block/Sidebar01/page.vue?raw").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Sidebar02": {
+      name: "Sidebar02",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","SearchForm.vue","VersionSwitcher.vue","collapsible","label","dropdown-menu"],
+      files: [{
+        path: "registry/new-york/block/Sidebar02/page.vue",
+        type: "registry:page",
+        target: "pages/dashboard/index.vue"
+      },{
+        path: "registry/new-york/block/Sidebar02/components/AppSidebar.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar02/components/SearchForm.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar02/components/VersionSwitcher.vue",
+        type: "registry:component",
+        target: ""
+      }],
+      component: () => import("@/registry/new-york/block/Sidebar02/page.vue").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -11044,10 +10558,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/block/Sidebar07/page.vue",
         type: "registry:page",
-        target: "Sidebar07Page.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/new-york/block/Sidebar07/page.vue").then((m) => m.default),
-      raw: () => import("@/registry/new-york/block/Sidebar07/page.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -11064,7 +10577,6 @@ export const Index: Record<string, any> = {
         target: ""
       }],
       component: () => import("@/registry/default/lib/utils.ts").then((m) => m.default),
-      raw: () => import("@/registry/default/lib/utils.ts?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -11096,7 +10608,6 @@ export const Index: Record<string, any> = {
         target: "accordion/index.ts"
       }],
       component: () => import("@/registry/default/ui/accordion/Accordion.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/accordion/Accordion.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -11124,7 +10635,6 @@ export const Index: Record<string, any> = {
         target: "alert/index.ts"
       }],
       component: () => import("@/registry/default/ui/alert/Alert.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/alert/Alert.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -11176,7 +10686,6 @@ export const Index: Record<string, any> = {
         target: "alert-dialog/index.ts"
       }],
       component: () => import("@/registry/default/ui/alert-dialog/AlertDialog.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/alert-dialog/AlertDialog.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -11196,7 +10705,6 @@ export const Index: Record<string, any> = {
         target: "aspect-ratio/index.ts"
       }],
       component: () => import("@/registry/default/ui/aspect-ratio/AspectRatio.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/aspect-ratio/AspectRatio.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -11272,7 +10780,6 @@ export const Index: Record<string, any> = {
         target: "auto-form/utils.ts"
       }],
       component: () => import("@/registry/default/ui/auto-form/AutoForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/auto-form/AutoForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -11300,7 +10807,6 @@ export const Index: Record<string, any> = {
         target: "avatar/index.ts"
       }],
       component: () => import("@/registry/default/ui/avatar/Avatar.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/avatar/Avatar.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -11320,7 +10826,6 @@ export const Index: Record<string, any> = {
         target: "badge/index.ts"
       }],
       component: () => import("@/registry/default/ui/badge/Badge.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/badge/Badge.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -11364,7 +10869,6 @@ export const Index: Record<string, any> = {
         target: "breadcrumb/index.ts"
       }],
       component: () => import("@/registry/default/ui/breadcrumb/Breadcrumb.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/breadcrumb/Breadcrumb.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -11384,7 +10888,6 @@ export const Index: Record<string, any> = {
         target: "button/index.ts"
       }],
       component: () => import("@/registry/default/ui/button/Button.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/button/Button.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -11448,7 +10951,6 @@ export const Index: Record<string, any> = {
         target: "calendar/index.ts"
       }],
       component: () => import("@/registry/default/ui/calendar/Calendar.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/calendar/Calendar.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -11488,7 +10990,6 @@ export const Index: Record<string, any> = {
         target: "card/index.ts"
       }],
       component: () => import("@/registry/default/ui/card/Card.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/card/Card.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -11532,7 +11033,6 @@ export const Index: Record<string, any> = {
         target: "carousel/useCarousel.ts"
       }],
       component: () => import("@/registry/default/ui/carousel/Carousel.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/carousel/Carousel.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -11568,7 +11068,6 @@ export const Index: Record<string, any> = {
         target: "chart/interface.ts"
       }],
       component: () => import("@/registry/default/ui/chart/ChartCrosshair.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/chart/ChartCrosshair.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -11588,7 +11087,6 @@ export const Index: Record<string, any> = {
         target: "chart-area/index.ts"
       }],
       component: () => import("@/registry/default/ui/chart-area/AreaChart.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/chart-area/AreaChart.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -11608,7 +11106,6 @@ export const Index: Record<string, any> = {
         target: "chart-bar/index.ts"
       }],
       component: () => import("@/registry/default/ui/chart-bar/BarChart.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/chart-bar/BarChart.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -11628,7 +11125,6 @@ export const Index: Record<string, any> = {
         target: "chart-donut/index.ts"
       }],
       component: () => import("@/registry/default/ui/chart-donut/DonutChart.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/chart-donut/DonutChart.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -11648,7 +11144,6 @@ export const Index: Record<string, any> = {
         target: "chart-line/index.ts"
       }],
       component: () => import("@/registry/default/ui/chart-line/LineChart.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/chart-line/LineChart.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -11668,7 +11163,6 @@ export const Index: Record<string, any> = {
         target: "checkbox/index.ts"
       }],
       component: () => import("@/registry/default/ui/checkbox/Checkbox.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/checkbox/Checkbox.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -11696,7 +11190,6 @@ export const Index: Record<string, any> = {
         target: "collapsible/index.ts"
       }],
       component: () => import("@/registry/default/ui/collapsible/Collapsible.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/collapsible/Collapsible.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -11748,7 +11241,6 @@ export const Index: Record<string, any> = {
         target: "command/index.ts"
       }],
       component: () => import("@/registry/default/ui/command/Command.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/command/Command.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -11824,7 +11316,6 @@ export const Index: Record<string, any> = {
         target: "context-menu/index.ts"
       }],
       component: () => import("@/registry/default/ui/context-menu/ContextMenu.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/context-menu/ContextMenu.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -11876,7 +11367,6 @@ export const Index: Record<string, any> = {
         target: "dialog/index.ts"
       }],
       component: () => import("@/registry/default/ui/dialog/Dialog.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/dialog/Dialog.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -11920,7 +11410,6 @@ export const Index: Record<string, any> = {
         target: "drawer/index.ts"
       }],
       component: () => import("@/registry/default/ui/drawer/Drawer.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/drawer/Drawer.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -11992,7 +11481,6 @@ export const Index: Record<string, any> = {
         target: "dropdown-menu/index.ts"
       }],
       component: () => import("@/registry/default/ui/dropdown-menu/DropdownMenu.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/dropdown-menu/DropdownMenu.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -12036,7 +11524,6 @@ export const Index: Record<string, any> = {
         target: "form/useFormField.ts"
       }],
       component: () => import("@/registry/default/ui/form/FormControl.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/form/FormControl.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -12064,7 +11551,6 @@ export const Index: Record<string, any> = {
         target: "hover-card/index.ts"
       }],
       component: () => import("@/registry/default/ui/hover-card/HoverCard.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/hover-card/HoverCard.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -12084,7 +11570,6 @@ export const Index: Record<string, any> = {
         target: "input/index.ts"
       }],
       component: () => import("@/registry/default/ui/input/Input.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/input/Input.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -12104,7 +11589,6 @@ export const Index: Record<string, any> = {
         target: "label/index.ts"
       }],
       component: () => import("@/registry/default/ui/label/Label.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/label/Label.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -12180,7 +11664,6 @@ export const Index: Record<string, any> = {
         target: "menubar/index.ts"
       }],
       component: () => import("@/registry/default/ui/menubar/Menubar.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/menubar/Menubar.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -12228,7 +11711,6 @@ export const Index: Record<string, any> = {
         target: "navigation-menu/index.ts"
       }],
       component: () => import("@/registry/default/ui/navigation-menu/NavigationMenu.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/navigation-menu/NavigationMenu.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -12264,7 +11746,6 @@ export const Index: Record<string, any> = {
         target: "number-field/index.ts"
       }],
       component: () => import("@/registry/default/ui/number-field/NumberField.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/number-field/NumberField.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -12300,7 +11781,6 @@ export const Index: Record<string, any> = {
         target: "pagination/index.ts"
       }],
       component: () => import("@/registry/default/ui/pagination/PaginationEllipsis.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/pagination/PaginationEllipsis.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -12332,7 +11812,6 @@ export const Index: Record<string, any> = {
         target: "pin-input/index.ts"
       }],
       component: () => import("@/registry/default/ui/pin-input/PinInput.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/pin-input/PinInput.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -12360,7 +11839,6 @@ export const Index: Record<string, any> = {
         target: "popover/index.ts"
       }],
       component: () => import("@/registry/default/ui/popover/Popover.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/popover/Popover.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -12380,7 +11858,6 @@ export const Index: Record<string, any> = {
         target: "progress/index.ts"
       }],
       component: () => import("@/registry/default/ui/progress/Progress.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/progress/Progress.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -12404,7 +11881,6 @@ export const Index: Record<string, any> = {
         target: "radio-group/index.ts"
       }],
       component: () => import("@/registry/default/ui/radio-group/RadioGroup.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/radio-group/RadioGroup.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -12468,7 +11944,6 @@ export const Index: Record<string, any> = {
         target: "range-calendar/index.ts"
       }],
       component: () => import("@/registry/default/ui/range-calendar/RangeCalendar.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/range-calendar/RangeCalendar.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -12492,7 +11967,6 @@ export const Index: Record<string, any> = {
         target: "resizable/index.ts"
       }],
       component: () => import("@/registry/default/ui/resizable/ResizableHandle.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/resizable/ResizableHandle.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -12516,7 +11990,6 @@ export const Index: Record<string, any> = {
         target: "scroll-area/index.ts"
       }],
       component: () => import("@/registry/default/ui/scroll-area/ScrollArea.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/scroll-area/ScrollArea.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -12576,7 +12049,6 @@ export const Index: Record<string, any> = {
         target: "select/index.ts"
       }],
       component: () => import("@/registry/default/ui/select/Select.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/select/Select.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -12596,7 +12068,6 @@ export const Index: Record<string, any> = {
         target: "separator/index.ts"
       }],
       component: () => import("@/registry/default/ui/separator/Separator.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/separator/Separator.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -12644,7 +12115,6 @@ export const Index: Record<string, any> = {
         target: "sheet/index.ts"
       }],
       component: () => import("@/registry/default/ui/sheet/Sheet.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/sheet/Sheet.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -12760,7 +12230,6 @@ export const Index: Record<string, any> = {
         target: "sidebar/utils.ts"
       }],
       component: () => import("@/registry/default/ui/sidebar/Sidebar.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/sidebar/Sidebar.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -12780,7 +12249,6 @@ export const Index: Record<string, any> = {
         target: "skeleton/index.ts"
       }],
       component: () => import("@/registry/default/ui/skeleton/Skeleton.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/skeleton/Skeleton.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -12800,7 +12268,6 @@ export const Index: Record<string, any> = {
         target: "slider/index.ts"
       }],
       component: () => import("@/registry/default/ui/slider/Slider.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/slider/Slider.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -12820,7 +12287,6 @@ export const Index: Record<string, any> = {
         target: "sonner/index.ts"
       }],
       component: () => import("@/registry/default/ui/sonner/Sonner.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/sonner/Sonner.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -12864,7 +12330,6 @@ export const Index: Record<string, any> = {
         target: "stepper/index.ts"
       }],
       component: () => import("@/registry/default/ui/stepper/Stepper.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/stepper/Stepper.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -12884,7 +12349,6 @@ export const Index: Record<string, any> = {
         target: "switch/index.ts"
       }],
       component: () => import("@/registry/default/ui/switch/Switch.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/switch/Switch.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -12936,7 +12400,6 @@ export const Index: Record<string, any> = {
         target: "table/index.ts"
       }],
       component: () => import("@/registry/default/ui/table/Table.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/table/Table.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -12968,7 +12431,6 @@ export const Index: Record<string, any> = {
         target: "tabs/index.ts"
       }],
       component: () => import("@/registry/default/ui/tabs/Tabs.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/tabs/Tabs.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13004,7 +12466,6 @@ export const Index: Record<string, any> = {
         target: "tags-input/index.ts"
       }],
       component: () => import("@/registry/default/ui/tags-input/TagsInput.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/tags-input/TagsInput.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13024,7 +12485,6 @@ export const Index: Record<string, any> = {
         target: "textarea/index.ts"
       }],
       component: () => import("@/registry/default/ui/textarea/Textarea.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/textarea/Textarea.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13076,7 +12536,6 @@ export const Index: Record<string, any> = {
         target: "toast/use-toast.ts"
       }],
       component: () => import("@/registry/default/ui/toast/Toast.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/toast/Toast.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13096,7 +12555,6 @@ export const Index: Record<string, any> = {
         target: "toggle/index.ts"
       }],
       component: () => import("@/registry/default/ui/toggle/Toggle.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/toggle/Toggle.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13120,7 +12578,6 @@ export const Index: Record<string, any> = {
         target: "toggle-group/index.ts"
       }],
       component: () => import("@/registry/default/ui/toggle-group/ToggleGroup.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/toggle-group/ToggleGroup.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13152,7 +12609,6 @@ export const Index: Record<string, any> = {
         target: "tooltip/index.ts"
       }],
       component: () => import("@/registry/default/ui/tooltip/Tooltip.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/tooltip/Tooltip.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13172,7 +12628,6 @@ export const Index: Record<string, any> = {
         target: "v-calendar/index.ts"
       }],
       component: () => import("@/registry/default/ui/v-calendar/Calendar.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/v-calendar/Calendar.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13185,10 +12640,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/AccordionDemo.vue",
         type: "registry:example",
-        target: "AccordionDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/AccordionDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/AccordionDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13201,10 +12655,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/AlertDemo.vue",
         type: "registry:example",
-        target: "AlertDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/AlertDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/AlertDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13217,10 +12670,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/AlertDestructiveDemo.vue",
         type: "registry:example",
-        target: "AlertDestructiveDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/AlertDestructiveDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/AlertDestructiveDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13233,10 +12685,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/AlertDialogDemo.vue",
         type: "registry:example",
-        target: "AlertDialogDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/AlertDialogDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/AlertDialogDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13249,10 +12700,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/AreaChartCustomTooltip.vue",
         type: "registry:example",
-        target: "AreaChartCustomTooltip.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/AreaChartCustomTooltip.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/AreaChartCustomTooltip.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13265,10 +12715,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/AreaChartDemo.vue",
         type: "registry:example",
-        target: "AreaChartDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/AreaChartDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/AreaChartDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13281,10 +12730,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/AreaChartSparkline.vue",
         type: "registry:example",
-        target: "AreaChartSparkline.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/AreaChartSparkline.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/AreaChartSparkline.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13297,10 +12745,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/AspectRatioDemo.vue",
         type: "registry:example",
-        target: "AspectRatioDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/AspectRatioDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/AspectRatioDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13313,10 +12760,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/AutoFormApi.vue",
         type: "registry:example",
-        target: "AutoFormApi.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/AutoFormApi.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/AutoFormApi.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13329,10 +12775,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/AutoFormArray.vue",
         type: "registry:example",
-        target: "AutoFormArray.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/AutoFormArray.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/AutoFormArray.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13345,10 +12790,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/AutoFormBasic.vue",
         type: "registry:example",
-        target: "AutoFormBasic.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/AutoFormBasic.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/AutoFormBasic.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13361,10 +12805,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/AutoFormConfirmPassword.vue",
         type: "registry:example",
-        target: "AutoFormConfirmPassword.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/AutoFormConfirmPassword.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/AutoFormConfirmPassword.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13377,10 +12820,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/AutoFormControlled.vue",
         type: "registry:example",
-        target: "AutoFormControlled.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/AutoFormControlled.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/AutoFormControlled.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13393,10 +12835,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/AutoFormDependencies.vue",
         type: "registry:example",
-        target: "AutoFormDependencies.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/AutoFormDependencies.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/AutoFormDependencies.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13409,10 +12850,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/AutoFormInputWithoutLabel.vue",
         type: "registry:example",
-        target: "AutoFormInputWithoutLabel.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/AutoFormInputWithoutLabel.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/AutoFormInputWithoutLabel.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13425,10 +12865,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/AutoFormSubObject.vue",
         type: "registry:example",
-        target: "AutoFormSubObject.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/AutoFormSubObject.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/AutoFormSubObject.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13441,10 +12880,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/AvatarDemo.vue",
         type: "registry:example",
-        target: "AvatarDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/AvatarDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/AvatarDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13457,10 +12895,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/BadgeDemo.vue",
         type: "registry:example",
-        target: "BadgeDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/BadgeDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/BadgeDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13473,10 +12910,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/BadgeDestructiveDemo.vue",
         type: "registry:example",
-        target: "BadgeDestructiveDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/BadgeDestructiveDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/BadgeDestructiveDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13489,10 +12925,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/BadgeOutlineDemo.vue",
         type: "registry:example",
-        target: "BadgeOutlineDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/BadgeOutlineDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/BadgeOutlineDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13505,10 +12940,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/BadgeSecondaryDemo.vue",
         type: "registry:example",
-        target: "BadgeSecondaryDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/BadgeSecondaryDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/BadgeSecondaryDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13521,10 +12955,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/BarChartCustomTooltip.vue",
         type: "registry:example",
-        target: "BarChartCustomTooltip.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/BarChartCustomTooltip.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/BarChartCustomTooltip.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13537,10 +12970,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/BarChartDemo.vue",
         type: "registry:example",
-        target: "BarChartDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/BarChartDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/BarChartDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13553,10 +12985,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/BarChartRounded.vue",
         type: "registry:example",
-        target: "BarChartRounded.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/BarChartRounded.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/BarChartRounded.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13569,10 +13000,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/BarChartStacked.vue",
         type: "registry:example",
-        target: "BarChartStacked.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/BarChartStacked.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/BarChartStacked.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13585,10 +13015,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/BreadcrumbDemo.vue",
         type: "registry:example",
-        target: "BreadcrumbDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/BreadcrumbDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/BreadcrumbDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13601,10 +13030,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/BreadcrumbDropdown.vue",
         type: "registry:example",
-        target: "BreadcrumbDropdown.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/BreadcrumbDropdown.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/BreadcrumbDropdown.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13617,10 +13045,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/BreadcrumbEllipsisDemo.vue",
         type: "registry:example",
-        target: "BreadcrumbEllipsisDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/BreadcrumbEllipsisDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/BreadcrumbEllipsisDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13633,10 +13060,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/BreadcrumbLinkDemo.vue",
         type: "registry:example",
-        target: "BreadcrumbLinkDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/BreadcrumbLinkDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/BreadcrumbLinkDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13649,10 +13075,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/BreadcrumbResponsive.vue",
         type: "registry:example",
-        target: "BreadcrumbResponsive.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/BreadcrumbResponsive.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/BreadcrumbResponsive.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13665,10 +13090,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/BreadcrumbSeparatorDemo.vue",
         type: "registry:example",
-        target: "BreadcrumbSeparatorDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/BreadcrumbSeparatorDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/BreadcrumbSeparatorDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13681,10 +13105,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ButtonAsChildDemo.vue",
         type: "registry:example",
-        target: "ButtonAsChildDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ButtonAsChildDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ButtonAsChildDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13697,10 +13120,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ButtonDemo.vue",
         type: "registry:example",
-        target: "ButtonDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ButtonDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ButtonDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13713,10 +13135,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ButtonDestructiveDemo.vue",
         type: "registry:example",
-        target: "ButtonDestructiveDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ButtonDestructiveDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ButtonDestructiveDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13729,10 +13150,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ButtonGhostDemo.vue",
         type: "registry:example",
-        target: "ButtonGhostDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ButtonGhostDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ButtonGhostDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13745,10 +13165,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ButtonIconDemo.vue",
         type: "registry:example",
-        target: "ButtonIconDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ButtonIconDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ButtonIconDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13761,10 +13180,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ButtonLinkDemo.vue",
         type: "registry:example",
-        target: "ButtonLinkDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ButtonLinkDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ButtonLinkDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13777,10 +13195,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ButtonLoadingDemo.vue",
         type: "registry:example",
-        target: "ButtonLoadingDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ButtonLoadingDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ButtonLoadingDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13793,10 +13210,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ButtonOutlineDemo.vue",
         type: "registry:example",
-        target: "ButtonOutlineDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ButtonOutlineDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ButtonOutlineDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13809,10 +13225,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ButtonSecondaryDemo.vue",
         type: "registry:example",
-        target: "ButtonSecondaryDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ButtonSecondaryDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ButtonSecondaryDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13825,10 +13240,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ButtonWithIconDemo.vue",
         type: "registry:example",
-        target: "ButtonWithIconDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ButtonWithIconDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ButtonWithIconDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13841,10 +13255,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CalendarDemo.vue",
         type: "registry:example",
-        target: "CalendarDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CalendarDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CalendarDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13857,10 +13270,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CalendarForm.vue",
         type: "registry:example",
-        target: "CalendarForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CalendarForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CalendarForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13873,10 +13285,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CalendarWithSelect.vue",
         type: "registry:example",
-        target: "CalendarWithSelect.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CalendarWithSelect.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CalendarWithSelect.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13889,10 +13300,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CardChat.vue",
         type: "registry:example",
-        target: "CardChat.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CardChat.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CardChat.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13905,10 +13315,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CardDemo.vue",
         type: "registry:example",
-        target: "CardDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CardDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CardDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13921,10 +13330,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CardFormDemo.vue",
         type: "registry:example",
-        target: "CardFormDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CardFormDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CardFormDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13937,10 +13345,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CardStats.vue",
         type: "registry:example",
-        target: "CardStats.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CardStats.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CardStats.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13953,10 +13360,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CardWithForm.vue",
         type: "registry:example",
-        target: "CardWithForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CardWithForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CardWithForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13969,10 +13375,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CarouselApi.vue",
         type: "registry:example",
-        target: "CarouselApi.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CarouselApi.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CarouselApi.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13985,10 +13390,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CarouselDemo.vue",
         type: "registry:example",
-        target: "CarouselDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CarouselDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CarouselDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14001,10 +13405,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CarouselOrientation.vue",
         type: "registry:example",
-        target: "CarouselOrientation.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CarouselOrientation.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CarouselOrientation.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14017,10 +13420,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CarouselPlugin.vue",
         type: "registry:example",
-        target: "CarouselPlugin.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CarouselPlugin.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CarouselPlugin.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14033,10 +13435,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CarouselSize.vue",
         type: "registry:example",
-        target: "CarouselSize.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CarouselSize.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CarouselSize.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14049,10 +13450,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CarouselSpacing.vue",
         type: "registry:example",
-        target: "CarouselSpacing.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CarouselSpacing.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CarouselSpacing.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14065,10 +13465,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CarouselThumbnails.vue",
         type: "registry:example",
-        target: "CarouselThumbnails.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CarouselThumbnails.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CarouselThumbnails.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14081,10 +13480,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CheckboxDemo.vue",
         type: "registry:example",
-        target: "CheckboxDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CheckboxDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CheckboxDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14097,10 +13495,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CheckboxDisabled.vue",
         type: "registry:example",
-        target: "CheckboxDisabled.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CheckboxDisabled.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CheckboxDisabled.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14113,10 +13510,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CheckboxFormMultiple.vue",
         type: "registry:example",
-        target: "CheckboxFormMultiple.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CheckboxFormMultiple.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CheckboxFormMultiple.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14129,10 +13525,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CheckboxFormSingle.vue",
         type: "registry:example",
-        target: "CheckboxFormSingle.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CheckboxFormSingle.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CheckboxFormSingle.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14145,10 +13540,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CheckboxWithText.vue",
         type: "registry:example",
-        target: "CheckboxWithText.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CheckboxWithText.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CheckboxWithText.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14161,10 +13555,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CollapsibleDemo.vue",
         type: "registry:example",
-        target: "CollapsibleDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CollapsibleDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CollapsibleDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14177,10 +13570,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ComboboxDemo.vue",
         type: "registry:example",
-        target: "ComboboxDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ComboboxDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ComboboxDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14193,10 +13585,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ComboboxDropdownMenu.vue",
         type: "registry:example",
-        target: "ComboboxDropdownMenu.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ComboboxDropdownMenu.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ComboboxDropdownMenu.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14209,10 +13600,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ComboboxForm.vue",
         type: "registry:example",
-        target: "ComboboxForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ComboboxForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ComboboxForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14225,10 +13615,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ComboboxPopover.vue",
         type: "registry:example",
-        target: "ComboboxPopover.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ComboboxPopover.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ComboboxPopover.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14241,10 +13630,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ComboboxResponsive.vue",
         type: "registry:example",
-        target: "ComboboxResponsive.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ComboboxResponsive.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ComboboxResponsive.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14257,10 +13645,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CommandDemo.vue",
         type: "registry:example",
-        target: "CommandDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CommandDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CommandDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14273,10 +13660,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CommandDialogDemo.vue",
         type: "registry:example",
-        target: "CommandDialogDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CommandDialogDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CommandDialogDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14289,10 +13675,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ContextMenuDemo.vue",
         type: "registry:example",
-        target: "ContextMenuDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ContextMenuDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ContextMenuDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14305,10 +13690,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CustomChartTooltip.vue",
         type: "registry:example",
-        target: "CustomChartTooltip.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CustomChartTooltip.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CustomChartTooltip.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14321,10 +13705,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DataTableColumnPinningDemo.vue",
         type: "registry:example",
-        target: "DataTableColumnPinningDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DataTableColumnPinningDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DataTableColumnPinningDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14337,10 +13720,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DataTableDemo.vue",
         type: "registry:example",
-        target: "DataTableDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DataTableDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DataTableDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14353,10 +13735,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DataTableDemoColumn.vue",
         type: "registry:example",
-        target: "DataTableDemoColumn.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DataTableDemoColumn.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DataTableDemoColumn.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14369,10 +13750,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DataTableReactiveDemo.vue",
         type: "registry:example",
-        target: "DataTableReactiveDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DataTableReactiveDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DataTableReactiveDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14385,10 +13765,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DatePickerDemo.vue",
         type: "registry:example",
-        target: "DatePickerDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DatePickerDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DatePickerDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14401,10 +13780,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DatePickerForm.vue",
         type: "registry:example",
-        target: "DatePickerForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DatePickerForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DatePickerForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14417,10 +13795,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DatePickerWithIndependentMonths.vue",
         type: "registry:example",
-        target: "DatePickerWithIndependentMonths.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DatePickerWithIndependentMonths.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DatePickerWithIndependentMonths.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14433,10 +13810,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DatePickerWithPresets.vue",
         type: "registry:example",
-        target: "DatePickerWithPresets.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DatePickerWithPresets.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DatePickerWithPresets.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14449,10 +13825,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DatePickerWithRange.vue",
         type: "registry:example",
-        target: "DatePickerWithRange.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DatePickerWithRange.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DatePickerWithRange.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14465,10 +13840,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DialogCustomCloseButton.vue",
         type: "registry:example",
-        target: "DialogCustomCloseButton.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DialogCustomCloseButton.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DialogCustomCloseButton.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14481,10 +13855,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DialogDemo.vue",
         type: "registry:example",
-        target: "DialogDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DialogDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DialogDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14497,10 +13870,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DialogForm.vue",
         type: "registry:example",
-        target: "DialogForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DialogForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DialogForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14513,10 +13885,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DialogScrollBodyDemo.vue",
         type: "registry:example",
-        target: "DialogScrollBodyDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DialogScrollBodyDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DialogScrollBodyDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14529,10 +13900,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DialogScrollOverlayDemo.vue",
         type: "registry:example",
-        target: "DialogScrollOverlayDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DialogScrollOverlayDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DialogScrollOverlayDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14545,10 +13915,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DonutChartColor.vue",
         type: "registry:example",
-        target: "DonutChartColor.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DonutChartColor.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DonutChartColor.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14561,10 +13930,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DonutChartCustomTooltip.vue",
         type: "registry:example",
-        target: "DonutChartCustomTooltip.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DonutChartCustomTooltip.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DonutChartCustomTooltip.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14577,10 +13945,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DonutChartDemo.vue",
         type: "registry:example",
-        target: "DonutChartDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DonutChartDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DonutChartDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14593,10 +13960,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DonutChartPie.vue",
         type: "registry:example",
-        target: "DonutChartPie.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DonutChartPie.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DonutChartPie.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14609,10 +13975,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DrawerDemo.vue",
         type: "registry:example",
-        target: "DrawerDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DrawerDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DrawerDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14625,10 +13990,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DrawerDialog.vue",
         type: "registry:example",
-        target: "DrawerDialog.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DrawerDialog.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DrawerDialog.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14641,10 +14005,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DropdownMenuCheckboxes.vue",
         type: "registry:example",
-        target: "DropdownMenuCheckboxes.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DropdownMenuCheckboxes.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DropdownMenuCheckboxes.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14657,10 +14020,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DropdownMenuDemo.vue",
         type: "registry:example",
-        target: "DropdownMenuDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DropdownMenuDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DropdownMenuDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14673,10 +14035,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DropdownMenuRadioGroup.vue",
         type: "registry:example",
-        target: "DropdownMenuRadioGroup.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DropdownMenuRadioGroup.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DropdownMenuRadioGroup.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14689,10 +14050,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/HoverCardDemo.vue",
         type: "registry:example",
-        target: "HoverCardDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/HoverCardDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/HoverCardDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14705,10 +14065,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/InputDemo.vue",
         type: "registry:example",
-        target: "InputDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/InputDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/InputDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14721,10 +14080,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/InputDisabled.vue",
         type: "registry:example",
-        target: "InputDisabled.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/InputDisabled.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/InputDisabled.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14737,10 +14095,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/InputFile.vue",
         type: "registry:example",
-        target: "InputFile.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/InputFile.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/InputFile.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14753,10 +14110,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/InputForm.vue",
         type: "registry:example",
-        target: "InputForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/InputForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/InputForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14769,10 +14125,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/InputFormAutoAnimate.vue",
         type: "registry:example",
-        target: "InputFormAutoAnimate.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/InputFormAutoAnimate.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/InputFormAutoAnimate.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14785,10 +14140,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/InputWithButton.vue",
         type: "registry:example",
-        target: "InputWithButton.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/InputWithButton.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/InputWithButton.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14801,10 +14155,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/InputWithIcon.vue",
         type: "registry:example",
-        target: "InputWithIcon.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/InputWithIcon.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/InputWithIcon.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14817,10 +14170,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/InputWithLabel.vue",
         type: "registry:example",
-        target: "InputWithLabel.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/InputWithLabel.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/InputWithLabel.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14833,10 +14185,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/LabelDemo.vue",
         type: "registry:example",
-        target: "LabelDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/LabelDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/LabelDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14849,10 +14200,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/LineChartCustomTooltip.vue",
         type: "registry:example",
-        target: "LineChartCustomTooltip.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/LineChartCustomTooltip.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/LineChartCustomTooltip.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14865,10 +14215,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/LineChartDemo.vue",
         type: "registry:example",
-        target: "LineChartDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/LineChartDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/LineChartDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14881,10 +14230,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/LineChartSparkline.vue",
         type: "registry:example",
-        target: "LineChartSparkline.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/LineChartSparkline.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/LineChartSparkline.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14897,10 +14245,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/MenubarDemo.vue",
         type: "registry:example",
-        target: "MenubarDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/MenubarDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/MenubarDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14913,10 +14260,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/NavigationMenuDemo.vue",
         type: "registry:example",
-        target: "NavigationMenuDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/NavigationMenuDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/NavigationMenuDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14929,10 +14275,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/NumberFieldCurrency.vue",
         type: "registry:example",
-        target: "NumberFieldCurrency.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/NumberFieldCurrency.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/NumberFieldCurrency.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14945,10 +14290,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/NumberFieldDecimal.vue",
         type: "registry:example",
-        target: "NumberFieldDecimal.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/NumberFieldDecimal.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/NumberFieldDecimal.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14961,10 +14305,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/NumberFieldDemo.vue",
         type: "registry:example",
-        target: "NumberFieldDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/NumberFieldDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/NumberFieldDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14977,10 +14320,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/NumberFieldDisabled.vue",
         type: "registry:example",
-        target: "NumberFieldDisabled.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/NumberFieldDisabled.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/NumberFieldDisabled.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -14993,10 +14335,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/NumberFieldForm.vue",
         type: "registry:example",
-        target: "NumberFieldForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/NumberFieldForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/NumberFieldForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15009,10 +14350,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/NumberFieldPercentage.vue",
         type: "registry:example",
-        target: "NumberFieldPercentage.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/NumberFieldPercentage.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/NumberFieldPercentage.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15025,10 +14365,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/PaginationDemo.vue",
         type: "registry:example",
-        target: "PaginationDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/PaginationDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/PaginationDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15041,10 +14380,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/PinInputControlled.vue",
         type: "registry:example",
-        target: "PinInputControlled.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/PinInputControlled.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/PinInputControlled.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15057,10 +14395,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/PinInputDemo.vue",
         type: "registry:example",
-        target: "PinInputDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/PinInputDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/PinInputDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15073,10 +14410,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/PinInputDisabled.vue",
         type: "registry:example",
-        target: "PinInputDisabled.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/PinInputDisabled.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/PinInputDisabled.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15089,10 +14425,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/PinInputFormDemo.vue",
         type: "registry:example",
-        target: "PinInputFormDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/PinInputFormDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/PinInputFormDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15105,10 +14440,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/PinInputSeparatorDemo.vue",
         type: "registry:example",
-        target: "PinInputSeparatorDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/PinInputSeparatorDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/PinInputSeparatorDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15121,10 +14455,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/PopoverDemo.vue",
         type: "registry:example",
-        target: "PopoverDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/PopoverDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/PopoverDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15137,10 +14470,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ProgressDemo.vue",
         type: "registry:example",
-        target: "ProgressDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ProgressDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ProgressDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15153,10 +14485,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/RadioGroupDemo.vue",
         type: "registry:example",
-        target: "RadioGroupDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/RadioGroupDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/RadioGroupDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15169,10 +14500,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/RadioGroupForm.vue",
         type: "registry:example",
-        target: "RadioGroupForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/RadioGroupForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/RadioGroupForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15185,10 +14515,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/RangeCalendarDemo.vue",
         type: "registry:example",
-        target: "RangeCalendarDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/RangeCalendarDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/RangeCalendarDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15201,10 +14530,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ResizableDemo.vue",
         type: "registry:example",
-        target: "ResizableDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ResizableDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ResizableDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15217,10 +14545,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ResizableHandleDemo.vue",
         type: "registry:example",
-        target: "ResizableHandleDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ResizableHandleDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ResizableHandleDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15233,10 +14560,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ResizableVerticalDemo.vue",
         type: "registry:example",
-        target: "ResizableVerticalDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ResizableVerticalDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ResizableVerticalDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15249,10 +14575,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ScrollAreaDemo.vue",
         type: "registry:example",
-        target: "ScrollAreaDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ScrollAreaDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ScrollAreaDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15265,10 +14590,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ScrollAreaHorizontalDemo.vue",
         type: "registry:example",
-        target: "ScrollAreaHorizontalDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ScrollAreaHorizontalDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ScrollAreaHorizontalDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15281,10 +14605,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/SelectDemo.vue",
         type: "registry:example",
-        target: "SelectDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/SelectDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/SelectDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15297,10 +14620,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/SelectForm.vue",
         type: "registry:example",
-        target: "SelectForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/SelectForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/SelectForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15313,10 +14635,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/SelectScrollable.vue",
         type: "registry:example",
-        target: "SelectScrollable.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/SelectScrollable.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/SelectScrollable.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15329,10 +14650,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/SeparatorDemo.vue",
         type: "registry:example",
-        target: "SeparatorDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/SeparatorDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/SeparatorDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15345,10 +14665,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/SheetDemo.vue",
         type: "registry:example",
-        target: "SheetDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/SheetDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/SheetDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15361,10 +14680,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/SheetSideDemo.vue",
         type: "registry:example",
-        target: "SheetSideDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/SheetSideDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/SheetSideDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15377,10 +14695,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/SkeletonCard.vue",
         type: "registry:example",
-        target: "SkeletonCard.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/SkeletonCard.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/SkeletonCard.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15393,10 +14710,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/SkeletonDemo.vue",
         type: "registry:example",
-        target: "SkeletonDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/SkeletonDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/SkeletonDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15409,10 +14725,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/SliderDemo.vue",
         type: "registry:example",
-        target: "SliderDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/SliderDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/SliderDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15425,10 +14740,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/SliderForm.vue",
         type: "registry:example",
-        target: "SliderForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/SliderForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/SliderForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15441,10 +14755,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/SonnerDemo.vue",
         type: "registry:example",
-        target: "SonnerDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/SonnerDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/SonnerDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15457,10 +14770,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/SonnerWithDialog.vue",
         type: "registry:example",
-        target: "SonnerWithDialog.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/SonnerWithDialog.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/SonnerWithDialog.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15473,10 +14785,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/StepperDemo.vue",
         type: "registry:example",
-        target: "StepperDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/StepperDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/StepperDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15489,10 +14800,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/StepperForm.vue",
         type: "registry:example",
-        target: "StepperForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/StepperForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/StepperForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15505,10 +14815,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/StepperHorizental.vue",
         type: "registry:example",
-        target: "StepperHorizental.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/StepperHorizental.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/StepperHorizental.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15521,10 +14830,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/StepperVertical.vue",
         type: "registry:example",
-        target: "StepperVertical.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/StepperVertical.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/StepperVertical.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15537,10 +14845,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/SwitchDemo.vue",
         type: "registry:example",
-        target: "SwitchDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/SwitchDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/SwitchDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15553,10 +14860,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/SwitchForm.vue",
         type: "registry:example",
-        target: "SwitchForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/SwitchForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/SwitchForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15569,10 +14875,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TableDemo.vue",
         type: "registry:example",
-        target: "TableDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TableDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TableDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15585,10 +14890,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TabsDemo.vue",
         type: "registry:example",
-        target: "TabsDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TabsDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TabsDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15601,10 +14905,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TabsVerticalDemo.vue",
         type: "registry:example",
-        target: "TabsVerticalDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TabsVerticalDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TabsVerticalDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15617,10 +14920,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TagsInputComboboxDemo.vue",
         type: "registry:example",
-        target: "TagsInputComboboxDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TagsInputComboboxDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TagsInputComboboxDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15633,10 +14935,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TagsInputDemo.vue",
         type: "registry:example",
-        target: "TagsInputDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TagsInputDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TagsInputDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15649,10 +14950,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TagsInputFormDemo.vue",
         type: "registry:example",
-        target: "TagsInputFormDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TagsInputFormDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TagsInputFormDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15665,10 +14965,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TextareaDemo.vue",
         type: "registry:example",
-        target: "TextareaDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TextareaDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TextareaDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15681,10 +14980,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TextareaDisabled.vue",
         type: "registry:example",
-        target: "TextareaDisabled.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TextareaDisabled.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TextareaDisabled.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15697,10 +14995,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TextareaForm.vue",
         type: "registry:example",
-        target: "TextareaForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TextareaForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TextareaForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15713,10 +15010,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TextareaWithButton.vue",
         type: "registry:example",
-        target: "TextareaWithButton.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TextareaWithButton.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TextareaWithButton.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15729,10 +15025,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TextareaWithLabel.vue",
         type: "registry:example",
-        target: "TextareaWithLabel.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TextareaWithLabel.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TextareaWithLabel.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15745,10 +15040,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TextareaWithText.vue",
         type: "registry:example",
-        target: "TextareaWithText.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TextareaWithText.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TextareaWithText.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15761,10 +15055,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ToastDemo.vue",
         type: "registry:example",
-        target: "ToastDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ToastDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ToastDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15777,10 +15070,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ToastDestructive.vue",
         type: "registry:example",
-        target: "ToastDestructive.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ToastDestructive.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ToastDestructive.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15793,10 +15085,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ToastSimple.vue",
         type: "registry:example",
-        target: "ToastSimple.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ToastSimple.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ToastSimple.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15809,10 +15100,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ToastWithAction.vue",
         type: "registry:example",
-        target: "ToastWithAction.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ToastWithAction.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ToastWithAction.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15825,10 +15115,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ToastWithTitle.vue",
         type: "registry:example",
-        target: "ToastWithTitle.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ToastWithTitle.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ToastWithTitle.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15841,10 +15130,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ToggleDemo.vue",
         type: "registry:example",
-        target: "ToggleDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ToggleDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ToggleDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15857,10 +15145,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ToggleDisabledDemo.vue",
         type: "registry:example",
-        target: "ToggleDisabledDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ToggleDisabledDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ToggleDisabledDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15873,10 +15160,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ToggleGroupDemo.vue",
         type: "registry:example",
-        target: "ToggleGroupDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ToggleGroupDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ToggleGroupDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15889,10 +15175,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ToggleGroupDisabledDemo.vue",
         type: "registry:example",
-        target: "ToggleGroupDisabledDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ToggleGroupDisabledDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ToggleGroupDisabledDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15905,10 +15190,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ToggleGroupLargeDemo.vue",
         type: "registry:example",
-        target: "ToggleGroupLargeDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ToggleGroupLargeDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ToggleGroupLargeDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15921,10 +15205,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ToggleGroupOutlineDemo.vue",
         type: "registry:example",
-        target: "ToggleGroupOutlineDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ToggleGroupOutlineDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ToggleGroupOutlineDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15937,10 +15220,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ToggleGroupSingleDemo.vue",
         type: "registry:example",
-        target: "ToggleGroupSingleDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ToggleGroupSingleDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ToggleGroupSingleDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15953,10 +15235,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ToggleGroupSmallDemo.vue",
         type: "registry:example",
-        target: "ToggleGroupSmallDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ToggleGroupSmallDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ToggleGroupSmallDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15969,10 +15250,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ToggleItalicDemo.vue",
         type: "registry:example",
-        target: "ToggleItalicDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ToggleItalicDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ToggleItalicDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -15985,10 +15265,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ToggleItalicWithTextDemo.vue",
         type: "registry:example",
-        target: "ToggleItalicWithTextDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ToggleItalicWithTextDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ToggleItalicWithTextDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16001,10 +15280,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ToggleLargeDemo.vue",
         type: "registry:example",
-        target: "ToggleLargeDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ToggleLargeDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ToggleLargeDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16017,10 +15295,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ToggleSmallDemo.vue",
         type: "registry:example",
-        target: "ToggleSmallDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ToggleSmallDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ToggleSmallDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16033,10 +15310,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TooltipDemo.vue",
         type: "registry:example",
-        target: "TooltipDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TooltipDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TooltipDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16049,10 +15325,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TypographyBlockquote.vue",
         type: "registry:example",
-        target: "TypographyBlockquote.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TypographyBlockquote.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TypographyBlockquote.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16065,10 +15340,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TypographyDemo.vue",
         type: "registry:example",
-        target: "TypographyDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TypographyDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TypographyDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16081,10 +15355,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TypographyH1.vue",
         type: "registry:example",
-        target: "TypographyH1.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TypographyH1.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TypographyH1.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16097,10 +15370,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TypographyH2.vue",
         type: "registry:example",
-        target: "TypographyH2.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TypographyH2.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TypographyH2.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16113,10 +15385,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TypographyH3.vue",
         type: "registry:example",
-        target: "TypographyH3.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TypographyH3.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TypographyH3.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16129,10 +15400,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TypographyH4.vue",
         type: "registry:example",
-        target: "TypographyH4.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TypographyH4.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TypographyH4.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16145,10 +15415,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TypographyInlineCode.vue",
         type: "registry:example",
-        target: "TypographyInlineCode.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TypographyInlineCode.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TypographyInlineCode.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16161,10 +15430,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TypographyLarge.vue",
         type: "registry:example",
-        target: "TypographyLarge.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TypographyLarge.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TypographyLarge.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16177,10 +15445,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TypographyLead.vue",
         type: "registry:example",
-        target: "TypographyLead.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TypographyLead.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TypographyLead.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16193,10 +15460,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TypographyList.vue",
         type: "registry:example",
-        target: "TypographyList.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TypographyList.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TypographyList.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16209,10 +15475,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TypographyMuted.vue",
         type: "registry:example",
-        target: "TypographyMuted.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TypographyMuted.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TypographyMuted.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16225,10 +15490,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TypographyP.vue",
         type: "registry:example",
-        target: "TypographyP.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TypographyP.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TypographyP.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16241,10 +15505,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TypographySmall.vue",
         type: "registry:example",
-        target: "TypographySmall.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TypographySmall.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TypographySmall.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16257,10 +15520,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TypographyTable.vue",
         type: "registry:example",
-        target: "TypographyTable.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TypographyTable.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TypographyTable.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16273,10 +15535,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/VCalendarDemo.vue",
         type: "registry:example",
-        target: "VCalendarDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/VCalendarDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/VCalendarDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16289,10 +15550,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/VDatePickerDemo.vue",
         type: "registry:example",
-        target: "VDatePickerDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/VDatePickerDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/VDatePickerDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16305,10 +15565,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/VDatePickerForm.vue",
         type: "registry:example",
-        target: "VDatePickerForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/VDatePickerForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/VDatePickerForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16321,10 +15580,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/VDatePickerWithPresets.vue",
         type: "registry:example",
-        target: "VDatePickerWithPresets.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/VDatePickerWithPresets.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/VDatePickerWithPresets.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16337,10 +15595,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/VDatePickerWithRange.vue",
         type: "registry:example",
-        target: "VDatePickerWithRange.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/VDatePickerWithRange.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/VDatePickerWithRange.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16353,10 +15610,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/VDateTimePickerDemo.vue",
         type: "registry:example",
-        target: "VDateTimePickerDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/VDateTimePickerDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/VDateTimePickerDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16369,10 +15625,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/VRangePickerWithSlot.vue",
         type: "registry:example",
-        target: "VRangePickerWithSlot.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/VRangePickerWithSlot.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/VRangePickerWithSlot.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16385,10 +15640,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/block/Authentication01.vue",
         type: "registry:block",
-        target: "Authentication01.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/default/block/Authentication01.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/block/Authentication01.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16401,10 +15655,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/block/Authentication02.vue",
         type: "registry:block",
-        target: "Authentication02.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/default/block/Authentication02.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/block/Authentication02.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16417,10 +15670,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/block/Authentication03.vue",
         type: "registry:block",
-        target: "Authentication03.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/default/block/Authentication03.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/block/Authentication03.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16433,10 +15685,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/block/Authentication04.vue",
         type: "registry:block",
-        target: "Authentication04.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/default/block/Authentication04.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/block/Authentication04.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16449,10 +15700,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/block/Dashboard01.vue",
         type: "registry:block",
-        target: "Dashboard01.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/default/block/Dashboard01.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/block/Dashboard01.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16465,10 +15715,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/block/Dashboard02.vue",
         type: "registry:block",
-        target: "Dashboard02.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/default/block/Dashboard02.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/block/Dashboard02.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16481,10 +15730,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/block/Dashboard03.vue",
         type: "registry:block",
-        target: "Dashboard03.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/default/block/Dashboard03.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/block/Dashboard03.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16497,10 +15745,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/block/Dashboard04.vue",
         type: "registry:block",
-        target: "Dashboard04.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/default/block/Dashboard04.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/block/Dashboard04.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16513,10 +15760,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/block/Dashboard05.vue",
         type: "registry:block",
-        target: "Dashboard05.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/default/block/Dashboard05.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/block/Dashboard05.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16529,10 +15775,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/block/Dashboard06.vue",
         type: "registry:block",
-        target: "Dashboard06.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/default/block/Dashboard06.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/block/Dashboard06.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16545,10 +15790,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/block/Dashboard07.vue",
         type: "registry:block",
-        target: "Dashboard07.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/default/block/Dashboard07.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/block/Dashboard07.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16561,10 +15805,36 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/block/Sidebar01/page.vue",
         type: "registry:page",
-        target: "Sidebar01Page.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/default/block/Sidebar01/page.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/block/Sidebar01/page.vue?raw").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Sidebar02": {
+      name: "Sidebar02",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","SearchForm.vue","VersionSwitcher.vue","collapsible","label","dropdown-menu"],
+      files: [{
+        path: "registry/default/block/Sidebar02/page.vue",
+        type: "registry:page",
+        target: "pages/dashboard/index.vue"
+      },{
+        path: "registry/default/block/Sidebar02/components/AppSidebar.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar02/components/SearchForm.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar02/components/VersionSwitcher.vue",
+        type: "registry:component",
+        target: ""
+      }],
+      component: () => import("@/registry/default/block/Sidebar02/page.vue").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16577,10 +15847,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/block/Sidebar07/page.vue",
         type: "registry:page",
-        target: "Sidebar07Page.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/default/block/Sidebar07/page.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/block/Sidebar07/page.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16612,7 +15881,6 @@ export const Index: Record<string, any> = {
         target: "accordion/index.ts"
       }],
       component: () => import("@/registry/default/ui/accordion/Accordion.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/accordion/Accordion.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16640,7 +15908,6 @@ export const Index: Record<string, any> = {
         target: "alert/index.ts"
       }],
       component: () => import("@/registry/default/ui/alert/Alert.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/alert/Alert.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16692,7 +15959,6 @@ export const Index: Record<string, any> = {
         target: "alert-dialog/index.ts"
       }],
       component: () => import("@/registry/default/ui/alert-dialog/AlertDialog.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/alert-dialog/AlertDialog.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16712,7 +15978,6 @@ export const Index: Record<string, any> = {
         target: "aspect-ratio/index.ts"
       }],
       component: () => import("@/registry/default/ui/aspect-ratio/AspectRatio.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/aspect-ratio/AspectRatio.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16788,7 +16053,6 @@ export const Index: Record<string, any> = {
         target: "auto-form/utils.ts"
       }],
       component: () => import("@/registry/default/ui/auto-form/AutoForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/auto-form/AutoForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16816,7 +16080,6 @@ export const Index: Record<string, any> = {
         target: "avatar/index.ts"
       }],
       component: () => import("@/registry/default/ui/avatar/Avatar.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/avatar/Avatar.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16836,7 +16099,6 @@ export const Index: Record<string, any> = {
         target: "badge/index.ts"
       }],
       component: () => import("@/registry/default/ui/badge/Badge.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/badge/Badge.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16880,7 +16142,6 @@ export const Index: Record<string, any> = {
         target: "breadcrumb/index.ts"
       }],
       component: () => import("@/registry/default/ui/breadcrumb/Breadcrumb.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/breadcrumb/Breadcrumb.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16900,7 +16161,6 @@ export const Index: Record<string, any> = {
         target: "button/index.ts"
       }],
       component: () => import("@/registry/default/ui/button/Button.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/button/Button.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16964,7 +16224,6 @@ export const Index: Record<string, any> = {
         target: "calendar/index.ts"
       }],
       component: () => import("@/registry/default/ui/calendar/Calendar.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/calendar/Calendar.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -17004,7 +16263,6 @@ export const Index: Record<string, any> = {
         target: "card/index.ts"
       }],
       component: () => import("@/registry/default/ui/card/Card.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/card/Card.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -17048,7 +16306,6 @@ export const Index: Record<string, any> = {
         target: "carousel/useCarousel.ts"
       }],
       component: () => import("@/registry/default/ui/carousel/Carousel.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/carousel/Carousel.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -17084,7 +16341,6 @@ export const Index: Record<string, any> = {
         target: "chart/interface.ts"
       }],
       component: () => import("@/registry/default/ui/chart/ChartCrosshair.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/chart/ChartCrosshair.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -17104,7 +16360,6 @@ export const Index: Record<string, any> = {
         target: "chart-area/index.ts"
       }],
       component: () => import("@/registry/default/ui/chart-area/AreaChart.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/chart-area/AreaChart.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -17124,7 +16379,6 @@ export const Index: Record<string, any> = {
         target: "chart-bar/index.ts"
       }],
       component: () => import("@/registry/default/ui/chart-bar/BarChart.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/chart-bar/BarChart.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -17144,7 +16398,6 @@ export const Index: Record<string, any> = {
         target: "chart-donut/index.ts"
       }],
       component: () => import("@/registry/default/ui/chart-donut/DonutChart.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/chart-donut/DonutChart.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -17164,7 +16417,6 @@ export const Index: Record<string, any> = {
         target: "chart-line/index.ts"
       }],
       component: () => import("@/registry/default/ui/chart-line/LineChart.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/chart-line/LineChart.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -17184,7 +16436,6 @@ export const Index: Record<string, any> = {
         target: "checkbox/index.ts"
       }],
       component: () => import("@/registry/default/ui/checkbox/Checkbox.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/checkbox/Checkbox.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -17212,7 +16463,6 @@ export const Index: Record<string, any> = {
         target: "collapsible/index.ts"
       }],
       component: () => import("@/registry/default/ui/collapsible/Collapsible.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/collapsible/Collapsible.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -17264,7 +16514,6 @@ export const Index: Record<string, any> = {
         target: "command/index.ts"
       }],
       component: () => import("@/registry/default/ui/command/Command.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/command/Command.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -17340,7 +16589,6 @@ export const Index: Record<string, any> = {
         target: "context-menu/index.ts"
       }],
       component: () => import("@/registry/default/ui/context-menu/ContextMenu.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/context-menu/ContextMenu.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -17392,7 +16640,6 @@ export const Index: Record<string, any> = {
         target: "dialog/index.ts"
       }],
       component: () => import("@/registry/default/ui/dialog/Dialog.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/dialog/Dialog.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -17436,7 +16683,6 @@ export const Index: Record<string, any> = {
         target: "drawer/index.ts"
       }],
       component: () => import("@/registry/default/ui/drawer/Drawer.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/drawer/Drawer.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -17508,7 +16754,6 @@ export const Index: Record<string, any> = {
         target: "dropdown-menu/index.ts"
       }],
       component: () => import("@/registry/default/ui/dropdown-menu/DropdownMenu.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/dropdown-menu/DropdownMenu.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -17552,7 +16797,6 @@ export const Index: Record<string, any> = {
         target: "form/useFormField.ts"
       }],
       component: () => import("@/registry/default/ui/form/FormControl.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/form/FormControl.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -17580,7 +16824,6 @@ export const Index: Record<string, any> = {
         target: "hover-card/index.ts"
       }],
       component: () => import("@/registry/default/ui/hover-card/HoverCard.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/hover-card/HoverCard.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -17600,7 +16843,6 @@ export const Index: Record<string, any> = {
         target: "input/index.ts"
       }],
       component: () => import("@/registry/default/ui/input/Input.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/input/Input.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -17620,7 +16862,6 @@ export const Index: Record<string, any> = {
         target: "label/index.ts"
       }],
       component: () => import("@/registry/default/ui/label/Label.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/label/Label.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -17696,7 +16937,6 @@ export const Index: Record<string, any> = {
         target: "menubar/index.ts"
       }],
       component: () => import("@/registry/default/ui/menubar/Menubar.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/menubar/Menubar.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -17744,7 +16984,6 @@ export const Index: Record<string, any> = {
         target: "navigation-menu/index.ts"
       }],
       component: () => import("@/registry/default/ui/navigation-menu/NavigationMenu.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/navigation-menu/NavigationMenu.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -17780,7 +17019,6 @@ export const Index: Record<string, any> = {
         target: "number-field/index.ts"
       }],
       component: () => import("@/registry/default/ui/number-field/NumberField.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/number-field/NumberField.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -17816,7 +17054,6 @@ export const Index: Record<string, any> = {
         target: "pagination/index.ts"
       }],
       component: () => import("@/registry/default/ui/pagination/PaginationEllipsis.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/pagination/PaginationEllipsis.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -17848,7 +17085,6 @@ export const Index: Record<string, any> = {
         target: "pin-input/index.ts"
       }],
       component: () => import("@/registry/default/ui/pin-input/PinInput.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/pin-input/PinInput.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -17876,7 +17112,6 @@ export const Index: Record<string, any> = {
         target: "popover/index.ts"
       }],
       component: () => import("@/registry/default/ui/popover/Popover.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/popover/Popover.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -17896,7 +17131,6 @@ export const Index: Record<string, any> = {
         target: "progress/index.ts"
       }],
       component: () => import("@/registry/default/ui/progress/Progress.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/progress/Progress.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -17920,7 +17154,6 @@ export const Index: Record<string, any> = {
         target: "radio-group/index.ts"
       }],
       component: () => import("@/registry/default/ui/radio-group/RadioGroup.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/radio-group/RadioGroup.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -17984,7 +17217,6 @@ export const Index: Record<string, any> = {
         target: "range-calendar/index.ts"
       }],
       component: () => import("@/registry/default/ui/range-calendar/RangeCalendar.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/range-calendar/RangeCalendar.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18008,7 +17240,6 @@ export const Index: Record<string, any> = {
         target: "resizable/index.ts"
       }],
       component: () => import("@/registry/default/ui/resizable/ResizableHandle.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/resizable/ResizableHandle.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18032,7 +17263,6 @@ export const Index: Record<string, any> = {
         target: "scroll-area/index.ts"
       }],
       component: () => import("@/registry/default/ui/scroll-area/ScrollArea.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/scroll-area/ScrollArea.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18092,7 +17322,6 @@ export const Index: Record<string, any> = {
         target: "select/index.ts"
       }],
       component: () => import("@/registry/default/ui/select/Select.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/select/Select.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18112,7 +17341,6 @@ export const Index: Record<string, any> = {
         target: "separator/index.ts"
       }],
       component: () => import("@/registry/default/ui/separator/Separator.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/separator/Separator.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18160,7 +17388,6 @@ export const Index: Record<string, any> = {
         target: "sheet/index.ts"
       }],
       component: () => import("@/registry/default/ui/sheet/Sheet.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/sheet/Sheet.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18276,7 +17503,6 @@ export const Index: Record<string, any> = {
         target: "sidebar/utils.ts"
       }],
       component: () => import("@/registry/default/ui/sidebar/Sidebar.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/sidebar/Sidebar.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18296,7 +17522,6 @@ export const Index: Record<string, any> = {
         target: "skeleton/index.ts"
       }],
       component: () => import("@/registry/default/ui/skeleton/Skeleton.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/skeleton/Skeleton.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18316,7 +17541,6 @@ export const Index: Record<string, any> = {
         target: "slider/index.ts"
       }],
       component: () => import("@/registry/default/ui/slider/Slider.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/slider/Slider.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18336,7 +17560,6 @@ export const Index: Record<string, any> = {
         target: "sonner/index.ts"
       }],
       component: () => import("@/registry/default/ui/sonner/Sonner.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/sonner/Sonner.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18380,7 +17603,6 @@ export const Index: Record<string, any> = {
         target: "stepper/index.ts"
       }],
       component: () => import("@/registry/default/ui/stepper/Stepper.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/stepper/Stepper.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18400,7 +17622,6 @@ export const Index: Record<string, any> = {
         target: "switch/index.ts"
       }],
       component: () => import("@/registry/default/ui/switch/Switch.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/switch/Switch.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18452,7 +17673,6 @@ export const Index: Record<string, any> = {
         target: "table/index.ts"
       }],
       component: () => import("@/registry/default/ui/table/Table.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/table/Table.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18484,7 +17704,6 @@ export const Index: Record<string, any> = {
         target: "tabs/index.ts"
       }],
       component: () => import("@/registry/default/ui/tabs/Tabs.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/tabs/Tabs.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18520,7 +17739,6 @@ export const Index: Record<string, any> = {
         target: "tags-input/index.ts"
       }],
       component: () => import("@/registry/default/ui/tags-input/TagsInput.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/tags-input/TagsInput.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18540,7 +17758,6 @@ export const Index: Record<string, any> = {
         target: "textarea/index.ts"
       }],
       component: () => import("@/registry/default/ui/textarea/Textarea.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/textarea/Textarea.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18592,7 +17809,6 @@ export const Index: Record<string, any> = {
         target: "toast/use-toast.ts"
       }],
       component: () => import("@/registry/default/ui/toast/Toast.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/toast/Toast.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18612,7 +17828,6 @@ export const Index: Record<string, any> = {
         target: "toggle/index.ts"
       }],
       component: () => import("@/registry/default/ui/toggle/Toggle.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/toggle/Toggle.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18636,7 +17851,6 @@ export const Index: Record<string, any> = {
         target: "toggle-group/index.ts"
       }],
       component: () => import("@/registry/default/ui/toggle-group/ToggleGroup.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/toggle-group/ToggleGroup.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18668,7 +17882,6 @@ export const Index: Record<string, any> = {
         target: "tooltip/index.ts"
       }],
       component: () => import("@/registry/default/ui/tooltip/Tooltip.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/tooltip/Tooltip.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18688,7 +17901,6 @@ export const Index: Record<string, any> = {
         target: "v-calendar/index.ts"
       }],
       component: () => import("@/registry/default/ui/v-calendar/Calendar.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/ui/v-calendar/Calendar.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18701,10 +17913,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/AccordionDemo.vue",
         type: "registry:example",
-        target: "AccordionDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/AccordionDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/AccordionDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18717,10 +17928,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/AlertDemo.vue",
         type: "registry:example",
-        target: "AlertDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/AlertDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/AlertDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18733,10 +17943,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/AlertDestructiveDemo.vue",
         type: "registry:example",
-        target: "AlertDestructiveDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/AlertDestructiveDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/AlertDestructiveDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18749,10 +17958,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/AlertDialogDemo.vue",
         type: "registry:example",
-        target: "AlertDialogDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/AlertDialogDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/AlertDialogDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18765,10 +17973,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/AreaChartCustomTooltip.vue",
         type: "registry:example",
-        target: "AreaChartCustomTooltip.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/AreaChartCustomTooltip.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/AreaChartCustomTooltip.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18781,10 +17988,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/AreaChartDemo.vue",
         type: "registry:example",
-        target: "AreaChartDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/AreaChartDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/AreaChartDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18797,10 +18003,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/AreaChartSparkline.vue",
         type: "registry:example",
-        target: "AreaChartSparkline.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/AreaChartSparkline.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/AreaChartSparkline.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18813,10 +18018,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/AspectRatioDemo.vue",
         type: "registry:example",
-        target: "AspectRatioDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/AspectRatioDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/AspectRatioDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18829,10 +18033,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/AutoFormApi.vue",
         type: "registry:example",
-        target: "AutoFormApi.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/AutoFormApi.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/AutoFormApi.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18845,10 +18048,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/AutoFormArray.vue",
         type: "registry:example",
-        target: "AutoFormArray.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/AutoFormArray.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/AutoFormArray.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18861,10 +18063,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/AutoFormBasic.vue",
         type: "registry:example",
-        target: "AutoFormBasic.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/AutoFormBasic.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/AutoFormBasic.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18877,10 +18078,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/AutoFormConfirmPassword.vue",
         type: "registry:example",
-        target: "AutoFormConfirmPassword.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/AutoFormConfirmPassword.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/AutoFormConfirmPassword.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18893,10 +18093,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/AutoFormControlled.vue",
         type: "registry:example",
-        target: "AutoFormControlled.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/AutoFormControlled.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/AutoFormControlled.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18909,10 +18108,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/AutoFormDependencies.vue",
         type: "registry:example",
-        target: "AutoFormDependencies.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/AutoFormDependencies.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/AutoFormDependencies.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18925,10 +18123,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/AutoFormInputWithoutLabel.vue",
         type: "registry:example",
-        target: "AutoFormInputWithoutLabel.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/AutoFormInputWithoutLabel.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/AutoFormInputWithoutLabel.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18941,10 +18138,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/AutoFormSubObject.vue",
         type: "registry:example",
-        target: "AutoFormSubObject.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/AutoFormSubObject.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/AutoFormSubObject.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18957,10 +18153,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/AvatarDemo.vue",
         type: "registry:example",
-        target: "AvatarDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/AvatarDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/AvatarDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18973,10 +18168,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/BadgeDemo.vue",
         type: "registry:example",
-        target: "BadgeDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/BadgeDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/BadgeDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -18989,10 +18183,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/BadgeDestructiveDemo.vue",
         type: "registry:example",
-        target: "BadgeDestructiveDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/BadgeDestructiveDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/BadgeDestructiveDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19005,10 +18198,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/BadgeOutlineDemo.vue",
         type: "registry:example",
-        target: "BadgeOutlineDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/BadgeOutlineDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/BadgeOutlineDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19021,10 +18213,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/BadgeSecondaryDemo.vue",
         type: "registry:example",
-        target: "BadgeSecondaryDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/BadgeSecondaryDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/BadgeSecondaryDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19037,10 +18228,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/BarChartCustomTooltip.vue",
         type: "registry:example",
-        target: "BarChartCustomTooltip.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/BarChartCustomTooltip.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/BarChartCustomTooltip.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19053,10 +18243,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/BarChartDemo.vue",
         type: "registry:example",
-        target: "BarChartDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/BarChartDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/BarChartDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19069,10 +18258,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/BarChartRounded.vue",
         type: "registry:example",
-        target: "BarChartRounded.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/BarChartRounded.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/BarChartRounded.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19085,10 +18273,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/BarChartStacked.vue",
         type: "registry:example",
-        target: "BarChartStacked.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/BarChartStacked.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/BarChartStacked.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19101,10 +18288,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/BreadcrumbDemo.vue",
         type: "registry:example",
-        target: "BreadcrumbDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/BreadcrumbDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/BreadcrumbDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19117,10 +18303,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/BreadcrumbDropdown.vue",
         type: "registry:example",
-        target: "BreadcrumbDropdown.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/BreadcrumbDropdown.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/BreadcrumbDropdown.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19133,10 +18318,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/BreadcrumbEllipsisDemo.vue",
         type: "registry:example",
-        target: "BreadcrumbEllipsisDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/BreadcrumbEllipsisDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/BreadcrumbEllipsisDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19149,10 +18333,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/BreadcrumbLinkDemo.vue",
         type: "registry:example",
-        target: "BreadcrumbLinkDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/BreadcrumbLinkDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/BreadcrumbLinkDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19165,10 +18348,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/BreadcrumbResponsive.vue",
         type: "registry:example",
-        target: "BreadcrumbResponsive.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/BreadcrumbResponsive.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/BreadcrumbResponsive.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19181,10 +18363,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/BreadcrumbSeparatorDemo.vue",
         type: "registry:example",
-        target: "BreadcrumbSeparatorDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/BreadcrumbSeparatorDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/BreadcrumbSeparatorDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19197,10 +18378,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ButtonAsChildDemo.vue",
         type: "registry:example",
-        target: "ButtonAsChildDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ButtonAsChildDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ButtonAsChildDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19213,10 +18393,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ButtonDemo.vue",
         type: "registry:example",
-        target: "ButtonDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ButtonDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ButtonDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19229,10 +18408,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ButtonDestructiveDemo.vue",
         type: "registry:example",
-        target: "ButtonDestructiveDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ButtonDestructiveDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ButtonDestructiveDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19245,10 +18423,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ButtonGhostDemo.vue",
         type: "registry:example",
-        target: "ButtonGhostDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ButtonGhostDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ButtonGhostDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19261,10 +18438,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ButtonIconDemo.vue",
         type: "registry:example",
-        target: "ButtonIconDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ButtonIconDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ButtonIconDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19277,10 +18453,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ButtonLinkDemo.vue",
         type: "registry:example",
-        target: "ButtonLinkDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ButtonLinkDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ButtonLinkDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19293,10 +18468,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ButtonLoadingDemo.vue",
         type: "registry:example",
-        target: "ButtonLoadingDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ButtonLoadingDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ButtonLoadingDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19309,10 +18483,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ButtonOutlineDemo.vue",
         type: "registry:example",
-        target: "ButtonOutlineDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ButtonOutlineDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ButtonOutlineDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19325,10 +18498,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ButtonSecondaryDemo.vue",
         type: "registry:example",
-        target: "ButtonSecondaryDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ButtonSecondaryDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ButtonSecondaryDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19341,10 +18513,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ButtonWithIconDemo.vue",
         type: "registry:example",
-        target: "ButtonWithIconDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ButtonWithIconDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ButtonWithIconDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19357,10 +18528,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CalendarDemo.vue",
         type: "registry:example",
-        target: "CalendarDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CalendarDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CalendarDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19373,10 +18543,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CalendarForm.vue",
         type: "registry:example",
-        target: "CalendarForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CalendarForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CalendarForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19389,10 +18558,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CalendarWithSelect.vue",
         type: "registry:example",
-        target: "CalendarWithSelect.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CalendarWithSelect.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CalendarWithSelect.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19405,10 +18573,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CardChat.vue",
         type: "registry:example",
-        target: "CardChat.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CardChat.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CardChat.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19421,10 +18588,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CardDemo.vue",
         type: "registry:example",
-        target: "CardDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CardDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CardDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19437,10 +18603,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CardFormDemo.vue",
         type: "registry:example",
-        target: "CardFormDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CardFormDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CardFormDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19453,10 +18618,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CardStats.vue",
         type: "registry:example",
-        target: "CardStats.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CardStats.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CardStats.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19469,10 +18633,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CardWithForm.vue",
         type: "registry:example",
-        target: "CardWithForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CardWithForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CardWithForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19485,10 +18648,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CarouselApi.vue",
         type: "registry:example",
-        target: "CarouselApi.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CarouselApi.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CarouselApi.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19501,10 +18663,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CarouselDemo.vue",
         type: "registry:example",
-        target: "CarouselDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CarouselDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CarouselDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19517,10 +18678,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CarouselOrientation.vue",
         type: "registry:example",
-        target: "CarouselOrientation.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CarouselOrientation.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CarouselOrientation.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19533,10 +18693,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CarouselPlugin.vue",
         type: "registry:example",
-        target: "CarouselPlugin.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CarouselPlugin.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CarouselPlugin.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19549,10 +18708,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CarouselSize.vue",
         type: "registry:example",
-        target: "CarouselSize.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CarouselSize.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CarouselSize.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19565,10 +18723,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CarouselSpacing.vue",
         type: "registry:example",
-        target: "CarouselSpacing.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CarouselSpacing.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CarouselSpacing.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19581,10 +18738,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CarouselThumbnails.vue",
         type: "registry:example",
-        target: "CarouselThumbnails.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CarouselThumbnails.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CarouselThumbnails.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19597,10 +18753,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CheckboxDemo.vue",
         type: "registry:example",
-        target: "CheckboxDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CheckboxDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CheckboxDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19613,10 +18768,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CheckboxDisabled.vue",
         type: "registry:example",
-        target: "CheckboxDisabled.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CheckboxDisabled.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CheckboxDisabled.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19629,10 +18783,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CheckboxFormMultiple.vue",
         type: "registry:example",
-        target: "CheckboxFormMultiple.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CheckboxFormMultiple.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CheckboxFormMultiple.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19645,10 +18798,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CheckboxFormSingle.vue",
         type: "registry:example",
-        target: "CheckboxFormSingle.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CheckboxFormSingle.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CheckboxFormSingle.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19661,10 +18813,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CheckboxWithText.vue",
         type: "registry:example",
-        target: "CheckboxWithText.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CheckboxWithText.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CheckboxWithText.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19677,10 +18828,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CollapsibleDemo.vue",
         type: "registry:example",
-        target: "CollapsibleDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CollapsibleDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CollapsibleDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19693,10 +18843,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ComboboxDemo.vue",
         type: "registry:example",
-        target: "ComboboxDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ComboboxDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ComboboxDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19709,10 +18858,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ComboboxDropdownMenu.vue",
         type: "registry:example",
-        target: "ComboboxDropdownMenu.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ComboboxDropdownMenu.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ComboboxDropdownMenu.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19725,10 +18873,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ComboboxForm.vue",
         type: "registry:example",
-        target: "ComboboxForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ComboboxForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ComboboxForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19741,10 +18888,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ComboboxPopover.vue",
         type: "registry:example",
-        target: "ComboboxPopover.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ComboboxPopover.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ComboboxPopover.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19757,10 +18903,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ComboboxResponsive.vue",
         type: "registry:example",
-        target: "ComboboxResponsive.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ComboboxResponsive.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ComboboxResponsive.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19773,10 +18918,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CommandDemo.vue",
         type: "registry:example",
-        target: "CommandDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CommandDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CommandDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19789,10 +18933,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CommandDialogDemo.vue",
         type: "registry:example",
-        target: "CommandDialogDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CommandDialogDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CommandDialogDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19805,10 +18948,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ContextMenuDemo.vue",
         type: "registry:example",
-        target: "ContextMenuDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ContextMenuDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ContextMenuDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19821,10 +18963,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/CustomChartTooltip.vue",
         type: "registry:example",
-        target: "CustomChartTooltip.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/CustomChartTooltip.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/CustomChartTooltip.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19837,10 +18978,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DataTableColumnPinningDemo.vue",
         type: "registry:example",
-        target: "DataTableColumnPinningDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DataTableColumnPinningDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DataTableColumnPinningDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19853,10 +18993,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DataTableDemo.vue",
         type: "registry:example",
-        target: "DataTableDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DataTableDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DataTableDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19869,10 +19008,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DataTableDemoColumn.vue",
         type: "registry:example",
-        target: "DataTableDemoColumn.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DataTableDemoColumn.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DataTableDemoColumn.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19885,10 +19023,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DataTableReactiveDemo.vue",
         type: "registry:example",
-        target: "DataTableReactiveDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DataTableReactiveDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DataTableReactiveDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19901,10 +19038,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DatePickerDemo.vue",
         type: "registry:example",
-        target: "DatePickerDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DatePickerDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DatePickerDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19917,10 +19053,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DatePickerForm.vue",
         type: "registry:example",
-        target: "DatePickerForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DatePickerForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DatePickerForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19933,10 +19068,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DatePickerWithIndependentMonths.vue",
         type: "registry:example",
-        target: "DatePickerWithIndependentMonths.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DatePickerWithIndependentMonths.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DatePickerWithIndependentMonths.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19949,10 +19083,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DatePickerWithPresets.vue",
         type: "registry:example",
-        target: "DatePickerWithPresets.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DatePickerWithPresets.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DatePickerWithPresets.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19965,10 +19098,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DatePickerWithRange.vue",
         type: "registry:example",
-        target: "DatePickerWithRange.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DatePickerWithRange.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DatePickerWithRange.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19981,10 +19113,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DialogCustomCloseButton.vue",
         type: "registry:example",
-        target: "DialogCustomCloseButton.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DialogCustomCloseButton.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DialogCustomCloseButton.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -19997,10 +19128,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DialogDemo.vue",
         type: "registry:example",
-        target: "DialogDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DialogDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DialogDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20013,10 +19143,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DialogForm.vue",
         type: "registry:example",
-        target: "DialogForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DialogForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DialogForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20029,10 +19158,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DialogScrollBodyDemo.vue",
         type: "registry:example",
-        target: "DialogScrollBodyDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DialogScrollBodyDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DialogScrollBodyDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20045,10 +19173,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DialogScrollOverlayDemo.vue",
         type: "registry:example",
-        target: "DialogScrollOverlayDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DialogScrollOverlayDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DialogScrollOverlayDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20061,10 +19188,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DonutChartColor.vue",
         type: "registry:example",
-        target: "DonutChartColor.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DonutChartColor.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DonutChartColor.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20077,10 +19203,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DonutChartCustomTooltip.vue",
         type: "registry:example",
-        target: "DonutChartCustomTooltip.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DonutChartCustomTooltip.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DonutChartCustomTooltip.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20093,10 +19218,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DonutChartDemo.vue",
         type: "registry:example",
-        target: "DonutChartDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DonutChartDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DonutChartDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20109,10 +19233,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DonutChartPie.vue",
         type: "registry:example",
-        target: "DonutChartPie.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DonutChartPie.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DonutChartPie.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20125,10 +19248,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DrawerDemo.vue",
         type: "registry:example",
-        target: "DrawerDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DrawerDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DrawerDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20141,10 +19263,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DrawerDialog.vue",
         type: "registry:example",
-        target: "DrawerDialog.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DrawerDialog.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DrawerDialog.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20157,10 +19278,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DropdownMenuCheckboxes.vue",
         type: "registry:example",
-        target: "DropdownMenuCheckboxes.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DropdownMenuCheckboxes.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DropdownMenuCheckboxes.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20173,10 +19293,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DropdownMenuDemo.vue",
         type: "registry:example",
-        target: "DropdownMenuDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DropdownMenuDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DropdownMenuDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20189,10 +19308,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/DropdownMenuRadioGroup.vue",
         type: "registry:example",
-        target: "DropdownMenuRadioGroup.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/DropdownMenuRadioGroup.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/DropdownMenuRadioGroup.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20205,10 +19323,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/HoverCardDemo.vue",
         type: "registry:example",
-        target: "HoverCardDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/HoverCardDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/HoverCardDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20221,10 +19338,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/InputDemo.vue",
         type: "registry:example",
-        target: "InputDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/InputDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/InputDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20237,10 +19353,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/InputDisabled.vue",
         type: "registry:example",
-        target: "InputDisabled.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/InputDisabled.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/InputDisabled.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20253,10 +19368,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/InputFile.vue",
         type: "registry:example",
-        target: "InputFile.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/InputFile.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/InputFile.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20269,10 +19383,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/InputForm.vue",
         type: "registry:example",
-        target: "InputForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/InputForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/InputForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20285,10 +19398,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/InputFormAutoAnimate.vue",
         type: "registry:example",
-        target: "InputFormAutoAnimate.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/InputFormAutoAnimate.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/InputFormAutoAnimate.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20301,10 +19413,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/InputWithButton.vue",
         type: "registry:example",
-        target: "InputWithButton.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/InputWithButton.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/InputWithButton.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20317,10 +19428,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/InputWithIcon.vue",
         type: "registry:example",
-        target: "InputWithIcon.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/InputWithIcon.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/InputWithIcon.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20333,10 +19443,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/InputWithLabel.vue",
         type: "registry:example",
-        target: "InputWithLabel.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/InputWithLabel.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/InputWithLabel.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20349,10 +19458,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/LabelDemo.vue",
         type: "registry:example",
-        target: "LabelDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/LabelDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/LabelDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20365,10 +19473,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/LineChartCustomTooltip.vue",
         type: "registry:example",
-        target: "LineChartCustomTooltip.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/LineChartCustomTooltip.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/LineChartCustomTooltip.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20381,10 +19488,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/LineChartDemo.vue",
         type: "registry:example",
-        target: "LineChartDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/LineChartDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/LineChartDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20397,10 +19503,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/LineChartSparkline.vue",
         type: "registry:example",
-        target: "LineChartSparkline.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/LineChartSparkline.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/LineChartSparkline.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20413,10 +19518,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/MenubarDemo.vue",
         type: "registry:example",
-        target: "MenubarDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/MenubarDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/MenubarDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20429,10 +19533,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/NavigationMenuDemo.vue",
         type: "registry:example",
-        target: "NavigationMenuDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/NavigationMenuDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/NavigationMenuDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20445,10 +19548,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/NumberFieldCurrency.vue",
         type: "registry:example",
-        target: "NumberFieldCurrency.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/NumberFieldCurrency.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/NumberFieldCurrency.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20461,10 +19563,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/NumberFieldDecimal.vue",
         type: "registry:example",
-        target: "NumberFieldDecimal.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/NumberFieldDecimal.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/NumberFieldDecimal.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20477,10 +19578,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/NumberFieldDemo.vue",
         type: "registry:example",
-        target: "NumberFieldDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/NumberFieldDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/NumberFieldDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20493,10 +19593,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/NumberFieldDisabled.vue",
         type: "registry:example",
-        target: "NumberFieldDisabled.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/NumberFieldDisabled.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/NumberFieldDisabled.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20509,10 +19608,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/NumberFieldForm.vue",
         type: "registry:example",
-        target: "NumberFieldForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/NumberFieldForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/NumberFieldForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20525,10 +19623,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/NumberFieldPercentage.vue",
         type: "registry:example",
-        target: "NumberFieldPercentage.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/NumberFieldPercentage.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/NumberFieldPercentage.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20541,10 +19638,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/PaginationDemo.vue",
         type: "registry:example",
-        target: "PaginationDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/PaginationDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/PaginationDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20557,10 +19653,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/PinInputControlled.vue",
         type: "registry:example",
-        target: "PinInputControlled.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/PinInputControlled.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/PinInputControlled.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20573,10 +19668,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/PinInputDemo.vue",
         type: "registry:example",
-        target: "PinInputDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/PinInputDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/PinInputDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20589,10 +19683,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/PinInputDisabled.vue",
         type: "registry:example",
-        target: "PinInputDisabled.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/PinInputDisabled.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/PinInputDisabled.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20605,10 +19698,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/PinInputFormDemo.vue",
         type: "registry:example",
-        target: "PinInputFormDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/PinInputFormDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/PinInputFormDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20621,10 +19713,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/PinInputSeparatorDemo.vue",
         type: "registry:example",
-        target: "PinInputSeparatorDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/PinInputSeparatorDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/PinInputSeparatorDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20637,10 +19728,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/PopoverDemo.vue",
         type: "registry:example",
-        target: "PopoverDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/PopoverDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/PopoverDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20653,10 +19743,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ProgressDemo.vue",
         type: "registry:example",
-        target: "ProgressDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ProgressDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ProgressDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20669,10 +19758,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/RadioGroupDemo.vue",
         type: "registry:example",
-        target: "RadioGroupDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/RadioGroupDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/RadioGroupDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20685,10 +19773,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/RadioGroupForm.vue",
         type: "registry:example",
-        target: "RadioGroupForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/RadioGroupForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/RadioGroupForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20701,10 +19788,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/RangeCalendarDemo.vue",
         type: "registry:example",
-        target: "RangeCalendarDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/RangeCalendarDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/RangeCalendarDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20717,10 +19803,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ResizableDemo.vue",
         type: "registry:example",
-        target: "ResizableDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ResizableDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ResizableDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20733,10 +19818,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ResizableHandleDemo.vue",
         type: "registry:example",
-        target: "ResizableHandleDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ResizableHandleDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ResizableHandleDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20749,10 +19833,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ResizableVerticalDemo.vue",
         type: "registry:example",
-        target: "ResizableVerticalDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ResizableVerticalDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ResizableVerticalDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20765,10 +19848,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ScrollAreaDemo.vue",
         type: "registry:example",
-        target: "ScrollAreaDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ScrollAreaDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ScrollAreaDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20781,10 +19863,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ScrollAreaHorizontalDemo.vue",
         type: "registry:example",
-        target: "ScrollAreaHorizontalDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ScrollAreaHorizontalDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ScrollAreaHorizontalDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20797,10 +19878,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/SelectDemo.vue",
         type: "registry:example",
-        target: "SelectDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/SelectDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/SelectDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20813,10 +19893,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/SelectForm.vue",
         type: "registry:example",
-        target: "SelectForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/SelectForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/SelectForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20829,10 +19908,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/SelectScrollable.vue",
         type: "registry:example",
-        target: "SelectScrollable.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/SelectScrollable.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/SelectScrollable.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20845,10 +19923,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/SeparatorDemo.vue",
         type: "registry:example",
-        target: "SeparatorDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/SeparatorDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/SeparatorDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20861,10 +19938,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/SheetDemo.vue",
         type: "registry:example",
-        target: "SheetDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/SheetDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/SheetDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20877,10 +19953,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/SheetSideDemo.vue",
         type: "registry:example",
-        target: "SheetSideDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/SheetSideDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/SheetSideDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20893,10 +19968,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/SkeletonCard.vue",
         type: "registry:example",
-        target: "SkeletonCard.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/SkeletonCard.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/SkeletonCard.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20909,10 +19983,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/SkeletonDemo.vue",
         type: "registry:example",
-        target: "SkeletonDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/SkeletonDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/SkeletonDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20925,10 +19998,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/SliderDemo.vue",
         type: "registry:example",
-        target: "SliderDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/SliderDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/SliderDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20941,10 +20013,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/SliderForm.vue",
         type: "registry:example",
-        target: "SliderForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/SliderForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/SliderForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20957,10 +20028,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/SonnerDemo.vue",
         type: "registry:example",
-        target: "SonnerDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/SonnerDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/SonnerDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20973,10 +20043,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/SonnerWithDialog.vue",
         type: "registry:example",
-        target: "SonnerWithDialog.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/SonnerWithDialog.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/SonnerWithDialog.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -20989,10 +20058,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/StepperDemo.vue",
         type: "registry:example",
-        target: "StepperDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/StepperDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/StepperDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21005,10 +20073,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/StepperForm.vue",
         type: "registry:example",
-        target: "StepperForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/StepperForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/StepperForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21021,10 +20088,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/StepperHorizental.vue",
         type: "registry:example",
-        target: "StepperHorizental.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/StepperHorizental.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/StepperHorizental.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21037,10 +20103,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/StepperVertical.vue",
         type: "registry:example",
-        target: "StepperVertical.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/StepperVertical.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/StepperVertical.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21053,10 +20118,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/SwitchDemo.vue",
         type: "registry:example",
-        target: "SwitchDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/SwitchDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/SwitchDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21069,10 +20133,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/SwitchForm.vue",
         type: "registry:example",
-        target: "SwitchForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/SwitchForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/SwitchForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21085,10 +20148,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TableDemo.vue",
         type: "registry:example",
-        target: "TableDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TableDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TableDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21101,10 +20163,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TabsDemo.vue",
         type: "registry:example",
-        target: "TabsDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TabsDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TabsDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21117,10 +20178,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TabsVerticalDemo.vue",
         type: "registry:example",
-        target: "TabsVerticalDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TabsVerticalDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TabsVerticalDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21133,10 +20193,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TagsInputComboboxDemo.vue",
         type: "registry:example",
-        target: "TagsInputComboboxDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TagsInputComboboxDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TagsInputComboboxDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21149,10 +20208,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TagsInputDemo.vue",
         type: "registry:example",
-        target: "TagsInputDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TagsInputDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TagsInputDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21165,10 +20223,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TagsInputFormDemo.vue",
         type: "registry:example",
-        target: "TagsInputFormDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TagsInputFormDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TagsInputFormDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21181,10 +20238,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TextareaDemo.vue",
         type: "registry:example",
-        target: "TextareaDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TextareaDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TextareaDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21197,10 +20253,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TextareaDisabled.vue",
         type: "registry:example",
-        target: "TextareaDisabled.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TextareaDisabled.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TextareaDisabled.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21213,10 +20268,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TextareaForm.vue",
         type: "registry:example",
-        target: "TextareaForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TextareaForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TextareaForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21229,10 +20283,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TextareaWithButton.vue",
         type: "registry:example",
-        target: "TextareaWithButton.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TextareaWithButton.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TextareaWithButton.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21245,10 +20298,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TextareaWithLabel.vue",
         type: "registry:example",
-        target: "TextareaWithLabel.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TextareaWithLabel.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TextareaWithLabel.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21261,10 +20313,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TextareaWithText.vue",
         type: "registry:example",
-        target: "TextareaWithText.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TextareaWithText.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TextareaWithText.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21277,10 +20328,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ToastDemo.vue",
         type: "registry:example",
-        target: "ToastDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ToastDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ToastDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21293,10 +20343,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ToastDestructive.vue",
         type: "registry:example",
-        target: "ToastDestructive.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ToastDestructive.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ToastDestructive.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21309,10 +20358,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ToastSimple.vue",
         type: "registry:example",
-        target: "ToastSimple.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ToastSimple.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ToastSimple.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21325,10 +20373,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ToastWithAction.vue",
         type: "registry:example",
-        target: "ToastWithAction.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ToastWithAction.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ToastWithAction.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21341,10 +20388,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ToastWithTitle.vue",
         type: "registry:example",
-        target: "ToastWithTitle.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ToastWithTitle.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ToastWithTitle.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21357,10 +20403,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ToggleDemo.vue",
         type: "registry:example",
-        target: "ToggleDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ToggleDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ToggleDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21373,10 +20418,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ToggleDisabledDemo.vue",
         type: "registry:example",
-        target: "ToggleDisabledDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ToggleDisabledDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ToggleDisabledDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21389,10 +20433,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ToggleGroupDemo.vue",
         type: "registry:example",
-        target: "ToggleGroupDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ToggleGroupDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ToggleGroupDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21405,10 +20448,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ToggleGroupDisabledDemo.vue",
         type: "registry:example",
-        target: "ToggleGroupDisabledDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ToggleGroupDisabledDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ToggleGroupDisabledDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21421,10 +20463,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ToggleGroupLargeDemo.vue",
         type: "registry:example",
-        target: "ToggleGroupLargeDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ToggleGroupLargeDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ToggleGroupLargeDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21437,10 +20478,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ToggleGroupOutlineDemo.vue",
         type: "registry:example",
-        target: "ToggleGroupOutlineDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ToggleGroupOutlineDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ToggleGroupOutlineDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21453,10 +20493,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ToggleGroupSingleDemo.vue",
         type: "registry:example",
-        target: "ToggleGroupSingleDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ToggleGroupSingleDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ToggleGroupSingleDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21469,10 +20508,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ToggleGroupSmallDemo.vue",
         type: "registry:example",
-        target: "ToggleGroupSmallDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ToggleGroupSmallDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ToggleGroupSmallDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21485,10 +20523,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ToggleItalicDemo.vue",
         type: "registry:example",
-        target: "ToggleItalicDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ToggleItalicDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ToggleItalicDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21501,10 +20538,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ToggleItalicWithTextDemo.vue",
         type: "registry:example",
-        target: "ToggleItalicWithTextDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ToggleItalicWithTextDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ToggleItalicWithTextDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21517,10 +20553,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ToggleLargeDemo.vue",
         type: "registry:example",
-        target: "ToggleLargeDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ToggleLargeDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ToggleLargeDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21533,10 +20568,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/ToggleSmallDemo.vue",
         type: "registry:example",
-        target: "ToggleSmallDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/ToggleSmallDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/ToggleSmallDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21549,10 +20583,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TooltipDemo.vue",
         type: "registry:example",
-        target: "TooltipDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TooltipDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TooltipDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21565,10 +20598,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TypographyBlockquote.vue",
         type: "registry:example",
-        target: "TypographyBlockquote.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TypographyBlockquote.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TypographyBlockquote.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21581,10 +20613,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TypographyDemo.vue",
         type: "registry:example",
-        target: "TypographyDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TypographyDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TypographyDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21597,10 +20628,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TypographyH1.vue",
         type: "registry:example",
-        target: "TypographyH1.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TypographyH1.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TypographyH1.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21613,10 +20643,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TypographyH2.vue",
         type: "registry:example",
-        target: "TypographyH2.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TypographyH2.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TypographyH2.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21629,10 +20658,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TypographyH3.vue",
         type: "registry:example",
-        target: "TypographyH3.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TypographyH3.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TypographyH3.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21645,10 +20673,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TypographyH4.vue",
         type: "registry:example",
-        target: "TypographyH4.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TypographyH4.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TypographyH4.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21661,10 +20688,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TypographyInlineCode.vue",
         type: "registry:example",
-        target: "TypographyInlineCode.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TypographyInlineCode.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TypographyInlineCode.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21677,10 +20703,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TypographyLarge.vue",
         type: "registry:example",
-        target: "TypographyLarge.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TypographyLarge.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TypographyLarge.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21693,10 +20718,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TypographyLead.vue",
         type: "registry:example",
-        target: "TypographyLead.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TypographyLead.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TypographyLead.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21709,10 +20733,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TypographyList.vue",
         type: "registry:example",
-        target: "TypographyList.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TypographyList.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TypographyList.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21725,10 +20748,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TypographyMuted.vue",
         type: "registry:example",
-        target: "TypographyMuted.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TypographyMuted.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TypographyMuted.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21741,10 +20763,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TypographyP.vue",
         type: "registry:example",
-        target: "TypographyP.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TypographyP.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TypographyP.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21757,10 +20778,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TypographySmall.vue",
         type: "registry:example",
-        target: "TypographySmall.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TypographySmall.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TypographySmall.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21773,10 +20793,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/TypographyTable.vue",
         type: "registry:example",
-        target: "TypographyTable.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/TypographyTable.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/TypographyTable.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21789,10 +20808,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/VCalendarDemo.vue",
         type: "registry:example",
-        target: "VCalendarDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/VCalendarDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/VCalendarDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21805,10 +20823,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/VDatePickerDemo.vue",
         type: "registry:example",
-        target: "VDatePickerDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/VDatePickerDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/VDatePickerDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21821,10 +20838,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/VDatePickerForm.vue",
         type: "registry:example",
-        target: "VDatePickerForm.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/VDatePickerForm.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/VDatePickerForm.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21837,10 +20853,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/VDatePickerWithPresets.vue",
         type: "registry:example",
-        target: "VDatePickerWithPresets.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/VDatePickerWithPresets.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/VDatePickerWithPresets.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21853,10 +20868,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/VDatePickerWithRange.vue",
         type: "registry:example",
-        target: "VDatePickerWithRange.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/VDatePickerWithRange.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/VDatePickerWithRange.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21869,10 +20883,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/VDateTimePickerDemo.vue",
         type: "registry:example",
-        target: "VDateTimePickerDemo.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/VDateTimePickerDemo.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/VDateTimePickerDemo.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21885,10 +20898,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/example/VRangePickerWithSlot.vue",
         type: "registry:example",
-        target: "VRangePickerWithSlot.vue"
+        target: ""
       }],
       component: () => import("@/registry/default/example/VRangePickerWithSlot.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/example/VRangePickerWithSlot.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21901,10 +20913,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/block/Authentication01.vue",
         type: "registry:block",
-        target: "Authentication01.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/default/block/Authentication01.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/block/Authentication01.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21917,10 +20928,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/block/Authentication02.vue",
         type: "registry:block",
-        target: "Authentication02.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/default/block/Authentication02.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/block/Authentication02.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21933,10 +20943,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/block/Authentication03.vue",
         type: "registry:block",
-        target: "Authentication03.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/default/block/Authentication03.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/block/Authentication03.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21949,10 +20958,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/block/Authentication04.vue",
         type: "registry:block",
-        target: "Authentication04.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/default/block/Authentication04.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/block/Authentication04.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21965,10 +20973,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/block/Dashboard01.vue",
         type: "registry:block",
-        target: "Dashboard01.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/default/block/Dashboard01.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/block/Dashboard01.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21981,10 +20988,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/block/Dashboard02.vue",
         type: "registry:block",
-        target: "Dashboard02.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/default/block/Dashboard02.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/block/Dashboard02.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21997,10 +21003,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/block/Dashboard03.vue",
         type: "registry:block",
-        target: "Dashboard03.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/default/block/Dashboard03.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/block/Dashboard03.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -22013,10 +21018,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/block/Dashboard04.vue",
         type: "registry:block",
-        target: "Dashboard04.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/default/block/Dashboard04.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/block/Dashboard04.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -22029,10 +21033,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/block/Dashboard05.vue",
         type: "registry:block",
-        target: "Dashboard05.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/default/block/Dashboard05.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/block/Dashboard05.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -22045,10 +21048,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/block/Dashboard06.vue",
         type: "registry:block",
-        target: "Dashboard06.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/default/block/Dashboard06.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/block/Dashboard06.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -22061,10 +21063,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/block/Dashboard07.vue",
         type: "registry:block",
-        target: "Dashboard07.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/default/block/Dashboard07.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/block/Dashboard07.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -22077,10 +21078,36 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/block/Sidebar01/page.vue",
         type: "registry:page",
-        target: "Sidebar01Page.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/default/block/Sidebar01/page.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/block/Sidebar01/page.vue?raw").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Sidebar02": {
+      name: "Sidebar02",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","SearchForm.vue","VersionSwitcher.vue","collapsible","label","dropdown-menu"],
+      files: [{
+        path: "registry/default/block/Sidebar02/page.vue",
+        type: "registry:page",
+        target: "pages/dashboard/index.vue"
+      },{
+        path: "registry/default/block/Sidebar02/components/AppSidebar.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar02/components/SearchForm.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar02/components/VersionSwitcher.vue",
+        type: "registry:component",
+        target: ""
+      }],
+      component: () => import("@/registry/default/block/Sidebar02/page.vue").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -22093,10 +21120,9 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/block/Sidebar07/page.vue",
         type: "registry:page",
-        target: "Sidebar07Page.vue"
+        target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/default/block/Sidebar07/page.vue").then((m) => m.default),
-      raw: () => import("@/registry/default/block/Sidebar07/page.vue?raw").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""

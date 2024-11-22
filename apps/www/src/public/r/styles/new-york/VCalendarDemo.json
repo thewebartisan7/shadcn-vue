@@ -10,7 +10,7 @@
       "path": "example/VCalendarDemo.vue",
       "content": "<script setup lang=\"ts\">\nimport { Calendar } from '@/registry/new-york/ui/v-calendar'\nimport { ref } from 'vue'\n\nconst date = ref(new Date())\n</script>\n\n<template>\n  <Calendar v-model=\"date\" class=\"rounded-md border\" />\n</template>\n",
       "type": "registry:example",
-      "target": "VCalendarDemo.vue"
+      "target": ""
     }
   ]
 }

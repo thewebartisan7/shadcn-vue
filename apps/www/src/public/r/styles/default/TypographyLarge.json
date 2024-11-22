@@ -8,7 +8,7 @@
       "path": "example/TypographyLarge.vue",
       "content": "<template>\n  <div class=\"text-lg font-semibold\">\n    Are you absolutely sure?\n  </div>\n</template>\n",
       "type": "registry:example",
-      "target": "TypographyLarge.vue"
+      "target": ""
     }
   ]
 }

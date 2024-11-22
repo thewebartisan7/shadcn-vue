@@ -10,7 +10,7 @@
       "path": "example/ButtonOutlineDemo.vue",
       "content": "<script setup lang=\"ts\">\nimport { Button } from '@/registry/default/ui/button'\n</script>\n\n<template>\n  <Button variant=\"outline\">\n    Outline\n  </Button>\n</template>\n",
       "type": "registry:example",
-      "target": "ButtonOutlineDemo.vue"
+      "target": ""
     }
   ]
 }
