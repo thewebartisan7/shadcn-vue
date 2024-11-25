@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import { Button } from '@/registry/new-york/ui/button'
+import { Button } from '@/registry/default/ui/button'
 
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from '@/registry/new-york/ui/popover'
+} from '@/registry/default/ui/popover'
 import {
   Sidebar,
   SidebarContent,
@@ -14,7 +14,7 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-} from '@/registry/new-york/ui/sidebar'
+} from '@/registry/default/ui/sidebar'
 import {
   ArrowDown,
   ArrowUp,

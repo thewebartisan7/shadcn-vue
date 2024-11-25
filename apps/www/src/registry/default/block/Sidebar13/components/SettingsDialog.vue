@@ -6,16 +6,16 @@ import {
   BreadcrumbList,
   BreadcrumbPage,
   BreadcrumbSeparator,
-} from '@/registry/new-york/ui/breadcrumb'
+} from '@/registry/default/ui/breadcrumb'
 
-import { Button } from '@/registry/new-york/ui/button'
+import { Button } from '@/registry/default/ui/button'
 import {
   Dialog,
   DialogContent,
   DialogDescription,
   DialogTitle,
   DialogTrigger,
-} from '@/registry/new-york/ui/dialog'
+} from '@/registry/default/ui/dialog'
 import {
   Sidebar,
   SidebarContent,
@@ -25,7 +25,7 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
   SidebarProvider,
-} from '@/registry/new-york/ui/sidebar'
+} from '@/registry/default/ui/sidebar'
 import {
   Bell,
   Check,

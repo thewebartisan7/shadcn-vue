@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import SearchForm from '@/registry/new-york/block/Sidebar01/components/SearchForm.vue'
-import VersionSwitcher from '@/registry/new-york/block/Sidebar01/components/VersionSwitcher.vue'
+import SearchForm from '@/registry/default/block/Sidebar01/components/SearchForm.vue'
+import VersionSwitcher from '@/registry/default/block/Sidebar01/components/VersionSwitcher.vue'
 
 import {
   Sidebar,
@@ -14,7 +14,7 @@ import {
   SidebarMenuItem,
   type SidebarProps,
   SidebarRail,
-} from '@/registry/new-york/ui/sidebar'
+} from '@/registry/default/ui/sidebar'
 
 const props = defineProps<SidebarProps>()
 

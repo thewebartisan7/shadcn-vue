@@ -1,17 +1,17 @@
 <script setup lang="ts">
-import type { SidebarProps } from '@/registry/new-york/ui/sidebar'
+import type { SidebarProps } from '@/registry/default/ui/sidebar'
 
-import NavMain from '@/registry/new-york/block/Sidebar07/components/NavMain.vue'
-import NavProjects from '@/registry/new-york/block/Sidebar07/components/NavProjects.vue'
-import NavUser from '@/registry/new-york/block/Sidebar07/components/NavUser.vue'
-import TeamSwitcher from '@/registry/new-york/block/Sidebar07/components/TeamSwitcher.vue'
+import NavMain from '@/registry/default/block/Sidebar07/components/NavMain.vue'
+import NavProjects from '@/registry/default/block/Sidebar07/components/NavProjects.vue'
+import NavUser from '@/registry/default/block/Sidebar07/components/NavUser.vue'
+import TeamSwitcher from '@/registry/default/block/Sidebar07/components/TeamSwitcher.vue'
 import {
   Sidebar,
   SidebarContent,
   SidebarFooter,
   SidebarHeader,
   SidebarRail,
-} from '@/registry/new-york/ui/sidebar'
+} from '@/registry/default/ui/sidebar'
 
 import {
   AudioWaveform,

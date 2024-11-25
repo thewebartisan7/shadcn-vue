@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import NavMain from '@/registry/new-york/block/Sidebar06/components/NavMain.vue'
-import SidebarOptInForm from '@/registry/new-york/block/Sidebar06/components/SidebarOptInForm.vue'
+import NavMain from '@/registry/default/block/Sidebar06/components/NavMain.vue'
+import SidebarOptInForm from '@/registry/default/block/Sidebar06/components/SidebarOptInForm.vue'
 
 import {
   Sidebar,
@@ -12,7 +12,7 @@ import {
   SidebarMenuItem,
   type SidebarProps,
   SidebarRail,
-} from '@/registry/new-york/ui/sidebar'
+} from '@/registry/default/ui/sidebar'
 import { GalleryVerticalEnd } from 'lucide-vue-next'
 
 const props = defineProps<SidebarProps>()

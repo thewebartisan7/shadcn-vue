@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { Button } from '@/registry/new-york/ui/button'
-import { Index } from '../../../__registry__'
 import Announcement from '../components/Announcement.vue'
 import PageAction from '../components/PageAction.vue'
 
@@ -10,8 +9,7 @@ import PageHeaderDescription from '../components/PageHeaderDescription.vue'
 import PageHeaderHeading from '../components/PageHeaderHeading.vue'
 import BlockContainer from './BlockContainer.vue'
 
-// const blocks = ['Sidebar01', 'Sidebar02', 'Sidebar03', 'Sidebar04', 'Sidebar05', 'Sidebar06', 'Sidebar07', 'Sidebar08', 'Sidebar09', 'Sidebar10', 'Sidebar11', 'Sidebar12', 'Sidebar13', 'Sidebar14', 'Sidebar15', 'Login01']
-const blocks = Object.values(Index['new-york']).filter((i: any) => i.type === 'registry:block' && i.name.includes('Sidebar')).map((i: any) => i.name)
+const blocks = ['Sidebar01', 'Sidebar02', 'Sidebar03', 'Sidebar04', 'Sidebar05', 'Sidebar06', 'Sidebar07', 'Sidebar08', 'Sidebar09', 'Sidebar10', 'Sidebar11', 'Sidebar12', 'Sidebar13', 'Sidebar14', 'Sidebar15', 'Login01']
 </script>
 
 <template>

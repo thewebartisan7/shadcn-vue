@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { Calendar } from '@/registry/new-york/ui/calendar'
+import { Calendar } from '@/registry/default/ui/calendar'
 import {
   SidebarGroup,
   SidebarGroupContent,
-} from '@/registry/new-york/ui/sidebar'
+} from '@/registry/default/ui/sidebar'
 </script>
 
 <template>

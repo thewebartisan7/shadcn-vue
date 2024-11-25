@@ -220,10 +220,6 @@ watch([style, codeConfig], async () => {
     </TabsContent>
     <TabsContent value="code" class="h-[--height]">
       <BlockViewerCode v-if="componentRegistry" :item="componentRegistry" />
-      <!-- <div
-        class="language-vue !h-full !max-h-[none] !mt-0"
-        v-html="codeHtml"
-      /> -->
     </TabsContent>
   </Tabs>
 </template>

@@ -4,20 +4,20 @@ export const description = 'A left and right sidebar.'
 </script>
 
 <script setup lang="ts">
-import SidebarLeft from '@/registry/new-york/block/Sidebar15/components/SidebarLeft.vue'
-import SidebarRight from '@/registry/new-york/block/Sidebar15/components/SidebarRight.vue'
+import SidebarLeft from '@/registry/default/block/Sidebar15/components/SidebarLeft.vue'
+import SidebarRight from '@/registry/default/block/Sidebar15/components/SidebarRight.vue'
 import {
   Breadcrumb,
   BreadcrumbItem,
   BreadcrumbList,
   BreadcrumbPage,
-} from '@/registry/new-york/ui/breadcrumb'
-import { Separator } from '@/registry/new-york/ui/separator'
+} from '@/registry/default/ui/breadcrumb'
+import { Separator } from '@/registry/default/ui/separator'
 import {
   SidebarInset,
   SidebarProvider,
   SidebarTrigger,
-} from '@/registry/new-york/ui/sidebar'
+} from '@/registry/default/ui/sidebar'
 </script>
 
 <template>

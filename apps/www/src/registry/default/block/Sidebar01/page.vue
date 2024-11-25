@@ -5,7 +5,7 @@ export const description
 </script>
 
 <script setup lang="ts">
-import AppSidebar from '@/registry/new-york/block/Sidebar01/components/AppSidebar.vue'
+import AppSidebar from '@/registry/default/block/Sidebar01/components/AppSidebar.vue'
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -13,13 +13,13 @@ import {
   BreadcrumbList,
   BreadcrumbPage,
   BreadcrumbSeparator,
-} from '@/registry/new-york/ui/breadcrumb'
-import { Separator } from '@/registry/new-york/ui/separator'
+} from '@/registry/default/ui/breadcrumb'
+import { Separator } from '@/registry/default/ui/separator'
 import {
   SidebarInset,
   SidebarProvider,
   SidebarTrigger,
-} from '@/registry/new-york/ui/sidebar'
+} from '@/registry/default/ui/sidebar'
 </script>
 
 <template>

@@ -60,8 +60,8 @@ onContentUpdated(() => {
 </script>
 
 <template>
-  <div class="hidden text-sm xl:block">
-    <div class="no-scrollbar h-full overflow-auto pb-10 space-y-2">
+  <div class="hidden xl:block no-scrollbar h-full overflow-auto pb-16">
+    <div class="space-y-2">
       <p class="font-medium">
         On This Page
       </p>

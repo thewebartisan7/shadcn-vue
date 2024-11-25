@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import Calendars from '@/registry/new-york/block/Sidebar12/components/Calendars.vue'
+import Calendars from '@/registry/default/block/Sidebar12/components/Calendars.vue'
 
-import DatePicker from '@/registry/new-york/block/Sidebar12/components/DatePicker.vue'
-import NavUser from '@/registry/new-york/block/Sidebar12/components/NavUser.vue'
+import DatePicker from '@/registry/default/block/Sidebar12/components/DatePicker.vue'
+import NavUser from '@/registry/default/block/Sidebar12/components/NavUser.vue'
 import {
   Sidebar,
   SidebarContent,
@@ -14,7 +14,7 @@ import {
   type SidebarProps,
   SidebarRail,
   SidebarSeparator,
-} from '@/registry/new-york/ui/sidebar'
+} from '@/registry/default/ui/sidebar'
 import { Plus } from 'lucide-vue-next'
 
 const props = defineProps<SidebarProps>()

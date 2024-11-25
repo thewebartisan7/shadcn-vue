@@ -5235,6 +5235,205 @@ export const Index: Record<string, any> = {
       category: "",
       subcategory: ""
     },
+    "DemoSidebar": {
+      name: "DemoSidebar",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["sidebar"],
+      files: [{
+        path: "registry/new-york/block/DemoSidebar.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/new-york/block/DemoSidebar.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarControlled": {
+      name: "DemoSidebarControlled",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["button","sidebar"],
+      files: [{
+        path: "registry/new-york/block/DemoSidebarControlled.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/new-york/block/DemoSidebarControlled.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarFooter": {
+      name: "DemoSidebarFooter",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["dropdown-menu","sidebar"],
+      files: [{
+        path: "registry/new-york/block/DemoSidebarFooter.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/new-york/block/DemoSidebarFooter.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarGroup": {
+      name: "DemoSidebarGroup",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["sidebar"],
+      files: [{
+        path: "registry/new-york/block/DemoSidebarGroup.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/new-york/block/DemoSidebarGroup.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarGroupAction": {
+      name: "DemoSidebarGroupAction",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["sidebar"],
+      files: [{
+        path: "registry/new-york/block/DemoSidebarGroupAction.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/new-york/block/DemoSidebarGroupAction.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarGroupCollapsible": {
+      name: "DemoSidebarGroupCollapsible",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["collapsible","sidebar"],
+      files: [{
+        path: "registry/new-york/block/DemoSidebarGroupCollapsible.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/new-york/block/DemoSidebarGroupCollapsible.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarHeader": {
+      name: "DemoSidebarHeader",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["dropdown-menu","sidebar"],
+      files: [{
+        path: "registry/new-york/block/DemoSidebarHeader.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/new-york/block/DemoSidebarHeader.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarMenu": {
+      name: "DemoSidebarMenu",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["sidebar"],
+      files: [{
+        path: "registry/new-york/block/DemoSidebarMenu.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/new-york/block/DemoSidebarMenu.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarMenuAction": {
+      name: "DemoSidebarMenuAction",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["dropdown-menu","sidebar"],
+      files: [{
+        path: "registry/new-york/block/DemoSidebarMenuAction.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/new-york/block/DemoSidebarMenuAction.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarMenuBadge": {
+      name: "DemoSidebarMenuBadge",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["sidebar"],
+      files: [{
+        path: "registry/new-york/block/DemoSidebarMenuBadge.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/new-york/block/DemoSidebarMenuBadge.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarMenuCollapsible": {
+      name: "DemoSidebarMenuCollapsible",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["collapsible","sidebar"],
+      files: [{
+        path: "registry/new-york/block/DemoSidebarMenuCollapsible.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/new-york/block/DemoSidebarMenuCollapsible.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarMenuSub": {
+      name: "DemoSidebarMenuSub",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["sidebar"],
+      files: [{
+        path: "registry/new-york/block/DemoSidebarMenuSub.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/new-york/block/DemoSidebarMenuSub.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Login01": {
+      name: "Login01",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["LoginForm.vue","button","card","input","label"],
+      files: [{
+        path: "registry/new-york/block/Login01/page.vue",
+        type: "registry:page",
+        target: "pages/dashboard/index.vue"
+      },{
+        path: "registry/new-york/block/Login01/components/LoginForm.vue",
+        type: "registry:component",
+        target: ""
+      }],
+      component: () => import("@/registry/new-york/block/Login01/page.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
     "Sidebar01": {
       name: "Sidebar01",
       description: "",
@@ -10876,6 +11075,205 @@ export const Index: Record<string, any> = {
         target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/new-york/block/Dashboard07.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebar": {
+      name: "DemoSidebar",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["sidebar"],
+      files: [{
+        path: "registry/new-york/block/DemoSidebar.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/new-york/block/DemoSidebar.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarControlled": {
+      name: "DemoSidebarControlled",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["button","sidebar"],
+      files: [{
+        path: "registry/new-york/block/DemoSidebarControlled.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/new-york/block/DemoSidebarControlled.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarFooter": {
+      name: "DemoSidebarFooter",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["dropdown-menu","sidebar"],
+      files: [{
+        path: "registry/new-york/block/DemoSidebarFooter.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/new-york/block/DemoSidebarFooter.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarGroup": {
+      name: "DemoSidebarGroup",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["sidebar"],
+      files: [{
+        path: "registry/new-york/block/DemoSidebarGroup.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/new-york/block/DemoSidebarGroup.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarGroupAction": {
+      name: "DemoSidebarGroupAction",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["sidebar"],
+      files: [{
+        path: "registry/new-york/block/DemoSidebarGroupAction.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/new-york/block/DemoSidebarGroupAction.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarGroupCollapsible": {
+      name: "DemoSidebarGroupCollapsible",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["collapsible","sidebar"],
+      files: [{
+        path: "registry/new-york/block/DemoSidebarGroupCollapsible.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/new-york/block/DemoSidebarGroupCollapsible.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarHeader": {
+      name: "DemoSidebarHeader",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["dropdown-menu","sidebar"],
+      files: [{
+        path: "registry/new-york/block/DemoSidebarHeader.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/new-york/block/DemoSidebarHeader.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarMenu": {
+      name: "DemoSidebarMenu",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["sidebar"],
+      files: [{
+        path: "registry/new-york/block/DemoSidebarMenu.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/new-york/block/DemoSidebarMenu.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarMenuAction": {
+      name: "DemoSidebarMenuAction",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["dropdown-menu","sidebar"],
+      files: [{
+        path: "registry/new-york/block/DemoSidebarMenuAction.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/new-york/block/DemoSidebarMenuAction.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarMenuBadge": {
+      name: "DemoSidebarMenuBadge",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["sidebar"],
+      files: [{
+        path: "registry/new-york/block/DemoSidebarMenuBadge.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/new-york/block/DemoSidebarMenuBadge.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarMenuCollapsible": {
+      name: "DemoSidebarMenuCollapsible",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["collapsible","sidebar"],
+      files: [{
+        path: "registry/new-york/block/DemoSidebarMenuCollapsible.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/new-york/block/DemoSidebarMenuCollapsible.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarMenuSub": {
+      name: "DemoSidebarMenuSub",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["sidebar"],
+      files: [{
+        path: "registry/new-york/block/DemoSidebarMenuSub.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/new-york/block/DemoSidebarMenuSub.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Login01": {
+      name: "Login01",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["LoginForm.vue","button","card","input","label"],
+      files: [{
+        path: "registry/new-york/block/Login01/page.vue",
+        type: "registry:page",
+        target: "pages/dashboard/index.vue"
+      },{
+        path: "registry/new-york/block/Login01/components/LoginForm.vue",
+        type: "registry:component",
+        target: ""
+      }],
+      component: () => import("@/registry/new-york/block/Login01/page.vue").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16541,6 +16939,205 @@ export const Index: Record<string, any> = {
       category: "",
       subcategory: ""
     },
+    "DemoSidebar": {
+      name: "DemoSidebar",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["sidebar"],
+      files: [{
+        path: "registry/default/block/DemoSidebar.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/default/block/DemoSidebar.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarControlled": {
+      name: "DemoSidebarControlled",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["button","sidebar"],
+      files: [{
+        path: "registry/default/block/DemoSidebarControlled.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/default/block/DemoSidebarControlled.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarFooter": {
+      name: "DemoSidebarFooter",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["dropdown-menu","sidebar"],
+      files: [{
+        path: "registry/default/block/DemoSidebarFooter.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/default/block/DemoSidebarFooter.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarGroup": {
+      name: "DemoSidebarGroup",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["sidebar"],
+      files: [{
+        path: "registry/default/block/DemoSidebarGroup.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/default/block/DemoSidebarGroup.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarGroupAction": {
+      name: "DemoSidebarGroupAction",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["sidebar"],
+      files: [{
+        path: "registry/default/block/DemoSidebarGroupAction.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/default/block/DemoSidebarGroupAction.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarGroupCollapsible": {
+      name: "DemoSidebarGroupCollapsible",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["collapsible","sidebar"],
+      files: [{
+        path: "registry/default/block/DemoSidebarGroupCollapsible.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/default/block/DemoSidebarGroupCollapsible.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarHeader": {
+      name: "DemoSidebarHeader",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["dropdown-menu","sidebar"],
+      files: [{
+        path: "registry/default/block/DemoSidebarHeader.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/default/block/DemoSidebarHeader.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarMenu": {
+      name: "DemoSidebarMenu",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["sidebar"],
+      files: [{
+        path: "registry/default/block/DemoSidebarMenu.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/default/block/DemoSidebarMenu.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarMenuAction": {
+      name: "DemoSidebarMenuAction",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["dropdown-menu","sidebar"],
+      files: [{
+        path: "registry/default/block/DemoSidebarMenuAction.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/default/block/DemoSidebarMenuAction.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarMenuBadge": {
+      name: "DemoSidebarMenuBadge",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["sidebar"],
+      files: [{
+        path: "registry/default/block/DemoSidebarMenuBadge.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/default/block/DemoSidebarMenuBadge.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarMenuCollapsible": {
+      name: "DemoSidebarMenuCollapsible",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["collapsible","sidebar"],
+      files: [{
+        path: "registry/default/block/DemoSidebarMenuCollapsible.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/default/block/DemoSidebarMenuCollapsible.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarMenuSub": {
+      name: "DemoSidebarMenuSub",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["sidebar"],
+      files: [{
+        path: "registry/default/block/DemoSidebarMenuSub.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/default/block/DemoSidebarMenuSub.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Login01": {
+      name: "Login01",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["LoginForm.vue","button","card","input","label"],
+      files: [{
+        path: "registry/default/block/Login01/page.vue",
+        type: "registry:page",
+        target: "pages/dashboard/index.vue"
+      },{
+        path: "registry/default/block/Login01/components/LoginForm.vue",
+        type: "registry:component",
+        target: ""
+      }],
+      component: () => import("@/registry/default/block/Login01/page.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
     "Sidebar01": {
       name: "Sidebar01",
       description: "",
@@ -22182,6 +22779,205 @@ export const Index: Record<string, any> = {
         target: "pages/dashboard/index.vue"
       }],
       component: () => import("@/registry/default/block/Dashboard07.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebar": {
+      name: "DemoSidebar",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["sidebar"],
+      files: [{
+        path: "registry/default/block/DemoSidebar.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/default/block/DemoSidebar.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarControlled": {
+      name: "DemoSidebarControlled",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["button","sidebar"],
+      files: [{
+        path: "registry/default/block/DemoSidebarControlled.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/default/block/DemoSidebarControlled.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarFooter": {
+      name: "DemoSidebarFooter",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["dropdown-menu","sidebar"],
+      files: [{
+        path: "registry/default/block/DemoSidebarFooter.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/default/block/DemoSidebarFooter.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarGroup": {
+      name: "DemoSidebarGroup",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["sidebar"],
+      files: [{
+        path: "registry/default/block/DemoSidebarGroup.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/default/block/DemoSidebarGroup.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarGroupAction": {
+      name: "DemoSidebarGroupAction",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["sidebar"],
+      files: [{
+        path: "registry/default/block/DemoSidebarGroupAction.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/default/block/DemoSidebarGroupAction.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarGroupCollapsible": {
+      name: "DemoSidebarGroupCollapsible",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["collapsible","sidebar"],
+      files: [{
+        path: "registry/default/block/DemoSidebarGroupCollapsible.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/default/block/DemoSidebarGroupCollapsible.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarHeader": {
+      name: "DemoSidebarHeader",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["dropdown-menu","sidebar"],
+      files: [{
+        path: "registry/default/block/DemoSidebarHeader.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/default/block/DemoSidebarHeader.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarMenu": {
+      name: "DemoSidebarMenu",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["sidebar"],
+      files: [{
+        path: "registry/default/block/DemoSidebarMenu.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/default/block/DemoSidebarMenu.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarMenuAction": {
+      name: "DemoSidebarMenuAction",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["dropdown-menu","sidebar"],
+      files: [{
+        path: "registry/default/block/DemoSidebarMenuAction.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/default/block/DemoSidebarMenuAction.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarMenuBadge": {
+      name: "DemoSidebarMenuBadge",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["sidebar"],
+      files: [{
+        path: "registry/default/block/DemoSidebarMenuBadge.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/default/block/DemoSidebarMenuBadge.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarMenuCollapsible": {
+      name: "DemoSidebarMenuCollapsible",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["collapsible","sidebar"],
+      files: [{
+        path: "registry/default/block/DemoSidebarMenuCollapsible.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/default/block/DemoSidebarMenuCollapsible.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "DemoSidebarMenuSub": {
+      name: "DemoSidebarMenuSub",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["sidebar"],
+      files: [{
+        path: "registry/default/block/DemoSidebarMenuSub.vue",
+        type: "registry:block",
+        target: "pages/dashboard/index.vue"
+      }],
+      component: () => import("@/registry/default/block/DemoSidebarMenuSub.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Login01": {
+      name: "Login01",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["LoginForm.vue","button","card","input","label"],
+      files: [{
+        path: "registry/default/block/Login01/page.vue",
+        type: "registry:page",
+        target: "pages/dashboard/index.vue"
+      },{
+        path: "registry/default/block/Login01/components/LoginForm.vue",
+        type: "registry:component",
+        target: ""
+      }],
+      component: () => import("@/registry/default/block/Login01/page.vue").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""

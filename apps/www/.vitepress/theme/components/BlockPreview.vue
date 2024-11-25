@@ -12,7 +12,7 @@ const isLoading = ref(true)
 
 <template>
   <div class="relative rounded-lg border overflow-hidden bg-background" :class="[container ? '' : 'aspect-[4/2.5]']">
-    <div v-if="isLoading" class="flex items-center justify-center h-full">
+    <div v-if="isLoading" class="flex items-center justify-center h-full w-full z-10 relative">
       <Spinner />
     </div>
     <div

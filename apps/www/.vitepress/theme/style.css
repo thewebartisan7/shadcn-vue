@@ -223,7 +223,7 @@ pre code {
 }
 
 .line-numbers-wrapper {
-	@apply font-mono;
+  @apply !font-mono;
 }
 
 pre code .line {
@@ -231,7 +231,9 @@ pre code .line {
 }
 
 .line-number {
-	@apply !text-sm !inline-block text-muted-foreground leading-[--vp-code-line-height];
+  font-size: .75rem ;
+  color: hsla(0, 0%, 98%, .4) ;
+	@apply !inline-block leading-[--vp-code-line-height];
 }
 
 ::view-transition-old(root),

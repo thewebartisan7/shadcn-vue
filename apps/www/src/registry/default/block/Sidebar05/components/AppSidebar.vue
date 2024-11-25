@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import SearchForm from '@/registry/new-york/block/Sidebar05/components/SearchForm.vue'
+import SearchForm from '@/registry/default/block/Sidebar05/components/SearchForm.vue'
 import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
-} from '@/registry/new-york/ui/collapsible'
+} from '@/registry/default/ui/collapsible'
 import {
   Sidebar,
   SidebarContent,
@@ -18,7 +18,7 @@ import {
   SidebarMenuSubItem,
   type SidebarProps,
   SidebarRail,
-} from '@/registry/new-york/ui/sidebar'
+} from '@/registry/default/ui/sidebar'
 import { GalleryVerticalEnd, Minus, Plus } from 'lucide-vue-next'
 
 const props = defineProps<SidebarProps>()

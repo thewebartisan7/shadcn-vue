@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import { Label } from '@/registry/new-york/ui/label'
+import { Label } from '@/registry/default/ui/label'
 import {
   SidebarGroup,
   SidebarGroupContent,
   SidebarInput,
-} from '@/registry/new-york/ui/sidebar'
+} from '@/registry/default/ui/sidebar'
 import { Search } from 'lucide-vue-next'
 </script>
 

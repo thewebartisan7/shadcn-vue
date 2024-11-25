@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import NavMain from '@/registry/new-york/block/Sidebar08/components/NavMain.vue'
+import NavMain from '@/registry/default/block/Sidebar08/components/NavMain.vue'
 
-import NavProjects from '@/registry/new-york/block/Sidebar08/components/NavProjects.vue'
-import NavSecondary from '@/registry/new-york/block/Sidebar08/components/NavSecondary.vue'
-import NavUser from '@/registry/new-york/block/Sidebar08/components/NavUser.vue'
+import NavProjects from '@/registry/default/block/Sidebar08/components/NavProjects.vue'
+import NavSecondary from '@/registry/default/block/Sidebar08/components/NavSecondary.vue'
+import NavUser from '@/registry/default/block/Sidebar08/components/NavUser.vue'
 import {
   Sidebar,
   SidebarContent,
@@ -13,7 +13,7 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
   type SidebarProps,
-} from '@/registry/new-york/ui/sidebar'
+} from '@/registry/default/ui/sidebar'
 import {
   BookOpen,
   Bot,

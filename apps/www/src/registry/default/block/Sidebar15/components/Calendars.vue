@@ -3,7 +3,7 @@ import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
-} from '@/registry/new-york/ui/collapsible'
+} from '@/registry/default/ui/collapsible'
 
 import {
   SidebarGroup,
@@ -13,7 +13,7 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
   SidebarSeparator,
-} from '@/registry/new-york/ui/sidebar'
+} from '@/registry/default/ui/sidebar'
 import { Check, ChevronRight } from 'lucide-vue-next'
 
 const props = defineProps<{

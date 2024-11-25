@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import NavUser from '@/registry/new-york/block/Sidebar09/components/NavUser.vue'
+import NavUser from '@/registry/default/block/Sidebar09/components/NavUser.vue'
 
-import { Label } from '@/registry/new-york/ui/label'
+import { Label } from '@/registry/default/ui/label'
 import {
   Sidebar,
   SidebarContent,
@@ -15,8 +15,8 @@ import {
   SidebarMenuItem,
   type SidebarProps,
   useSidebar,
-} from '@/registry/new-york/ui/sidebar'
-import { Switch } from '@/registry/new-york/ui/switch'
+} from '@/registry/default/ui/sidebar'
+import { Switch } from '@/registry/default/ui/switch'
 import { ArchiveX, Command, File, Inbox, Send, Trash2 } from 'lucide-vue-next'
 import { h, ref } from 'vue'
 
