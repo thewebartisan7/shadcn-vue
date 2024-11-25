@@ -1,8 +1,7 @@
 <script setup lang="ts">
 import type { HTMLAttributes } from 'vue'
 import { cn } from '@/lib/utils'
-import Sheet from '@/registry/default/ui/sheet/Sheet.vue'
-import SheetContent from '@/registry/default/ui/sheet/SheetContent.vue'
+import { Sheet, SheetContent } from '@/registry/default/ui/sheet'
 import { SIDEBAR_WIDTH_MOBILE, useSidebar } from './utils'
 
 defineOptions({

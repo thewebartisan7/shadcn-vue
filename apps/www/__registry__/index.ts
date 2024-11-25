@@ -1561,7 +1561,7 @@ export const Index: Record<string, any> = {
       name: "sidebar",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["utils","Sheet.vue","SheetContent.vue","Input.vue","Tooltip.vue","TooltipContent.vue","TooltipTrigger.vue","Skeleton.vue","Separator.vue","Button.vue"],
+      registryDependencies: ["utils","sheet","input","tooltip","skeleton","separator","button"],
       files: [{
         path: "registry/new-york/ui/sidebar/Sidebar.vue",
         type: "registry:ui",
@@ -7405,7 +7405,7 @@ export const Index: Record<string, any> = {
       name: "sidebar",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["utils","Sheet.vue","SheetContent.vue","Input.vue","Tooltip.vue","TooltipContent.vue","TooltipTrigger.vue","Skeleton.vue","Separator.vue","Button.vue"],
+      registryDependencies: ["utils","sheet","input","tooltip","skeleton","separator","button"],
       files: [{
         path: "registry/new-york/ui/sidebar/Sidebar.vue",
         type: "registry:ui",
@@ -13265,7 +13265,7 @@ export const Index: Record<string, any> = {
       name: "sidebar",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["utils","Sheet.vue","SheetContent.vue","Input.vue","Tooltip.vue","TooltipContent.vue","TooltipTrigger.vue","Skeleton.vue","Separator.vue","Button.vue"],
+      registryDependencies: ["utils","sheet","input","tooltip","skeleton","separator","button"],
       files: [{
         path: "registry/default/ui/sidebar/Sidebar.vue",
         type: "registry:ui",
@@ -19109,7 +19109,7 @@ export const Index: Record<string, any> = {
       name: "sidebar",
       description: "",
       type: "registry:ui",
-      registryDependencies: ["utils","Sheet.vue","SheetContent.vue","Input.vue","Tooltip.vue","TooltipContent.vue","TooltipTrigger.vue","Skeleton.vue","Separator.vue","Button.vue"],
+      registryDependencies: ["utils","sheet","input","tooltip","skeleton","separator","button"],
       files: [{
         path: "registry/default/ui/sidebar/Sidebar.vue",
         type: "registry:ui",

@@ -1558,15 +1558,12 @@
     ],
     "registryDependencies": [
       "utils",
-      "Sheet.vue",
-      "SheetContent.vue",
-      "Input.vue",
-      "Tooltip.vue",
-      "TooltipContent.vue",
-      "TooltipTrigger.vue",
-      "Skeleton.vue",
-      "Separator.vue",
-      "Button.vue"
+      "sheet",
+      "input",
+      "tooltip",
+      "skeleton",
+      "separator",
+      "button"
     ],
     "files": [
       {
@@ -3625,15 +3622,12 @@
     ],
     "registryDependencies": [
       "utils",
-      "Sheet.vue",
-      "SheetContent.vue",
-      "Input.vue",
-      "Tooltip.vue",
-      "TooltipContent.vue",
-      "TooltipTrigger.vue",
-      "Skeleton.vue",
-      "Separator.vue",
-      "Button.vue"
+      "sheet",
+      "input",
+      "tooltip",
+      "skeleton",
+      "separator",
+      "button"
     ],
     "files": [
       {

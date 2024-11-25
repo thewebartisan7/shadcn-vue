@@ -19,7 +19,7 @@ import { HttpsProxyAgent } from 'https-proxy-agent'
 import { ofetch } from 'ofetch'
 import { z } from 'zod'
 
-const REGISTRY_URL = process.env.REGISTRY_URL ?? 'https://shadcn-vue.com/r'
+const REGISTRY_URL = process.env.REGISTRY_URL ?? 'https://next.shadcn-vue.com/r'
 
 const agent = process.env.https_proxy
   ? new HttpsProxyAgent(process.env.https_proxy)
@@ -182,6 +182,7 @@ async function fetchRegistry(paths: string[]) {
     const results = await Promise.all(
       paths.map(async (path) => {
         const url = getRegistryUrl(path)
+        console.log(url)
         const response = await ofetch(url, { agent, parseResponse: JSON.parse })
           .catch((error) => {
             throw new Error(error.data)

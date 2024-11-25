@@ -132,7 +132,6 @@ export async function getTailwindConfigFile(cwd: string) {
 
 export async function getTsConfigAliasPrefix(cwd: string) {
   const tsConfig = await loadConfig(cwd)
-
   if (
     tsConfig?.resultType === 'failed'
     || !Object.entries(tsConfig?.paths).length
