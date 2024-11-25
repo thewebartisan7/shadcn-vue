@@ -5239,7 +5239,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar01",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","SearchForm.vue","VersionSwitcher.vue","collapsible","label","dropdown-menu"],
+      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","SearchForm.vue","VersionSwitcher.vue","label","dropdown-menu"],
       files: [{
         path: "registry/new-york/block/Sidebar01/page.vue",
         type: "registry:page",
@@ -5466,6 +5466,200 @@ export const Index: Record<string, any> = {
         target: ""
       }],
       component: () => import("@/registry/new-york/block/Sidebar09/page.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Sidebar10": {
+      name: "Sidebar10",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["AppSidebar.vue","NavActions.vue","breadcrumb","separator","sidebar","NavFavorites.vue","NavMain.vue","NavSecondary.vue","NavWorkspaces.vue","TeamSwitcher.vue","button","popover","dropdown-menu","collapsible"],
+      files: [{
+        path: "registry/new-york/block/Sidebar10/page.vue",
+        type: "registry:page",
+        target: "pages/dashboard/index.vue"
+      },{
+        path: "registry/new-york/block/Sidebar10/components/AppSidebar.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar10/components/NavActions.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar10/components/NavFavorites.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar10/components/NavMain.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar10/components/NavSecondary.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar10/components/NavWorkspaces.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar10/components/TeamSwitcher.vue",
+        type: "registry:component",
+        target: ""
+      }],
+      component: () => import("@/registry/new-york/block/Sidebar10/page.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Sidebar11": {
+      name: "Sidebar11",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","Tree.vue","collapsible"],
+      files: [{
+        path: "registry/new-york/block/Sidebar11/page.vue",
+        type: "registry:page",
+        target: "pages/dashboard/index.vue"
+      },{
+        path: "registry/new-york/block/Sidebar11/components/AppSidebar.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar11/components/Tree.vue",
+        type: "registry:component",
+        target: ""
+      }],
+      component: () => import("@/registry/new-york/block/Sidebar11/page.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Sidebar12": {
+      name: "Sidebar12",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","Calendars.vue","DatePicker.vue","NavUser.vue","collapsible","calendar","avatar","dropdown-menu"],
+      files: [{
+        path: "registry/new-york/block/Sidebar12/page.vue",
+        type: "registry:page",
+        target: "pages/dashboard/index.vue"
+      },{
+        path: "registry/new-york/block/Sidebar12/components/AppSidebar.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar12/components/Calendars.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar12/components/DatePicker.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar12/components/NavUser.vue",
+        type: "registry:component",
+        target: ""
+      }],
+      component: () => import("@/registry/new-york/block/Sidebar12/page.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Sidebar13": {
+      name: "Sidebar13",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["SettingsDialog.vue","breadcrumb","button","dialog","sidebar"],
+      files: [{
+        path: "registry/new-york/block/Sidebar13/page.vue",
+        type: "registry:page",
+        target: "pages/dashboard/index.vue"
+      },{
+        path: "registry/new-york/block/Sidebar13/components/SettingsDialog.vue",
+        type: "registry:component",
+        target: ""
+      }],
+      component: () => import("@/registry/new-york/block/Sidebar13/page.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Sidebar14": {
+      name: "Sidebar14",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["AppSidebar.vue","breadcrumb","sidebar"],
+      files: [{
+        path: "registry/new-york/block/Sidebar14/page.vue",
+        type: "registry:page",
+        target: "pages/dashboard/index.vue"
+      },{
+        path: "registry/new-york/block/Sidebar14/components/AppSidebar.vue",
+        type: "registry:component",
+        target: ""
+      }],
+      component: () => import("@/registry/new-york/block/Sidebar14/page.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Sidebar15": {
+      name: "Sidebar15",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["SidebarLeft.vue","SidebarRight.vue","breadcrumb","separator","sidebar","collapsible","calendar","dropdown-menu","avatar","NavFavorites.vue","NavMain.vue","NavSecondary.vue","NavWorkspaces.vue","TeamSwitcher.vue","Calendars.vue","DatePicker.vue","NavUser.vue"],
+      files: [{
+        path: "registry/new-york/block/Sidebar15/page.vue",
+        type: "registry:page",
+        target: "pages/dashboard/index.vue"
+      },{
+        path: "registry/new-york/block/Sidebar15/components/AppSidebar.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar15/components/Calendars.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar15/components/DatePicker.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar15/components/NavFavorites.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar15/components/NavMain.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar15/components/NavSecondary.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar15/components/NavUser.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar15/components/NavWorkspaces.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar15/components/SidebarLeft.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar15/components/SidebarRight.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar15/components/TeamSwitcher.vue",
+        type: "registry:component",
+        target: ""
+      }],
+      component: () => import("@/registry/new-york/block/Sidebar15/page.vue").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10690,7 +10884,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar01",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","SearchForm.vue","VersionSwitcher.vue","collapsible","label","dropdown-menu"],
+      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","SearchForm.vue","VersionSwitcher.vue","label","dropdown-menu"],
       files: [{
         path: "registry/new-york/block/Sidebar01/page.vue",
         type: "registry:page",
@@ -10917,6 +11111,200 @@ export const Index: Record<string, any> = {
         target: ""
       }],
       component: () => import("@/registry/new-york/block/Sidebar09/page.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Sidebar10": {
+      name: "Sidebar10",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["AppSidebar.vue","NavActions.vue","breadcrumb","separator","sidebar","NavFavorites.vue","NavMain.vue","NavSecondary.vue","NavWorkspaces.vue","TeamSwitcher.vue","button","popover","dropdown-menu","collapsible"],
+      files: [{
+        path: "registry/new-york/block/Sidebar10/page.vue",
+        type: "registry:page",
+        target: "pages/dashboard/index.vue"
+      },{
+        path: "registry/new-york/block/Sidebar10/components/AppSidebar.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar10/components/NavActions.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar10/components/NavFavorites.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar10/components/NavMain.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar10/components/NavSecondary.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar10/components/NavWorkspaces.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar10/components/TeamSwitcher.vue",
+        type: "registry:component",
+        target: ""
+      }],
+      component: () => import("@/registry/new-york/block/Sidebar10/page.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Sidebar11": {
+      name: "Sidebar11",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","Tree.vue","collapsible"],
+      files: [{
+        path: "registry/new-york/block/Sidebar11/page.vue",
+        type: "registry:page",
+        target: "pages/dashboard/index.vue"
+      },{
+        path: "registry/new-york/block/Sidebar11/components/AppSidebar.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar11/components/Tree.vue",
+        type: "registry:component",
+        target: ""
+      }],
+      component: () => import("@/registry/new-york/block/Sidebar11/page.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Sidebar12": {
+      name: "Sidebar12",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","Calendars.vue","DatePicker.vue","NavUser.vue","collapsible","calendar","avatar","dropdown-menu"],
+      files: [{
+        path: "registry/new-york/block/Sidebar12/page.vue",
+        type: "registry:page",
+        target: "pages/dashboard/index.vue"
+      },{
+        path: "registry/new-york/block/Sidebar12/components/AppSidebar.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar12/components/Calendars.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar12/components/DatePicker.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar12/components/NavUser.vue",
+        type: "registry:component",
+        target: ""
+      }],
+      component: () => import("@/registry/new-york/block/Sidebar12/page.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Sidebar13": {
+      name: "Sidebar13",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["SettingsDialog.vue","breadcrumb","button","dialog","sidebar"],
+      files: [{
+        path: "registry/new-york/block/Sidebar13/page.vue",
+        type: "registry:page",
+        target: "pages/dashboard/index.vue"
+      },{
+        path: "registry/new-york/block/Sidebar13/components/SettingsDialog.vue",
+        type: "registry:component",
+        target: ""
+      }],
+      component: () => import("@/registry/new-york/block/Sidebar13/page.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Sidebar14": {
+      name: "Sidebar14",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["AppSidebar.vue","breadcrumb","sidebar"],
+      files: [{
+        path: "registry/new-york/block/Sidebar14/page.vue",
+        type: "registry:page",
+        target: "pages/dashboard/index.vue"
+      },{
+        path: "registry/new-york/block/Sidebar14/components/AppSidebar.vue",
+        type: "registry:component",
+        target: ""
+      }],
+      component: () => import("@/registry/new-york/block/Sidebar14/page.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Sidebar15": {
+      name: "Sidebar15",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["SidebarLeft.vue","SidebarRight.vue","breadcrumb","separator","sidebar","collapsible","calendar","dropdown-menu","avatar","NavFavorites.vue","NavMain.vue","NavSecondary.vue","NavWorkspaces.vue","TeamSwitcher.vue","Calendars.vue","DatePicker.vue","NavUser.vue"],
+      files: [{
+        path: "registry/new-york/block/Sidebar15/page.vue",
+        type: "registry:page",
+        target: "pages/dashboard/index.vue"
+      },{
+        path: "registry/new-york/block/Sidebar15/components/AppSidebar.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar15/components/Calendars.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar15/components/DatePicker.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar15/components/NavFavorites.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar15/components/NavMain.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar15/components/NavSecondary.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar15/components/NavUser.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar15/components/NavWorkspaces.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar15/components/SidebarLeft.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar15/components/SidebarRight.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/block/Sidebar15/components/TeamSwitcher.vue",
+        type: "registry:component",
+        target: ""
+      }],
+      component: () => import("@/registry/new-york/block/Sidebar15/page.vue").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -16157,7 +16545,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar01",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","SearchForm.vue","VersionSwitcher.vue","collapsible","label","dropdown-menu"],
+      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","SearchForm.vue","VersionSwitcher.vue","label","dropdown-menu"],
       files: [{
         path: "registry/default/block/Sidebar01/page.vue",
         type: "registry:page",
@@ -16384,6 +16772,200 @@ export const Index: Record<string, any> = {
         target: ""
       }],
       component: () => import("@/registry/default/block/Sidebar09/page.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Sidebar10": {
+      name: "Sidebar10",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["AppSidebar.vue","NavActions.vue","breadcrumb","separator","sidebar","NavFavorites.vue","NavMain.vue","NavSecondary.vue","NavWorkspaces.vue","TeamSwitcher.vue","button","popover","dropdown-menu","collapsible"],
+      files: [{
+        path: "registry/default/block/Sidebar10/page.vue",
+        type: "registry:page",
+        target: "pages/dashboard/index.vue"
+      },{
+        path: "registry/default/block/Sidebar10/components/AppSidebar.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar10/components/NavActions.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar10/components/NavFavorites.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar10/components/NavMain.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar10/components/NavSecondary.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar10/components/NavWorkspaces.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar10/components/TeamSwitcher.vue",
+        type: "registry:component",
+        target: ""
+      }],
+      component: () => import("@/registry/default/block/Sidebar10/page.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Sidebar11": {
+      name: "Sidebar11",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","Tree.vue","collapsible"],
+      files: [{
+        path: "registry/default/block/Sidebar11/page.vue",
+        type: "registry:page",
+        target: "pages/dashboard/index.vue"
+      },{
+        path: "registry/default/block/Sidebar11/components/AppSidebar.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar11/components/Tree.vue",
+        type: "registry:component",
+        target: ""
+      }],
+      component: () => import("@/registry/default/block/Sidebar11/page.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Sidebar12": {
+      name: "Sidebar12",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","Calendars.vue","DatePicker.vue","NavUser.vue","collapsible","calendar","avatar","dropdown-menu"],
+      files: [{
+        path: "registry/default/block/Sidebar12/page.vue",
+        type: "registry:page",
+        target: "pages/dashboard/index.vue"
+      },{
+        path: "registry/default/block/Sidebar12/components/AppSidebar.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar12/components/Calendars.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar12/components/DatePicker.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar12/components/NavUser.vue",
+        type: "registry:component",
+        target: ""
+      }],
+      component: () => import("@/registry/default/block/Sidebar12/page.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Sidebar13": {
+      name: "Sidebar13",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["SettingsDialog.vue","breadcrumb","button","dialog","sidebar"],
+      files: [{
+        path: "registry/default/block/Sidebar13/page.vue",
+        type: "registry:page",
+        target: "pages/dashboard/index.vue"
+      },{
+        path: "registry/default/block/Sidebar13/components/SettingsDialog.vue",
+        type: "registry:component",
+        target: ""
+      }],
+      component: () => import("@/registry/default/block/Sidebar13/page.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Sidebar14": {
+      name: "Sidebar14",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["AppSidebar.vue","breadcrumb","sidebar"],
+      files: [{
+        path: "registry/default/block/Sidebar14/page.vue",
+        type: "registry:page",
+        target: "pages/dashboard/index.vue"
+      },{
+        path: "registry/default/block/Sidebar14/components/AppSidebar.vue",
+        type: "registry:component",
+        target: ""
+      }],
+      component: () => import("@/registry/default/block/Sidebar14/page.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Sidebar15": {
+      name: "Sidebar15",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["SidebarLeft.vue","SidebarRight.vue","breadcrumb","separator","sidebar","collapsible","calendar","dropdown-menu","avatar","NavFavorites.vue","NavMain.vue","NavSecondary.vue","NavWorkspaces.vue","TeamSwitcher.vue","Calendars.vue","DatePicker.vue","NavUser.vue"],
+      files: [{
+        path: "registry/default/block/Sidebar15/page.vue",
+        type: "registry:page",
+        target: "pages/dashboard/index.vue"
+      },{
+        path: "registry/default/block/Sidebar15/components/AppSidebar.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar15/components/Calendars.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar15/components/DatePicker.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar15/components/NavFavorites.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar15/components/NavMain.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar15/components/NavSecondary.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar15/components/NavUser.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar15/components/NavWorkspaces.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar15/components/SidebarLeft.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar15/components/SidebarRight.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar15/components/TeamSwitcher.vue",
+        type: "registry:component",
+        target: ""
+      }],
+      component: () => import("@/registry/default/block/Sidebar15/page.vue").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -21608,7 +22190,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar01",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","SearchForm.vue","VersionSwitcher.vue","collapsible","label","dropdown-menu"],
+      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","SearchForm.vue","VersionSwitcher.vue","label","dropdown-menu"],
       files: [{
         path: "registry/default/block/Sidebar01/page.vue",
         type: "registry:page",
@@ -21835,6 +22417,200 @@ export const Index: Record<string, any> = {
         target: ""
       }],
       component: () => import("@/registry/default/block/Sidebar09/page.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Sidebar10": {
+      name: "Sidebar10",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["AppSidebar.vue","NavActions.vue","breadcrumb","separator","sidebar","NavFavorites.vue","NavMain.vue","NavSecondary.vue","NavWorkspaces.vue","TeamSwitcher.vue","button","popover","dropdown-menu","collapsible"],
+      files: [{
+        path: "registry/default/block/Sidebar10/page.vue",
+        type: "registry:page",
+        target: "pages/dashboard/index.vue"
+      },{
+        path: "registry/default/block/Sidebar10/components/AppSidebar.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar10/components/NavActions.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar10/components/NavFavorites.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar10/components/NavMain.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar10/components/NavSecondary.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar10/components/NavWorkspaces.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar10/components/TeamSwitcher.vue",
+        type: "registry:component",
+        target: ""
+      }],
+      component: () => import("@/registry/default/block/Sidebar10/page.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Sidebar11": {
+      name: "Sidebar11",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","Tree.vue","collapsible"],
+      files: [{
+        path: "registry/default/block/Sidebar11/page.vue",
+        type: "registry:page",
+        target: "pages/dashboard/index.vue"
+      },{
+        path: "registry/default/block/Sidebar11/components/AppSidebar.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar11/components/Tree.vue",
+        type: "registry:component",
+        target: ""
+      }],
+      component: () => import("@/registry/default/block/Sidebar11/page.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Sidebar12": {
+      name: "Sidebar12",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","Calendars.vue","DatePicker.vue","NavUser.vue","collapsible","calendar","avatar","dropdown-menu"],
+      files: [{
+        path: "registry/default/block/Sidebar12/page.vue",
+        type: "registry:page",
+        target: "pages/dashboard/index.vue"
+      },{
+        path: "registry/default/block/Sidebar12/components/AppSidebar.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar12/components/Calendars.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar12/components/DatePicker.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar12/components/NavUser.vue",
+        type: "registry:component",
+        target: ""
+      }],
+      component: () => import("@/registry/default/block/Sidebar12/page.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Sidebar13": {
+      name: "Sidebar13",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["SettingsDialog.vue","breadcrumb","button","dialog","sidebar"],
+      files: [{
+        path: "registry/default/block/Sidebar13/page.vue",
+        type: "registry:page",
+        target: "pages/dashboard/index.vue"
+      },{
+        path: "registry/default/block/Sidebar13/components/SettingsDialog.vue",
+        type: "registry:component",
+        target: ""
+      }],
+      component: () => import("@/registry/default/block/Sidebar13/page.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Sidebar14": {
+      name: "Sidebar14",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["AppSidebar.vue","breadcrumb","sidebar"],
+      files: [{
+        path: "registry/default/block/Sidebar14/page.vue",
+        type: "registry:page",
+        target: "pages/dashboard/index.vue"
+      },{
+        path: "registry/default/block/Sidebar14/components/AppSidebar.vue",
+        type: "registry:component",
+        target: ""
+      }],
+      component: () => import("@/registry/default/block/Sidebar14/page.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "Sidebar15": {
+      name: "Sidebar15",
+      description: "",
+      type: "registry:block",
+      registryDependencies: ["SidebarLeft.vue","SidebarRight.vue","breadcrumb","separator","sidebar","collapsible","calendar","dropdown-menu","avatar","NavFavorites.vue","NavMain.vue","NavSecondary.vue","NavWorkspaces.vue","TeamSwitcher.vue","Calendars.vue","DatePicker.vue","NavUser.vue"],
+      files: [{
+        path: "registry/default/block/Sidebar15/page.vue",
+        type: "registry:page",
+        target: "pages/dashboard/index.vue"
+      },{
+        path: "registry/default/block/Sidebar15/components/AppSidebar.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar15/components/Calendars.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar15/components/DatePicker.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar15/components/NavFavorites.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar15/components/NavMain.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar15/components/NavSecondary.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar15/components/NavUser.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar15/components/NavWorkspaces.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar15/components/SidebarLeft.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar15/components/SidebarRight.vue",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/block/Sidebar15/components/TeamSwitcher.vue",
+        type: "registry:component",
+        target: ""
+      }],
+      component: () => import("@/registry/default/block/Sidebar15/page.vue").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
