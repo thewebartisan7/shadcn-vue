@@ -5,8 +5,8 @@ import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, Di
 import { Drawer, DrawerContent, DrawerTrigger } from '@/registry/new-york/ui/drawer'
 import { Popover, PopoverContent, PopoverTrigger } from '@/registry/new-york/ui/popover'
 import { useConfigStore } from '@/stores/config'
-import { Paintbrush } from 'lucide-vue-next'
 import { onMounted, watch } from 'vue'
+import Announcement from '../components/Announcement.vue'
 import CustomizerCode from '../components/CustomizerCode.vue'
 import InlineThemePicker from '../components/InlineThemePicker.vue'
 import PageAction from '../components/PageAction.vue'
@@ -56,6 +56,7 @@ watch(radius, (radius) => {
 <template>
   <div>
     <PageHeader>
+      <Announcement />
       <PageHeaderHeading class="hidden md:block">
         Add colors. Make it yours.
       </PageHeaderHeading>
@@ -67,35 +68,33 @@ watch(radius, (radius) => {
       </PageHeaderDescription>
 
       <PageAction>
-        <InlineThemePicker class="gap-x-1 me-4 hidden lg:flex" :all-colors="allColors" />
+        <InlineThemePicker class="gap-x-1 me-4 hidden lg:flex" />
 
         <Drawer>
           <DrawerTrigger as-child>
-            <Button variant="outline" class="md:hidden h-9 rounded-[0.5rem]">
-              <Paintbrush class="w-4 h-4 mr-2" />
+            <Button size="sm" class="md:hidden">
               Customize
             </Button>
           </DrawerTrigger>
           <DrawerContent class="p-6 pt-0">
-            <ThemeCustomizer :all-colors="allColors" />
+            <ThemeCustomizer />
           </DrawerContent>
         </Drawer>
 
         <Popover>
           <PopoverTrigger as-child>
-            <Button variant="outline" class="hidden md:flex h-9 rounded-[0.5rem]">
-              <Paintbrush class="w-4 h-4 mr-2" />
+            <Button size="sm">
               Customize
             </Button>
           </PopoverTrigger>
-          <PopoverContent :side-offset="8" align="end" class="w-96">
-            <ThemeCustomizer :all-colors="allColors" />
+          <PopoverContent :side-offset="8" :align-offset="-76" align="end" class="w-[380px] p-6">
+            <ThemeCustomizer />
           </PopoverContent>
         </Popover>
 
         <Dialog>
           <DialogTrigger as-child>
-            <Button class="h-9 ml-2 rounded-[0.5rem]">
+            <Button variant="ghost" size="sm">
               Copy code
             </Button>
           </DialogTrigger>

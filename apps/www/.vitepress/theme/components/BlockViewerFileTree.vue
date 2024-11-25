@@ -114,7 +114,7 @@ watch(flattenFiles, (n) => {
           v-bind="item.bind"
           as-child
           @select="(ev) => {
-            if (item.hasChildren)
+            if (item.hasChildren || ev.detail.isSelected)
               ev.preventDefault()
           }"
         >

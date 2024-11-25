@@ -51,7 +51,7 @@ const selectedVersion = ref(props.defaultVersion)
             @select="selectedVersion = version"
           >
             v{{ version }}
-            <Check v-if="selectedVersion" class="ml-auto" />
+            <Check v-if="selectedVersion === version" class="ml-auto" />
           </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>

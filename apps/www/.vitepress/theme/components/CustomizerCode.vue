@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { Button } from '@/registry/new-york/ui/button'
-import { themes } from '@/registry/registry-themes'
+import { baseColors } from '@/registry/registry-base-colors'
 import { useConfigStore } from '@/stores/config'
 import { useClipboard } from '@vueuse/core'
 import CheckIcon from '~icons/radix-icons/check'
@@ -9,7 +9,7 @@ import { computed, ref } from 'vue'
 
 const { theme, config } = useConfigStore()
 
-const activeTheme = computed(() => themes.find(i => i.name === theme.value))
+const activeTheme = computed(() => baseColors.find(i => i.name === theme.value))
 
 const { copy, copied } = useClipboard()
 
