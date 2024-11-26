@@ -5419,7 +5419,7 @@ export const Index: Record<string, any> = {
       name: "Login01",
       description: "",
       type: "registry:block",
-      registryDependencies: ["LoginForm.vue","button","card","input","label"],
+      registryDependencies: ["button","card","input","label"],
       files: [{
         path: "registry/new-york/block/Login01/page.vue",
         type: "registry:page",
@@ -5438,7 +5438,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar01",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","SearchForm.vue","VersionSwitcher.vue","label","dropdown-menu"],
+      registryDependencies: ["breadcrumb","separator","sidebar","label","dropdown-menu"],
       files: [{
         path: "registry/new-york/block/Sidebar01/page.vue",
         type: "registry:page",
@@ -5465,7 +5465,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar02",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","SearchForm.vue","VersionSwitcher.vue","collapsible","label","dropdown-menu"],
+      registryDependencies: ["breadcrumb","separator","sidebar","collapsible","label","dropdown-menu"],
       files: [{
         path: "registry/new-york/block/Sidebar02/page.vue",
         type: "registry:page",
@@ -5492,7 +5492,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar03",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar"],
+      registryDependencies: ["breadcrumb","separator","sidebar"],
       files: [{
         path: "registry/new-york/block/Sidebar03/page.vue",
         type: "registry:page",
@@ -5511,7 +5511,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar04",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar"],
+      registryDependencies: ["breadcrumb","separator","sidebar"],
       files: [{
         path: "registry/new-york/block/Sidebar04/page.vue",
         type: "registry:page",
@@ -5530,7 +5530,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar05",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","SearchForm.vue","collapsible","label"],
+      registryDependencies: ["breadcrumb","separator","sidebar","collapsible","label"],
       files: [{
         path: "registry/new-york/block/Sidebar05/page.vue",
         type: "registry:page",
@@ -5553,7 +5553,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar06",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","NavMain.vue","SidebarOptInForm.vue","dropdown-menu","button","card"],
+      registryDependencies: ["breadcrumb","separator","sidebar","dropdown-menu","button","card"],
       files: [{
         path: "registry/new-york/block/Sidebar06/page.vue",
         type: "registry:page",
@@ -5580,7 +5580,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar07",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","NavMain.vue","NavProjects.vue","NavUser.vue","TeamSwitcher.vue","collapsible","dropdown-menu","avatar"],
+      registryDependencies: ["breadcrumb","separator","sidebar","collapsible","dropdown-menu","avatar"],
       files: [{
         path: "registry/new-york/block/Sidebar07/page.vue",
         type: "registry:page",
@@ -5615,7 +5615,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar08",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","NavMain.vue","NavProjects.vue","NavSecondary.vue","NavUser.vue","collapsible","dropdown-menu","avatar"],
+      registryDependencies: ["breadcrumb","separator","sidebar","collapsible","dropdown-menu","avatar"],
       files: [{
         path: "registry/new-york/block/Sidebar08/page.vue",
         type: "registry:page",
@@ -5650,7 +5650,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar09",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","NavUser.vue","label","switch","avatar","dropdown-menu"],
+      registryDependencies: ["breadcrumb","separator","sidebar","label","switch","avatar","dropdown-menu"],
       files: [{
         path: "registry/new-york/block/Sidebar09/page.vue",
         type: "registry:page",
@@ -5673,7 +5673,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar10",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","NavActions.vue","breadcrumb","separator","sidebar","NavFavorites.vue","NavMain.vue","NavSecondary.vue","NavWorkspaces.vue","TeamSwitcher.vue","button","popover","dropdown-menu","collapsible"],
+      registryDependencies: ["breadcrumb","separator","sidebar","button","popover","dropdown-menu","collapsible"],
       files: [{
         path: "registry/new-york/block/Sidebar10/page.vue",
         type: "registry:page",
@@ -5716,7 +5716,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar11",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","Tree.vue","collapsible"],
+      registryDependencies: ["breadcrumb","separator","sidebar","collapsible"],
       files: [{
         path: "registry/new-york/block/Sidebar11/page.vue",
         type: "registry:page",
@@ -5739,7 +5739,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar12",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","Calendars.vue","DatePicker.vue","NavUser.vue","collapsible","calendar","avatar","dropdown-menu"],
+      registryDependencies: ["breadcrumb","separator","sidebar","collapsible","calendar","avatar","dropdown-menu"],
       files: [{
         path: "registry/new-york/block/Sidebar12/page.vue",
         type: "registry:page",
@@ -5770,7 +5770,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar13",
       description: "",
       type: "registry:block",
-      registryDependencies: ["SettingsDialog.vue","breadcrumb","button","dialog","sidebar"],
+      registryDependencies: ["breadcrumb","button","dialog","sidebar"],
       files: [{
         path: "registry/new-york/block/Sidebar13/page.vue",
         type: "registry:page",
@@ -5789,7 +5789,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar14",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","sidebar"],
+      registryDependencies: ["breadcrumb","sidebar"],
       files: [{
         path: "registry/new-york/block/Sidebar14/page.vue",
         type: "registry:page",
@@ -5808,7 +5808,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar15",
       description: "",
       type: "registry:block",
-      registryDependencies: ["SidebarLeft.vue","SidebarRight.vue","breadcrumb","separator","sidebar","collapsible","calendar","dropdown-menu","avatar","NavFavorites.vue","NavMain.vue","NavSecondary.vue","NavWorkspaces.vue","TeamSwitcher.vue","Calendars.vue","DatePicker.vue","NavUser.vue"],
+      registryDependencies: ["breadcrumb","separator","sidebar","collapsible","calendar","dropdown-menu","avatar"],
       files: [{
         path: "registry/new-york/block/Sidebar15/page.vue",
         type: "registry:page",
@@ -11263,7 +11263,7 @@ export const Index: Record<string, any> = {
       name: "Login01",
       description: "",
       type: "registry:block",
-      registryDependencies: ["LoginForm.vue","button","card","input","label"],
+      registryDependencies: ["button","card","input","label"],
       files: [{
         path: "registry/new-york/block/Login01/page.vue",
         type: "registry:page",
@@ -11282,7 +11282,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar01",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","SearchForm.vue","VersionSwitcher.vue","label","dropdown-menu"],
+      registryDependencies: ["breadcrumb","separator","sidebar","label","dropdown-menu"],
       files: [{
         path: "registry/new-york/block/Sidebar01/page.vue",
         type: "registry:page",
@@ -11309,7 +11309,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar02",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","SearchForm.vue","VersionSwitcher.vue","collapsible","label","dropdown-menu"],
+      registryDependencies: ["breadcrumb","separator","sidebar","collapsible","label","dropdown-menu"],
       files: [{
         path: "registry/new-york/block/Sidebar02/page.vue",
         type: "registry:page",
@@ -11336,7 +11336,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar03",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar"],
+      registryDependencies: ["breadcrumb","separator","sidebar"],
       files: [{
         path: "registry/new-york/block/Sidebar03/page.vue",
         type: "registry:page",
@@ -11355,7 +11355,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar04",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar"],
+      registryDependencies: ["breadcrumb","separator","sidebar"],
       files: [{
         path: "registry/new-york/block/Sidebar04/page.vue",
         type: "registry:page",
@@ -11374,7 +11374,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar05",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","SearchForm.vue","collapsible","label"],
+      registryDependencies: ["breadcrumb","separator","sidebar","collapsible","label"],
       files: [{
         path: "registry/new-york/block/Sidebar05/page.vue",
         type: "registry:page",
@@ -11397,7 +11397,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar06",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","NavMain.vue","SidebarOptInForm.vue","dropdown-menu","button","card"],
+      registryDependencies: ["breadcrumb","separator","sidebar","dropdown-menu","button","card"],
       files: [{
         path: "registry/new-york/block/Sidebar06/page.vue",
         type: "registry:page",
@@ -11424,7 +11424,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar07",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","NavMain.vue","NavProjects.vue","NavUser.vue","TeamSwitcher.vue","collapsible","dropdown-menu","avatar"],
+      registryDependencies: ["breadcrumb","separator","sidebar","collapsible","dropdown-menu","avatar"],
       files: [{
         path: "registry/new-york/block/Sidebar07/page.vue",
         type: "registry:page",
@@ -11459,7 +11459,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar08",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","NavMain.vue","NavProjects.vue","NavSecondary.vue","NavUser.vue","collapsible","dropdown-menu","avatar"],
+      registryDependencies: ["breadcrumb","separator","sidebar","collapsible","dropdown-menu","avatar"],
       files: [{
         path: "registry/new-york/block/Sidebar08/page.vue",
         type: "registry:page",
@@ -11494,7 +11494,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar09",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","NavUser.vue","label","switch","avatar","dropdown-menu"],
+      registryDependencies: ["breadcrumb","separator","sidebar","label","switch","avatar","dropdown-menu"],
       files: [{
         path: "registry/new-york/block/Sidebar09/page.vue",
         type: "registry:page",
@@ -11517,7 +11517,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar10",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","NavActions.vue","breadcrumb","separator","sidebar","NavFavorites.vue","NavMain.vue","NavSecondary.vue","NavWorkspaces.vue","TeamSwitcher.vue","button","popover","dropdown-menu","collapsible"],
+      registryDependencies: ["breadcrumb","separator","sidebar","button","popover","dropdown-menu","collapsible"],
       files: [{
         path: "registry/new-york/block/Sidebar10/page.vue",
         type: "registry:page",
@@ -11560,7 +11560,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar11",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","Tree.vue","collapsible"],
+      registryDependencies: ["breadcrumb","separator","sidebar","collapsible"],
       files: [{
         path: "registry/new-york/block/Sidebar11/page.vue",
         type: "registry:page",
@@ -11583,7 +11583,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar12",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","Calendars.vue","DatePicker.vue","NavUser.vue","collapsible","calendar","avatar","dropdown-menu"],
+      registryDependencies: ["breadcrumb","separator","sidebar","collapsible","calendar","avatar","dropdown-menu"],
       files: [{
         path: "registry/new-york/block/Sidebar12/page.vue",
         type: "registry:page",
@@ -11614,7 +11614,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar13",
       description: "",
       type: "registry:block",
-      registryDependencies: ["SettingsDialog.vue","breadcrumb","button","dialog","sidebar"],
+      registryDependencies: ["breadcrumb","button","dialog","sidebar"],
       files: [{
         path: "registry/new-york/block/Sidebar13/page.vue",
         type: "registry:page",
@@ -11633,7 +11633,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar14",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","sidebar"],
+      registryDependencies: ["breadcrumb","sidebar"],
       files: [{
         path: "registry/new-york/block/Sidebar14/page.vue",
         type: "registry:page",
@@ -11652,7 +11652,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar15",
       description: "",
       type: "registry:block",
-      registryDependencies: ["SidebarLeft.vue","SidebarRight.vue","breadcrumb","separator","sidebar","collapsible","calendar","dropdown-menu","avatar","NavFavorites.vue","NavMain.vue","NavSecondary.vue","NavWorkspaces.vue","TeamSwitcher.vue","Calendars.vue","DatePicker.vue","NavUser.vue"],
+      registryDependencies: ["breadcrumb","separator","sidebar","collapsible","calendar","dropdown-menu","avatar"],
       files: [{
         path: "registry/new-york/block/Sidebar15/page.vue",
         type: "registry:page",
@@ -17123,7 +17123,7 @@ export const Index: Record<string, any> = {
       name: "Login01",
       description: "",
       type: "registry:block",
-      registryDependencies: ["LoginForm.vue","button","card","input","label"],
+      registryDependencies: ["button","card","input","label"],
       files: [{
         path: "registry/default/block/Login01/page.vue",
         type: "registry:page",
@@ -17142,7 +17142,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar01",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","SearchForm.vue","VersionSwitcher.vue","label","dropdown-menu"],
+      registryDependencies: ["breadcrumb","separator","sidebar","label","dropdown-menu"],
       files: [{
         path: "registry/default/block/Sidebar01/page.vue",
         type: "registry:page",
@@ -17169,7 +17169,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar02",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","SearchForm.vue","VersionSwitcher.vue","collapsible","label","dropdown-menu"],
+      registryDependencies: ["breadcrumb","separator","sidebar","collapsible","label","dropdown-menu"],
       files: [{
         path: "registry/default/block/Sidebar02/page.vue",
         type: "registry:page",
@@ -17196,7 +17196,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar03",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar"],
+      registryDependencies: ["breadcrumb","separator","sidebar"],
       files: [{
         path: "registry/default/block/Sidebar03/page.vue",
         type: "registry:page",
@@ -17215,7 +17215,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar04",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar"],
+      registryDependencies: ["breadcrumb","separator","sidebar"],
       files: [{
         path: "registry/default/block/Sidebar04/page.vue",
         type: "registry:page",
@@ -17234,7 +17234,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar05",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","SearchForm.vue","collapsible","label"],
+      registryDependencies: ["breadcrumb","separator","sidebar","collapsible","label"],
       files: [{
         path: "registry/default/block/Sidebar05/page.vue",
         type: "registry:page",
@@ -17257,7 +17257,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar06",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","NavMain.vue","SidebarOptInForm.vue","dropdown-menu","button","card"],
+      registryDependencies: ["breadcrumb","separator","sidebar","dropdown-menu","button","card"],
       files: [{
         path: "registry/default/block/Sidebar06/page.vue",
         type: "registry:page",
@@ -17284,7 +17284,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar07",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","NavMain.vue","NavProjects.vue","NavUser.vue","TeamSwitcher.vue","collapsible","dropdown-menu","avatar"],
+      registryDependencies: ["breadcrumb","separator","sidebar","collapsible","dropdown-menu","avatar"],
       files: [{
         path: "registry/default/block/Sidebar07/page.vue",
         type: "registry:page",
@@ -17319,7 +17319,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar08",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","NavMain.vue","NavProjects.vue","NavSecondary.vue","NavUser.vue","collapsible","dropdown-menu","avatar"],
+      registryDependencies: ["breadcrumb","separator","sidebar","collapsible","dropdown-menu","avatar"],
       files: [{
         path: "registry/default/block/Sidebar08/page.vue",
         type: "registry:page",
@@ -17354,7 +17354,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar09",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","NavUser.vue","label","switch","avatar","dropdown-menu"],
+      registryDependencies: ["breadcrumb","separator","sidebar","label","switch","avatar","dropdown-menu"],
       files: [{
         path: "registry/default/block/Sidebar09/page.vue",
         type: "registry:page",
@@ -17377,7 +17377,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar10",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","NavActions.vue","breadcrumb","separator","sidebar","NavFavorites.vue","NavMain.vue","NavSecondary.vue","NavWorkspaces.vue","TeamSwitcher.vue","button","popover","dropdown-menu","collapsible"],
+      registryDependencies: ["breadcrumb","separator","sidebar","button","popover","dropdown-menu","collapsible"],
       files: [{
         path: "registry/default/block/Sidebar10/page.vue",
         type: "registry:page",
@@ -17420,7 +17420,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar11",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","Tree.vue","collapsible"],
+      registryDependencies: ["breadcrumb","separator","sidebar","collapsible"],
       files: [{
         path: "registry/default/block/Sidebar11/page.vue",
         type: "registry:page",
@@ -17443,7 +17443,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar12",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","Calendars.vue","DatePicker.vue","NavUser.vue","collapsible","calendar","avatar","dropdown-menu"],
+      registryDependencies: ["breadcrumb","separator","sidebar","collapsible","calendar","avatar","dropdown-menu"],
       files: [{
         path: "registry/default/block/Sidebar12/page.vue",
         type: "registry:page",
@@ -17474,7 +17474,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar13",
       description: "",
       type: "registry:block",
-      registryDependencies: ["SettingsDialog.vue","breadcrumb","button","dialog","sidebar"],
+      registryDependencies: ["breadcrumb","button","dialog","sidebar"],
       files: [{
         path: "registry/default/block/Sidebar13/page.vue",
         type: "registry:page",
@@ -17493,7 +17493,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar14",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","sidebar"],
+      registryDependencies: ["breadcrumb","sidebar"],
       files: [{
         path: "registry/default/block/Sidebar14/page.vue",
         type: "registry:page",
@@ -17512,7 +17512,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar15",
       description: "",
       type: "registry:block",
-      registryDependencies: ["SidebarLeft.vue","SidebarRight.vue","breadcrumb","separator","sidebar","collapsible","calendar","dropdown-menu","avatar","NavFavorites.vue","NavMain.vue","NavSecondary.vue","NavWorkspaces.vue","TeamSwitcher.vue","Calendars.vue","DatePicker.vue","NavUser.vue"],
+      registryDependencies: ["breadcrumb","separator","sidebar","collapsible","calendar","dropdown-menu","avatar"],
       files: [{
         path: "registry/default/block/Sidebar15/page.vue",
         type: "registry:page",
@@ -22967,7 +22967,7 @@ export const Index: Record<string, any> = {
       name: "Login01",
       description: "",
       type: "registry:block",
-      registryDependencies: ["LoginForm.vue","button","card","input","label"],
+      registryDependencies: ["button","card","input","label"],
       files: [{
         path: "registry/default/block/Login01/page.vue",
         type: "registry:page",
@@ -22986,7 +22986,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar01",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","SearchForm.vue","VersionSwitcher.vue","label","dropdown-menu"],
+      registryDependencies: ["breadcrumb","separator","sidebar","label","dropdown-menu"],
       files: [{
         path: "registry/default/block/Sidebar01/page.vue",
         type: "registry:page",
@@ -23013,7 +23013,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar02",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","SearchForm.vue","VersionSwitcher.vue","collapsible","label","dropdown-menu"],
+      registryDependencies: ["breadcrumb","separator","sidebar","collapsible","label","dropdown-menu"],
       files: [{
         path: "registry/default/block/Sidebar02/page.vue",
         type: "registry:page",
@@ -23040,7 +23040,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar03",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar"],
+      registryDependencies: ["breadcrumb","separator","sidebar"],
       files: [{
         path: "registry/default/block/Sidebar03/page.vue",
         type: "registry:page",
@@ -23059,7 +23059,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar04",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar"],
+      registryDependencies: ["breadcrumb","separator","sidebar"],
       files: [{
         path: "registry/default/block/Sidebar04/page.vue",
         type: "registry:page",
@@ -23078,7 +23078,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar05",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","SearchForm.vue","collapsible","label"],
+      registryDependencies: ["breadcrumb","separator","sidebar","collapsible","label"],
       files: [{
         path: "registry/default/block/Sidebar05/page.vue",
         type: "registry:page",
@@ -23101,7 +23101,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar06",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","NavMain.vue","SidebarOptInForm.vue","dropdown-menu","button","card"],
+      registryDependencies: ["breadcrumb","separator","sidebar","dropdown-menu","button","card"],
       files: [{
         path: "registry/default/block/Sidebar06/page.vue",
         type: "registry:page",
@@ -23128,7 +23128,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar07",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","NavMain.vue","NavProjects.vue","NavUser.vue","TeamSwitcher.vue","collapsible","dropdown-menu","avatar"],
+      registryDependencies: ["breadcrumb","separator","sidebar","collapsible","dropdown-menu","avatar"],
       files: [{
         path: "registry/default/block/Sidebar07/page.vue",
         type: "registry:page",
@@ -23163,7 +23163,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar08",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","NavMain.vue","NavProjects.vue","NavSecondary.vue","NavUser.vue","collapsible","dropdown-menu","avatar"],
+      registryDependencies: ["breadcrumb","separator","sidebar","collapsible","dropdown-menu","avatar"],
       files: [{
         path: "registry/default/block/Sidebar08/page.vue",
         type: "registry:page",
@@ -23198,7 +23198,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar09",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","NavUser.vue","label","switch","avatar","dropdown-menu"],
+      registryDependencies: ["breadcrumb","separator","sidebar","label","switch","avatar","dropdown-menu"],
       files: [{
         path: "registry/default/block/Sidebar09/page.vue",
         type: "registry:page",
@@ -23221,7 +23221,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar10",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","NavActions.vue","breadcrumb","separator","sidebar","NavFavorites.vue","NavMain.vue","NavSecondary.vue","NavWorkspaces.vue","TeamSwitcher.vue","button","popover","dropdown-menu","collapsible"],
+      registryDependencies: ["breadcrumb","separator","sidebar","button","popover","dropdown-menu","collapsible"],
       files: [{
         path: "registry/default/block/Sidebar10/page.vue",
         type: "registry:page",
@@ -23264,7 +23264,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar11",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","Tree.vue","collapsible"],
+      registryDependencies: ["breadcrumb","separator","sidebar","collapsible"],
       files: [{
         path: "registry/default/block/Sidebar11/page.vue",
         type: "registry:page",
@@ -23287,7 +23287,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar12",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","separator","sidebar","Calendars.vue","DatePicker.vue","NavUser.vue","collapsible","calendar","avatar","dropdown-menu"],
+      registryDependencies: ["breadcrumb","separator","sidebar","collapsible","calendar","avatar","dropdown-menu"],
       files: [{
         path: "registry/default/block/Sidebar12/page.vue",
         type: "registry:page",
@@ -23318,7 +23318,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar13",
       description: "",
       type: "registry:block",
-      registryDependencies: ["SettingsDialog.vue","breadcrumb","button","dialog","sidebar"],
+      registryDependencies: ["breadcrumb","button","dialog","sidebar"],
       files: [{
         path: "registry/default/block/Sidebar13/page.vue",
         type: "registry:page",
@@ -23337,7 +23337,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar14",
       description: "",
       type: "registry:block",
-      registryDependencies: ["AppSidebar.vue","breadcrumb","sidebar"],
+      registryDependencies: ["breadcrumb","sidebar"],
       files: [{
         path: "registry/default/block/Sidebar14/page.vue",
         type: "registry:page",
@@ -23356,7 +23356,7 @@ export const Index: Record<string, any> = {
       name: "Sidebar15",
       description: "",
       type: "registry:block",
-      registryDependencies: ["SidebarLeft.vue","SidebarRight.vue","breadcrumb","separator","sidebar","collapsible","calendar","dropdown-menu","avatar","NavFavorites.vue","NavMain.vue","NavSecondary.vue","NavWorkspaces.vue","TeamSwitcher.vue","Calendars.vue","DatePicker.vue","NavUser.vue"],
+      registryDependencies: ["breadcrumb","separator","sidebar","collapsible","calendar","dropdown-menu","avatar"],
       files: [{
         path: "registry/default/block/Sidebar15/page.vue",
         type: "registry:page",

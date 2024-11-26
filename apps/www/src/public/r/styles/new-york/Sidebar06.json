@@ -5,12 +5,9 @@
     "@vueuse/core"
   ],
   "registryDependencies": [
-    "AppSidebar.vue",
     "breadcrumb",
     "separator",
     "sidebar",
-    "NavMain.vue",
-    "SidebarOptInForm.vue",
     "dropdown-menu",
     "button",
     "card"

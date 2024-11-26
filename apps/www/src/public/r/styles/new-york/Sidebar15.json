@@ -3,23 +3,13 @@
   "type": "registry:block",
   "dependencies": [],
   "registryDependencies": [
-    "SidebarLeft.vue",
-    "SidebarRight.vue",
     "breadcrumb",
     "separator",
     "sidebar",
     "collapsible",
     "calendar",
     "dropdown-menu",
-    "avatar",
-    "NavFavorites.vue",
-    "NavMain.vue",
-    "NavSecondary.vue",
-    "NavWorkspaces.vue",
-    "TeamSwitcher.vue",
-    "Calendars.vue",
-    "DatePicker.vue",
-    "NavUser.vue"
+    "avatar"
   ],
   "files": [
     {

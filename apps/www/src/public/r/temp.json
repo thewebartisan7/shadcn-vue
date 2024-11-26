@@ -6919,7 +6919,6 @@
     "type": "registry:block",
     "dependencies": [],
     "registryDependencies": [
-      "LoginForm.vue",
       "button",
       "card",
       "input",
@@ -6945,12 +6944,9 @@
     "type": "registry:block",
     "dependencies": [],
     "registryDependencies": [
-      "AppSidebar.vue",
       "breadcrumb",
       "separator",
       "sidebar",
-      "SearchForm.vue",
-      "VersionSwitcher.vue",
       "label",
       "dropdown-menu"
     ],
@@ -6986,12 +6982,9 @@
     "type": "registry:block",
     "dependencies": [],
     "registryDependencies": [
-      "AppSidebar.vue",
       "breadcrumb",
       "separator",
       "sidebar",
-      "SearchForm.vue",
-      "VersionSwitcher.vue",
       "collapsible",
       "label",
       "dropdown-menu"
@@ -7028,7 +7021,6 @@
     "type": "registry:block",
     "dependencies": [],
     "registryDependencies": [
-      "AppSidebar.vue",
       "breadcrumb",
       "separator",
       "sidebar"
@@ -7053,7 +7045,6 @@
     "type": "registry:block",
     "dependencies": [],
     "registryDependencies": [
-      "AppSidebar.vue",
       "breadcrumb",
       "separator",
       "sidebar"
@@ -7078,11 +7069,9 @@
     "type": "registry:block",
     "dependencies": [],
     "registryDependencies": [
-      "AppSidebar.vue",
       "breadcrumb",
       "separator",
       "sidebar",
-      "SearchForm.vue",
       "collapsible",
       "label"
     ],
@@ -7114,12 +7103,9 @@
       "@vueuse/core"
     ],
     "registryDependencies": [
-      "AppSidebar.vue",
       "breadcrumb",
       "separator",
       "sidebar",
-      "NavMain.vue",
-      "SidebarOptInForm.vue",
       "dropdown-menu",
       "button",
       "card"
@@ -7156,14 +7142,9 @@
     "type": "registry:block",
     "dependencies": [],
     "registryDependencies": [
-      "AppSidebar.vue",
       "breadcrumb",
       "separator",
       "sidebar",
-      "NavMain.vue",
-      "NavProjects.vue",
-      "NavUser.vue",
-      "TeamSwitcher.vue",
       "collapsible",
       "dropdown-menu",
       "avatar"
@@ -7212,14 +7193,9 @@
     "type": "registry:block",
     "dependencies": [],
     "registryDependencies": [
-      "AppSidebar.vue",
       "breadcrumb",
       "separator",
       "sidebar",
-      "NavMain.vue",
-      "NavProjects.vue",
-      "NavSecondary.vue",
-      "NavUser.vue",
       "collapsible",
       "dropdown-menu",
       "avatar"
@@ -7268,11 +7244,9 @@
     "type": "registry:block",
     "dependencies": [],
     "registryDependencies": [
-      "AppSidebar.vue",
       "breadcrumb",
       "separator",
       "sidebar",
-      "NavUser.vue",
       "label",
       "switch",
       "avatar",
@@ -7304,16 +7278,9 @@
     "type": "registry:block",
     "dependencies": [],
     "registryDependencies": [
-      "AppSidebar.vue",
-      "NavActions.vue",
       "breadcrumb",
       "separator",
       "sidebar",
-      "NavFavorites.vue",
-      "NavMain.vue",
-      "NavSecondary.vue",
-      "NavWorkspaces.vue",
-      "TeamSwitcher.vue",
       "button",
       "popover",
       "dropdown-menu",
@@ -7375,11 +7342,9 @@
     "type": "registry:block",
     "dependencies": [],
     "registryDependencies": [
-      "AppSidebar.vue",
       "breadcrumb",
       "separator",
       "sidebar",
-      "Tree.vue",
       "collapsible"
     ],
     "files": [
@@ -7408,13 +7373,9 @@
     "type": "registry:block",
     "dependencies": [],
     "registryDependencies": [
-      "AppSidebar.vue",
       "breadcrumb",
       "separator",
       "sidebar",
-      "Calendars.vue",
-      "DatePicker.vue",
-      "NavUser.vue",
       "collapsible",
       "calendar",
       "avatar",
@@ -7458,7 +7419,6 @@
     "type": "registry:block",
     "dependencies": [],
     "registryDependencies": [
-      "SettingsDialog.vue",
       "breadcrumb",
       "button",
       "dialog",
@@ -7484,7 +7444,6 @@
     "type": "registry:block",
     "dependencies": [],
     "registryDependencies": [
-      "AppSidebar.vue",
       "breadcrumb",
       "sidebar"
     ],
@@ -7508,23 +7467,13 @@
     "type": "registry:block",
     "dependencies": [],
     "registryDependencies": [
-      "SidebarLeft.vue",
-      "SidebarRight.vue",
       "breadcrumb",
       "separator",
       "sidebar",
       "collapsible",
       "calendar",
       "dropdown-menu",
-      "avatar",
-      "NavFavorites.vue",
-      "NavMain.vue",
-      "NavSecondary.vue",
-      "NavWorkspaces.vue",
-      "TeamSwitcher.vue",
-      "Calendars.vue",
-      "DatePicker.vue",
-      "NavUser.vue"
+      "avatar"
     ],
     "files": [
       {
@@ -14334,7 +14283,6 @@
     "type": "registry:block",
     "dependencies": [],
     "registryDependencies": [
-      "LoginForm.vue",
       "button",
       "card",
       "input",
@@ -14360,12 +14308,9 @@
     "type": "registry:block",
     "dependencies": [],
     "registryDependencies": [
-      "AppSidebar.vue",
       "breadcrumb",
       "separator",
       "sidebar",
-      "SearchForm.vue",
-      "VersionSwitcher.vue",
       "label",
       "dropdown-menu"
     ],
@@ -14401,12 +14346,9 @@
     "type": "registry:block",
     "dependencies": [],
     "registryDependencies": [
-      "AppSidebar.vue",
       "breadcrumb",
       "separator",
       "sidebar",
-      "SearchForm.vue",
-      "VersionSwitcher.vue",
       "collapsible",
       "label",
       "dropdown-menu"
@@ -14443,7 +14385,6 @@
     "type": "registry:block",
     "dependencies": [],
     "registryDependencies": [
-      "AppSidebar.vue",
       "breadcrumb",
       "separator",
       "sidebar"
@@ -14468,7 +14409,6 @@
     "type": "registry:block",
     "dependencies": [],
     "registryDependencies": [
-      "AppSidebar.vue",
       "breadcrumb",
       "separator",
       "sidebar"
@@ -14493,11 +14433,9 @@
     "type": "registry:block",
     "dependencies": [],
     "registryDependencies": [
-      "AppSidebar.vue",
       "breadcrumb",
       "separator",
       "sidebar",
-      "SearchForm.vue",
       "collapsible",
       "label"
     ],
@@ -14529,12 +14467,9 @@
       "@vueuse/core"
     ],
     "registryDependencies": [
-      "AppSidebar.vue",
       "breadcrumb",
       "separator",
       "sidebar",
-      "NavMain.vue",
-      "SidebarOptInForm.vue",
       "dropdown-menu",
       "button",
       "card"
@@ -14571,14 +14506,9 @@
     "type": "registry:block",
     "dependencies": [],
     "registryDependencies": [
-      "AppSidebar.vue",
       "breadcrumb",
       "separator",
       "sidebar",
-      "NavMain.vue",
-      "NavProjects.vue",
-      "NavUser.vue",
-      "TeamSwitcher.vue",
       "collapsible",
       "dropdown-menu",
       "avatar"
@@ -14627,14 +14557,9 @@
     "type": "registry:block",
     "dependencies": [],
     "registryDependencies": [
-      "AppSidebar.vue",
       "breadcrumb",
       "separator",
       "sidebar",
-      "NavMain.vue",
-      "NavProjects.vue",
-      "NavSecondary.vue",
-      "NavUser.vue",
       "collapsible",
       "dropdown-menu",
       "avatar"
@@ -14683,11 +14608,9 @@
     "type": "registry:block",
     "dependencies": [],
     "registryDependencies": [
-      "AppSidebar.vue",
       "breadcrumb",
       "separator",
       "sidebar",
-      "NavUser.vue",
       "label",
       "switch",
       "avatar",
@@ -14719,16 +14642,9 @@
     "type": "registry:block",
     "dependencies": [],
     "registryDependencies": [
-      "AppSidebar.vue",
-      "NavActions.vue",
       "breadcrumb",
       "separator",
       "sidebar",
-      "NavFavorites.vue",
-      "NavMain.vue",
-      "NavSecondary.vue",
-      "NavWorkspaces.vue",
-      "TeamSwitcher.vue",
       "button",
       "popover",
       "dropdown-menu",
@@ -14790,11 +14706,9 @@
     "type": "registry:block",
     "dependencies": [],
     "registryDependencies": [
-      "AppSidebar.vue",
       "breadcrumb",
       "separator",
       "sidebar",
-      "Tree.vue",
       "collapsible"
     ],
     "files": [
@@ -14823,13 +14737,9 @@
     "type": "registry:block",
     "dependencies": [],
     "registryDependencies": [
-      "AppSidebar.vue",
       "breadcrumb",
       "separator",
       "sidebar",
-      "Calendars.vue",
-      "DatePicker.vue",
-      "NavUser.vue",
       "collapsible",
       "calendar",
       "avatar",
@@ -14873,7 +14783,6 @@
     "type": "registry:block",
     "dependencies": [],
     "registryDependencies": [
-      "SettingsDialog.vue",
       "breadcrumb",
       "button",
       "dialog",
@@ -14899,7 +14808,6 @@
     "type": "registry:block",
     "dependencies": [],
     "registryDependencies": [
-      "AppSidebar.vue",
       "breadcrumb",
       "sidebar"
     ],
@@ -14923,23 +14831,13 @@
     "type": "registry:block",
     "dependencies": [],
     "registryDependencies": [
-      "SidebarLeft.vue",
-      "SidebarRight.vue",
       "breadcrumb",
       "separator",
       "sidebar",
       "collapsible",
       "calendar",
       "dropdown-menu",
-      "avatar",
-      "NavFavorites.vue",
-      "NavMain.vue",
-      "NavSecondary.vue",
-      "NavWorkspaces.vue",
-      "TeamSwitcher.vue",
-      "Calendars.vue",
-      "DatePicker.vue",
-      "NavUser.vue"
+      "avatar"
     ],
     "files": [
       {

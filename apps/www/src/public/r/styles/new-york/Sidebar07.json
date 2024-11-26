@@ -3,14 +3,9 @@
   "type": "registry:block",
   "dependencies": [],
   "registryDependencies": [
-    "AppSidebar.vue",
     "breadcrumb",
     "separator",
     "sidebar",
-    "NavMain.vue",
-    "NavProjects.vue",
-    "NavUser.vue",
-    "TeamSwitcher.vue",
     "collapsible",
     "dropdown-menu",
     "avatar"

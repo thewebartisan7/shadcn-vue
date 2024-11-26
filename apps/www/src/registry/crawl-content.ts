@@ -213,7 +213,7 @@ async function buildUIRegistry(componentPath: string, componentName: string) {
     const filepath = join(componentPath, dirent.name)
     const relativePath = join('ui', componentName, dirent.name)
     const source = await readFile(filepath, { encoding: 'utf8' })
-    const target = '' // `${componentName}/${dirent.name}`
+    const target = ''
 
     files.push({ content: source, path: relativePath, type, target })
 
@@ -291,7 +291,7 @@ async function getFileDependencies(filename: string, sourceCode: string) {
       peerDeps.forEach(dep => dependencies.add(dep))
     }
 
-    if (source.startsWith(REGISTRY_DEPENDENCY)) {
+    if (source.startsWith(REGISTRY_DEPENDENCY) && !source.endsWith('.vue')) {
       const component = source.split('/').at(-1)!
       registryDependencies.add(component)
     }

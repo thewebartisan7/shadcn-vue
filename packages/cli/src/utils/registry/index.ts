@@ -210,7 +210,9 @@ export function getRegistryItemFileTargetPath(
   }
 
   if (file.type === 'registry:ui') {
-    return config.resolvedPaths.ui
+    // For UI component we place them in folder
+    const folder = file.path.split('/')[1]
+    return path.join(config.resolvedPaths.ui, folder)
   }
 
   if (file.type === 'registry:lib') {

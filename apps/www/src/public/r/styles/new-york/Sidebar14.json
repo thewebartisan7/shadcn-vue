@@ -3,7 +3,6 @@
   "type": "registry:block",
   "dependencies": [],
   "registryDependencies": [
-    "AppSidebar.vue",
     "breadcrumb",
     "sidebar"
   ],

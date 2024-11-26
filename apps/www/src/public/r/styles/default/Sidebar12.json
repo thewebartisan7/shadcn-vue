@@ -3,13 +3,9 @@
   "type": "registry:block",
   "dependencies": [],
   "registryDependencies": [
-    "AppSidebar.vue",
     "breadcrumb",
     "separator",
     "sidebar",
-    "Calendars.vue",
-    "DatePicker.vue",
-    "NavUser.vue",
     "collapsible",
     "calendar",
     "avatar",

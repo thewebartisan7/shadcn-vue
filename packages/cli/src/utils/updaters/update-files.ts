@@ -22,9 +22,10 @@ export function resolveTargetDir(
   if (target.startsWith('~/')) {
     return path.join(config.resolvedPaths.cwd, target.replace('~/', ''))
   }
-  return projectInfo?.isSrcDir
-    ? path.join(config.resolvedPaths.cwd, 'src', target)
-    : path.join(config.resolvedPaths.cwd, target)
+  return path.join(config.resolvedPaths.cwd, target)
+  // return projectInfo?.isSrcDir
+  //   ? path.join(config.resolvedPaths.cwd, 'src', target)
+  //   : path.join(config.resolvedPaths.cwd, target)
 }
 
 export async function updateFiles(
