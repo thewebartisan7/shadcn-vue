@@ -1,7 +1,9 @@
 {
   "name": "collapsible",
   "type": "registry:ui",
-  "dependencies": [],
+  "dependencies": [
+    "reka-ui"
+  ],
   "registryDependencies": [],
   "files": [
     {

@@ -1,7 +1,9 @@
 {
   "name": "accordion",
   "type": "registry:ui",
-  "dependencies": [],
+  "dependencies": [
+    "reka-ui"
+  ],
   "registryDependencies": [
     "utils"
   ],

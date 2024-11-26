@@ -1,7 +1,9 @@
 {
   "name": "toggle-group",
   "type": "registry:ui",
-  "dependencies": [],
+  "dependencies": [
+    "reka-ui"
+  ],
   "registryDependencies": [
     "toggle",
     "utils"

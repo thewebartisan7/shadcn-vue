@@ -190,7 +190,9 @@
   {
     "name": "accordion",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -264,7 +266,9 @@
   {
     "name": "alert-dialog",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils",
       "button"
@@ -335,7 +339,9 @@
   {
     "name": "aspect-ratio",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [],
     "files": [
       {
@@ -358,7 +364,8 @@
     "dependencies": [
       "vee-validate",
       "@vee-validate/zod",
-      "zod"
+      "zod",
+      "reka-ui"
     ],
     "registryDependencies": [
       "form",
@@ -478,7 +485,9 @@
   {
     "name": "avatar",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -534,7 +543,9 @@
   {
     "name": "breadcrumb",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -592,7 +603,9 @@
   {
     "name": "button",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -614,7 +627,9 @@
   {
     "name": "calendar",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils",
       "button"
@@ -870,7 +885,8 @@
     "dependencies": [
       "@unovis/vue",
       "@unovis/ts",
-      "@vueuse/core"
+      "@vueuse/core",
+      "reka-ui"
     ],
     "registryDependencies": [
       "utils",
@@ -975,7 +991,9 @@
   {
     "name": "checkbox",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -997,7 +1015,9 @@
   {
     "name": "collapsible",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [],
     "files": [
       {
@@ -1029,7 +1049,9 @@
   {
     "name": "command",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils",
       "dialog"
@@ -1100,7 +1122,9 @@
   {
     "name": "context-menu",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -1206,7 +1230,9 @@
   {
     "name": "dialog",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -1277,7 +1303,8 @@
     "name": "drawer",
     "type": "registry:ui",
     "dependencies": [
-      "vaul-vue"
+      "vaul-vue",
+      "reka-ui"
     ],
     "registryDependencies": [
       "utils"
@@ -1336,7 +1363,9 @@
   {
     "name": "dropdown-menu",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -1437,6 +1466,7 @@
     "name": "form",
     "type": "registry:ui",
     "dependencies": [
+      "reka-ui",
       "vee-validate",
       "@vee-validate/zod",
       "zod"
@@ -1499,7 +1529,9 @@
   {
     "name": "hover-card",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -1557,7 +1589,9 @@
   {
     "name": "label",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -1579,7 +1613,9 @@
   {
     "name": "menubar",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -1685,7 +1721,9 @@
   {
     "name": "navigation-menu",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -1749,7 +1787,9 @@
   {
     "name": "number-field",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -1795,7 +1835,9 @@
   {
     "name": "pagination",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils",
       "button"
@@ -1842,7 +1884,9 @@
   {
     "name": "pin-input",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -1882,7 +1926,9 @@
   {
     "name": "popover",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -1916,7 +1962,9 @@
   {
     "name": "progress",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -1938,7 +1986,9 @@
   {
     "name": "radio-group",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -1966,7 +2016,9 @@
   {
     "name": "range-calendar",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils",
       "button"
@@ -2055,7 +2107,9 @@
   {
     "name": "resizable",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -2083,7 +2137,9 @@
   {
     "name": "scroll-area",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -2111,7 +2167,9 @@
   {
     "name": "select",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -2193,7 +2251,9 @@
   {
     "name": "separator",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -2215,7 +2275,9 @@
   {
     "name": "sheet",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -2280,6 +2342,7 @@
     "name": "sidebar",
     "type": "registry:ui",
     "dependencies": [
+      "reka-ui",
       "@vueuse/core"
     ],
     "registryDependencies": [
@@ -2475,7 +2538,9 @@
   {
     "name": "slider",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -2519,7 +2584,9 @@
   {
     "name": "stepper",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -2577,7 +2644,9 @@
   {
     "name": "switch",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -2669,7 +2738,9 @@
   {
     "name": "tabs",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -2709,7 +2780,9 @@
   {
     "name": "tags-input",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -2779,7 +2852,9 @@
   {
     "name": "toast",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -2849,7 +2924,9 @@
   {
     "name": "toggle",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -2871,7 +2948,9 @@
   {
     "name": "toggle-group",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "toggle",
       "utils"
@@ -2900,7 +2979,9 @@
   {
     "name": "tooltip",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -3692,7 +3773,8 @@
     "name": "CalendarWithSelect",
     "type": "registry:example",
     "dependencies": [
-      "@vueuse/core"
+      "@vueuse/core",
+      "reka-ui"
     ],
     "registryDependencies": [
       "utils",
@@ -4345,7 +4427,9 @@
   {
     "name": "DatePickerWithIndependentMonths",
     "type": "registry:example",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils",
       "button",
@@ -4384,7 +4468,9 @@
   {
     "name": "DatePickerWithRange",
     "type": "registry:example",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils",
       "button",
@@ -4601,7 +4687,9 @@
   {
     "name": "DropdownMenuCheckboxes",
     "type": "registry:example",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "button",
       "dropdown-menu"
@@ -5199,7 +5287,9 @@
   {
     "name": "RangeCalendarDemo",
     "type": "registry:example",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "range-calendar"
     ],
@@ -5681,7 +5771,9 @@
   {
     "name": "TagsInputComboboxDemo",
     "type": "registry:example",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "command",
       "tags-input"
@@ -7553,7 +7645,9 @@
   {
     "name": "accordion",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -7627,7 +7721,9 @@
   {
     "name": "alert-dialog",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils",
       "button"
@@ -7698,7 +7794,9 @@
   {
     "name": "aspect-ratio",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [],
     "files": [
       {
@@ -7721,7 +7819,8 @@
     "dependencies": [
       "vee-validate",
       "@vee-validate/zod",
-      "zod"
+      "zod",
+      "reka-ui"
     ],
     "registryDependencies": [
       "form",
@@ -7841,7 +7940,9 @@
   {
     "name": "avatar",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -7897,7 +7998,9 @@
   {
     "name": "breadcrumb",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -7955,7 +8058,9 @@
   {
     "name": "button",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -7977,7 +8082,9 @@
   {
     "name": "calendar",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils",
       "button"
@@ -8233,7 +8340,8 @@
     "dependencies": [
       "@unovis/vue",
       "@unovis/ts",
-      "@vueuse/core"
+      "@vueuse/core",
+      "reka-ui"
     ],
     "registryDependencies": [
       "utils",
@@ -8338,7 +8446,9 @@
   {
     "name": "checkbox",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -8360,7 +8470,9 @@
   {
     "name": "collapsible",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [],
     "files": [
       {
@@ -8392,7 +8504,9 @@
   {
     "name": "command",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils",
       "dialog"
@@ -8463,7 +8577,9 @@
   {
     "name": "context-menu",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -8569,7 +8685,9 @@
   {
     "name": "dialog",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -8640,7 +8758,8 @@
     "name": "drawer",
     "type": "registry:ui",
     "dependencies": [
-      "vaul-vue"
+      "vaul-vue",
+      "reka-ui"
     ],
     "registryDependencies": [
       "utils"
@@ -8699,7 +8818,9 @@
   {
     "name": "dropdown-menu",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -8800,6 +8921,7 @@
     "name": "form",
     "type": "registry:ui",
     "dependencies": [
+      "reka-ui",
       "vee-validate",
       "@vee-validate/zod",
       "zod"
@@ -8862,7 +8984,9 @@
   {
     "name": "hover-card",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -8920,7 +9044,9 @@
   {
     "name": "label",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -8942,7 +9068,9 @@
   {
     "name": "menubar",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -9048,7 +9176,9 @@
   {
     "name": "navigation-menu",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -9112,7 +9242,9 @@
   {
     "name": "number-field",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -9158,7 +9290,9 @@
   {
     "name": "pagination",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils",
       "button"
@@ -9205,7 +9339,9 @@
   {
     "name": "pin-input",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -9245,7 +9381,9 @@
   {
     "name": "popover",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -9279,7 +9417,9 @@
   {
     "name": "progress",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -9301,7 +9441,9 @@
   {
     "name": "radio-group",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -9329,7 +9471,9 @@
   {
     "name": "range-calendar",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils",
       "button"
@@ -9418,7 +9562,9 @@
   {
     "name": "resizable",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -9446,7 +9592,9 @@
   {
     "name": "scroll-area",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -9474,7 +9622,9 @@
   {
     "name": "select",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -9556,7 +9706,9 @@
   {
     "name": "separator",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -9578,7 +9730,9 @@
   {
     "name": "sheet",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -9643,6 +9797,7 @@
     "name": "sidebar",
     "type": "registry:ui",
     "dependencies": [
+      "reka-ui",
       "@vueuse/core"
     ],
     "registryDependencies": [
@@ -9838,7 +9993,9 @@
   {
     "name": "slider",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -9882,7 +10039,9 @@
   {
     "name": "stepper",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -9940,7 +10099,9 @@
   {
     "name": "switch",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -10032,7 +10193,9 @@
   {
     "name": "tabs",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -10072,7 +10235,9 @@
   {
     "name": "tags-input",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -10142,7 +10307,9 @@
   {
     "name": "toast",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -10212,7 +10379,9 @@
   {
     "name": "toggle",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -10234,7 +10403,9 @@
   {
     "name": "toggle-group",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "toggle",
       "utils"
@@ -10263,7 +10434,9 @@
   {
     "name": "tooltip",
     "type": "registry:ui",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils"
     ],
@@ -11055,7 +11228,8 @@
     "name": "CalendarWithSelect",
     "type": "registry:example",
     "dependencies": [
-      "@vueuse/core"
+      "@vueuse/core",
+      "reka-ui"
     ],
     "registryDependencies": [
       "utils",
@@ -11709,7 +11883,9 @@
   {
     "name": "DatePickerWithIndependentMonths",
     "type": "registry:example",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils",
       "button",
@@ -11748,7 +11924,9 @@
   {
     "name": "DatePickerWithRange",
     "type": "registry:example",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "utils",
       "button",
@@ -11965,7 +12143,9 @@
   {
     "name": "DropdownMenuCheckboxes",
     "type": "registry:example",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "button",
       "dropdown-menu"
@@ -12563,7 +12743,9 @@
   {
     "name": "RangeCalendarDemo",
     "type": "registry:example",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "range-calendar"
     ],
@@ -13045,7 +13227,9 @@
   {
     "name": "TagsInputComboboxDemo",
     "type": "registry:example",
-    "dependencies": [],
+    "dependencies": [
+      "reka-ui"
+    ],
     "registryDependencies": [
       "command",
       "tags-input"

@@ -1,7 +1,9 @@
 {
   "name": "RangeCalendarDemo",
   "type": "registry:example",
-  "dependencies": [],
+  "dependencies": [
+    "reka-ui"
+  ],
   "registryDependencies": [
     "range-calendar"
   ],

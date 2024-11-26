@@ -2,7 +2,8 @@
   "name": "drawer",
   "type": "registry:ui",
   "dependencies": [
-    "vaul-vue"
+    "vaul-vue",
+    "reka-ui"
   ],
   "registryDependencies": [
     "utils"

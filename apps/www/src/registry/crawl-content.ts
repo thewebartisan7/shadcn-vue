@@ -7,6 +7,7 @@ import { type RegistryStyle, styles } from './registry-styles'
 
 // [Dependency, [...PeerDependencies]]
 const DEPENDENCIES = new Map<string, string[]>([
+  ['reka-ui', []],
   ['@vueuse/core', []],
   ['vue-sonner', []],
   ['vaul-vue', []],

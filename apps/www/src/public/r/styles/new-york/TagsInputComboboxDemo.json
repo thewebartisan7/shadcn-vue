@@ -1,7 +1,9 @@
 {
   "name": "TagsInputComboboxDemo",
   "type": "registry:example",
-  "dependencies": [],
+  "dependencies": [
+    "reka-ui"
+  ],
   "registryDependencies": [
     "command",
     "tags-input"

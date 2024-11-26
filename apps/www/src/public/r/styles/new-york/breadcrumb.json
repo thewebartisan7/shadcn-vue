@@ -1,7 +1,9 @@
 {
   "name": "breadcrumb",
   "type": "registry:ui",
-  "dependencies": [],
+  "dependencies": [
+    "reka-ui"
+  ],
   "registryDependencies": [
     "utils"
   ],

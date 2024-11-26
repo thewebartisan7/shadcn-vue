@@ -1,7 +1,9 @@
 {
   "name": "tags-input",
   "type": "registry:ui",
-  "dependencies": [],
+  "dependencies": [
+    "reka-ui"
+  ],
   "registryDependencies": [
     "utils"
   ],

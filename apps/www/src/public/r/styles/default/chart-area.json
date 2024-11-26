@@ -4,7 +4,8 @@
   "dependencies": [
     "@unovis/vue",
     "@unovis/ts",
-    "@vueuse/core"
+    "@vueuse/core",
+    "reka-ui"
   ],
   "registryDependencies": [
     "utils",

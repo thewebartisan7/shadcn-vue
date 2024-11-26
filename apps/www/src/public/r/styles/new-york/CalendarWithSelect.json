@@ -2,7 +2,8 @@
   "name": "CalendarWithSelect",
   "type": "registry:example",
   "dependencies": [
-    "@vueuse/core"
+    "@vueuse/core",
+    "reka-ui"
   ],
   "registryDependencies": [
     "utils",
