@@ -27,23 +27,23 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/accordion/Accordion.vue",
         type: "registry:ui",
-        target: "accordion/Accordion.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/accordion/AccordionContent.vue",
         type: "registry:ui",
-        target: "accordion/AccordionContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/accordion/AccordionItem.vue",
         type: "registry:ui",
-        target: "accordion/AccordionItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/accordion/AccordionTrigger.vue",
         type: "registry:ui",
-        target: "accordion/AccordionTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/accordion/index.ts",
         type: "registry:ui",
-        target: "accordion/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/accordion/Accordion.vue").then((m) => m.default),
       source: "",
@@ -58,19 +58,19 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/alert/Alert.vue",
         type: "registry:ui",
-        target: "alert/Alert.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/alert/AlertDescription.vue",
         type: "registry:ui",
-        target: "alert/AlertDescription.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/alert/AlertTitle.vue",
         type: "registry:ui",
-        target: "alert/AlertTitle.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/alert/index.ts",
         type: "registry:ui",
-        target: "alert/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/alert/Alert.vue").then((m) => m.default),
       source: "",
@@ -85,43 +85,43 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/alert-dialog/AlertDialog.vue",
         type: "registry:ui",
-        target: "alert-dialog/AlertDialog.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/alert-dialog/AlertDialogAction.vue",
         type: "registry:ui",
-        target: "alert-dialog/AlertDialogAction.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/alert-dialog/AlertDialogCancel.vue",
         type: "registry:ui",
-        target: "alert-dialog/AlertDialogCancel.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/alert-dialog/AlertDialogContent.vue",
         type: "registry:ui",
-        target: "alert-dialog/AlertDialogContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/alert-dialog/AlertDialogDescription.vue",
         type: "registry:ui",
-        target: "alert-dialog/AlertDialogDescription.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/alert-dialog/AlertDialogFooter.vue",
         type: "registry:ui",
-        target: "alert-dialog/AlertDialogFooter.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/alert-dialog/AlertDialogHeader.vue",
         type: "registry:ui",
-        target: "alert-dialog/AlertDialogHeader.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/alert-dialog/AlertDialogTitle.vue",
         type: "registry:ui",
-        target: "alert-dialog/AlertDialogTitle.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/alert-dialog/AlertDialogTrigger.vue",
         type: "registry:ui",
-        target: "alert-dialog/AlertDialogTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/alert-dialog/index.ts",
         type: "registry:ui",
-        target: "alert-dialog/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/alert-dialog/AlertDialog.vue").then((m) => m.default),
       source: "",
@@ -136,11 +136,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/aspect-ratio/AspectRatio.vue",
         type: "registry:ui",
-        target: "aspect-ratio/AspectRatio.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/aspect-ratio/index.ts",
         type: "registry:ui",
-        target: "aspect-ratio/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/aspect-ratio/AspectRatio.vue").then((m) => m.default),
       source: "",
@@ -155,67 +155,67 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/auto-form/AutoForm.vue",
         type: "registry:ui",
-        target: "auto-form/AutoForm.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/auto-form/AutoFormField.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormField.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/auto-form/AutoFormFieldArray.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormFieldArray.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/auto-form/AutoFormFieldBoolean.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormFieldBoolean.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/auto-form/AutoFormFieldDate.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormFieldDate.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/auto-form/AutoFormFieldEnum.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormFieldEnum.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/auto-form/AutoFormFieldFile.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormFieldFile.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/auto-form/AutoFormFieldInput.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormFieldInput.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/auto-form/AutoFormFieldNumber.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormFieldNumber.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/auto-form/AutoFormFieldObject.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormFieldObject.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/auto-form/AutoFormLabel.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormLabel.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/auto-form/constant.ts",
         type: "registry:ui",
-        target: "auto-form/constant.ts"
+        target: ""
       },{
         path: "registry/new-york/ui/auto-form/dependencies.ts",
         type: "registry:ui",
-        target: "auto-form/dependencies.ts"
+        target: ""
       },{
         path: "registry/new-york/ui/auto-form/index.ts",
         type: "registry:ui",
-        target: "auto-form/index.ts"
+        target: ""
       },{
         path: "registry/new-york/ui/auto-form/interface.ts",
         type: "registry:ui",
-        target: "auto-form/interface.ts"
+        target: ""
       },{
         path: "registry/new-york/ui/auto-form/utils.ts",
         type: "registry:ui",
-        target: "auto-form/utils.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/auto-form/AutoForm.vue").then((m) => m.default),
       source: "",
@@ -230,19 +230,19 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/avatar/Avatar.vue",
         type: "registry:ui",
-        target: "avatar/Avatar.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/avatar/AvatarFallback.vue",
         type: "registry:ui",
-        target: "avatar/AvatarFallback.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/avatar/AvatarImage.vue",
         type: "registry:ui",
-        target: "avatar/AvatarImage.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/avatar/index.ts",
         type: "registry:ui",
-        target: "avatar/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/avatar/Avatar.vue").then((m) => m.default),
       source: "",
@@ -257,11 +257,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/badge/Badge.vue",
         type: "registry:ui",
-        target: "badge/Badge.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/badge/index.ts",
         type: "registry:ui",
-        target: "badge/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/badge/Badge.vue").then((m) => m.default),
       source: "",
@@ -276,35 +276,35 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/breadcrumb/Breadcrumb.vue",
         type: "registry:ui",
-        target: "breadcrumb/Breadcrumb.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/breadcrumb/BreadcrumbEllipsis.vue",
         type: "registry:ui",
-        target: "breadcrumb/BreadcrumbEllipsis.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/breadcrumb/BreadcrumbItem.vue",
         type: "registry:ui",
-        target: "breadcrumb/BreadcrumbItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/breadcrumb/BreadcrumbLink.vue",
         type: "registry:ui",
-        target: "breadcrumb/BreadcrumbLink.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/breadcrumb/BreadcrumbList.vue",
         type: "registry:ui",
-        target: "breadcrumb/BreadcrumbList.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/breadcrumb/BreadcrumbPage.vue",
         type: "registry:ui",
-        target: "breadcrumb/BreadcrumbPage.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/breadcrumb/BreadcrumbSeparator.vue",
         type: "registry:ui",
-        target: "breadcrumb/BreadcrumbSeparator.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/breadcrumb/index.ts",
         type: "registry:ui",
-        target: "breadcrumb/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/breadcrumb/Breadcrumb.vue").then((m) => m.default),
       source: "",
@@ -319,11 +319,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/button/Button.vue",
         type: "registry:ui",
-        target: "button/Button.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/button/index.ts",
         type: "registry:ui",
-        target: "button/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/button/Button.vue").then((m) => m.default),
       source: "",
@@ -338,55 +338,55 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/calendar/Calendar.vue",
         type: "registry:ui",
-        target: "calendar/Calendar.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/calendar/CalendarCell.vue",
         type: "registry:ui",
-        target: "calendar/CalendarCell.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/calendar/CalendarCellTrigger.vue",
         type: "registry:ui",
-        target: "calendar/CalendarCellTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/calendar/CalendarGrid.vue",
         type: "registry:ui",
-        target: "calendar/CalendarGrid.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/calendar/CalendarGridBody.vue",
         type: "registry:ui",
-        target: "calendar/CalendarGridBody.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/calendar/CalendarGridHead.vue",
         type: "registry:ui",
-        target: "calendar/CalendarGridHead.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/calendar/CalendarGridRow.vue",
         type: "registry:ui",
-        target: "calendar/CalendarGridRow.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/calendar/CalendarHeadCell.vue",
         type: "registry:ui",
-        target: "calendar/CalendarHeadCell.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/calendar/CalendarHeader.vue",
         type: "registry:ui",
-        target: "calendar/CalendarHeader.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/calendar/CalendarHeading.vue",
         type: "registry:ui",
-        target: "calendar/CalendarHeading.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/calendar/CalendarNextButton.vue",
         type: "registry:ui",
-        target: "calendar/CalendarNextButton.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/calendar/CalendarPrevButton.vue",
         type: "registry:ui",
-        target: "calendar/CalendarPrevButton.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/calendar/index.ts",
         type: "registry:ui",
-        target: "calendar/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/calendar/Calendar.vue").then((m) => m.default),
       source: "",
@@ -401,31 +401,31 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/card/Card.vue",
         type: "registry:ui",
-        target: "card/Card.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/card/CardContent.vue",
         type: "registry:ui",
-        target: "card/CardContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/card/CardDescription.vue",
         type: "registry:ui",
-        target: "card/CardDescription.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/card/CardFooter.vue",
         type: "registry:ui",
-        target: "card/CardFooter.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/card/CardHeader.vue",
         type: "registry:ui",
-        target: "card/CardHeader.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/card/CardTitle.vue",
         type: "registry:ui",
-        target: "card/CardTitle.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/card/index.ts",
         type: "registry:ui",
-        target: "card/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/card/Card.vue").then((m) => m.default),
       source: "",
@@ -440,35 +440,35 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/carousel/Carousel.vue",
         type: "registry:ui",
-        target: "carousel/Carousel.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/carousel/CarouselContent.vue",
         type: "registry:ui",
-        target: "carousel/CarouselContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/carousel/CarouselItem.vue",
         type: "registry:ui",
-        target: "carousel/CarouselItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/carousel/CarouselNext.vue",
         type: "registry:ui",
-        target: "carousel/CarouselNext.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/carousel/CarouselPrevious.vue",
         type: "registry:ui",
-        target: "carousel/CarouselPrevious.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/carousel/index.ts",
         type: "registry:ui",
-        target: "carousel/index.ts"
+        target: ""
       },{
         path: "registry/new-york/ui/carousel/interface.ts",
         type: "registry:ui",
-        target: "carousel/interface.ts"
+        target: ""
       },{
         path: "registry/new-york/ui/carousel/useCarousel.ts",
         type: "registry:ui",
-        target: "carousel/useCarousel.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/carousel/Carousel.vue").then((m) => m.default),
       source: "",
@@ -483,27 +483,27 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/chart/ChartCrosshair.vue",
         type: "registry:ui",
-        target: "chart/ChartCrosshair.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/chart/ChartLegend.vue",
         type: "registry:ui",
-        target: "chart/ChartLegend.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/chart/ChartSingleTooltip.vue",
         type: "registry:ui",
-        target: "chart/ChartSingleTooltip.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/chart/ChartTooltip.vue",
         type: "registry:ui",
-        target: "chart/ChartTooltip.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/chart/index.ts",
         type: "registry:ui",
-        target: "chart/index.ts"
+        target: ""
       },{
         path: "registry/new-york/ui/chart/interface.ts",
         type: "registry:ui",
-        target: "chart/interface.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/chart/ChartCrosshair.vue").then((m) => m.default),
       source: "",
@@ -518,11 +518,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/chart-area/AreaChart.vue",
         type: "registry:ui",
-        target: "chart-area/AreaChart.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/chart-area/index.ts",
         type: "registry:ui",
-        target: "chart-area/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/chart-area/AreaChart.vue").then((m) => m.default),
       source: "",
@@ -537,11 +537,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/chart-bar/BarChart.vue",
         type: "registry:ui",
-        target: "chart-bar/BarChart.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/chart-bar/index.ts",
         type: "registry:ui",
-        target: "chart-bar/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/chart-bar/BarChart.vue").then((m) => m.default),
       source: "",
@@ -556,11 +556,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/chart-donut/DonutChart.vue",
         type: "registry:ui",
-        target: "chart-donut/DonutChart.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/chart-donut/index.ts",
         type: "registry:ui",
-        target: "chart-donut/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/chart-donut/DonutChart.vue").then((m) => m.default),
       source: "",
@@ -575,11 +575,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/chart-line/LineChart.vue",
         type: "registry:ui",
-        target: "chart-line/LineChart.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/chart-line/index.ts",
         type: "registry:ui",
-        target: "chart-line/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/chart-line/LineChart.vue").then((m) => m.default),
       source: "",
@@ -594,11 +594,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/checkbox/Checkbox.vue",
         type: "registry:ui",
-        target: "checkbox/Checkbox.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/checkbox/index.ts",
         type: "registry:ui",
-        target: "checkbox/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/checkbox/Checkbox.vue").then((m) => m.default),
       source: "",
@@ -613,19 +613,19 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/collapsible/Collapsible.vue",
         type: "registry:ui",
-        target: "collapsible/Collapsible.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/collapsible/CollapsibleContent.vue",
         type: "registry:ui",
-        target: "collapsible/CollapsibleContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/collapsible/CollapsibleTrigger.vue",
         type: "registry:ui",
-        target: "collapsible/CollapsibleTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/collapsible/index.ts",
         type: "registry:ui",
-        target: "collapsible/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/collapsible/Collapsible.vue").then((m) => m.default),
       source: "",
@@ -640,43 +640,43 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/command/Command.vue",
         type: "registry:ui",
-        target: "command/Command.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/command/CommandDialog.vue",
         type: "registry:ui",
-        target: "command/CommandDialog.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/command/CommandEmpty.vue",
         type: "registry:ui",
-        target: "command/CommandEmpty.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/command/CommandGroup.vue",
         type: "registry:ui",
-        target: "command/CommandGroup.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/command/CommandInput.vue",
         type: "registry:ui",
-        target: "command/CommandInput.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/command/CommandItem.vue",
         type: "registry:ui",
-        target: "command/CommandItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/command/CommandList.vue",
         type: "registry:ui",
-        target: "command/CommandList.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/command/CommandSeparator.vue",
         type: "registry:ui",
-        target: "command/CommandSeparator.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/command/CommandShortcut.vue",
         type: "registry:ui",
-        target: "command/CommandShortcut.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/command/index.ts",
         type: "registry:ui",
-        target: "command/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/command/Command.vue").then((m) => m.default),
       source: "",
@@ -691,67 +691,67 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/context-menu/ContextMenu.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenu.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/context-menu/ContextMenuCheckboxItem.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuCheckboxItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/context-menu/ContextMenuContent.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/context-menu/ContextMenuGroup.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuGroup.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/context-menu/ContextMenuItem.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/context-menu/ContextMenuLabel.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuLabel.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/context-menu/ContextMenuPortal.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuPortal.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/context-menu/ContextMenuRadioGroup.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuRadioGroup.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/context-menu/ContextMenuRadioItem.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuRadioItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/context-menu/ContextMenuSeparator.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuSeparator.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/context-menu/ContextMenuShortcut.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuShortcut.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/context-menu/ContextMenuSub.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuSub.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/context-menu/ContextMenuSubContent.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuSubContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/context-menu/ContextMenuSubTrigger.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuSubTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/context-menu/ContextMenuTrigger.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/context-menu/index.ts",
         type: "registry:ui",
-        target: "context-menu/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/context-menu/ContextMenu.vue").then((m) => m.default),
       source: "",
@@ -766,43 +766,43 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/dialog/Dialog.vue",
         type: "registry:ui",
-        target: "dialog/Dialog.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dialog/DialogClose.vue",
         type: "registry:ui",
-        target: "dialog/DialogClose.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dialog/DialogContent.vue",
         type: "registry:ui",
-        target: "dialog/DialogContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dialog/DialogDescription.vue",
         type: "registry:ui",
-        target: "dialog/DialogDescription.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dialog/DialogFooter.vue",
         type: "registry:ui",
-        target: "dialog/DialogFooter.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dialog/DialogHeader.vue",
         type: "registry:ui",
-        target: "dialog/DialogHeader.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dialog/DialogScrollContent.vue",
         type: "registry:ui",
-        target: "dialog/DialogScrollContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dialog/DialogTitle.vue",
         type: "registry:ui",
-        target: "dialog/DialogTitle.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dialog/DialogTrigger.vue",
         type: "registry:ui",
-        target: "dialog/DialogTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dialog/index.ts",
         type: "registry:ui",
-        target: "dialog/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/dialog/Dialog.vue").then((m) => m.default),
       source: "",
@@ -817,35 +817,35 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/drawer/Drawer.vue",
         type: "registry:ui",
-        target: "drawer/Drawer.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/drawer/DrawerContent.vue",
         type: "registry:ui",
-        target: "drawer/DrawerContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/drawer/DrawerDescription.vue",
         type: "registry:ui",
-        target: "drawer/DrawerDescription.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/drawer/DrawerFooter.vue",
         type: "registry:ui",
-        target: "drawer/DrawerFooter.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/drawer/DrawerHeader.vue",
         type: "registry:ui",
-        target: "drawer/DrawerHeader.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/drawer/DrawerOverlay.vue",
         type: "registry:ui",
-        target: "drawer/DrawerOverlay.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/drawer/DrawerTitle.vue",
         type: "registry:ui",
-        target: "drawer/DrawerTitle.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/drawer/index.ts",
         type: "registry:ui",
-        target: "drawer/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/drawer/Drawer.vue").then((m) => m.default),
       source: "",
@@ -860,63 +860,63 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/dropdown-menu/DropdownMenu.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenu.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dropdown-menu/DropdownMenuCheckboxItem.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuCheckboxItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dropdown-menu/DropdownMenuContent.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dropdown-menu/DropdownMenuGroup.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuGroup.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dropdown-menu/DropdownMenuItem.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dropdown-menu/DropdownMenuLabel.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuLabel.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dropdown-menu/DropdownMenuRadioGroup.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuRadioGroup.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dropdown-menu/DropdownMenuRadioItem.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuRadioItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dropdown-menu/DropdownMenuSeparator.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuSeparator.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dropdown-menu/DropdownMenuShortcut.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuShortcut.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dropdown-menu/DropdownMenuSub.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuSub.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dropdown-menu/DropdownMenuSubContent.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuSubContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dropdown-menu/DropdownMenuSubTrigger.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuSubTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dropdown-menu/DropdownMenuTrigger.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dropdown-menu/index.ts",
         type: "registry:ui",
-        target: "dropdown-menu/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/dropdown-menu/DropdownMenu.vue").then((m) => m.default),
       source: "",
@@ -931,35 +931,35 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/form/FormControl.vue",
         type: "registry:ui",
-        target: "form/FormControl.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/form/FormDescription.vue",
         type: "registry:ui",
-        target: "form/FormDescription.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/form/FormItem.vue",
         type: "registry:ui",
-        target: "form/FormItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/form/FormLabel.vue",
         type: "registry:ui",
-        target: "form/FormLabel.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/form/FormMessage.vue",
         type: "registry:ui",
-        target: "form/FormMessage.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/form/index.ts",
         type: "registry:ui",
-        target: "form/index.ts"
+        target: ""
       },{
         path: "registry/new-york/ui/form/injectionKeys.ts",
         type: "registry:ui",
-        target: "form/injectionKeys.ts"
+        target: ""
       },{
         path: "registry/new-york/ui/form/useFormField.ts",
         type: "registry:ui",
-        target: "form/useFormField.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/form/FormControl.vue").then((m) => m.default),
       source: "",
@@ -974,19 +974,19 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/hover-card/HoverCard.vue",
         type: "registry:ui",
-        target: "hover-card/HoverCard.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/hover-card/HoverCardContent.vue",
         type: "registry:ui",
-        target: "hover-card/HoverCardContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/hover-card/HoverCardTrigger.vue",
         type: "registry:ui",
-        target: "hover-card/HoverCardTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/hover-card/index.ts",
         type: "registry:ui",
-        target: "hover-card/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/hover-card/HoverCard.vue").then((m) => m.default),
       source: "",
@@ -1001,11 +1001,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/input/Input.vue",
         type: "registry:ui",
-        target: "input/Input.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/input/index.ts",
         type: "registry:ui",
-        target: "input/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/input/Input.vue").then((m) => m.default),
       source: "",
@@ -1020,11 +1020,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/label/Label.vue",
         type: "registry:ui",
-        target: "label/Label.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/label/index.ts",
         type: "registry:ui",
-        target: "label/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/label/Label.vue").then((m) => m.default),
       source: "",
@@ -1039,67 +1039,67 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/menubar/Menubar.vue",
         type: "registry:ui",
-        target: "menubar/Menubar.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/menubar/MenubarCheckboxItem.vue",
         type: "registry:ui",
-        target: "menubar/MenubarCheckboxItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/menubar/MenubarContent.vue",
         type: "registry:ui",
-        target: "menubar/MenubarContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/menubar/MenubarGroup.vue",
         type: "registry:ui",
-        target: "menubar/MenubarGroup.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/menubar/MenubarItem.vue",
         type: "registry:ui",
-        target: "menubar/MenubarItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/menubar/MenubarLabel.vue",
         type: "registry:ui",
-        target: "menubar/MenubarLabel.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/menubar/MenubarMenu.vue",
         type: "registry:ui",
-        target: "menubar/MenubarMenu.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/menubar/MenubarRadioGroup.vue",
         type: "registry:ui",
-        target: "menubar/MenubarRadioGroup.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/menubar/MenubarRadioItem.vue",
         type: "registry:ui",
-        target: "menubar/MenubarRadioItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/menubar/MenubarSeparator.vue",
         type: "registry:ui",
-        target: "menubar/MenubarSeparator.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/menubar/MenubarShortcut.vue",
         type: "registry:ui",
-        target: "menubar/MenubarShortcut.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/menubar/MenubarSub.vue",
         type: "registry:ui",
-        target: "menubar/MenubarSub.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/menubar/MenubarSubContent.vue",
         type: "registry:ui",
-        target: "menubar/MenubarSubContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/menubar/MenubarSubTrigger.vue",
         type: "registry:ui",
-        target: "menubar/MenubarSubTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/menubar/MenubarTrigger.vue",
         type: "registry:ui",
-        target: "menubar/MenubarTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/menubar/index.ts",
         type: "registry:ui",
-        target: "menubar/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/menubar/Menubar.vue").then((m) => m.default),
       source: "",
@@ -1114,39 +1114,39 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/navigation-menu/NavigationMenu.vue",
         type: "registry:ui",
-        target: "navigation-menu/NavigationMenu.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/navigation-menu/NavigationMenuContent.vue",
         type: "registry:ui",
-        target: "navigation-menu/NavigationMenuContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/navigation-menu/NavigationMenuIndicator.vue",
         type: "registry:ui",
-        target: "navigation-menu/NavigationMenuIndicator.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/navigation-menu/NavigationMenuItem.vue",
         type: "registry:ui",
-        target: "navigation-menu/NavigationMenuItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/navigation-menu/NavigationMenuLink.vue",
         type: "registry:ui",
-        target: "navigation-menu/NavigationMenuLink.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/navigation-menu/NavigationMenuList.vue",
         type: "registry:ui",
-        target: "navigation-menu/NavigationMenuList.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/navigation-menu/NavigationMenuTrigger.vue",
         type: "registry:ui",
-        target: "navigation-menu/NavigationMenuTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/navigation-menu/NavigationMenuViewport.vue",
         type: "registry:ui",
-        target: "navigation-menu/NavigationMenuViewport.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/navigation-menu/index.ts",
         type: "registry:ui",
-        target: "navigation-menu/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/navigation-menu/NavigationMenu.vue").then((m) => m.default),
       source: "",
@@ -1161,27 +1161,27 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/number-field/NumberField.vue",
         type: "registry:ui",
-        target: "number-field/NumberField.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/number-field/NumberFieldContent.vue",
         type: "registry:ui",
-        target: "number-field/NumberFieldContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/number-field/NumberFieldDecrement.vue",
         type: "registry:ui",
-        target: "number-field/NumberFieldDecrement.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/number-field/NumberFieldIncrement.vue",
         type: "registry:ui",
-        target: "number-field/NumberFieldIncrement.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/number-field/NumberFieldInput.vue",
         type: "registry:ui",
-        target: "number-field/NumberFieldInput.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/number-field/index.ts",
         type: "registry:ui",
-        target: "number-field/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/number-field/NumberField.vue").then((m) => m.default),
       source: "",
@@ -1196,27 +1196,27 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/pagination/PaginationEllipsis.vue",
         type: "registry:ui",
-        target: "pagination/PaginationEllipsis.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/pagination/PaginationFirst.vue",
         type: "registry:ui",
-        target: "pagination/PaginationFirst.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/pagination/PaginationLast.vue",
         type: "registry:ui",
-        target: "pagination/PaginationLast.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/pagination/PaginationNext.vue",
         type: "registry:ui",
-        target: "pagination/PaginationNext.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/pagination/PaginationPrev.vue",
         type: "registry:ui",
-        target: "pagination/PaginationPrev.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/pagination/index.ts",
         type: "registry:ui",
-        target: "pagination/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/pagination/PaginationEllipsis.vue").then((m) => m.default),
       source: "",
@@ -1231,23 +1231,23 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/pin-input/PinInput.vue",
         type: "registry:ui",
-        target: "pin-input/PinInput.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/pin-input/PinInputGroup.vue",
         type: "registry:ui",
-        target: "pin-input/PinInputGroup.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/pin-input/PinInputInput.vue",
         type: "registry:ui",
-        target: "pin-input/PinInputInput.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/pin-input/PinInputSeparator.vue",
         type: "registry:ui",
-        target: "pin-input/PinInputSeparator.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/pin-input/index.ts",
         type: "registry:ui",
-        target: "pin-input/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/pin-input/PinInput.vue").then((m) => m.default),
       source: "",
@@ -1262,19 +1262,19 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/popover/Popover.vue",
         type: "registry:ui",
-        target: "popover/Popover.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/popover/PopoverContent.vue",
         type: "registry:ui",
-        target: "popover/PopoverContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/popover/PopoverTrigger.vue",
         type: "registry:ui",
-        target: "popover/PopoverTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/popover/index.ts",
         type: "registry:ui",
-        target: "popover/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/popover/Popover.vue").then((m) => m.default),
       source: "",
@@ -1289,11 +1289,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/progress/Progress.vue",
         type: "registry:ui",
-        target: "progress/Progress.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/progress/index.ts",
         type: "registry:ui",
-        target: "progress/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/progress/Progress.vue").then((m) => m.default),
       source: "",
@@ -1308,15 +1308,15 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/radio-group/RadioGroup.vue",
         type: "registry:ui",
-        target: "radio-group/RadioGroup.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/radio-group/RadioGroupItem.vue",
         type: "registry:ui",
-        target: "radio-group/RadioGroupItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/radio-group/index.ts",
         type: "registry:ui",
-        target: "radio-group/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/radio-group/RadioGroup.vue").then((m) => m.default),
       source: "",
@@ -1331,55 +1331,55 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/range-calendar/RangeCalendar.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendar.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/range-calendar/RangeCalendarCell.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarCell.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/range-calendar/RangeCalendarCellTrigger.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarCellTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/range-calendar/RangeCalendarGrid.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarGrid.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/range-calendar/RangeCalendarGridBody.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarGridBody.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/range-calendar/RangeCalendarGridHead.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarGridHead.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/range-calendar/RangeCalendarGridRow.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarGridRow.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/range-calendar/RangeCalendarHeadCell.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarHeadCell.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/range-calendar/RangeCalendarHeader.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarHeader.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/range-calendar/RangeCalendarHeading.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarHeading.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/range-calendar/RangeCalendarNextButton.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarNextButton.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/range-calendar/RangeCalendarPrevButton.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarPrevButton.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/range-calendar/index.ts",
         type: "registry:ui",
-        target: "range-calendar/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/range-calendar/RangeCalendar.vue").then((m) => m.default),
       source: "",
@@ -1394,15 +1394,15 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/resizable/ResizableHandle.vue",
         type: "registry:ui",
-        target: "resizable/ResizableHandle.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/resizable/ResizablePanelGroup.vue",
         type: "registry:ui",
-        target: "resizable/ResizablePanelGroup.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/resizable/index.ts",
         type: "registry:ui",
-        target: "resizable/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/resizable/ResizableHandle.vue").then((m) => m.default),
       source: "",
@@ -1417,15 +1417,15 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/scroll-area/ScrollArea.vue",
         type: "registry:ui",
-        target: "scroll-area/ScrollArea.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/scroll-area/ScrollBar.vue",
         type: "registry:ui",
-        target: "scroll-area/ScrollBar.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/scroll-area/index.ts",
         type: "registry:ui",
-        target: "scroll-area/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/scroll-area/ScrollArea.vue").then((m) => m.default),
       source: "",
@@ -1440,51 +1440,51 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/select/Select.vue",
         type: "registry:ui",
-        target: "select/Select.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/select/SelectContent.vue",
         type: "registry:ui",
-        target: "select/SelectContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/select/SelectGroup.vue",
         type: "registry:ui",
-        target: "select/SelectGroup.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/select/SelectItem.vue",
         type: "registry:ui",
-        target: "select/SelectItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/select/SelectItemText.vue",
         type: "registry:ui",
-        target: "select/SelectItemText.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/select/SelectLabel.vue",
         type: "registry:ui",
-        target: "select/SelectLabel.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/select/SelectScrollDownButton.vue",
         type: "registry:ui",
-        target: "select/SelectScrollDownButton.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/select/SelectScrollUpButton.vue",
         type: "registry:ui",
-        target: "select/SelectScrollUpButton.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/select/SelectSeparator.vue",
         type: "registry:ui",
-        target: "select/SelectSeparator.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/select/SelectTrigger.vue",
         type: "registry:ui",
-        target: "select/SelectTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/select/SelectValue.vue",
         type: "registry:ui",
-        target: "select/SelectValue.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/select/index.ts",
         type: "registry:ui",
-        target: "select/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/select/Select.vue").then((m) => m.default),
       source: "",
@@ -1499,11 +1499,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/separator/Separator.vue",
         type: "registry:ui",
-        target: "separator/Separator.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/separator/index.ts",
         type: "registry:ui",
-        target: "separator/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/separator/Separator.vue").then((m) => m.default),
       source: "",
@@ -1518,39 +1518,39 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/sheet/Sheet.vue",
         type: "registry:ui",
-        target: "sheet/Sheet.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sheet/SheetClose.vue",
         type: "registry:ui",
-        target: "sheet/SheetClose.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sheet/SheetContent.vue",
         type: "registry:ui",
-        target: "sheet/SheetContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sheet/SheetDescription.vue",
         type: "registry:ui",
-        target: "sheet/SheetDescription.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sheet/SheetFooter.vue",
         type: "registry:ui",
-        target: "sheet/SheetFooter.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sheet/SheetHeader.vue",
         type: "registry:ui",
-        target: "sheet/SheetHeader.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sheet/SheetTitle.vue",
         type: "registry:ui",
-        target: "sheet/SheetTitle.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sheet/SheetTrigger.vue",
         type: "registry:ui",
-        target: "sheet/SheetTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sheet/index.ts",
         type: "registry:ui",
-        target: "sheet/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/sheet/Sheet.vue").then((m) => m.default),
       source: "",
@@ -1565,107 +1565,107 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/sidebar/Sidebar.vue",
         type: "registry:ui",
-        target: "sidebar/Sidebar.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarContent.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarFooter.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarFooter.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarGroup.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarGroup.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarGroupAction.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarGroupAction.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarGroupContent.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarGroupContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarGroupLabel.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarGroupLabel.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarHeader.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarHeader.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarInput.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarInput.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarInset.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarInset.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarMenu.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenu.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarMenuAction.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenuAction.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarMenuBadge.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenuBadge.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarMenuButton.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenuButton.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarMenuButtonChild.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenuButtonChild.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarMenuItem.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenuItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarMenuSkeleton.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenuSkeleton.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarMenuSub.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenuSub.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarMenuSubButton.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenuSubButton.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarMenuSubItem.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenuSubItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarProvider.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarProvider.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarRail.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarRail.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarSeparator.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarSeparator.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarTrigger.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/index.ts",
         type: "registry:ui",
-        target: "sidebar/index.ts"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/utils.ts",
         type: "registry:ui",
-        target: "sidebar/utils.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/sidebar/Sidebar.vue").then((m) => m.default),
       source: "",
@@ -1680,11 +1680,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/skeleton/Skeleton.vue",
         type: "registry:ui",
-        target: "skeleton/Skeleton.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/skeleton/index.ts",
         type: "registry:ui",
-        target: "skeleton/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/skeleton/Skeleton.vue").then((m) => m.default),
       source: "",
@@ -1699,11 +1699,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/slider/Slider.vue",
         type: "registry:ui",
-        target: "slider/Slider.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/slider/index.ts",
         type: "registry:ui",
-        target: "slider/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/slider/Slider.vue").then((m) => m.default),
       source: "",
@@ -1718,11 +1718,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/sonner/Sonner.vue",
         type: "registry:ui",
-        target: "sonner/Sonner.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sonner/index.ts",
         type: "registry:ui",
-        target: "sonner/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/sonner/Sonner.vue").then((m) => m.default),
       source: "",
@@ -1737,35 +1737,35 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/stepper/Stepper.vue",
         type: "registry:ui",
-        target: "stepper/Stepper.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/stepper/StepperDescription.vue",
         type: "registry:ui",
-        target: "stepper/StepperDescription.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/stepper/StepperIndicator.vue",
         type: "registry:ui",
-        target: "stepper/StepperIndicator.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/stepper/StepperItem.vue",
         type: "registry:ui",
-        target: "stepper/StepperItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/stepper/StepperSeparator.vue",
         type: "registry:ui",
-        target: "stepper/StepperSeparator.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/stepper/StepperTitle.vue",
         type: "registry:ui",
-        target: "stepper/StepperTitle.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/stepper/StepperTrigger.vue",
         type: "registry:ui",
-        target: "stepper/StepperTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/stepper/index.ts",
         type: "registry:ui",
-        target: "stepper/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/stepper/Stepper.vue").then((m) => m.default),
       source: "",
@@ -1780,11 +1780,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/switch/Switch.vue",
         type: "registry:ui",
-        target: "switch/Switch.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/switch/index.ts",
         type: "registry:ui",
-        target: "switch/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/switch/Switch.vue").then((m) => m.default),
       source: "",
@@ -1799,43 +1799,43 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/table/Table.vue",
         type: "registry:ui",
-        target: "table/Table.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/table/TableBody.vue",
         type: "registry:ui",
-        target: "table/TableBody.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/table/TableCaption.vue",
         type: "registry:ui",
-        target: "table/TableCaption.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/table/TableCell.vue",
         type: "registry:ui",
-        target: "table/TableCell.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/table/TableEmpty.vue",
         type: "registry:ui",
-        target: "table/TableEmpty.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/table/TableFooter.vue",
         type: "registry:ui",
-        target: "table/TableFooter.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/table/TableHead.vue",
         type: "registry:ui",
-        target: "table/TableHead.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/table/TableHeader.vue",
         type: "registry:ui",
-        target: "table/TableHeader.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/table/TableRow.vue",
         type: "registry:ui",
-        target: "table/TableRow.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/table/index.ts",
         type: "registry:ui",
-        target: "table/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/table/Table.vue").then((m) => m.default),
       source: "",
@@ -1850,23 +1850,23 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/tabs/Tabs.vue",
         type: "registry:ui",
-        target: "tabs/Tabs.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/tabs/TabsContent.vue",
         type: "registry:ui",
-        target: "tabs/TabsContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/tabs/TabsList.vue",
         type: "registry:ui",
-        target: "tabs/TabsList.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/tabs/TabsTrigger.vue",
         type: "registry:ui",
-        target: "tabs/TabsTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/tabs/index.ts",
         type: "registry:ui",
-        target: "tabs/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/tabs/Tabs.vue").then((m) => m.default),
       source: "",
@@ -1881,27 +1881,27 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/tags-input/TagsInput.vue",
         type: "registry:ui",
-        target: "tags-input/TagsInput.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/tags-input/TagsInputInput.vue",
         type: "registry:ui",
-        target: "tags-input/TagsInputInput.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/tags-input/TagsInputItem.vue",
         type: "registry:ui",
-        target: "tags-input/TagsInputItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/tags-input/TagsInputItemDelete.vue",
         type: "registry:ui",
-        target: "tags-input/TagsInputItemDelete.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/tags-input/TagsInputItemText.vue",
         type: "registry:ui",
-        target: "tags-input/TagsInputItemText.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/tags-input/index.ts",
         type: "registry:ui",
-        target: "tags-input/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/tags-input/TagsInput.vue").then((m) => m.default),
       source: "",
@@ -1916,11 +1916,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/textarea/Textarea.vue",
         type: "registry:ui",
-        target: "textarea/Textarea.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/textarea/index.ts",
         type: "registry:ui",
-        target: "textarea/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/textarea/Textarea.vue").then((m) => m.default),
       source: "",
@@ -1935,43 +1935,43 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/toast/Toast.vue",
         type: "registry:ui",
-        target: "toast/Toast.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/toast/ToastAction.vue",
         type: "registry:ui",
-        target: "toast/ToastAction.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/toast/ToastClose.vue",
         type: "registry:ui",
-        target: "toast/ToastClose.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/toast/ToastDescription.vue",
         type: "registry:ui",
-        target: "toast/ToastDescription.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/toast/ToastProvider.vue",
         type: "registry:ui",
-        target: "toast/ToastProvider.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/toast/ToastTitle.vue",
         type: "registry:ui",
-        target: "toast/ToastTitle.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/toast/ToastViewport.vue",
         type: "registry:ui",
-        target: "toast/ToastViewport.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/toast/Toaster.vue",
         type: "registry:ui",
-        target: "toast/Toaster.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/toast/index.ts",
         type: "registry:ui",
-        target: "toast/index.ts"
+        target: ""
       },{
         path: "registry/new-york/ui/toast/use-toast.ts",
         type: "registry:ui",
-        target: "toast/use-toast.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/toast/Toast.vue").then((m) => m.default),
       source: "",
@@ -1986,11 +1986,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/toggle/Toggle.vue",
         type: "registry:ui",
-        target: "toggle/Toggle.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/toggle/index.ts",
         type: "registry:ui",
-        target: "toggle/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/toggle/Toggle.vue").then((m) => m.default),
       source: "",
@@ -2005,15 +2005,15 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/toggle-group/ToggleGroup.vue",
         type: "registry:ui",
-        target: "toggle-group/ToggleGroup.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/toggle-group/ToggleGroupItem.vue",
         type: "registry:ui",
-        target: "toggle-group/ToggleGroupItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/toggle-group/index.ts",
         type: "registry:ui",
-        target: "toggle-group/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/toggle-group/ToggleGroup.vue").then((m) => m.default),
       source: "",
@@ -2028,23 +2028,23 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/tooltip/Tooltip.vue",
         type: "registry:ui",
-        target: "tooltip/Tooltip.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/tooltip/TooltipContent.vue",
         type: "registry:ui",
-        target: "tooltip/TooltipContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/tooltip/TooltipProvider.vue",
         type: "registry:ui",
-        target: "tooltip/TooltipProvider.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/tooltip/TooltipTrigger.vue",
         type: "registry:ui",
-        target: "tooltip/TooltipTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/tooltip/index.ts",
         type: "registry:ui",
-        target: "tooltip/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/tooltip/Tooltip.vue").then((m) => m.default),
       source: "",
@@ -2059,11 +2059,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/v-calendar/Calendar.vue",
         type: "registry:ui",
-        target: "v-calendar/Calendar.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/v-calendar/index.ts",
         type: "registry:ui",
-        target: "v-calendar/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/v-calendar/Calendar.vue").then((m) => m.default),
       source: "",
@@ -5871,23 +5871,23 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/accordion/Accordion.vue",
         type: "registry:ui",
-        target: "accordion/Accordion.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/accordion/AccordionContent.vue",
         type: "registry:ui",
-        target: "accordion/AccordionContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/accordion/AccordionItem.vue",
         type: "registry:ui",
-        target: "accordion/AccordionItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/accordion/AccordionTrigger.vue",
         type: "registry:ui",
-        target: "accordion/AccordionTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/accordion/index.ts",
         type: "registry:ui",
-        target: "accordion/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/accordion/Accordion.vue").then((m) => m.default),
       source: "",
@@ -5902,19 +5902,19 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/alert/Alert.vue",
         type: "registry:ui",
-        target: "alert/Alert.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/alert/AlertDescription.vue",
         type: "registry:ui",
-        target: "alert/AlertDescription.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/alert/AlertTitle.vue",
         type: "registry:ui",
-        target: "alert/AlertTitle.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/alert/index.ts",
         type: "registry:ui",
-        target: "alert/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/alert/Alert.vue").then((m) => m.default),
       source: "",
@@ -5929,43 +5929,43 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/alert-dialog/AlertDialog.vue",
         type: "registry:ui",
-        target: "alert-dialog/AlertDialog.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/alert-dialog/AlertDialogAction.vue",
         type: "registry:ui",
-        target: "alert-dialog/AlertDialogAction.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/alert-dialog/AlertDialogCancel.vue",
         type: "registry:ui",
-        target: "alert-dialog/AlertDialogCancel.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/alert-dialog/AlertDialogContent.vue",
         type: "registry:ui",
-        target: "alert-dialog/AlertDialogContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/alert-dialog/AlertDialogDescription.vue",
         type: "registry:ui",
-        target: "alert-dialog/AlertDialogDescription.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/alert-dialog/AlertDialogFooter.vue",
         type: "registry:ui",
-        target: "alert-dialog/AlertDialogFooter.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/alert-dialog/AlertDialogHeader.vue",
         type: "registry:ui",
-        target: "alert-dialog/AlertDialogHeader.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/alert-dialog/AlertDialogTitle.vue",
         type: "registry:ui",
-        target: "alert-dialog/AlertDialogTitle.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/alert-dialog/AlertDialogTrigger.vue",
         type: "registry:ui",
-        target: "alert-dialog/AlertDialogTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/alert-dialog/index.ts",
         type: "registry:ui",
-        target: "alert-dialog/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/alert-dialog/AlertDialog.vue").then((m) => m.default),
       source: "",
@@ -5980,11 +5980,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/aspect-ratio/AspectRatio.vue",
         type: "registry:ui",
-        target: "aspect-ratio/AspectRatio.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/aspect-ratio/index.ts",
         type: "registry:ui",
-        target: "aspect-ratio/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/aspect-ratio/AspectRatio.vue").then((m) => m.default),
       source: "",
@@ -5999,67 +5999,67 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/auto-form/AutoForm.vue",
         type: "registry:ui",
-        target: "auto-form/AutoForm.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/auto-form/AutoFormField.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormField.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/auto-form/AutoFormFieldArray.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormFieldArray.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/auto-form/AutoFormFieldBoolean.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormFieldBoolean.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/auto-form/AutoFormFieldDate.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormFieldDate.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/auto-form/AutoFormFieldEnum.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormFieldEnum.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/auto-form/AutoFormFieldFile.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormFieldFile.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/auto-form/AutoFormFieldInput.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormFieldInput.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/auto-form/AutoFormFieldNumber.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormFieldNumber.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/auto-form/AutoFormFieldObject.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormFieldObject.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/auto-form/AutoFormLabel.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormLabel.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/auto-form/constant.ts",
         type: "registry:ui",
-        target: "auto-form/constant.ts"
+        target: ""
       },{
         path: "registry/new-york/ui/auto-form/dependencies.ts",
         type: "registry:ui",
-        target: "auto-form/dependencies.ts"
+        target: ""
       },{
         path: "registry/new-york/ui/auto-form/index.ts",
         type: "registry:ui",
-        target: "auto-form/index.ts"
+        target: ""
       },{
         path: "registry/new-york/ui/auto-form/interface.ts",
         type: "registry:ui",
-        target: "auto-form/interface.ts"
+        target: ""
       },{
         path: "registry/new-york/ui/auto-form/utils.ts",
         type: "registry:ui",
-        target: "auto-form/utils.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/auto-form/AutoForm.vue").then((m) => m.default),
       source: "",
@@ -6074,19 +6074,19 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/avatar/Avatar.vue",
         type: "registry:ui",
-        target: "avatar/Avatar.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/avatar/AvatarFallback.vue",
         type: "registry:ui",
-        target: "avatar/AvatarFallback.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/avatar/AvatarImage.vue",
         type: "registry:ui",
-        target: "avatar/AvatarImage.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/avatar/index.ts",
         type: "registry:ui",
-        target: "avatar/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/avatar/Avatar.vue").then((m) => m.default),
       source: "",
@@ -6101,11 +6101,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/badge/Badge.vue",
         type: "registry:ui",
-        target: "badge/Badge.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/badge/index.ts",
         type: "registry:ui",
-        target: "badge/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/badge/Badge.vue").then((m) => m.default),
       source: "",
@@ -6120,35 +6120,35 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/breadcrumb/Breadcrumb.vue",
         type: "registry:ui",
-        target: "breadcrumb/Breadcrumb.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/breadcrumb/BreadcrumbEllipsis.vue",
         type: "registry:ui",
-        target: "breadcrumb/BreadcrumbEllipsis.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/breadcrumb/BreadcrumbItem.vue",
         type: "registry:ui",
-        target: "breadcrumb/BreadcrumbItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/breadcrumb/BreadcrumbLink.vue",
         type: "registry:ui",
-        target: "breadcrumb/BreadcrumbLink.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/breadcrumb/BreadcrumbList.vue",
         type: "registry:ui",
-        target: "breadcrumb/BreadcrumbList.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/breadcrumb/BreadcrumbPage.vue",
         type: "registry:ui",
-        target: "breadcrumb/BreadcrumbPage.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/breadcrumb/BreadcrumbSeparator.vue",
         type: "registry:ui",
-        target: "breadcrumb/BreadcrumbSeparator.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/breadcrumb/index.ts",
         type: "registry:ui",
-        target: "breadcrumb/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/breadcrumb/Breadcrumb.vue").then((m) => m.default),
       source: "",
@@ -6163,11 +6163,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/button/Button.vue",
         type: "registry:ui",
-        target: "button/Button.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/button/index.ts",
         type: "registry:ui",
-        target: "button/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/button/Button.vue").then((m) => m.default),
       source: "",
@@ -6182,55 +6182,55 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/calendar/Calendar.vue",
         type: "registry:ui",
-        target: "calendar/Calendar.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/calendar/CalendarCell.vue",
         type: "registry:ui",
-        target: "calendar/CalendarCell.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/calendar/CalendarCellTrigger.vue",
         type: "registry:ui",
-        target: "calendar/CalendarCellTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/calendar/CalendarGrid.vue",
         type: "registry:ui",
-        target: "calendar/CalendarGrid.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/calendar/CalendarGridBody.vue",
         type: "registry:ui",
-        target: "calendar/CalendarGridBody.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/calendar/CalendarGridHead.vue",
         type: "registry:ui",
-        target: "calendar/CalendarGridHead.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/calendar/CalendarGridRow.vue",
         type: "registry:ui",
-        target: "calendar/CalendarGridRow.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/calendar/CalendarHeadCell.vue",
         type: "registry:ui",
-        target: "calendar/CalendarHeadCell.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/calendar/CalendarHeader.vue",
         type: "registry:ui",
-        target: "calendar/CalendarHeader.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/calendar/CalendarHeading.vue",
         type: "registry:ui",
-        target: "calendar/CalendarHeading.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/calendar/CalendarNextButton.vue",
         type: "registry:ui",
-        target: "calendar/CalendarNextButton.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/calendar/CalendarPrevButton.vue",
         type: "registry:ui",
-        target: "calendar/CalendarPrevButton.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/calendar/index.ts",
         type: "registry:ui",
-        target: "calendar/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/calendar/Calendar.vue").then((m) => m.default),
       source: "",
@@ -6245,31 +6245,31 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/card/Card.vue",
         type: "registry:ui",
-        target: "card/Card.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/card/CardContent.vue",
         type: "registry:ui",
-        target: "card/CardContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/card/CardDescription.vue",
         type: "registry:ui",
-        target: "card/CardDescription.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/card/CardFooter.vue",
         type: "registry:ui",
-        target: "card/CardFooter.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/card/CardHeader.vue",
         type: "registry:ui",
-        target: "card/CardHeader.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/card/CardTitle.vue",
         type: "registry:ui",
-        target: "card/CardTitle.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/card/index.ts",
         type: "registry:ui",
-        target: "card/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/card/Card.vue").then((m) => m.default),
       source: "",
@@ -6284,35 +6284,35 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/carousel/Carousel.vue",
         type: "registry:ui",
-        target: "carousel/Carousel.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/carousel/CarouselContent.vue",
         type: "registry:ui",
-        target: "carousel/CarouselContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/carousel/CarouselItem.vue",
         type: "registry:ui",
-        target: "carousel/CarouselItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/carousel/CarouselNext.vue",
         type: "registry:ui",
-        target: "carousel/CarouselNext.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/carousel/CarouselPrevious.vue",
         type: "registry:ui",
-        target: "carousel/CarouselPrevious.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/carousel/index.ts",
         type: "registry:ui",
-        target: "carousel/index.ts"
+        target: ""
       },{
         path: "registry/new-york/ui/carousel/interface.ts",
         type: "registry:ui",
-        target: "carousel/interface.ts"
+        target: ""
       },{
         path: "registry/new-york/ui/carousel/useCarousel.ts",
         type: "registry:ui",
-        target: "carousel/useCarousel.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/carousel/Carousel.vue").then((m) => m.default),
       source: "",
@@ -6327,27 +6327,27 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/chart/ChartCrosshair.vue",
         type: "registry:ui",
-        target: "chart/ChartCrosshair.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/chart/ChartLegend.vue",
         type: "registry:ui",
-        target: "chart/ChartLegend.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/chart/ChartSingleTooltip.vue",
         type: "registry:ui",
-        target: "chart/ChartSingleTooltip.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/chart/ChartTooltip.vue",
         type: "registry:ui",
-        target: "chart/ChartTooltip.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/chart/index.ts",
         type: "registry:ui",
-        target: "chart/index.ts"
+        target: ""
       },{
         path: "registry/new-york/ui/chart/interface.ts",
         type: "registry:ui",
-        target: "chart/interface.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/chart/ChartCrosshair.vue").then((m) => m.default),
       source: "",
@@ -6362,11 +6362,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/chart-area/AreaChart.vue",
         type: "registry:ui",
-        target: "chart-area/AreaChart.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/chart-area/index.ts",
         type: "registry:ui",
-        target: "chart-area/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/chart-area/AreaChart.vue").then((m) => m.default),
       source: "",
@@ -6381,11 +6381,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/chart-bar/BarChart.vue",
         type: "registry:ui",
-        target: "chart-bar/BarChart.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/chart-bar/index.ts",
         type: "registry:ui",
-        target: "chart-bar/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/chart-bar/BarChart.vue").then((m) => m.default),
       source: "",
@@ -6400,11 +6400,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/chart-donut/DonutChart.vue",
         type: "registry:ui",
-        target: "chart-donut/DonutChart.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/chart-donut/index.ts",
         type: "registry:ui",
-        target: "chart-donut/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/chart-donut/DonutChart.vue").then((m) => m.default),
       source: "",
@@ -6419,11 +6419,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/chart-line/LineChart.vue",
         type: "registry:ui",
-        target: "chart-line/LineChart.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/chart-line/index.ts",
         type: "registry:ui",
-        target: "chart-line/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/chart-line/LineChart.vue").then((m) => m.default),
       source: "",
@@ -6438,11 +6438,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/checkbox/Checkbox.vue",
         type: "registry:ui",
-        target: "checkbox/Checkbox.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/checkbox/index.ts",
         type: "registry:ui",
-        target: "checkbox/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/checkbox/Checkbox.vue").then((m) => m.default),
       source: "",
@@ -6457,19 +6457,19 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/collapsible/Collapsible.vue",
         type: "registry:ui",
-        target: "collapsible/Collapsible.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/collapsible/CollapsibleContent.vue",
         type: "registry:ui",
-        target: "collapsible/CollapsibleContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/collapsible/CollapsibleTrigger.vue",
         type: "registry:ui",
-        target: "collapsible/CollapsibleTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/collapsible/index.ts",
         type: "registry:ui",
-        target: "collapsible/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/collapsible/Collapsible.vue").then((m) => m.default),
       source: "",
@@ -6484,43 +6484,43 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/command/Command.vue",
         type: "registry:ui",
-        target: "command/Command.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/command/CommandDialog.vue",
         type: "registry:ui",
-        target: "command/CommandDialog.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/command/CommandEmpty.vue",
         type: "registry:ui",
-        target: "command/CommandEmpty.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/command/CommandGroup.vue",
         type: "registry:ui",
-        target: "command/CommandGroup.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/command/CommandInput.vue",
         type: "registry:ui",
-        target: "command/CommandInput.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/command/CommandItem.vue",
         type: "registry:ui",
-        target: "command/CommandItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/command/CommandList.vue",
         type: "registry:ui",
-        target: "command/CommandList.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/command/CommandSeparator.vue",
         type: "registry:ui",
-        target: "command/CommandSeparator.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/command/CommandShortcut.vue",
         type: "registry:ui",
-        target: "command/CommandShortcut.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/command/index.ts",
         type: "registry:ui",
-        target: "command/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/command/Command.vue").then((m) => m.default),
       source: "",
@@ -6535,67 +6535,67 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/context-menu/ContextMenu.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenu.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/context-menu/ContextMenuCheckboxItem.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuCheckboxItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/context-menu/ContextMenuContent.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/context-menu/ContextMenuGroup.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuGroup.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/context-menu/ContextMenuItem.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/context-menu/ContextMenuLabel.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuLabel.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/context-menu/ContextMenuPortal.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuPortal.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/context-menu/ContextMenuRadioGroup.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuRadioGroup.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/context-menu/ContextMenuRadioItem.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuRadioItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/context-menu/ContextMenuSeparator.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuSeparator.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/context-menu/ContextMenuShortcut.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuShortcut.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/context-menu/ContextMenuSub.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuSub.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/context-menu/ContextMenuSubContent.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuSubContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/context-menu/ContextMenuSubTrigger.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuSubTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/context-menu/ContextMenuTrigger.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/context-menu/index.ts",
         type: "registry:ui",
-        target: "context-menu/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/context-menu/ContextMenu.vue").then((m) => m.default),
       source: "",
@@ -6610,43 +6610,43 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/dialog/Dialog.vue",
         type: "registry:ui",
-        target: "dialog/Dialog.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dialog/DialogClose.vue",
         type: "registry:ui",
-        target: "dialog/DialogClose.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dialog/DialogContent.vue",
         type: "registry:ui",
-        target: "dialog/DialogContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dialog/DialogDescription.vue",
         type: "registry:ui",
-        target: "dialog/DialogDescription.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dialog/DialogFooter.vue",
         type: "registry:ui",
-        target: "dialog/DialogFooter.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dialog/DialogHeader.vue",
         type: "registry:ui",
-        target: "dialog/DialogHeader.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dialog/DialogScrollContent.vue",
         type: "registry:ui",
-        target: "dialog/DialogScrollContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dialog/DialogTitle.vue",
         type: "registry:ui",
-        target: "dialog/DialogTitle.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dialog/DialogTrigger.vue",
         type: "registry:ui",
-        target: "dialog/DialogTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dialog/index.ts",
         type: "registry:ui",
-        target: "dialog/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/dialog/Dialog.vue").then((m) => m.default),
       source: "",
@@ -6661,35 +6661,35 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/drawer/Drawer.vue",
         type: "registry:ui",
-        target: "drawer/Drawer.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/drawer/DrawerContent.vue",
         type: "registry:ui",
-        target: "drawer/DrawerContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/drawer/DrawerDescription.vue",
         type: "registry:ui",
-        target: "drawer/DrawerDescription.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/drawer/DrawerFooter.vue",
         type: "registry:ui",
-        target: "drawer/DrawerFooter.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/drawer/DrawerHeader.vue",
         type: "registry:ui",
-        target: "drawer/DrawerHeader.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/drawer/DrawerOverlay.vue",
         type: "registry:ui",
-        target: "drawer/DrawerOverlay.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/drawer/DrawerTitle.vue",
         type: "registry:ui",
-        target: "drawer/DrawerTitle.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/drawer/index.ts",
         type: "registry:ui",
-        target: "drawer/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/drawer/Drawer.vue").then((m) => m.default),
       source: "",
@@ -6704,63 +6704,63 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/dropdown-menu/DropdownMenu.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenu.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dropdown-menu/DropdownMenuCheckboxItem.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuCheckboxItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dropdown-menu/DropdownMenuContent.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dropdown-menu/DropdownMenuGroup.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuGroup.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dropdown-menu/DropdownMenuItem.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dropdown-menu/DropdownMenuLabel.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuLabel.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dropdown-menu/DropdownMenuRadioGroup.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuRadioGroup.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dropdown-menu/DropdownMenuRadioItem.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuRadioItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dropdown-menu/DropdownMenuSeparator.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuSeparator.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dropdown-menu/DropdownMenuShortcut.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuShortcut.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dropdown-menu/DropdownMenuSub.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuSub.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dropdown-menu/DropdownMenuSubContent.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuSubContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dropdown-menu/DropdownMenuSubTrigger.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuSubTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dropdown-menu/DropdownMenuTrigger.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/dropdown-menu/index.ts",
         type: "registry:ui",
-        target: "dropdown-menu/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/dropdown-menu/DropdownMenu.vue").then((m) => m.default),
       source: "",
@@ -6775,35 +6775,35 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/form/FormControl.vue",
         type: "registry:ui",
-        target: "form/FormControl.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/form/FormDescription.vue",
         type: "registry:ui",
-        target: "form/FormDescription.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/form/FormItem.vue",
         type: "registry:ui",
-        target: "form/FormItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/form/FormLabel.vue",
         type: "registry:ui",
-        target: "form/FormLabel.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/form/FormMessage.vue",
         type: "registry:ui",
-        target: "form/FormMessage.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/form/index.ts",
         type: "registry:ui",
-        target: "form/index.ts"
+        target: ""
       },{
         path: "registry/new-york/ui/form/injectionKeys.ts",
         type: "registry:ui",
-        target: "form/injectionKeys.ts"
+        target: ""
       },{
         path: "registry/new-york/ui/form/useFormField.ts",
         type: "registry:ui",
-        target: "form/useFormField.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/form/FormControl.vue").then((m) => m.default),
       source: "",
@@ -6818,19 +6818,19 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/hover-card/HoverCard.vue",
         type: "registry:ui",
-        target: "hover-card/HoverCard.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/hover-card/HoverCardContent.vue",
         type: "registry:ui",
-        target: "hover-card/HoverCardContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/hover-card/HoverCardTrigger.vue",
         type: "registry:ui",
-        target: "hover-card/HoverCardTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/hover-card/index.ts",
         type: "registry:ui",
-        target: "hover-card/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/hover-card/HoverCard.vue").then((m) => m.default),
       source: "",
@@ -6845,11 +6845,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/input/Input.vue",
         type: "registry:ui",
-        target: "input/Input.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/input/index.ts",
         type: "registry:ui",
-        target: "input/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/input/Input.vue").then((m) => m.default),
       source: "",
@@ -6864,11 +6864,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/label/Label.vue",
         type: "registry:ui",
-        target: "label/Label.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/label/index.ts",
         type: "registry:ui",
-        target: "label/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/label/Label.vue").then((m) => m.default),
       source: "",
@@ -6883,67 +6883,67 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/menubar/Menubar.vue",
         type: "registry:ui",
-        target: "menubar/Menubar.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/menubar/MenubarCheckboxItem.vue",
         type: "registry:ui",
-        target: "menubar/MenubarCheckboxItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/menubar/MenubarContent.vue",
         type: "registry:ui",
-        target: "menubar/MenubarContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/menubar/MenubarGroup.vue",
         type: "registry:ui",
-        target: "menubar/MenubarGroup.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/menubar/MenubarItem.vue",
         type: "registry:ui",
-        target: "menubar/MenubarItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/menubar/MenubarLabel.vue",
         type: "registry:ui",
-        target: "menubar/MenubarLabel.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/menubar/MenubarMenu.vue",
         type: "registry:ui",
-        target: "menubar/MenubarMenu.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/menubar/MenubarRadioGroup.vue",
         type: "registry:ui",
-        target: "menubar/MenubarRadioGroup.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/menubar/MenubarRadioItem.vue",
         type: "registry:ui",
-        target: "menubar/MenubarRadioItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/menubar/MenubarSeparator.vue",
         type: "registry:ui",
-        target: "menubar/MenubarSeparator.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/menubar/MenubarShortcut.vue",
         type: "registry:ui",
-        target: "menubar/MenubarShortcut.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/menubar/MenubarSub.vue",
         type: "registry:ui",
-        target: "menubar/MenubarSub.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/menubar/MenubarSubContent.vue",
         type: "registry:ui",
-        target: "menubar/MenubarSubContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/menubar/MenubarSubTrigger.vue",
         type: "registry:ui",
-        target: "menubar/MenubarSubTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/menubar/MenubarTrigger.vue",
         type: "registry:ui",
-        target: "menubar/MenubarTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/menubar/index.ts",
         type: "registry:ui",
-        target: "menubar/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/menubar/Menubar.vue").then((m) => m.default),
       source: "",
@@ -6958,39 +6958,39 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/navigation-menu/NavigationMenu.vue",
         type: "registry:ui",
-        target: "navigation-menu/NavigationMenu.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/navigation-menu/NavigationMenuContent.vue",
         type: "registry:ui",
-        target: "navigation-menu/NavigationMenuContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/navigation-menu/NavigationMenuIndicator.vue",
         type: "registry:ui",
-        target: "navigation-menu/NavigationMenuIndicator.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/navigation-menu/NavigationMenuItem.vue",
         type: "registry:ui",
-        target: "navigation-menu/NavigationMenuItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/navigation-menu/NavigationMenuLink.vue",
         type: "registry:ui",
-        target: "navigation-menu/NavigationMenuLink.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/navigation-menu/NavigationMenuList.vue",
         type: "registry:ui",
-        target: "navigation-menu/NavigationMenuList.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/navigation-menu/NavigationMenuTrigger.vue",
         type: "registry:ui",
-        target: "navigation-menu/NavigationMenuTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/navigation-menu/NavigationMenuViewport.vue",
         type: "registry:ui",
-        target: "navigation-menu/NavigationMenuViewport.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/navigation-menu/index.ts",
         type: "registry:ui",
-        target: "navigation-menu/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/navigation-menu/NavigationMenu.vue").then((m) => m.default),
       source: "",
@@ -7005,27 +7005,27 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/number-field/NumberField.vue",
         type: "registry:ui",
-        target: "number-field/NumberField.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/number-field/NumberFieldContent.vue",
         type: "registry:ui",
-        target: "number-field/NumberFieldContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/number-field/NumberFieldDecrement.vue",
         type: "registry:ui",
-        target: "number-field/NumberFieldDecrement.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/number-field/NumberFieldIncrement.vue",
         type: "registry:ui",
-        target: "number-field/NumberFieldIncrement.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/number-field/NumberFieldInput.vue",
         type: "registry:ui",
-        target: "number-field/NumberFieldInput.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/number-field/index.ts",
         type: "registry:ui",
-        target: "number-field/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/number-field/NumberField.vue").then((m) => m.default),
       source: "",
@@ -7040,27 +7040,27 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/pagination/PaginationEllipsis.vue",
         type: "registry:ui",
-        target: "pagination/PaginationEllipsis.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/pagination/PaginationFirst.vue",
         type: "registry:ui",
-        target: "pagination/PaginationFirst.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/pagination/PaginationLast.vue",
         type: "registry:ui",
-        target: "pagination/PaginationLast.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/pagination/PaginationNext.vue",
         type: "registry:ui",
-        target: "pagination/PaginationNext.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/pagination/PaginationPrev.vue",
         type: "registry:ui",
-        target: "pagination/PaginationPrev.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/pagination/index.ts",
         type: "registry:ui",
-        target: "pagination/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/pagination/PaginationEllipsis.vue").then((m) => m.default),
       source: "",
@@ -7075,23 +7075,23 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/pin-input/PinInput.vue",
         type: "registry:ui",
-        target: "pin-input/PinInput.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/pin-input/PinInputGroup.vue",
         type: "registry:ui",
-        target: "pin-input/PinInputGroup.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/pin-input/PinInputInput.vue",
         type: "registry:ui",
-        target: "pin-input/PinInputInput.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/pin-input/PinInputSeparator.vue",
         type: "registry:ui",
-        target: "pin-input/PinInputSeparator.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/pin-input/index.ts",
         type: "registry:ui",
-        target: "pin-input/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/pin-input/PinInput.vue").then((m) => m.default),
       source: "",
@@ -7106,19 +7106,19 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/popover/Popover.vue",
         type: "registry:ui",
-        target: "popover/Popover.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/popover/PopoverContent.vue",
         type: "registry:ui",
-        target: "popover/PopoverContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/popover/PopoverTrigger.vue",
         type: "registry:ui",
-        target: "popover/PopoverTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/popover/index.ts",
         type: "registry:ui",
-        target: "popover/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/popover/Popover.vue").then((m) => m.default),
       source: "",
@@ -7133,11 +7133,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/progress/Progress.vue",
         type: "registry:ui",
-        target: "progress/Progress.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/progress/index.ts",
         type: "registry:ui",
-        target: "progress/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/progress/Progress.vue").then((m) => m.default),
       source: "",
@@ -7152,15 +7152,15 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/radio-group/RadioGroup.vue",
         type: "registry:ui",
-        target: "radio-group/RadioGroup.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/radio-group/RadioGroupItem.vue",
         type: "registry:ui",
-        target: "radio-group/RadioGroupItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/radio-group/index.ts",
         type: "registry:ui",
-        target: "radio-group/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/radio-group/RadioGroup.vue").then((m) => m.default),
       source: "",
@@ -7175,55 +7175,55 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/range-calendar/RangeCalendar.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendar.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/range-calendar/RangeCalendarCell.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarCell.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/range-calendar/RangeCalendarCellTrigger.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarCellTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/range-calendar/RangeCalendarGrid.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarGrid.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/range-calendar/RangeCalendarGridBody.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarGridBody.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/range-calendar/RangeCalendarGridHead.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarGridHead.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/range-calendar/RangeCalendarGridRow.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarGridRow.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/range-calendar/RangeCalendarHeadCell.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarHeadCell.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/range-calendar/RangeCalendarHeader.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarHeader.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/range-calendar/RangeCalendarHeading.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarHeading.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/range-calendar/RangeCalendarNextButton.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarNextButton.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/range-calendar/RangeCalendarPrevButton.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarPrevButton.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/range-calendar/index.ts",
         type: "registry:ui",
-        target: "range-calendar/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/range-calendar/RangeCalendar.vue").then((m) => m.default),
       source: "",
@@ -7238,15 +7238,15 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/resizable/ResizableHandle.vue",
         type: "registry:ui",
-        target: "resizable/ResizableHandle.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/resizable/ResizablePanelGroup.vue",
         type: "registry:ui",
-        target: "resizable/ResizablePanelGroup.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/resizable/index.ts",
         type: "registry:ui",
-        target: "resizable/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/resizable/ResizableHandle.vue").then((m) => m.default),
       source: "",
@@ -7261,15 +7261,15 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/scroll-area/ScrollArea.vue",
         type: "registry:ui",
-        target: "scroll-area/ScrollArea.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/scroll-area/ScrollBar.vue",
         type: "registry:ui",
-        target: "scroll-area/ScrollBar.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/scroll-area/index.ts",
         type: "registry:ui",
-        target: "scroll-area/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/scroll-area/ScrollArea.vue").then((m) => m.default),
       source: "",
@@ -7284,51 +7284,51 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/select/Select.vue",
         type: "registry:ui",
-        target: "select/Select.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/select/SelectContent.vue",
         type: "registry:ui",
-        target: "select/SelectContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/select/SelectGroup.vue",
         type: "registry:ui",
-        target: "select/SelectGroup.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/select/SelectItem.vue",
         type: "registry:ui",
-        target: "select/SelectItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/select/SelectItemText.vue",
         type: "registry:ui",
-        target: "select/SelectItemText.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/select/SelectLabel.vue",
         type: "registry:ui",
-        target: "select/SelectLabel.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/select/SelectScrollDownButton.vue",
         type: "registry:ui",
-        target: "select/SelectScrollDownButton.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/select/SelectScrollUpButton.vue",
         type: "registry:ui",
-        target: "select/SelectScrollUpButton.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/select/SelectSeparator.vue",
         type: "registry:ui",
-        target: "select/SelectSeparator.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/select/SelectTrigger.vue",
         type: "registry:ui",
-        target: "select/SelectTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/select/SelectValue.vue",
         type: "registry:ui",
-        target: "select/SelectValue.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/select/index.ts",
         type: "registry:ui",
-        target: "select/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/select/Select.vue").then((m) => m.default),
       source: "",
@@ -7343,11 +7343,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/separator/Separator.vue",
         type: "registry:ui",
-        target: "separator/Separator.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/separator/index.ts",
         type: "registry:ui",
-        target: "separator/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/separator/Separator.vue").then((m) => m.default),
       source: "",
@@ -7362,39 +7362,39 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/sheet/Sheet.vue",
         type: "registry:ui",
-        target: "sheet/Sheet.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sheet/SheetClose.vue",
         type: "registry:ui",
-        target: "sheet/SheetClose.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sheet/SheetContent.vue",
         type: "registry:ui",
-        target: "sheet/SheetContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sheet/SheetDescription.vue",
         type: "registry:ui",
-        target: "sheet/SheetDescription.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sheet/SheetFooter.vue",
         type: "registry:ui",
-        target: "sheet/SheetFooter.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sheet/SheetHeader.vue",
         type: "registry:ui",
-        target: "sheet/SheetHeader.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sheet/SheetTitle.vue",
         type: "registry:ui",
-        target: "sheet/SheetTitle.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sheet/SheetTrigger.vue",
         type: "registry:ui",
-        target: "sheet/SheetTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sheet/index.ts",
         type: "registry:ui",
-        target: "sheet/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/sheet/Sheet.vue").then((m) => m.default),
       source: "",
@@ -7409,107 +7409,107 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/sidebar/Sidebar.vue",
         type: "registry:ui",
-        target: "sidebar/Sidebar.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarContent.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarFooter.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarFooter.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarGroup.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarGroup.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarGroupAction.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarGroupAction.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarGroupContent.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarGroupContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarGroupLabel.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarGroupLabel.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarHeader.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarHeader.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarInput.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarInput.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarInset.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarInset.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarMenu.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenu.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarMenuAction.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenuAction.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarMenuBadge.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenuBadge.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarMenuButton.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenuButton.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarMenuButtonChild.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenuButtonChild.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarMenuItem.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenuItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarMenuSkeleton.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenuSkeleton.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarMenuSub.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenuSub.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarMenuSubButton.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenuSubButton.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarMenuSubItem.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenuSubItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarProvider.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarProvider.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarRail.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarRail.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarSeparator.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarSeparator.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/SidebarTrigger.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/index.ts",
         type: "registry:ui",
-        target: "sidebar/index.ts"
+        target: ""
       },{
         path: "registry/new-york/ui/sidebar/utils.ts",
         type: "registry:ui",
-        target: "sidebar/utils.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/sidebar/Sidebar.vue").then((m) => m.default),
       source: "",
@@ -7524,11 +7524,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/skeleton/Skeleton.vue",
         type: "registry:ui",
-        target: "skeleton/Skeleton.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/skeleton/index.ts",
         type: "registry:ui",
-        target: "skeleton/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/skeleton/Skeleton.vue").then((m) => m.default),
       source: "",
@@ -7543,11 +7543,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/slider/Slider.vue",
         type: "registry:ui",
-        target: "slider/Slider.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/slider/index.ts",
         type: "registry:ui",
-        target: "slider/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/slider/Slider.vue").then((m) => m.default),
       source: "",
@@ -7562,11 +7562,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/sonner/Sonner.vue",
         type: "registry:ui",
-        target: "sonner/Sonner.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/sonner/index.ts",
         type: "registry:ui",
-        target: "sonner/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/sonner/Sonner.vue").then((m) => m.default),
       source: "",
@@ -7581,35 +7581,35 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/stepper/Stepper.vue",
         type: "registry:ui",
-        target: "stepper/Stepper.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/stepper/StepperDescription.vue",
         type: "registry:ui",
-        target: "stepper/StepperDescription.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/stepper/StepperIndicator.vue",
         type: "registry:ui",
-        target: "stepper/StepperIndicator.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/stepper/StepperItem.vue",
         type: "registry:ui",
-        target: "stepper/StepperItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/stepper/StepperSeparator.vue",
         type: "registry:ui",
-        target: "stepper/StepperSeparator.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/stepper/StepperTitle.vue",
         type: "registry:ui",
-        target: "stepper/StepperTitle.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/stepper/StepperTrigger.vue",
         type: "registry:ui",
-        target: "stepper/StepperTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/stepper/index.ts",
         type: "registry:ui",
-        target: "stepper/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/stepper/Stepper.vue").then((m) => m.default),
       source: "",
@@ -7624,11 +7624,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/switch/Switch.vue",
         type: "registry:ui",
-        target: "switch/Switch.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/switch/index.ts",
         type: "registry:ui",
-        target: "switch/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/switch/Switch.vue").then((m) => m.default),
       source: "",
@@ -7643,43 +7643,43 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/table/Table.vue",
         type: "registry:ui",
-        target: "table/Table.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/table/TableBody.vue",
         type: "registry:ui",
-        target: "table/TableBody.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/table/TableCaption.vue",
         type: "registry:ui",
-        target: "table/TableCaption.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/table/TableCell.vue",
         type: "registry:ui",
-        target: "table/TableCell.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/table/TableEmpty.vue",
         type: "registry:ui",
-        target: "table/TableEmpty.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/table/TableFooter.vue",
         type: "registry:ui",
-        target: "table/TableFooter.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/table/TableHead.vue",
         type: "registry:ui",
-        target: "table/TableHead.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/table/TableHeader.vue",
         type: "registry:ui",
-        target: "table/TableHeader.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/table/TableRow.vue",
         type: "registry:ui",
-        target: "table/TableRow.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/table/index.ts",
         type: "registry:ui",
-        target: "table/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/table/Table.vue").then((m) => m.default),
       source: "",
@@ -7694,23 +7694,23 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/tabs/Tabs.vue",
         type: "registry:ui",
-        target: "tabs/Tabs.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/tabs/TabsContent.vue",
         type: "registry:ui",
-        target: "tabs/TabsContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/tabs/TabsList.vue",
         type: "registry:ui",
-        target: "tabs/TabsList.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/tabs/TabsTrigger.vue",
         type: "registry:ui",
-        target: "tabs/TabsTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/tabs/index.ts",
         type: "registry:ui",
-        target: "tabs/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/tabs/Tabs.vue").then((m) => m.default),
       source: "",
@@ -7725,27 +7725,27 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/tags-input/TagsInput.vue",
         type: "registry:ui",
-        target: "tags-input/TagsInput.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/tags-input/TagsInputInput.vue",
         type: "registry:ui",
-        target: "tags-input/TagsInputInput.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/tags-input/TagsInputItem.vue",
         type: "registry:ui",
-        target: "tags-input/TagsInputItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/tags-input/TagsInputItemDelete.vue",
         type: "registry:ui",
-        target: "tags-input/TagsInputItemDelete.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/tags-input/TagsInputItemText.vue",
         type: "registry:ui",
-        target: "tags-input/TagsInputItemText.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/tags-input/index.ts",
         type: "registry:ui",
-        target: "tags-input/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/tags-input/TagsInput.vue").then((m) => m.default),
       source: "",
@@ -7760,11 +7760,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/textarea/Textarea.vue",
         type: "registry:ui",
-        target: "textarea/Textarea.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/textarea/index.ts",
         type: "registry:ui",
-        target: "textarea/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/textarea/Textarea.vue").then((m) => m.default),
       source: "",
@@ -7779,43 +7779,43 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/toast/Toast.vue",
         type: "registry:ui",
-        target: "toast/Toast.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/toast/ToastAction.vue",
         type: "registry:ui",
-        target: "toast/ToastAction.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/toast/ToastClose.vue",
         type: "registry:ui",
-        target: "toast/ToastClose.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/toast/ToastDescription.vue",
         type: "registry:ui",
-        target: "toast/ToastDescription.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/toast/ToastProvider.vue",
         type: "registry:ui",
-        target: "toast/ToastProvider.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/toast/ToastTitle.vue",
         type: "registry:ui",
-        target: "toast/ToastTitle.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/toast/ToastViewport.vue",
         type: "registry:ui",
-        target: "toast/ToastViewport.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/toast/Toaster.vue",
         type: "registry:ui",
-        target: "toast/Toaster.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/toast/index.ts",
         type: "registry:ui",
-        target: "toast/index.ts"
+        target: ""
       },{
         path: "registry/new-york/ui/toast/use-toast.ts",
         type: "registry:ui",
-        target: "toast/use-toast.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/toast/Toast.vue").then((m) => m.default),
       source: "",
@@ -7830,11 +7830,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/toggle/Toggle.vue",
         type: "registry:ui",
-        target: "toggle/Toggle.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/toggle/index.ts",
         type: "registry:ui",
-        target: "toggle/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/toggle/Toggle.vue").then((m) => m.default),
       source: "",
@@ -7849,15 +7849,15 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/toggle-group/ToggleGroup.vue",
         type: "registry:ui",
-        target: "toggle-group/ToggleGroup.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/toggle-group/ToggleGroupItem.vue",
         type: "registry:ui",
-        target: "toggle-group/ToggleGroupItem.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/toggle-group/index.ts",
         type: "registry:ui",
-        target: "toggle-group/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/toggle-group/ToggleGroup.vue").then((m) => m.default),
       source: "",
@@ -7872,23 +7872,23 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/tooltip/Tooltip.vue",
         type: "registry:ui",
-        target: "tooltip/Tooltip.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/tooltip/TooltipContent.vue",
         type: "registry:ui",
-        target: "tooltip/TooltipContent.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/tooltip/TooltipProvider.vue",
         type: "registry:ui",
-        target: "tooltip/TooltipProvider.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/tooltip/TooltipTrigger.vue",
         type: "registry:ui",
-        target: "tooltip/TooltipTrigger.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/tooltip/index.ts",
         type: "registry:ui",
-        target: "tooltip/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/tooltip/Tooltip.vue").then((m) => m.default),
       source: "",
@@ -7903,11 +7903,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/new-york/ui/v-calendar/Calendar.vue",
         type: "registry:ui",
-        target: "v-calendar/Calendar.vue"
+        target: ""
       },{
         path: "registry/new-york/ui/v-calendar/index.ts",
         type: "registry:ui",
-        target: "v-calendar/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/new-york/ui/v-calendar/Calendar.vue").then((m) => m.default),
       source: "",
@@ -11731,23 +11731,23 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/accordion/Accordion.vue",
         type: "registry:ui",
-        target: "accordion/Accordion.vue"
+        target: ""
       },{
         path: "registry/default/ui/accordion/AccordionContent.vue",
         type: "registry:ui",
-        target: "accordion/AccordionContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/accordion/AccordionItem.vue",
         type: "registry:ui",
-        target: "accordion/AccordionItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/accordion/AccordionTrigger.vue",
         type: "registry:ui",
-        target: "accordion/AccordionTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/accordion/index.ts",
         type: "registry:ui",
-        target: "accordion/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/accordion/Accordion.vue").then((m) => m.default),
       source: "",
@@ -11762,19 +11762,19 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/alert/Alert.vue",
         type: "registry:ui",
-        target: "alert/Alert.vue"
+        target: ""
       },{
         path: "registry/default/ui/alert/AlertDescription.vue",
         type: "registry:ui",
-        target: "alert/AlertDescription.vue"
+        target: ""
       },{
         path: "registry/default/ui/alert/AlertTitle.vue",
         type: "registry:ui",
-        target: "alert/AlertTitle.vue"
+        target: ""
       },{
         path: "registry/default/ui/alert/index.ts",
         type: "registry:ui",
-        target: "alert/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/alert/Alert.vue").then((m) => m.default),
       source: "",
@@ -11789,43 +11789,43 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/alert-dialog/AlertDialog.vue",
         type: "registry:ui",
-        target: "alert-dialog/AlertDialog.vue"
+        target: ""
       },{
         path: "registry/default/ui/alert-dialog/AlertDialogAction.vue",
         type: "registry:ui",
-        target: "alert-dialog/AlertDialogAction.vue"
+        target: ""
       },{
         path: "registry/default/ui/alert-dialog/AlertDialogCancel.vue",
         type: "registry:ui",
-        target: "alert-dialog/AlertDialogCancel.vue"
+        target: ""
       },{
         path: "registry/default/ui/alert-dialog/AlertDialogContent.vue",
         type: "registry:ui",
-        target: "alert-dialog/AlertDialogContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/alert-dialog/AlertDialogDescription.vue",
         type: "registry:ui",
-        target: "alert-dialog/AlertDialogDescription.vue"
+        target: ""
       },{
         path: "registry/default/ui/alert-dialog/AlertDialogFooter.vue",
         type: "registry:ui",
-        target: "alert-dialog/AlertDialogFooter.vue"
+        target: ""
       },{
         path: "registry/default/ui/alert-dialog/AlertDialogHeader.vue",
         type: "registry:ui",
-        target: "alert-dialog/AlertDialogHeader.vue"
+        target: ""
       },{
         path: "registry/default/ui/alert-dialog/AlertDialogTitle.vue",
         type: "registry:ui",
-        target: "alert-dialog/AlertDialogTitle.vue"
+        target: ""
       },{
         path: "registry/default/ui/alert-dialog/AlertDialogTrigger.vue",
         type: "registry:ui",
-        target: "alert-dialog/AlertDialogTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/alert-dialog/index.ts",
         type: "registry:ui",
-        target: "alert-dialog/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/alert-dialog/AlertDialog.vue").then((m) => m.default),
       source: "",
@@ -11840,11 +11840,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/aspect-ratio/AspectRatio.vue",
         type: "registry:ui",
-        target: "aspect-ratio/AspectRatio.vue"
+        target: ""
       },{
         path: "registry/default/ui/aspect-ratio/index.ts",
         type: "registry:ui",
-        target: "aspect-ratio/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/aspect-ratio/AspectRatio.vue").then((m) => m.default),
       source: "",
@@ -11859,67 +11859,67 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/auto-form/AutoForm.vue",
         type: "registry:ui",
-        target: "auto-form/AutoForm.vue"
+        target: ""
       },{
         path: "registry/default/ui/auto-form/AutoFormField.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormField.vue"
+        target: ""
       },{
         path: "registry/default/ui/auto-form/AutoFormFieldArray.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormFieldArray.vue"
+        target: ""
       },{
         path: "registry/default/ui/auto-form/AutoFormFieldBoolean.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormFieldBoolean.vue"
+        target: ""
       },{
         path: "registry/default/ui/auto-form/AutoFormFieldDate.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormFieldDate.vue"
+        target: ""
       },{
         path: "registry/default/ui/auto-form/AutoFormFieldEnum.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormFieldEnum.vue"
+        target: ""
       },{
         path: "registry/default/ui/auto-form/AutoFormFieldFile.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormFieldFile.vue"
+        target: ""
       },{
         path: "registry/default/ui/auto-form/AutoFormFieldInput.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormFieldInput.vue"
+        target: ""
       },{
         path: "registry/default/ui/auto-form/AutoFormFieldNumber.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormFieldNumber.vue"
+        target: ""
       },{
         path: "registry/default/ui/auto-form/AutoFormFieldObject.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormFieldObject.vue"
+        target: ""
       },{
         path: "registry/default/ui/auto-form/AutoFormLabel.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormLabel.vue"
+        target: ""
       },{
         path: "registry/default/ui/auto-form/constant.ts",
         type: "registry:ui",
-        target: "auto-form/constant.ts"
+        target: ""
       },{
         path: "registry/default/ui/auto-form/dependencies.ts",
         type: "registry:ui",
-        target: "auto-form/dependencies.ts"
+        target: ""
       },{
         path: "registry/default/ui/auto-form/index.ts",
         type: "registry:ui",
-        target: "auto-form/index.ts"
+        target: ""
       },{
         path: "registry/default/ui/auto-form/interface.ts",
         type: "registry:ui",
-        target: "auto-form/interface.ts"
+        target: ""
       },{
         path: "registry/default/ui/auto-form/utils.ts",
         type: "registry:ui",
-        target: "auto-form/utils.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/auto-form/AutoForm.vue").then((m) => m.default),
       source: "",
@@ -11934,19 +11934,19 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/avatar/Avatar.vue",
         type: "registry:ui",
-        target: "avatar/Avatar.vue"
+        target: ""
       },{
         path: "registry/default/ui/avatar/AvatarFallback.vue",
         type: "registry:ui",
-        target: "avatar/AvatarFallback.vue"
+        target: ""
       },{
         path: "registry/default/ui/avatar/AvatarImage.vue",
         type: "registry:ui",
-        target: "avatar/AvatarImage.vue"
+        target: ""
       },{
         path: "registry/default/ui/avatar/index.ts",
         type: "registry:ui",
-        target: "avatar/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/avatar/Avatar.vue").then((m) => m.default),
       source: "",
@@ -11961,11 +11961,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/badge/Badge.vue",
         type: "registry:ui",
-        target: "badge/Badge.vue"
+        target: ""
       },{
         path: "registry/default/ui/badge/index.ts",
         type: "registry:ui",
-        target: "badge/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/badge/Badge.vue").then((m) => m.default),
       source: "",
@@ -11980,35 +11980,35 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/breadcrumb/Breadcrumb.vue",
         type: "registry:ui",
-        target: "breadcrumb/Breadcrumb.vue"
+        target: ""
       },{
         path: "registry/default/ui/breadcrumb/BreadcrumbEllipsis.vue",
         type: "registry:ui",
-        target: "breadcrumb/BreadcrumbEllipsis.vue"
+        target: ""
       },{
         path: "registry/default/ui/breadcrumb/BreadcrumbItem.vue",
         type: "registry:ui",
-        target: "breadcrumb/BreadcrumbItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/breadcrumb/BreadcrumbLink.vue",
         type: "registry:ui",
-        target: "breadcrumb/BreadcrumbLink.vue"
+        target: ""
       },{
         path: "registry/default/ui/breadcrumb/BreadcrumbList.vue",
         type: "registry:ui",
-        target: "breadcrumb/BreadcrumbList.vue"
+        target: ""
       },{
         path: "registry/default/ui/breadcrumb/BreadcrumbPage.vue",
         type: "registry:ui",
-        target: "breadcrumb/BreadcrumbPage.vue"
+        target: ""
       },{
         path: "registry/default/ui/breadcrumb/BreadcrumbSeparator.vue",
         type: "registry:ui",
-        target: "breadcrumb/BreadcrumbSeparator.vue"
+        target: ""
       },{
         path: "registry/default/ui/breadcrumb/index.ts",
         type: "registry:ui",
-        target: "breadcrumb/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/breadcrumb/Breadcrumb.vue").then((m) => m.default),
       source: "",
@@ -12023,11 +12023,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/button/Button.vue",
         type: "registry:ui",
-        target: "button/Button.vue"
+        target: ""
       },{
         path: "registry/default/ui/button/index.ts",
         type: "registry:ui",
-        target: "button/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/button/Button.vue").then((m) => m.default),
       source: "",
@@ -12042,55 +12042,55 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/calendar/Calendar.vue",
         type: "registry:ui",
-        target: "calendar/Calendar.vue"
+        target: ""
       },{
         path: "registry/default/ui/calendar/CalendarCell.vue",
         type: "registry:ui",
-        target: "calendar/CalendarCell.vue"
+        target: ""
       },{
         path: "registry/default/ui/calendar/CalendarCellTrigger.vue",
         type: "registry:ui",
-        target: "calendar/CalendarCellTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/calendar/CalendarGrid.vue",
         type: "registry:ui",
-        target: "calendar/CalendarGrid.vue"
+        target: ""
       },{
         path: "registry/default/ui/calendar/CalendarGridBody.vue",
         type: "registry:ui",
-        target: "calendar/CalendarGridBody.vue"
+        target: ""
       },{
         path: "registry/default/ui/calendar/CalendarGridHead.vue",
         type: "registry:ui",
-        target: "calendar/CalendarGridHead.vue"
+        target: ""
       },{
         path: "registry/default/ui/calendar/CalendarGridRow.vue",
         type: "registry:ui",
-        target: "calendar/CalendarGridRow.vue"
+        target: ""
       },{
         path: "registry/default/ui/calendar/CalendarHeadCell.vue",
         type: "registry:ui",
-        target: "calendar/CalendarHeadCell.vue"
+        target: ""
       },{
         path: "registry/default/ui/calendar/CalendarHeader.vue",
         type: "registry:ui",
-        target: "calendar/CalendarHeader.vue"
+        target: ""
       },{
         path: "registry/default/ui/calendar/CalendarHeading.vue",
         type: "registry:ui",
-        target: "calendar/CalendarHeading.vue"
+        target: ""
       },{
         path: "registry/default/ui/calendar/CalendarNextButton.vue",
         type: "registry:ui",
-        target: "calendar/CalendarNextButton.vue"
+        target: ""
       },{
         path: "registry/default/ui/calendar/CalendarPrevButton.vue",
         type: "registry:ui",
-        target: "calendar/CalendarPrevButton.vue"
+        target: ""
       },{
         path: "registry/default/ui/calendar/index.ts",
         type: "registry:ui",
-        target: "calendar/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/calendar/Calendar.vue").then((m) => m.default),
       source: "",
@@ -12105,31 +12105,31 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/card/Card.vue",
         type: "registry:ui",
-        target: "card/Card.vue"
+        target: ""
       },{
         path: "registry/default/ui/card/CardContent.vue",
         type: "registry:ui",
-        target: "card/CardContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/card/CardDescription.vue",
         type: "registry:ui",
-        target: "card/CardDescription.vue"
+        target: ""
       },{
         path: "registry/default/ui/card/CardFooter.vue",
         type: "registry:ui",
-        target: "card/CardFooter.vue"
+        target: ""
       },{
         path: "registry/default/ui/card/CardHeader.vue",
         type: "registry:ui",
-        target: "card/CardHeader.vue"
+        target: ""
       },{
         path: "registry/default/ui/card/CardTitle.vue",
         type: "registry:ui",
-        target: "card/CardTitle.vue"
+        target: ""
       },{
         path: "registry/default/ui/card/index.ts",
         type: "registry:ui",
-        target: "card/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/card/Card.vue").then((m) => m.default),
       source: "",
@@ -12144,35 +12144,35 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/carousel/Carousel.vue",
         type: "registry:ui",
-        target: "carousel/Carousel.vue"
+        target: ""
       },{
         path: "registry/default/ui/carousel/CarouselContent.vue",
         type: "registry:ui",
-        target: "carousel/CarouselContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/carousel/CarouselItem.vue",
         type: "registry:ui",
-        target: "carousel/CarouselItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/carousel/CarouselNext.vue",
         type: "registry:ui",
-        target: "carousel/CarouselNext.vue"
+        target: ""
       },{
         path: "registry/default/ui/carousel/CarouselPrevious.vue",
         type: "registry:ui",
-        target: "carousel/CarouselPrevious.vue"
+        target: ""
       },{
         path: "registry/default/ui/carousel/index.ts",
         type: "registry:ui",
-        target: "carousel/index.ts"
+        target: ""
       },{
         path: "registry/default/ui/carousel/interface.ts",
         type: "registry:ui",
-        target: "carousel/interface.ts"
+        target: ""
       },{
         path: "registry/default/ui/carousel/useCarousel.ts",
         type: "registry:ui",
-        target: "carousel/useCarousel.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/carousel/Carousel.vue").then((m) => m.default),
       source: "",
@@ -12187,27 +12187,27 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/chart/ChartCrosshair.vue",
         type: "registry:ui",
-        target: "chart/ChartCrosshair.vue"
+        target: ""
       },{
         path: "registry/default/ui/chart/ChartLegend.vue",
         type: "registry:ui",
-        target: "chart/ChartLegend.vue"
+        target: ""
       },{
         path: "registry/default/ui/chart/ChartSingleTooltip.vue",
         type: "registry:ui",
-        target: "chart/ChartSingleTooltip.vue"
+        target: ""
       },{
         path: "registry/default/ui/chart/ChartTooltip.vue",
         type: "registry:ui",
-        target: "chart/ChartTooltip.vue"
+        target: ""
       },{
         path: "registry/default/ui/chart/index.ts",
         type: "registry:ui",
-        target: "chart/index.ts"
+        target: ""
       },{
         path: "registry/default/ui/chart/interface.ts",
         type: "registry:ui",
-        target: "chart/interface.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/chart/ChartCrosshair.vue").then((m) => m.default),
       source: "",
@@ -12222,11 +12222,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/chart-area/AreaChart.vue",
         type: "registry:ui",
-        target: "chart-area/AreaChart.vue"
+        target: ""
       },{
         path: "registry/default/ui/chart-area/index.ts",
         type: "registry:ui",
-        target: "chart-area/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/chart-area/AreaChart.vue").then((m) => m.default),
       source: "",
@@ -12241,11 +12241,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/chart-bar/BarChart.vue",
         type: "registry:ui",
-        target: "chart-bar/BarChart.vue"
+        target: ""
       },{
         path: "registry/default/ui/chart-bar/index.ts",
         type: "registry:ui",
-        target: "chart-bar/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/chart-bar/BarChart.vue").then((m) => m.default),
       source: "",
@@ -12260,11 +12260,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/chart-donut/DonutChart.vue",
         type: "registry:ui",
-        target: "chart-donut/DonutChart.vue"
+        target: ""
       },{
         path: "registry/default/ui/chart-donut/index.ts",
         type: "registry:ui",
-        target: "chart-donut/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/chart-donut/DonutChart.vue").then((m) => m.default),
       source: "",
@@ -12279,11 +12279,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/chart-line/LineChart.vue",
         type: "registry:ui",
-        target: "chart-line/LineChart.vue"
+        target: ""
       },{
         path: "registry/default/ui/chart-line/index.ts",
         type: "registry:ui",
-        target: "chart-line/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/chart-line/LineChart.vue").then((m) => m.default),
       source: "",
@@ -12298,11 +12298,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/checkbox/Checkbox.vue",
         type: "registry:ui",
-        target: "checkbox/Checkbox.vue"
+        target: ""
       },{
         path: "registry/default/ui/checkbox/index.ts",
         type: "registry:ui",
-        target: "checkbox/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/checkbox/Checkbox.vue").then((m) => m.default),
       source: "",
@@ -12317,19 +12317,19 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/collapsible/Collapsible.vue",
         type: "registry:ui",
-        target: "collapsible/Collapsible.vue"
+        target: ""
       },{
         path: "registry/default/ui/collapsible/CollapsibleContent.vue",
         type: "registry:ui",
-        target: "collapsible/CollapsibleContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/collapsible/CollapsibleTrigger.vue",
         type: "registry:ui",
-        target: "collapsible/CollapsibleTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/collapsible/index.ts",
         type: "registry:ui",
-        target: "collapsible/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/collapsible/Collapsible.vue").then((m) => m.default),
       source: "",
@@ -12344,43 +12344,43 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/command/Command.vue",
         type: "registry:ui",
-        target: "command/Command.vue"
+        target: ""
       },{
         path: "registry/default/ui/command/CommandDialog.vue",
         type: "registry:ui",
-        target: "command/CommandDialog.vue"
+        target: ""
       },{
         path: "registry/default/ui/command/CommandEmpty.vue",
         type: "registry:ui",
-        target: "command/CommandEmpty.vue"
+        target: ""
       },{
         path: "registry/default/ui/command/CommandGroup.vue",
         type: "registry:ui",
-        target: "command/CommandGroup.vue"
+        target: ""
       },{
         path: "registry/default/ui/command/CommandInput.vue",
         type: "registry:ui",
-        target: "command/CommandInput.vue"
+        target: ""
       },{
         path: "registry/default/ui/command/CommandItem.vue",
         type: "registry:ui",
-        target: "command/CommandItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/command/CommandList.vue",
         type: "registry:ui",
-        target: "command/CommandList.vue"
+        target: ""
       },{
         path: "registry/default/ui/command/CommandSeparator.vue",
         type: "registry:ui",
-        target: "command/CommandSeparator.vue"
+        target: ""
       },{
         path: "registry/default/ui/command/CommandShortcut.vue",
         type: "registry:ui",
-        target: "command/CommandShortcut.vue"
+        target: ""
       },{
         path: "registry/default/ui/command/index.ts",
         type: "registry:ui",
-        target: "command/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/command/Command.vue").then((m) => m.default),
       source: "",
@@ -12395,67 +12395,67 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/context-menu/ContextMenu.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenu.vue"
+        target: ""
       },{
         path: "registry/default/ui/context-menu/ContextMenuCheckboxItem.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuCheckboxItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/context-menu/ContextMenuContent.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/context-menu/ContextMenuGroup.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuGroup.vue"
+        target: ""
       },{
         path: "registry/default/ui/context-menu/ContextMenuItem.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/context-menu/ContextMenuLabel.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuLabel.vue"
+        target: ""
       },{
         path: "registry/default/ui/context-menu/ContextMenuPortal.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuPortal.vue"
+        target: ""
       },{
         path: "registry/default/ui/context-menu/ContextMenuRadioGroup.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuRadioGroup.vue"
+        target: ""
       },{
         path: "registry/default/ui/context-menu/ContextMenuRadioItem.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuRadioItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/context-menu/ContextMenuSeparator.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuSeparator.vue"
+        target: ""
       },{
         path: "registry/default/ui/context-menu/ContextMenuShortcut.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuShortcut.vue"
+        target: ""
       },{
         path: "registry/default/ui/context-menu/ContextMenuSub.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuSub.vue"
+        target: ""
       },{
         path: "registry/default/ui/context-menu/ContextMenuSubContent.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuSubContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/context-menu/ContextMenuSubTrigger.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuSubTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/context-menu/ContextMenuTrigger.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/context-menu/index.ts",
         type: "registry:ui",
-        target: "context-menu/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/context-menu/ContextMenu.vue").then((m) => m.default),
       source: "",
@@ -12470,43 +12470,43 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/dialog/Dialog.vue",
         type: "registry:ui",
-        target: "dialog/Dialog.vue"
+        target: ""
       },{
         path: "registry/default/ui/dialog/DialogClose.vue",
         type: "registry:ui",
-        target: "dialog/DialogClose.vue"
+        target: ""
       },{
         path: "registry/default/ui/dialog/DialogContent.vue",
         type: "registry:ui",
-        target: "dialog/DialogContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/dialog/DialogDescription.vue",
         type: "registry:ui",
-        target: "dialog/DialogDescription.vue"
+        target: ""
       },{
         path: "registry/default/ui/dialog/DialogFooter.vue",
         type: "registry:ui",
-        target: "dialog/DialogFooter.vue"
+        target: ""
       },{
         path: "registry/default/ui/dialog/DialogHeader.vue",
         type: "registry:ui",
-        target: "dialog/DialogHeader.vue"
+        target: ""
       },{
         path: "registry/default/ui/dialog/DialogScrollContent.vue",
         type: "registry:ui",
-        target: "dialog/DialogScrollContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/dialog/DialogTitle.vue",
         type: "registry:ui",
-        target: "dialog/DialogTitle.vue"
+        target: ""
       },{
         path: "registry/default/ui/dialog/DialogTrigger.vue",
         type: "registry:ui",
-        target: "dialog/DialogTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/dialog/index.ts",
         type: "registry:ui",
-        target: "dialog/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/dialog/Dialog.vue").then((m) => m.default),
       source: "",
@@ -12521,35 +12521,35 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/drawer/Drawer.vue",
         type: "registry:ui",
-        target: "drawer/Drawer.vue"
+        target: ""
       },{
         path: "registry/default/ui/drawer/DrawerContent.vue",
         type: "registry:ui",
-        target: "drawer/DrawerContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/drawer/DrawerDescription.vue",
         type: "registry:ui",
-        target: "drawer/DrawerDescription.vue"
+        target: ""
       },{
         path: "registry/default/ui/drawer/DrawerFooter.vue",
         type: "registry:ui",
-        target: "drawer/DrawerFooter.vue"
+        target: ""
       },{
         path: "registry/default/ui/drawer/DrawerHeader.vue",
         type: "registry:ui",
-        target: "drawer/DrawerHeader.vue"
+        target: ""
       },{
         path: "registry/default/ui/drawer/DrawerOverlay.vue",
         type: "registry:ui",
-        target: "drawer/DrawerOverlay.vue"
+        target: ""
       },{
         path: "registry/default/ui/drawer/DrawerTitle.vue",
         type: "registry:ui",
-        target: "drawer/DrawerTitle.vue"
+        target: ""
       },{
         path: "registry/default/ui/drawer/index.ts",
         type: "registry:ui",
-        target: "drawer/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/drawer/Drawer.vue").then((m) => m.default),
       source: "",
@@ -12564,63 +12564,63 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/dropdown-menu/DropdownMenu.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenu.vue"
+        target: ""
       },{
         path: "registry/default/ui/dropdown-menu/DropdownMenuCheckboxItem.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuCheckboxItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/dropdown-menu/DropdownMenuContent.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/dropdown-menu/DropdownMenuGroup.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuGroup.vue"
+        target: ""
       },{
         path: "registry/default/ui/dropdown-menu/DropdownMenuItem.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/dropdown-menu/DropdownMenuLabel.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuLabel.vue"
+        target: ""
       },{
         path: "registry/default/ui/dropdown-menu/DropdownMenuRadioGroup.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuRadioGroup.vue"
+        target: ""
       },{
         path: "registry/default/ui/dropdown-menu/DropdownMenuRadioItem.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuRadioItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/dropdown-menu/DropdownMenuSeparator.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuSeparator.vue"
+        target: ""
       },{
         path: "registry/default/ui/dropdown-menu/DropdownMenuShortcut.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuShortcut.vue"
+        target: ""
       },{
         path: "registry/default/ui/dropdown-menu/DropdownMenuSub.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuSub.vue"
+        target: ""
       },{
         path: "registry/default/ui/dropdown-menu/DropdownMenuSubContent.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuSubContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/dropdown-menu/DropdownMenuSubTrigger.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuSubTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/dropdown-menu/DropdownMenuTrigger.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/dropdown-menu/index.ts",
         type: "registry:ui",
-        target: "dropdown-menu/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/dropdown-menu/DropdownMenu.vue").then((m) => m.default),
       source: "",
@@ -12635,35 +12635,35 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/form/FormControl.vue",
         type: "registry:ui",
-        target: "form/FormControl.vue"
+        target: ""
       },{
         path: "registry/default/ui/form/FormDescription.vue",
         type: "registry:ui",
-        target: "form/FormDescription.vue"
+        target: ""
       },{
         path: "registry/default/ui/form/FormItem.vue",
         type: "registry:ui",
-        target: "form/FormItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/form/FormLabel.vue",
         type: "registry:ui",
-        target: "form/FormLabel.vue"
+        target: ""
       },{
         path: "registry/default/ui/form/FormMessage.vue",
         type: "registry:ui",
-        target: "form/FormMessage.vue"
+        target: ""
       },{
         path: "registry/default/ui/form/index.ts",
         type: "registry:ui",
-        target: "form/index.ts"
+        target: ""
       },{
         path: "registry/default/ui/form/injectionKeys.ts",
         type: "registry:ui",
-        target: "form/injectionKeys.ts"
+        target: ""
       },{
         path: "registry/default/ui/form/useFormField.ts",
         type: "registry:ui",
-        target: "form/useFormField.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/form/FormControl.vue").then((m) => m.default),
       source: "",
@@ -12678,19 +12678,19 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/hover-card/HoverCard.vue",
         type: "registry:ui",
-        target: "hover-card/HoverCard.vue"
+        target: ""
       },{
         path: "registry/default/ui/hover-card/HoverCardContent.vue",
         type: "registry:ui",
-        target: "hover-card/HoverCardContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/hover-card/HoverCardTrigger.vue",
         type: "registry:ui",
-        target: "hover-card/HoverCardTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/hover-card/index.ts",
         type: "registry:ui",
-        target: "hover-card/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/hover-card/HoverCard.vue").then((m) => m.default),
       source: "",
@@ -12705,11 +12705,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/input/Input.vue",
         type: "registry:ui",
-        target: "input/Input.vue"
+        target: ""
       },{
         path: "registry/default/ui/input/index.ts",
         type: "registry:ui",
-        target: "input/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/input/Input.vue").then((m) => m.default),
       source: "",
@@ -12724,11 +12724,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/label/Label.vue",
         type: "registry:ui",
-        target: "label/Label.vue"
+        target: ""
       },{
         path: "registry/default/ui/label/index.ts",
         type: "registry:ui",
-        target: "label/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/label/Label.vue").then((m) => m.default),
       source: "",
@@ -12743,67 +12743,67 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/menubar/Menubar.vue",
         type: "registry:ui",
-        target: "menubar/Menubar.vue"
+        target: ""
       },{
         path: "registry/default/ui/menubar/MenubarCheckboxItem.vue",
         type: "registry:ui",
-        target: "menubar/MenubarCheckboxItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/menubar/MenubarContent.vue",
         type: "registry:ui",
-        target: "menubar/MenubarContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/menubar/MenubarGroup.vue",
         type: "registry:ui",
-        target: "menubar/MenubarGroup.vue"
+        target: ""
       },{
         path: "registry/default/ui/menubar/MenubarItem.vue",
         type: "registry:ui",
-        target: "menubar/MenubarItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/menubar/MenubarLabel.vue",
         type: "registry:ui",
-        target: "menubar/MenubarLabel.vue"
+        target: ""
       },{
         path: "registry/default/ui/menubar/MenubarMenu.vue",
         type: "registry:ui",
-        target: "menubar/MenubarMenu.vue"
+        target: ""
       },{
         path: "registry/default/ui/menubar/MenubarRadioGroup.vue",
         type: "registry:ui",
-        target: "menubar/MenubarRadioGroup.vue"
+        target: ""
       },{
         path: "registry/default/ui/menubar/MenubarRadioItem.vue",
         type: "registry:ui",
-        target: "menubar/MenubarRadioItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/menubar/MenubarSeparator.vue",
         type: "registry:ui",
-        target: "menubar/MenubarSeparator.vue"
+        target: ""
       },{
         path: "registry/default/ui/menubar/MenubarShortcut.vue",
         type: "registry:ui",
-        target: "menubar/MenubarShortcut.vue"
+        target: ""
       },{
         path: "registry/default/ui/menubar/MenubarSub.vue",
         type: "registry:ui",
-        target: "menubar/MenubarSub.vue"
+        target: ""
       },{
         path: "registry/default/ui/menubar/MenubarSubContent.vue",
         type: "registry:ui",
-        target: "menubar/MenubarSubContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/menubar/MenubarSubTrigger.vue",
         type: "registry:ui",
-        target: "menubar/MenubarSubTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/menubar/MenubarTrigger.vue",
         type: "registry:ui",
-        target: "menubar/MenubarTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/menubar/index.ts",
         type: "registry:ui",
-        target: "menubar/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/menubar/Menubar.vue").then((m) => m.default),
       source: "",
@@ -12818,39 +12818,39 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/navigation-menu/NavigationMenu.vue",
         type: "registry:ui",
-        target: "navigation-menu/NavigationMenu.vue"
+        target: ""
       },{
         path: "registry/default/ui/navigation-menu/NavigationMenuContent.vue",
         type: "registry:ui",
-        target: "navigation-menu/NavigationMenuContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/navigation-menu/NavigationMenuIndicator.vue",
         type: "registry:ui",
-        target: "navigation-menu/NavigationMenuIndicator.vue"
+        target: ""
       },{
         path: "registry/default/ui/navigation-menu/NavigationMenuItem.vue",
         type: "registry:ui",
-        target: "navigation-menu/NavigationMenuItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/navigation-menu/NavigationMenuLink.vue",
         type: "registry:ui",
-        target: "navigation-menu/NavigationMenuLink.vue"
+        target: ""
       },{
         path: "registry/default/ui/navigation-menu/NavigationMenuList.vue",
         type: "registry:ui",
-        target: "navigation-menu/NavigationMenuList.vue"
+        target: ""
       },{
         path: "registry/default/ui/navigation-menu/NavigationMenuTrigger.vue",
         type: "registry:ui",
-        target: "navigation-menu/NavigationMenuTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/navigation-menu/NavigationMenuViewport.vue",
         type: "registry:ui",
-        target: "navigation-menu/NavigationMenuViewport.vue"
+        target: ""
       },{
         path: "registry/default/ui/navigation-menu/index.ts",
         type: "registry:ui",
-        target: "navigation-menu/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/navigation-menu/NavigationMenu.vue").then((m) => m.default),
       source: "",
@@ -12865,27 +12865,27 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/number-field/NumberField.vue",
         type: "registry:ui",
-        target: "number-field/NumberField.vue"
+        target: ""
       },{
         path: "registry/default/ui/number-field/NumberFieldContent.vue",
         type: "registry:ui",
-        target: "number-field/NumberFieldContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/number-field/NumberFieldDecrement.vue",
         type: "registry:ui",
-        target: "number-field/NumberFieldDecrement.vue"
+        target: ""
       },{
         path: "registry/default/ui/number-field/NumberFieldIncrement.vue",
         type: "registry:ui",
-        target: "number-field/NumberFieldIncrement.vue"
+        target: ""
       },{
         path: "registry/default/ui/number-field/NumberFieldInput.vue",
         type: "registry:ui",
-        target: "number-field/NumberFieldInput.vue"
+        target: ""
       },{
         path: "registry/default/ui/number-field/index.ts",
         type: "registry:ui",
-        target: "number-field/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/number-field/NumberField.vue").then((m) => m.default),
       source: "",
@@ -12900,27 +12900,27 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/pagination/PaginationEllipsis.vue",
         type: "registry:ui",
-        target: "pagination/PaginationEllipsis.vue"
+        target: ""
       },{
         path: "registry/default/ui/pagination/PaginationFirst.vue",
         type: "registry:ui",
-        target: "pagination/PaginationFirst.vue"
+        target: ""
       },{
         path: "registry/default/ui/pagination/PaginationLast.vue",
         type: "registry:ui",
-        target: "pagination/PaginationLast.vue"
+        target: ""
       },{
         path: "registry/default/ui/pagination/PaginationNext.vue",
         type: "registry:ui",
-        target: "pagination/PaginationNext.vue"
+        target: ""
       },{
         path: "registry/default/ui/pagination/PaginationPrev.vue",
         type: "registry:ui",
-        target: "pagination/PaginationPrev.vue"
+        target: ""
       },{
         path: "registry/default/ui/pagination/index.ts",
         type: "registry:ui",
-        target: "pagination/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/pagination/PaginationEllipsis.vue").then((m) => m.default),
       source: "",
@@ -12935,23 +12935,23 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/pin-input/PinInput.vue",
         type: "registry:ui",
-        target: "pin-input/PinInput.vue"
+        target: ""
       },{
         path: "registry/default/ui/pin-input/PinInputGroup.vue",
         type: "registry:ui",
-        target: "pin-input/PinInputGroup.vue"
+        target: ""
       },{
         path: "registry/default/ui/pin-input/PinInputInput.vue",
         type: "registry:ui",
-        target: "pin-input/PinInputInput.vue"
+        target: ""
       },{
         path: "registry/default/ui/pin-input/PinInputSeparator.vue",
         type: "registry:ui",
-        target: "pin-input/PinInputSeparator.vue"
+        target: ""
       },{
         path: "registry/default/ui/pin-input/index.ts",
         type: "registry:ui",
-        target: "pin-input/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/pin-input/PinInput.vue").then((m) => m.default),
       source: "",
@@ -12966,19 +12966,19 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/popover/Popover.vue",
         type: "registry:ui",
-        target: "popover/Popover.vue"
+        target: ""
       },{
         path: "registry/default/ui/popover/PopoverContent.vue",
         type: "registry:ui",
-        target: "popover/PopoverContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/popover/PopoverTrigger.vue",
         type: "registry:ui",
-        target: "popover/PopoverTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/popover/index.ts",
         type: "registry:ui",
-        target: "popover/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/popover/Popover.vue").then((m) => m.default),
       source: "",
@@ -12993,11 +12993,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/progress/Progress.vue",
         type: "registry:ui",
-        target: "progress/Progress.vue"
+        target: ""
       },{
         path: "registry/default/ui/progress/index.ts",
         type: "registry:ui",
-        target: "progress/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/progress/Progress.vue").then((m) => m.default),
       source: "",
@@ -13012,15 +13012,15 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/radio-group/RadioGroup.vue",
         type: "registry:ui",
-        target: "radio-group/RadioGroup.vue"
+        target: ""
       },{
         path: "registry/default/ui/radio-group/RadioGroupItem.vue",
         type: "registry:ui",
-        target: "radio-group/RadioGroupItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/radio-group/index.ts",
         type: "registry:ui",
-        target: "radio-group/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/radio-group/RadioGroup.vue").then((m) => m.default),
       source: "",
@@ -13035,55 +13035,55 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/range-calendar/RangeCalendar.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendar.vue"
+        target: ""
       },{
         path: "registry/default/ui/range-calendar/RangeCalendarCell.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarCell.vue"
+        target: ""
       },{
         path: "registry/default/ui/range-calendar/RangeCalendarCellTrigger.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarCellTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/range-calendar/RangeCalendarGrid.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarGrid.vue"
+        target: ""
       },{
         path: "registry/default/ui/range-calendar/RangeCalendarGridBody.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarGridBody.vue"
+        target: ""
       },{
         path: "registry/default/ui/range-calendar/RangeCalendarGridHead.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarGridHead.vue"
+        target: ""
       },{
         path: "registry/default/ui/range-calendar/RangeCalendarGridRow.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarGridRow.vue"
+        target: ""
       },{
         path: "registry/default/ui/range-calendar/RangeCalendarHeadCell.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarHeadCell.vue"
+        target: ""
       },{
         path: "registry/default/ui/range-calendar/RangeCalendarHeader.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarHeader.vue"
+        target: ""
       },{
         path: "registry/default/ui/range-calendar/RangeCalendarHeading.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarHeading.vue"
+        target: ""
       },{
         path: "registry/default/ui/range-calendar/RangeCalendarNextButton.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarNextButton.vue"
+        target: ""
       },{
         path: "registry/default/ui/range-calendar/RangeCalendarPrevButton.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarPrevButton.vue"
+        target: ""
       },{
         path: "registry/default/ui/range-calendar/index.ts",
         type: "registry:ui",
-        target: "range-calendar/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/range-calendar/RangeCalendar.vue").then((m) => m.default),
       source: "",
@@ -13098,15 +13098,15 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/resizable/ResizableHandle.vue",
         type: "registry:ui",
-        target: "resizable/ResizableHandle.vue"
+        target: ""
       },{
         path: "registry/default/ui/resizable/ResizablePanelGroup.vue",
         type: "registry:ui",
-        target: "resizable/ResizablePanelGroup.vue"
+        target: ""
       },{
         path: "registry/default/ui/resizable/index.ts",
         type: "registry:ui",
-        target: "resizable/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/resizable/ResizableHandle.vue").then((m) => m.default),
       source: "",
@@ -13121,15 +13121,15 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/scroll-area/ScrollArea.vue",
         type: "registry:ui",
-        target: "scroll-area/ScrollArea.vue"
+        target: ""
       },{
         path: "registry/default/ui/scroll-area/ScrollBar.vue",
         type: "registry:ui",
-        target: "scroll-area/ScrollBar.vue"
+        target: ""
       },{
         path: "registry/default/ui/scroll-area/index.ts",
         type: "registry:ui",
-        target: "scroll-area/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/scroll-area/ScrollArea.vue").then((m) => m.default),
       source: "",
@@ -13144,51 +13144,51 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/select/Select.vue",
         type: "registry:ui",
-        target: "select/Select.vue"
+        target: ""
       },{
         path: "registry/default/ui/select/SelectContent.vue",
         type: "registry:ui",
-        target: "select/SelectContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/select/SelectGroup.vue",
         type: "registry:ui",
-        target: "select/SelectGroup.vue"
+        target: ""
       },{
         path: "registry/default/ui/select/SelectItem.vue",
         type: "registry:ui",
-        target: "select/SelectItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/select/SelectItemText.vue",
         type: "registry:ui",
-        target: "select/SelectItemText.vue"
+        target: ""
       },{
         path: "registry/default/ui/select/SelectLabel.vue",
         type: "registry:ui",
-        target: "select/SelectLabel.vue"
+        target: ""
       },{
         path: "registry/default/ui/select/SelectScrollDownButton.vue",
         type: "registry:ui",
-        target: "select/SelectScrollDownButton.vue"
+        target: ""
       },{
         path: "registry/default/ui/select/SelectScrollUpButton.vue",
         type: "registry:ui",
-        target: "select/SelectScrollUpButton.vue"
+        target: ""
       },{
         path: "registry/default/ui/select/SelectSeparator.vue",
         type: "registry:ui",
-        target: "select/SelectSeparator.vue"
+        target: ""
       },{
         path: "registry/default/ui/select/SelectTrigger.vue",
         type: "registry:ui",
-        target: "select/SelectTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/select/SelectValue.vue",
         type: "registry:ui",
-        target: "select/SelectValue.vue"
+        target: ""
       },{
         path: "registry/default/ui/select/index.ts",
         type: "registry:ui",
-        target: "select/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/select/Select.vue").then((m) => m.default),
       source: "",
@@ -13203,11 +13203,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/separator/Separator.vue",
         type: "registry:ui",
-        target: "separator/Separator.vue"
+        target: ""
       },{
         path: "registry/default/ui/separator/index.ts",
         type: "registry:ui",
-        target: "separator/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/separator/Separator.vue").then((m) => m.default),
       source: "",
@@ -13222,39 +13222,39 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/sheet/Sheet.vue",
         type: "registry:ui",
-        target: "sheet/Sheet.vue"
+        target: ""
       },{
         path: "registry/default/ui/sheet/SheetClose.vue",
         type: "registry:ui",
-        target: "sheet/SheetClose.vue"
+        target: ""
       },{
         path: "registry/default/ui/sheet/SheetContent.vue",
         type: "registry:ui",
-        target: "sheet/SheetContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/sheet/SheetDescription.vue",
         type: "registry:ui",
-        target: "sheet/SheetDescription.vue"
+        target: ""
       },{
         path: "registry/default/ui/sheet/SheetFooter.vue",
         type: "registry:ui",
-        target: "sheet/SheetFooter.vue"
+        target: ""
       },{
         path: "registry/default/ui/sheet/SheetHeader.vue",
         type: "registry:ui",
-        target: "sheet/SheetHeader.vue"
+        target: ""
       },{
         path: "registry/default/ui/sheet/SheetTitle.vue",
         type: "registry:ui",
-        target: "sheet/SheetTitle.vue"
+        target: ""
       },{
         path: "registry/default/ui/sheet/SheetTrigger.vue",
         type: "registry:ui",
-        target: "sheet/SheetTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/sheet/index.ts",
         type: "registry:ui",
-        target: "sheet/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/sheet/Sheet.vue").then((m) => m.default),
       source: "",
@@ -13269,107 +13269,107 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/sidebar/Sidebar.vue",
         type: "registry:ui",
-        target: "sidebar/Sidebar.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarContent.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarFooter.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarFooter.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarGroup.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarGroup.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarGroupAction.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarGroupAction.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarGroupContent.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarGroupContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarGroupLabel.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarGroupLabel.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarHeader.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarHeader.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarInput.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarInput.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarInset.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarInset.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarMenu.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenu.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarMenuAction.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenuAction.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarMenuBadge.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenuBadge.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarMenuButton.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenuButton.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarMenuButtonChild.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenuButtonChild.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarMenuItem.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenuItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarMenuSkeleton.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenuSkeleton.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarMenuSub.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenuSub.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarMenuSubButton.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenuSubButton.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarMenuSubItem.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenuSubItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarProvider.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarProvider.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarRail.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarRail.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarSeparator.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarSeparator.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarTrigger.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/index.ts",
         type: "registry:ui",
-        target: "sidebar/index.ts"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/utils.ts",
         type: "registry:ui",
-        target: "sidebar/utils.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/sidebar/Sidebar.vue").then((m) => m.default),
       source: "",
@@ -13384,11 +13384,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/skeleton/Skeleton.vue",
         type: "registry:ui",
-        target: "skeleton/Skeleton.vue"
+        target: ""
       },{
         path: "registry/default/ui/skeleton/index.ts",
         type: "registry:ui",
-        target: "skeleton/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/skeleton/Skeleton.vue").then((m) => m.default),
       source: "",
@@ -13403,11 +13403,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/slider/Slider.vue",
         type: "registry:ui",
-        target: "slider/Slider.vue"
+        target: ""
       },{
         path: "registry/default/ui/slider/index.ts",
         type: "registry:ui",
-        target: "slider/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/slider/Slider.vue").then((m) => m.default),
       source: "",
@@ -13422,11 +13422,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/sonner/Sonner.vue",
         type: "registry:ui",
-        target: "sonner/Sonner.vue"
+        target: ""
       },{
         path: "registry/default/ui/sonner/index.ts",
         type: "registry:ui",
-        target: "sonner/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/sonner/Sonner.vue").then((m) => m.default),
       source: "",
@@ -13441,35 +13441,35 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/stepper/Stepper.vue",
         type: "registry:ui",
-        target: "stepper/Stepper.vue"
+        target: ""
       },{
         path: "registry/default/ui/stepper/StepperDescription.vue",
         type: "registry:ui",
-        target: "stepper/StepperDescription.vue"
+        target: ""
       },{
         path: "registry/default/ui/stepper/StepperIndicator.vue",
         type: "registry:ui",
-        target: "stepper/StepperIndicator.vue"
+        target: ""
       },{
         path: "registry/default/ui/stepper/StepperItem.vue",
         type: "registry:ui",
-        target: "stepper/StepperItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/stepper/StepperSeparator.vue",
         type: "registry:ui",
-        target: "stepper/StepperSeparator.vue"
+        target: ""
       },{
         path: "registry/default/ui/stepper/StepperTitle.vue",
         type: "registry:ui",
-        target: "stepper/StepperTitle.vue"
+        target: ""
       },{
         path: "registry/default/ui/stepper/StepperTrigger.vue",
         type: "registry:ui",
-        target: "stepper/StepperTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/stepper/index.ts",
         type: "registry:ui",
-        target: "stepper/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/stepper/Stepper.vue").then((m) => m.default),
       source: "",
@@ -13484,11 +13484,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/switch/Switch.vue",
         type: "registry:ui",
-        target: "switch/Switch.vue"
+        target: ""
       },{
         path: "registry/default/ui/switch/index.ts",
         type: "registry:ui",
-        target: "switch/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/switch/Switch.vue").then((m) => m.default),
       source: "",
@@ -13503,43 +13503,43 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/table/Table.vue",
         type: "registry:ui",
-        target: "table/Table.vue"
+        target: ""
       },{
         path: "registry/default/ui/table/TableBody.vue",
         type: "registry:ui",
-        target: "table/TableBody.vue"
+        target: ""
       },{
         path: "registry/default/ui/table/TableCaption.vue",
         type: "registry:ui",
-        target: "table/TableCaption.vue"
+        target: ""
       },{
         path: "registry/default/ui/table/TableCell.vue",
         type: "registry:ui",
-        target: "table/TableCell.vue"
+        target: ""
       },{
         path: "registry/default/ui/table/TableEmpty.vue",
         type: "registry:ui",
-        target: "table/TableEmpty.vue"
+        target: ""
       },{
         path: "registry/default/ui/table/TableFooter.vue",
         type: "registry:ui",
-        target: "table/TableFooter.vue"
+        target: ""
       },{
         path: "registry/default/ui/table/TableHead.vue",
         type: "registry:ui",
-        target: "table/TableHead.vue"
+        target: ""
       },{
         path: "registry/default/ui/table/TableHeader.vue",
         type: "registry:ui",
-        target: "table/TableHeader.vue"
+        target: ""
       },{
         path: "registry/default/ui/table/TableRow.vue",
         type: "registry:ui",
-        target: "table/TableRow.vue"
+        target: ""
       },{
         path: "registry/default/ui/table/index.ts",
         type: "registry:ui",
-        target: "table/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/table/Table.vue").then((m) => m.default),
       source: "",
@@ -13554,23 +13554,23 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/tabs/Tabs.vue",
         type: "registry:ui",
-        target: "tabs/Tabs.vue"
+        target: ""
       },{
         path: "registry/default/ui/tabs/TabsContent.vue",
         type: "registry:ui",
-        target: "tabs/TabsContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/tabs/TabsList.vue",
         type: "registry:ui",
-        target: "tabs/TabsList.vue"
+        target: ""
       },{
         path: "registry/default/ui/tabs/TabsTrigger.vue",
         type: "registry:ui",
-        target: "tabs/TabsTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/tabs/index.ts",
         type: "registry:ui",
-        target: "tabs/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/tabs/Tabs.vue").then((m) => m.default),
       source: "",
@@ -13585,27 +13585,27 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/tags-input/TagsInput.vue",
         type: "registry:ui",
-        target: "tags-input/TagsInput.vue"
+        target: ""
       },{
         path: "registry/default/ui/tags-input/TagsInputInput.vue",
         type: "registry:ui",
-        target: "tags-input/TagsInputInput.vue"
+        target: ""
       },{
         path: "registry/default/ui/tags-input/TagsInputItem.vue",
         type: "registry:ui",
-        target: "tags-input/TagsInputItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/tags-input/TagsInputItemDelete.vue",
         type: "registry:ui",
-        target: "tags-input/TagsInputItemDelete.vue"
+        target: ""
       },{
         path: "registry/default/ui/tags-input/TagsInputItemText.vue",
         type: "registry:ui",
-        target: "tags-input/TagsInputItemText.vue"
+        target: ""
       },{
         path: "registry/default/ui/tags-input/index.ts",
         type: "registry:ui",
-        target: "tags-input/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/tags-input/TagsInput.vue").then((m) => m.default),
       source: "",
@@ -13620,11 +13620,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/textarea/Textarea.vue",
         type: "registry:ui",
-        target: "textarea/Textarea.vue"
+        target: ""
       },{
         path: "registry/default/ui/textarea/index.ts",
         type: "registry:ui",
-        target: "textarea/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/textarea/Textarea.vue").then((m) => m.default),
       source: "",
@@ -13639,43 +13639,43 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/toast/Toast.vue",
         type: "registry:ui",
-        target: "toast/Toast.vue"
+        target: ""
       },{
         path: "registry/default/ui/toast/ToastAction.vue",
         type: "registry:ui",
-        target: "toast/ToastAction.vue"
+        target: ""
       },{
         path: "registry/default/ui/toast/ToastClose.vue",
         type: "registry:ui",
-        target: "toast/ToastClose.vue"
+        target: ""
       },{
         path: "registry/default/ui/toast/ToastDescription.vue",
         type: "registry:ui",
-        target: "toast/ToastDescription.vue"
+        target: ""
       },{
         path: "registry/default/ui/toast/ToastProvider.vue",
         type: "registry:ui",
-        target: "toast/ToastProvider.vue"
+        target: ""
       },{
         path: "registry/default/ui/toast/ToastTitle.vue",
         type: "registry:ui",
-        target: "toast/ToastTitle.vue"
+        target: ""
       },{
         path: "registry/default/ui/toast/ToastViewport.vue",
         type: "registry:ui",
-        target: "toast/ToastViewport.vue"
+        target: ""
       },{
         path: "registry/default/ui/toast/Toaster.vue",
         type: "registry:ui",
-        target: "toast/Toaster.vue"
+        target: ""
       },{
         path: "registry/default/ui/toast/index.ts",
         type: "registry:ui",
-        target: "toast/index.ts"
+        target: ""
       },{
         path: "registry/default/ui/toast/use-toast.ts",
         type: "registry:ui",
-        target: "toast/use-toast.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/toast/Toast.vue").then((m) => m.default),
       source: "",
@@ -13690,11 +13690,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/toggle/Toggle.vue",
         type: "registry:ui",
-        target: "toggle/Toggle.vue"
+        target: ""
       },{
         path: "registry/default/ui/toggle/index.ts",
         type: "registry:ui",
-        target: "toggle/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/toggle/Toggle.vue").then((m) => m.default),
       source: "",
@@ -13709,15 +13709,15 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/toggle-group/ToggleGroup.vue",
         type: "registry:ui",
-        target: "toggle-group/ToggleGroup.vue"
+        target: ""
       },{
         path: "registry/default/ui/toggle-group/ToggleGroupItem.vue",
         type: "registry:ui",
-        target: "toggle-group/ToggleGroupItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/toggle-group/index.ts",
         type: "registry:ui",
-        target: "toggle-group/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/toggle-group/ToggleGroup.vue").then((m) => m.default),
       source: "",
@@ -13732,23 +13732,23 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/tooltip/Tooltip.vue",
         type: "registry:ui",
-        target: "tooltip/Tooltip.vue"
+        target: ""
       },{
         path: "registry/default/ui/tooltip/TooltipContent.vue",
         type: "registry:ui",
-        target: "tooltip/TooltipContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/tooltip/TooltipProvider.vue",
         type: "registry:ui",
-        target: "tooltip/TooltipProvider.vue"
+        target: ""
       },{
         path: "registry/default/ui/tooltip/TooltipTrigger.vue",
         type: "registry:ui",
-        target: "tooltip/TooltipTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/tooltip/index.ts",
         type: "registry:ui",
-        target: "tooltip/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/tooltip/Tooltip.vue").then((m) => m.default),
       source: "",
@@ -13763,11 +13763,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/v-calendar/Calendar.vue",
         type: "registry:ui",
-        target: "v-calendar/Calendar.vue"
+        target: ""
       },{
         path: "registry/default/ui/v-calendar/index.ts",
         type: "registry:ui",
-        target: "v-calendar/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/v-calendar/Calendar.vue").then((m) => m.default),
       source: "",
@@ -17575,23 +17575,23 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/accordion/Accordion.vue",
         type: "registry:ui",
-        target: "accordion/Accordion.vue"
+        target: ""
       },{
         path: "registry/default/ui/accordion/AccordionContent.vue",
         type: "registry:ui",
-        target: "accordion/AccordionContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/accordion/AccordionItem.vue",
         type: "registry:ui",
-        target: "accordion/AccordionItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/accordion/AccordionTrigger.vue",
         type: "registry:ui",
-        target: "accordion/AccordionTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/accordion/index.ts",
         type: "registry:ui",
-        target: "accordion/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/accordion/Accordion.vue").then((m) => m.default),
       source: "",
@@ -17606,19 +17606,19 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/alert/Alert.vue",
         type: "registry:ui",
-        target: "alert/Alert.vue"
+        target: ""
       },{
         path: "registry/default/ui/alert/AlertDescription.vue",
         type: "registry:ui",
-        target: "alert/AlertDescription.vue"
+        target: ""
       },{
         path: "registry/default/ui/alert/AlertTitle.vue",
         type: "registry:ui",
-        target: "alert/AlertTitle.vue"
+        target: ""
       },{
         path: "registry/default/ui/alert/index.ts",
         type: "registry:ui",
-        target: "alert/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/alert/Alert.vue").then((m) => m.default),
       source: "",
@@ -17633,43 +17633,43 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/alert-dialog/AlertDialog.vue",
         type: "registry:ui",
-        target: "alert-dialog/AlertDialog.vue"
+        target: ""
       },{
         path: "registry/default/ui/alert-dialog/AlertDialogAction.vue",
         type: "registry:ui",
-        target: "alert-dialog/AlertDialogAction.vue"
+        target: ""
       },{
         path: "registry/default/ui/alert-dialog/AlertDialogCancel.vue",
         type: "registry:ui",
-        target: "alert-dialog/AlertDialogCancel.vue"
+        target: ""
       },{
         path: "registry/default/ui/alert-dialog/AlertDialogContent.vue",
         type: "registry:ui",
-        target: "alert-dialog/AlertDialogContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/alert-dialog/AlertDialogDescription.vue",
         type: "registry:ui",
-        target: "alert-dialog/AlertDialogDescription.vue"
+        target: ""
       },{
         path: "registry/default/ui/alert-dialog/AlertDialogFooter.vue",
         type: "registry:ui",
-        target: "alert-dialog/AlertDialogFooter.vue"
+        target: ""
       },{
         path: "registry/default/ui/alert-dialog/AlertDialogHeader.vue",
         type: "registry:ui",
-        target: "alert-dialog/AlertDialogHeader.vue"
+        target: ""
       },{
         path: "registry/default/ui/alert-dialog/AlertDialogTitle.vue",
         type: "registry:ui",
-        target: "alert-dialog/AlertDialogTitle.vue"
+        target: ""
       },{
         path: "registry/default/ui/alert-dialog/AlertDialogTrigger.vue",
         type: "registry:ui",
-        target: "alert-dialog/AlertDialogTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/alert-dialog/index.ts",
         type: "registry:ui",
-        target: "alert-dialog/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/alert-dialog/AlertDialog.vue").then((m) => m.default),
       source: "",
@@ -17684,11 +17684,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/aspect-ratio/AspectRatio.vue",
         type: "registry:ui",
-        target: "aspect-ratio/AspectRatio.vue"
+        target: ""
       },{
         path: "registry/default/ui/aspect-ratio/index.ts",
         type: "registry:ui",
-        target: "aspect-ratio/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/aspect-ratio/AspectRatio.vue").then((m) => m.default),
       source: "",
@@ -17703,67 +17703,67 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/auto-form/AutoForm.vue",
         type: "registry:ui",
-        target: "auto-form/AutoForm.vue"
+        target: ""
       },{
         path: "registry/default/ui/auto-form/AutoFormField.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormField.vue"
+        target: ""
       },{
         path: "registry/default/ui/auto-form/AutoFormFieldArray.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormFieldArray.vue"
+        target: ""
       },{
         path: "registry/default/ui/auto-form/AutoFormFieldBoolean.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormFieldBoolean.vue"
+        target: ""
       },{
         path: "registry/default/ui/auto-form/AutoFormFieldDate.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormFieldDate.vue"
+        target: ""
       },{
         path: "registry/default/ui/auto-form/AutoFormFieldEnum.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormFieldEnum.vue"
+        target: ""
       },{
         path: "registry/default/ui/auto-form/AutoFormFieldFile.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormFieldFile.vue"
+        target: ""
       },{
         path: "registry/default/ui/auto-form/AutoFormFieldInput.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormFieldInput.vue"
+        target: ""
       },{
         path: "registry/default/ui/auto-form/AutoFormFieldNumber.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormFieldNumber.vue"
+        target: ""
       },{
         path: "registry/default/ui/auto-form/AutoFormFieldObject.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormFieldObject.vue"
+        target: ""
       },{
         path: "registry/default/ui/auto-form/AutoFormLabel.vue",
         type: "registry:ui",
-        target: "auto-form/AutoFormLabel.vue"
+        target: ""
       },{
         path: "registry/default/ui/auto-form/constant.ts",
         type: "registry:ui",
-        target: "auto-form/constant.ts"
+        target: ""
       },{
         path: "registry/default/ui/auto-form/dependencies.ts",
         type: "registry:ui",
-        target: "auto-form/dependencies.ts"
+        target: ""
       },{
         path: "registry/default/ui/auto-form/index.ts",
         type: "registry:ui",
-        target: "auto-form/index.ts"
+        target: ""
       },{
         path: "registry/default/ui/auto-form/interface.ts",
         type: "registry:ui",
-        target: "auto-form/interface.ts"
+        target: ""
       },{
         path: "registry/default/ui/auto-form/utils.ts",
         type: "registry:ui",
-        target: "auto-form/utils.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/auto-form/AutoForm.vue").then((m) => m.default),
       source: "",
@@ -17778,19 +17778,19 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/avatar/Avatar.vue",
         type: "registry:ui",
-        target: "avatar/Avatar.vue"
+        target: ""
       },{
         path: "registry/default/ui/avatar/AvatarFallback.vue",
         type: "registry:ui",
-        target: "avatar/AvatarFallback.vue"
+        target: ""
       },{
         path: "registry/default/ui/avatar/AvatarImage.vue",
         type: "registry:ui",
-        target: "avatar/AvatarImage.vue"
+        target: ""
       },{
         path: "registry/default/ui/avatar/index.ts",
         type: "registry:ui",
-        target: "avatar/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/avatar/Avatar.vue").then((m) => m.default),
       source: "",
@@ -17805,11 +17805,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/badge/Badge.vue",
         type: "registry:ui",
-        target: "badge/Badge.vue"
+        target: ""
       },{
         path: "registry/default/ui/badge/index.ts",
         type: "registry:ui",
-        target: "badge/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/badge/Badge.vue").then((m) => m.default),
       source: "",
@@ -17824,35 +17824,35 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/breadcrumb/Breadcrumb.vue",
         type: "registry:ui",
-        target: "breadcrumb/Breadcrumb.vue"
+        target: ""
       },{
         path: "registry/default/ui/breadcrumb/BreadcrumbEllipsis.vue",
         type: "registry:ui",
-        target: "breadcrumb/BreadcrumbEllipsis.vue"
+        target: ""
       },{
         path: "registry/default/ui/breadcrumb/BreadcrumbItem.vue",
         type: "registry:ui",
-        target: "breadcrumb/BreadcrumbItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/breadcrumb/BreadcrumbLink.vue",
         type: "registry:ui",
-        target: "breadcrumb/BreadcrumbLink.vue"
+        target: ""
       },{
         path: "registry/default/ui/breadcrumb/BreadcrumbList.vue",
         type: "registry:ui",
-        target: "breadcrumb/BreadcrumbList.vue"
+        target: ""
       },{
         path: "registry/default/ui/breadcrumb/BreadcrumbPage.vue",
         type: "registry:ui",
-        target: "breadcrumb/BreadcrumbPage.vue"
+        target: ""
       },{
         path: "registry/default/ui/breadcrumb/BreadcrumbSeparator.vue",
         type: "registry:ui",
-        target: "breadcrumb/BreadcrumbSeparator.vue"
+        target: ""
       },{
         path: "registry/default/ui/breadcrumb/index.ts",
         type: "registry:ui",
-        target: "breadcrumb/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/breadcrumb/Breadcrumb.vue").then((m) => m.default),
       source: "",
@@ -17867,11 +17867,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/button/Button.vue",
         type: "registry:ui",
-        target: "button/Button.vue"
+        target: ""
       },{
         path: "registry/default/ui/button/index.ts",
         type: "registry:ui",
-        target: "button/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/button/Button.vue").then((m) => m.default),
       source: "",
@@ -17886,55 +17886,55 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/calendar/Calendar.vue",
         type: "registry:ui",
-        target: "calendar/Calendar.vue"
+        target: ""
       },{
         path: "registry/default/ui/calendar/CalendarCell.vue",
         type: "registry:ui",
-        target: "calendar/CalendarCell.vue"
+        target: ""
       },{
         path: "registry/default/ui/calendar/CalendarCellTrigger.vue",
         type: "registry:ui",
-        target: "calendar/CalendarCellTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/calendar/CalendarGrid.vue",
         type: "registry:ui",
-        target: "calendar/CalendarGrid.vue"
+        target: ""
       },{
         path: "registry/default/ui/calendar/CalendarGridBody.vue",
         type: "registry:ui",
-        target: "calendar/CalendarGridBody.vue"
+        target: ""
       },{
         path: "registry/default/ui/calendar/CalendarGridHead.vue",
         type: "registry:ui",
-        target: "calendar/CalendarGridHead.vue"
+        target: ""
       },{
         path: "registry/default/ui/calendar/CalendarGridRow.vue",
         type: "registry:ui",
-        target: "calendar/CalendarGridRow.vue"
+        target: ""
       },{
         path: "registry/default/ui/calendar/CalendarHeadCell.vue",
         type: "registry:ui",
-        target: "calendar/CalendarHeadCell.vue"
+        target: ""
       },{
         path: "registry/default/ui/calendar/CalendarHeader.vue",
         type: "registry:ui",
-        target: "calendar/CalendarHeader.vue"
+        target: ""
       },{
         path: "registry/default/ui/calendar/CalendarHeading.vue",
         type: "registry:ui",
-        target: "calendar/CalendarHeading.vue"
+        target: ""
       },{
         path: "registry/default/ui/calendar/CalendarNextButton.vue",
         type: "registry:ui",
-        target: "calendar/CalendarNextButton.vue"
+        target: ""
       },{
         path: "registry/default/ui/calendar/CalendarPrevButton.vue",
         type: "registry:ui",
-        target: "calendar/CalendarPrevButton.vue"
+        target: ""
       },{
         path: "registry/default/ui/calendar/index.ts",
         type: "registry:ui",
-        target: "calendar/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/calendar/Calendar.vue").then((m) => m.default),
       source: "",
@@ -17949,31 +17949,31 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/card/Card.vue",
         type: "registry:ui",
-        target: "card/Card.vue"
+        target: ""
       },{
         path: "registry/default/ui/card/CardContent.vue",
         type: "registry:ui",
-        target: "card/CardContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/card/CardDescription.vue",
         type: "registry:ui",
-        target: "card/CardDescription.vue"
+        target: ""
       },{
         path: "registry/default/ui/card/CardFooter.vue",
         type: "registry:ui",
-        target: "card/CardFooter.vue"
+        target: ""
       },{
         path: "registry/default/ui/card/CardHeader.vue",
         type: "registry:ui",
-        target: "card/CardHeader.vue"
+        target: ""
       },{
         path: "registry/default/ui/card/CardTitle.vue",
         type: "registry:ui",
-        target: "card/CardTitle.vue"
+        target: ""
       },{
         path: "registry/default/ui/card/index.ts",
         type: "registry:ui",
-        target: "card/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/card/Card.vue").then((m) => m.default),
       source: "",
@@ -17988,35 +17988,35 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/carousel/Carousel.vue",
         type: "registry:ui",
-        target: "carousel/Carousel.vue"
+        target: ""
       },{
         path: "registry/default/ui/carousel/CarouselContent.vue",
         type: "registry:ui",
-        target: "carousel/CarouselContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/carousel/CarouselItem.vue",
         type: "registry:ui",
-        target: "carousel/CarouselItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/carousel/CarouselNext.vue",
         type: "registry:ui",
-        target: "carousel/CarouselNext.vue"
+        target: ""
       },{
         path: "registry/default/ui/carousel/CarouselPrevious.vue",
         type: "registry:ui",
-        target: "carousel/CarouselPrevious.vue"
+        target: ""
       },{
         path: "registry/default/ui/carousel/index.ts",
         type: "registry:ui",
-        target: "carousel/index.ts"
+        target: ""
       },{
         path: "registry/default/ui/carousel/interface.ts",
         type: "registry:ui",
-        target: "carousel/interface.ts"
+        target: ""
       },{
         path: "registry/default/ui/carousel/useCarousel.ts",
         type: "registry:ui",
-        target: "carousel/useCarousel.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/carousel/Carousel.vue").then((m) => m.default),
       source: "",
@@ -18031,27 +18031,27 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/chart/ChartCrosshair.vue",
         type: "registry:ui",
-        target: "chart/ChartCrosshair.vue"
+        target: ""
       },{
         path: "registry/default/ui/chart/ChartLegend.vue",
         type: "registry:ui",
-        target: "chart/ChartLegend.vue"
+        target: ""
       },{
         path: "registry/default/ui/chart/ChartSingleTooltip.vue",
         type: "registry:ui",
-        target: "chart/ChartSingleTooltip.vue"
+        target: ""
       },{
         path: "registry/default/ui/chart/ChartTooltip.vue",
         type: "registry:ui",
-        target: "chart/ChartTooltip.vue"
+        target: ""
       },{
         path: "registry/default/ui/chart/index.ts",
         type: "registry:ui",
-        target: "chart/index.ts"
+        target: ""
       },{
         path: "registry/default/ui/chart/interface.ts",
         type: "registry:ui",
-        target: "chart/interface.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/chart/ChartCrosshair.vue").then((m) => m.default),
       source: "",
@@ -18066,11 +18066,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/chart-area/AreaChart.vue",
         type: "registry:ui",
-        target: "chart-area/AreaChart.vue"
+        target: ""
       },{
         path: "registry/default/ui/chart-area/index.ts",
         type: "registry:ui",
-        target: "chart-area/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/chart-area/AreaChart.vue").then((m) => m.default),
       source: "",
@@ -18085,11 +18085,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/chart-bar/BarChart.vue",
         type: "registry:ui",
-        target: "chart-bar/BarChart.vue"
+        target: ""
       },{
         path: "registry/default/ui/chart-bar/index.ts",
         type: "registry:ui",
-        target: "chart-bar/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/chart-bar/BarChart.vue").then((m) => m.default),
       source: "",
@@ -18104,11 +18104,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/chart-donut/DonutChart.vue",
         type: "registry:ui",
-        target: "chart-donut/DonutChart.vue"
+        target: ""
       },{
         path: "registry/default/ui/chart-donut/index.ts",
         type: "registry:ui",
-        target: "chart-donut/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/chart-donut/DonutChart.vue").then((m) => m.default),
       source: "",
@@ -18123,11 +18123,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/chart-line/LineChart.vue",
         type: "registry:ui",
-        target: "chart-line/LineChart.vue"
+        target: ""
       },{
         path: "registry/default/ui/chart-line/index.ts",
         type: "registry:ui",
-        target: "chart-line/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/chart-line/LineChart.vue").then((m) => m.default),
       source: "",
@@ -18142,11 +18142,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/checkbox/Checkbox.vue",
         type: "registry:ui",
-        target: "checkbox/Checkbox.vue"
+        target: ""
       },{
         path: "registry/default/ui/checkbox/index.ts",
         type: "registry:ui",
-        target: "checkbox/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/checkbox/Checkbox.vue").then((m) => m.default),
       source: "",
@@ -18161,19 +18161,19 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/collapsible/Collapsible.vue",
         type: "registry:ui",
-        target: "collapsible/Collapsible.vue"
+        target: ""
       },{
         path: "registry/default/ui/collapsible/CollapsibleContent.vue",
         type: "registry:ui",
-        target: "collapsible/CollapsibleContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/collapsible/CollapsibleTrigger.vue",
         type: "registry:ui",
-        target: "collapsible/CollapsibleTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/collapsible/index.ts",
         type: "registry:ui",
-        target: "collapsible/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/collapsible/Collapsible.vue").then((m) => m.default),
       source: "",
@@ -18188,43 +18188,43 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/command/Command.vue",
         type: "registry:ui",
-        target: "command/Command.vue"
+        target: ""
       },{
         path: "registry/default/ui/command/CommandDialog.vue",
         type: "registry:ui",
-        target: "command/CommandDialog.vue"
+        target: ""
       },{
         path: "registry/default/ui/command/CommandEmpty.vue",
         type: "registry:ui",
-        target: "command/CommandEmpty.vue"
+        target: ""
       },{
         path: "registry/default/ui/command/CommandGroup.vue",
         type: "registry:ui",
-        target: "command/CommandGroup.vue"
+        target: ""
       },{
         path: "registry/default/ui/command/CommandInput.vue",
         type: "registry:ui",
-        target: "command/CommandInput.vue"
+        target: ""
       },{
         path: "registry/default/ui/command/CommandItem.vue",
         type: "registry:ui",
-        target: "command/CommandItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/command/CommandList.vue",
         type: "registry:ui",
-        target: "command/CommandList.vue"
+        target: ""
       },{
         path: "registry/default/ui/command/CommandSeparator.vue",
         type: "registry:ui",
-        target: "command/CommandSeparator.vue"
+        target: ""
       },{
         path: "registry/default/ui/command/CommandShortcut.vue",
         type: "registry:ui",
-        target: "command/CommandShortcut.vue"
+        target: ""
       },{
         path: "registry/default/ui/command/index.ts",
         type: "registry:ui",
-        target: "command/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/command/Command.vue").then((m) => m.default),
       source: "",
@@ -18239,67 +18239,67 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/context-menu/ContextMenu.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenu.vue"
+        target: ""
       },{
         path: "registry/default/ui/context-menu/ContextMenuCheckboxItem.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuCheckboxItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/context-menu/ContextMenuContent.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/context-menu/ContextMenuGroup.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuGroup.vue"
+        target: ""
       },{
         path: "registry/default/ui/context-menu/ContextMenuItem.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/context-menu/ContextMenuLabel.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuLabel.vue"
+        target: ""
       },{
         path: "registry/default/ui/context-menu/ContextMenuPortal.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuPortal.vue"
+        target: ""
       },{
         path: "registry/default/ui/context-menu/ContextMenuRadioGroup.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuRadioGroup.vue"
+        target: ""
       },{
         path: "registry/default/ui/context-menu/ContextMenuRadioItem.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuRadioItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/context-menu/ContextMenuSeparator.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuSeparator.vue"
+        target: ""
       },{
         path: "registry/default/ui/context-menu/ContextMenuShortcut.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuShortcut.vue"
+        target: ""
       },{
         path: "registry/default/ui/context-menu/ContextMenuSub.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuSub.vue"
+        target: ""
       },{
         path: "registry/default/ui/context-menu/ContextMenuSubContent.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuSubContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/context-menu/ContextMenuSubTrigger.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuSubTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/context-menu/ContextMenuTrigger.vue",
         type: "registry:ui",
-        target: "context-menu/ContextMenuTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/context-menu/index.ts",
         type: "registry:ui",
-        target: "context-menu/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/context-menu/ContextMenu.vue").then((m) => m.default),
       source: "",
@@ -18314,43 +18314,43 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/dialog/Dialog.vue",
         type: "registry:ui",
-        target: "dialog/Dialog.vue"
+        target: ""
       },{
         path: "registry/default/ui/dialog/DialogClose.vue",
         type: "registry:ui",
-        target: "dialog/DialogClose.vue"
+        target: ""
       },{
         path: "registry/default/ui/dialog/DialogContent.vue",
         type: "registry:ui",
-        target: "dialog/DialogContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/dialog/DialogDescription.vue",
         type: "registry:ui",
-        target: "dialog/DialogDescription.vue"
+        target: ""
       },{
         path: "registry/default/ui/dialog/DialogFooter.vue",
         type: "registry:ui",
-        target: "dialog/DialogFooter.vue"
+        target: ""
       },{
         path: "registry/default/ui/dialog/DialogHeader.vue",
         type: "registry:ui",
-        target: "dialog/DialogHeader.vue"
+        target: ""
       },{
         path: "registry/default/ui/dialog/DialogScrollContent.vue",
         type: "registry:ui",
-        target: "dialog/DialogScrollContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/dialog/DialogTitle.vue",
         type: "registry:ui",
-        target: "dialog/DialogTitle.vue"
+        target: ""
       },{
         path: "registry/default/ui/dialog/DialogTrigger.vue",
         type: "registry:ui",
-        target: "dialog/DialogTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/dialog/index.ts",
         type: "registry:ui",
-        target: "dialog/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/dialog/Dialog.vue").then((m) => m.default),
       source: "",
@@ -18365,35 +18365,35 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/drawer/Drawer.vue",
         type: "registry:ui",
-        target: "drawer/Drawer.vue"
+        target: ""
       },{
         path: "registry/default/ui/drawer/DrawerContent.vue",
         type: "registry:ui",
-        target: "drawer/DrawerContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/drawer/DrawerDescription.vue",
         type: "registry:ui",
-        target: "drawer/DrawerDescription.vue"
+        target: ""
       },{
         path: "registry/default/ui/drawer/DrawerFooter.vue",
         type: "registry:ui",
-        target: "drawer/DrawerFooter.vue"
+        target: ""
       },{
         path: "registry/default/ui/drawer/DrawerHeader.vue",
         type: "registry:ui",
-        target: "drawer/DrawerHeader.vue"
+        target: ""
       },{
         path: "registry/default/ui/drawer/DrawerOverlay.vue",
         type: "registry:ui",
-        target: "drawer/DrawerOverlay.vue"
+        target: ""
       },{
         path: "registry/default/ui/drawer/DrawerTitle.vue",
         type: "registry:ui",
-        target: "drawer/DrawerTitle.vue"
+        target: ""
       },{
         path: "registry/default/ui/drawer/index.ts",
         type: "registry:ui",
-        target: "drawer/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/drawer/Drawer.vue").then((m) => m.default),
       source: "",
@@ -18408,63 +18408,63 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/dropdown-menu/DropdownMenu.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenu.vue"
+        target: ""
       },{
         path: "registry/default/ui/dropdown-menu/DropdownMenuCheckboxItem.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuCheckboxItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/dropdown-menu/DropdownMenuContent.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/dropdown-menu/DropdownMenuGroup.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuGroup.vue"
+        target: ""
       },{
         path: "registry/default/ui/dropdown-menu/DropdownMenuItem.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/dropdown-menu/DropdownMenuLabel.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuLabel.vue"
+        target: ""
       },{
         path: "registry/default/ui/dropdown-menu/DropdownMenuRadioGroup.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuRadioGroup.vue"
+        target: ""
       },{
         path: "registry/default/ui/dropdown-menu/DropdownMenuRadioItem.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuRadioItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/dropdown-menu/DropdownMenuSeparator.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuSeparator.vue"
+        target: ""
       },{
         path: "registry/default/ui/dropdown-menu/DropdownMenuShortcut.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuShortcut.vue"
+        target: ""
       },{
         path: "registry/default/ui/dropdown-menu/DropdownMenuSub.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuSub.vue"
+        target: ""
       },{
         path: "registry/default/ui/dropdown-menu/DropdownMenuSubContent.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuSubContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/dropdown-menu/DropdownMenuSubTrigger.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuSubTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/dropdown-menu/DropdownMenuTrigger.vue",
         type: "registry:ui",
-        target: "dropdown-menu/DropdownMenuTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/dropdown-menu/index.ts",
         type: "registry:ui",
-        target: "dropdown-menu/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/dropdown-menu/DropdownMenu.vue").then((m) => m.default),
       source: "",
@@ -18479,35 +18479,35 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/form/FormControl.vue",
         type: "registry:ui",
-        target: "form/FormControl.vue"
+        target: ""
       },{
         path: "registry/default/ui/form/FormDescription.vue",
         type: "registry:ui",
-        target: "form/FormDescription.vue"
+        target: ""
       },{
         path: "registry/default/ui/form/FormItem.vue",
         type: "registry:ui",
-        target: "form/FormItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/form/FormLabel.vue",
         type: "registry:ui",
-        target: "form/FormLabel.vue"
+        target: ""
       },{
         path: "registry/default/ui/form/FormMessage.vue",
         type: "registry:ui",
-        target: "form/FormMessage.vue"
+        target: ""
       },{
         path: "registry/default/ui/form/index.ts",
         type: "registry:ui",
-        target: "form/index.ts"
+        target: ""
       },{
         path: "registry/default/ui/form/injectionKeys.ts",
         type: "registry:ui",
-        target: "form/injectionKeys.ts"
+        target: ""
       },{
         path: "registry/default/ui/form/useFormField.ts",
         type: "registry:ui",
-        target: "form/useFormField.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/form/FormControl.vue").then((m) => m.default),
       source: "",
@@ -18522,19 +18522,19 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/hover-card/HoverCard.vue",
         type: "registry:ui",
-        target: "hover-card/HoverCard.vue"
+        target: ""
       },{
         path: "registry/default/ui/hover-card/HoverCardContent.vue",
         type: "registry:ui",
-        target: "hover-card/HoverCardContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/hover-card/HoverCardTrigger.vue",
         type: "registry:ui",
-        target: "hover-card/HoverCardTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/hover-card/index.ts",
         type: "registry:ui",
-        target: "hover-card/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/hover-card/HoverCard.vue").then((m) => m.default),
       source: "",
@@ -18549,11 +18549,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/input/Input.vue",
         type: "registry:ui",
-        target: "input/Input.vue"
+        target: ""
       },{
         path: "registry/default/ui/input/index.ts",
         type: "registry:ui",
-        target: "input/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/input/Input.vue").then((m) => m.default),
       source: "",
@@ -18568,11 +18568,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/label/Label.vue",
         type: "registry:ui",
-        target: "label/Label.vue"
+        target: ""
       },{
         path: "registry/default/ui/label/index.ts",
         type: "registry:ui",
-        target: "label/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/label/Label.vue").then((m) => m.default),
       source: "",
@@ -18587,67 +18587,67 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/menubar/Menubar.vue",
         type: "registry:ui",
-        target: "menubar/Menubar.vue"
+        target: ""
       },{
         path: "registry/default/ui/menubar/MenubarCheckboxItem.vue",
         type: "registry:ui",
-        target: "menubar/MenubarCheckboxItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/menubar/MenubarContent.vue",
         type: "registry:ui",
-        target: "menubar/MenubarContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/menubar/MenubarGroup.vue",
         type: "registry:ui",
-        target: "menubar/MenubarGroup.vue"
+        target: ""
       },{
         path: "registry/default/ui/menubar/MenubarItem.vue",
         type: "registry:ui",
-        target: "menubar/MenubarItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/menubar/MenubarLabel.vue",
         type: "registry:ui",
-        target: "menubar/MenubarLabel.vue"
+        target: ""
       },{
         path: "registry/default/ui/menubar/MenubarMenu.vue",
         type: "registry:ui",
-        target: "menubar/MenubarMenu.vue"
+        target: ""
       },{
         path: "registry/default/ui/menubar/MenubarRadioGroup.vue",
         type: "registry:ui",
-        target: "menubar/MenubarRadioGroup.vue"
+        target: ""
       },{
         path: "registry/default/ui/menubar/MenubarRadioItem.vue",
         type: "registry:ui",
-        target: "menubar/MenubarRadioItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/menubar/MenubarSeparator.vue",
         type: "registry:ui",
-        target: "menubar/MenubarSeparator.vue"
+        target: ""
       },{
         path: "registry/default/ui/menubar/MenubarShortcut.vue",
         type: "registry:ui",
-        target: "menubar/MenubarShortcut.vue"
+        target: ""
       },{
         path: "registry/default/ui/menubar/MenubarSub.vue",
         type: "registry:ui",
-        target: "menubar/MenubarSub.vue"
+        target: ""
       },{
         path: "registry/default/ui/menubar/MenubarSubContent.vue",
         type: "registry:ui",
-        target: "menubar/MenubarSubContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/menubar/MenubarSubTrigger.vue",
         type: "registry:ui",
-        target: "menubar/MenubarSubTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/menubar/MenubarTrigger.vue",
         type: "registry:ui",
-        target: "menubar/MenubarTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/menubar/index.ts",
         type: "registry:ui",
-        target: "menubar/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/menubar/Menubar.vue").then((m) => m.default),
       source: "",
@@ -18662,39 +18662,39 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/navigation-menu/NavigationMenu.vue",
         type: "registry:ui",
-        target: "navigation-menu/NavigationMenu.vue"
+        target: ""
       },{
         path: "registry/default/ui/navigation-menu/NavigationMenuContent.vue",
         type: "registry:ui",
-        target: "navigation-menu/NavigationMenuContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/navigation-menu/NavigationMenuIndicator.vue",
         type: "registry:ui",
-        target: "navigation-menu/NavigationMenuIndicator.vue"
+        target: ""
       },{
         path: "registry/default/ui/navigation-menu/NavigationMenuItem.vue",
         type: "registry:ui",
-        target: "navigation-menu/NavigationMenuItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/navigation-menu/NavigationMenuLink.vue",
         type: "registry:ui",
-        target: "navigation-menu/NavigationMenuLink.vue"
+        target: ""
       },{
         path: "registry/default/ui/navigation-menu/NavigationMenuList.vue",
         type: "registry:ui",
-        target: "navigation-menu/NavigationMenuList.vue"
+        target: ""
       },{
         path: "registry/default/ui/navigation-menu/NavigationMenuTrigger.vue",
         type: "registry:ui",
-        target: "navigation-menu/NavigationMenuTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/navigation-menu/NavigationMenuViewport.vue",
         type: "registry:ui",
-        target: "navigation-menu/NavigationMenuViewport.vue"
+        target: ""
       },{
         path: "registry/default/ui/navigation-menu/index.ts",
         type: "registry:ui",
-        target: "navigation-menu/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/navigation-menu/NavigationMenu.vue").then((m) => m.default),
       source: "",
@@ -18709,27 +18709,27 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/number-field/NumberField.vue",
         type: "registry:ui",
-        target: "number-field/NumberField.vue"
+        target: ""
       },{
         path: "registry/default/ui/number-field/NumberFieldContent.vue",
         type: "registry:ui",
-        target: "number-field/NumberFieldContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/number-field/NumberFieldDecrement.vue",
         type: "registry:ui",
-        target: "number-field/NumberFieldDecrement.vue"
+        target: ""
       },{
         path: "registry/default/ui/number-field/NumberFieldIncrement.vue",
         type: "registry:ui",
-        target: "number-field/NumberFieldIncrement.vue"
+        target: ""
       },{
         path: "registry/default/ui/number-field/NumberFieldInput.vue",
         type: "registry:ui",
-        target: "number-field/NumberFieldInput.vue"
+        target: ""
       },{
         path: "registry/default/ui/number-field/index.ts",
         type: "registry:ui",
-        target: "number-field/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/number-field/NumberField.vue").then((m) => m.default),
       source: "",
@@ -18744,27 +18744,27 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/pagination/PaginationEllipsis.vue",
         type: "registry:ui",
-        target: "pagination/PaginationEllipsis.vue"
+        target: ""
       },{
         path: "registry/default/ui/pagination/PaginationFirst.vue",
         type: "registry:ui",
-        target: "pagination/PaginationFirst.vue"
+        target: ""
       },{
         path: "registry/default/ui/pagination/PaginationLast.vue",
         type: "registry:ui",
-        target: "pagination/PaginationLast.vue"
+        target: ""
       },{
         path: "registry/default/ui/pagination/PaginationNext.vue",
         type: "registry:ui",
-        target: "pagination/PaginationNext.vue"
+        target: ""
       },{
         path: "registry/default/ui/pagination/PaginationPrev.vue",
         type: "registry:ui",
-        target: "pagination/PaginationPrev.vue"
+        target: ""
       },{
         path: "registry/default/ui/pagination/index.ts",
         type: "registry:ui",
-        target: "pagination/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/pagination/PaginationEllipsis.vue").then((m) => m.default),
       source: "",
@@ -18779,23 +18779,23 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/pin-input/PinInput.vue",
         type: "registry:ui",
-        target: "pin-input/PinInput.vue"
+        target: ""
       },{
         path: "registry/default/ui/pin-input/PinInputGroup.vue",
         type: "registry:ui",
-        target: "pin-input/PinInputGroup.vue"
+        target: ""
       },{
         path: "registry/default/ui/pin-input/PinInputInput.vue",
         type: "registry:ui",
-        target: "pin-input/PinInputInput.vue"
+        target: ""
       },{
         path: "registry/default/ui/pin-input/PinInputSeparator.vue",
         type: "registry:ui",
-        target: "pin-input/PinInputSeparator.vue"
+        target: ""
       },{
         path: "registry/default/ui/pin-input/index.ts",
         type: "registry:ui",
-        target: "pin-input/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/pin-input/PinInput.vue").then((m) => m.default),
       source: "",
@@ -18810,19 +18810,19 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/popover/Popover.vue",
         type: "registry:ui",
-        target: "popover/Popover.vue"
+        target: ""
       },{
         path: "registry/default/ui/popover/PopoverContent.vue",
         type: "registry:ui",
-        target: "popover/PopoverContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/popover/PopoverTrigger.vue",
         type: "registry:ui",
-        target: "popover/PopoverTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/popover/index.ts",
         type: "registry:ui",
-        target: "popover/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/popover/Popover.vue").then((m) => m.default),
       source: "",
@@ -18837,11 +18837,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/progress/Progress.vue",
         type: "registry:ui",
-        target: "progress/Progress.vue"
+        target: ""
       },{
         path: "registry/default/ui/progress/index.ts",
         type: "registry:ui",
-        target: "progress/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/progress/Progress.vue").then((m) => m.default),
       source: "",
@@ -18856,15 +18856,15 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/radio-group/RadioGroup.vue",
         type: "registry:ui",
-        target: "radio-group/RadioGroup.vue"
+        target: ""
       },{
         path: "registry/default/ui/radio-group/RadioGroupItem.vue",
         type: "registry:ui",
-        target: "radio-group/RadioGroupItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/radio-group/index.ts",
         type: "registry:ui",
-        target: "radio-group/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/radio-group/RadioGroup.vue").then((m) => m.default),
       source: "",
@@ -18879,55 +18879,55 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/range-calendar/RangeCalendar.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendar.vue"
+        target: ""
       },{
         path: "registry/default/ui/range-calendar/RangeCalendarCell.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarCell.vue"
+        target: ""
       },{
         path: "registry/default/ui/range-calendar/RangeCalendarCellTrigger.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarCellTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/range-calendar/RangeCalendarGrid.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarGrid.vue"
+        target: ""
       },{
         path: "registry/default/ui/range-calendar/RangeCalendarGridBody.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarGridBody.vue"
+        target: ""
       },{
         path: "registry/default/ui/range-calendar/RangeCalendarGridHead.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarGridHead.vue"
+        target: ""
       },{
         path: "registry/default/ui/range-calendar/RangeCalendarGridRow.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarGridRow.vue"
+        target: ""
       },{
         path: "registry/default/ui/range-calendar/RangeCalendarHeadCell.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarHeadCell.vue"
+        target: ""
       },{
         path: "registry/default/ui/range-calendar/RangeCalendarHeader.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarHeader.vue"
+        target: ""
       },{
         path: "registry/default/ui/range-calendar/RangeCalendarHeading.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarHeading.vue"
+        target: ""
       },{
         path: "registry/default/ui/range-calendar/RangeCalendarNextButton.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarNextButton.vue"
+        target: ""
       },{
         path: "registry/default/ui/range-calendar/RangeCalendarPrevButton.vue",
         type: "registry:ui",
-        target: "range-calendar/RangeCalendarPrevButton.vue"
+        target: ""
       },{
         path: "registry/default/ui/range-calendar/index.ts",
         type: "registry:ui",
-        target: "range-calendar/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/range-calendar/RangeCalendar.vue").then((m) => m.default),
       source: "",
@@ -18942,15 +18942,15 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/resizable/ResizableHandle.vue",
         type: "registry:ui",
-        target: "resizable/ResizableHandle.vue"
+        target: ""
       },{
         path: "registry/default/ui/resizable/ResizablePanelGroup.vue",
         type: "registry:ui",
-        target: "resizable/ResizablePanelGroup.vue"
+        target: ""
       },{
         path: "registry/default/ui/resizable/index.ts",
         type: "registry:ui",
-        target: "resizable/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/resizable/ResizableHandle.vue").then((m) => m.default),
       source: "",
@@ -18965,15 +18965,15 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/scroll-area/ScrollArea.vue",
         type: "registry:ui",
-        target: "scroll-area/ScrollArea.vue"
+        target: ""
       },{
         path: "registry/default/ui/scroll-area/ScrollBar.vue",
         type: "registry:ui",
-        target: "scroll-area/ScrollBar.vue"
+        target: ""
       },{
         path: "registry/default/ui/scroll-area/index.ts",
         type: "registry:ui",
-        target: "scroll-area/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/scroll-area/ScrollArea.vue").then((m) => m.default),
       source: "",
@@ -18988,51 +18988,51 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/select/Select.vue",
         type: "registry:ui",
-        target: "select/Select.vue"
+        target: ""
       },{
         path: "registry/default/ui/select/SelectContent.vue",
         type: "registry:ui",
-        target: "select/SelectContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/select/SelectGroup.vue",
         type: "registry:ui",
-        target: "select/SelectGroup.vue"
+        target: ""
       },{
         path: "registry/default/ui/select/SelectItem.vue",
         type: "registry:ui",
-        target: "select/SelectItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/select/SelectItemText.vue",
         type: "registry:ui",
-        target: "select/SelectItemText.vue"
+        target: ""
       },{
         path: "registry/default/ui/select/SelectLabel.vue",
         type: "registry:ui",
-        target: "select/SelectLabel.vue"
+        target: ""
       },{
         path: "registry/default/ui/select/SelectScrollDownButton.vue",
         type: "registry:ui",
-        target: "select/SelectScrollDownButton.vue"
+        target: ""
       },{
         path: "registry/default/ui/select/SelectScrollUpButton.vue",
         type: "registry:ui",
-        target: "select/SelectScrollUpButton.vue"
+        target: ""
       },{
         path: "registry/default/ui/select/SelectSeparator.vue",
         type: "registry:ui",
-        target: "select/SelectSeparator.vue"
+        target: ""
       },{
         path: "registry/default/ui/select/SelectTrigger.vue",
         type: "registry:ui",
-        target: "select/SelectTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/select/SelectValue.vue",
         type: "registry:ui",
-        target: "select/SelectValue.vue"
+        target: ""
       },{
         path: "registry/default/ui/select/index.ts",
         type: "registry:ui",
-        target: "select/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/select/Select.vue").then((m) => m.default),
       source: "",
@@ -19047,11 +19047,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/separator/Separator.vue",
         type: "registry:ui",
-        target: "separator/Separator.vue"
+        target: ""
       },{
         path: "registry/default/ui/separator/index.ts",
         type: "registry:ui",
-        target: "separator/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/separator/Separator.vue").then((m) => m.default),
       source: "",
@@ -19066,39 +19066,39 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/sheet/Sheet.vue",
         type: "registry:ui",
-        target: "sheet/Sheet.vue"
+        target: ""
       },{
         path: "registry/default/ui/sheet/SheetClose.vue",
         type: "registry:ui",
-        target: "sheet/SheetClose.vue"
+        target: ""
       },{
         path: "registry/default/ui/sheet/SheetContent.vue",
         type: "registry:ui",
-        target: "sheet/SheetContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/sheet/SheetDescription.vue",
         type: "registry:ui",
-        target: "sheet/SheetDescription.vue"
+        target: ""
       },{
         path: "registry/default/ui/sheet/SheetFooter.vue",
         type: "registry:ui",
-        target: "sheet/SheetFooter.vue"
+        target: ""
       },{
         path: "registry/default/ui/sheet/SheetHeader.vue",
         type: "registry:ui",
-        target: "sheet/SheetHeader.vue"
+        target: ""
       },{
         path: "registry/default/ui/sheet/SheetTitle.vue",
         type: "registry:ui",
-        target: "sheet/SheetTitle.vue"
+        target: ""
       },{
         path: "registry/default/ui/sheet/SheetTrigger.vue",
         type: "registry:ui",
-        target: "sheet/SheetTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/sheet/index.ts",
         type: "registry:ui",
-        target: "sheet/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/sheet/Sheet.vue").then((m) => m.default),
       source: "",
@@ -19113,107 +19113,107 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/sidebar/Sidebar.vue",
         type: "registry:ui",
-        target: "sidebar/Sidebar.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarContent.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarFooter.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarFooter.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarGroup.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarGroup.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarGroupAction.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarGroupAction.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarGroupContent.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarGroupContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarGroupLabel.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarGroupLabel.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarHeader.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarHeader.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarInput.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarInput.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarInset.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarInset.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarMenu.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenu.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarMenuAction.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenuAction.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarMenuBadge.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenuBadge.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarMenuButton.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenuButton.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarMenuButtonChild.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenuButtonChild.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarMenuItem.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenuItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarMenuSkeleton.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenuSkeleton.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarMenuSub.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenuSub.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarMenuSubButton.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenuSubButton.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarMenuSubItem.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarMenuSubItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarProvider.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarProvider.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarRail.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarRail.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarSeparator.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarSeparator.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/SidebarTrigger.vue",
         type: "registry:ui",
-        target: "sidebar/SidebarTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/index.ts",
         type: "registry:ui",
-        target: "sidebar/index.ts"
+        target: ""
       },{
         path: "registry/default/ui/sidebar/utils.ts",
         type: "registry:ui",
-        target: "sidebar/utils.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/sidebar/Sidebar.vue").then((m) => m.default),
       source: "",
@@ -19228,11 +19228,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/skeleton/Skeleton.vue",
         type: "registry:ui",
-        target: "skeleton/Skeleton.vue"
+        target: ""
       },{
         path: "registry/default/ui/skeleton/index.ts",
         type: "registry:ui",
-        target: "skeleton/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/skeleton/Skeleton.vue").then((m) => m.default),
       source: "",
@@ -19247,11 +19247,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/slider/Slider.vue",
         type: "registry:ui",
-        target: "slider/Slider.vue"
+        target: ""
       },{
         path: "registry/default/ui/slider/index.ts",
         type: "registry:ui",
-        target: "slider/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/slider/Slider.vue").then((m) => m.default),
       source: "",
@@ -19266,11 +19266,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/sonner/Sonner.vue",
         type: "registry:ui",
-        target: "sonner/Sonner.vue"
+        target: ""
       },{
         path: "registry/default/ui/sonner/index.ts",
         type: "registry:ui",
-        target: "sonner/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/sonner/Sonner.vue").then((m) => m.default),
       source: "",
@@ -19285,35 +19285,35 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/stepper/Stepper.vue",
         type: "registry:ui",
-        target: "stepper/Stepper.vue"
+        target: ""
       },{
         path: "registry/default/ui/stepper/StepperDescription.vue",
         type: "registry:ui",
-        target: "stepper/StepperDescription.vue"
+        target: ""
       },{
         path: "registry/default/ui/stepper/StepperIndicator.vue",
         type: "registry:ui",
-        target: "stepper/StepperIndicator.vue"
+        target: ""
       },{
         path: "registry/default/ui/stepper/StepperItem.vue",
         type: "registry:ui",
-        target: "stepper/StepperItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/stepper/StepperSeparator.vue",
         type: "registry:ui",
-        target: "stepper/StepperSeparator.vue"
+        target: ""
       },{
         path: "registry/default/ui/stepper/StepperTitle.vue",
         type: "registry:ui",
-        target: "stepper/StepperTitle.vue"
+        target: ""
       },{
         path: "registry/default/ui/stepper/StepperTrigger.vue",
         type: "registry:ui",
-        target: "stepper/StepperTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/stepper/index.ts",
         type: "registry:ui",
-        target: "stepper/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/stepper/Stepper.vue").then((m) => m.default),
       source: "",
@@ -19328,11 +19328,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/switch/Switch.vue",
         type: "registry:ui",
-        target: "switch/Switch.vue"
+        target: ""
       },{
         path: "registry/default/ui/switch/index.ts",
         type: "registry:ui",
-        target: "switch/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/switch/Switch.vue").then((m) => m.default),
       source: "",
@@ -19347,43 +19347,43 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/table/Table.vue",
         type: "registry:ui",
-        target: "table/Table.vue"
+        target: ""
       },{
         path: "registry/default/ui/table/TableBody.vue",
         type: "registry:ui",
-        target: "table/TableBody.vue"
+        target: ""
       },{
         path: "registry/default/ui/table/TableCaption.vue",
         type: "registry:ui",
-        target: "table/TableCaption.vue"
+        target: ""
       },{
         path: "registry/default/ui/table/TableCell.vue",
         type: "registry:ui",
-        target: "table/TableCell.vue"
+        target: ""
       },{
         path: "registry/default/ui/table/TableEmpty.vue",
         type: "registry:ui",
-        target: "table/TableEmpty.vue"
+        target: ""
       },{
         path: "registry/default/ui/table/TableFooter.vue",
         type: "registry:ui",
-        target: "table/TableFooter.vue"
+        target: ""
       },{
         path: "registry/default/ui/table/TableHead.vue",
         type: "registry:ui",
-        target: "table/TableHead.vue"
+        target: ""
       },{
         path: "registry/default/ui/table/TableHeader.vue",
         type: "registry:ui",
-        target: "table/TableHeader.vue"
+        target: ""
       },{
         path: "registry/default/ui/table/TableRow.vue",
         type: "registry:ui",
-        target: "table/TableRow.vue"
+        target: ""
       },{
         path: "registry/default/ui/table/index.ts",
         type: "registry:ui",
-        target: "table/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/table/Table.vue").then((m) => m.default),
       source: "",
@@ -19398,23 +19398,23 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/tabs/Tabs.vue",
         type: "registry:ui",
-        target: "tabs/Tabs.vue"
+        target: ""
       },{
         path: "registry/default/ui/tabs/TabsContent.vue",
         type: "registry:ui",
-        target: "tabs/TabsContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/tabs/TabsList.vue",
         type: "registry:ui",
-        target: "tabs/TabsList.vue"
+        target: ""
       },{
         path: "registry/default/ui/tabs/TabsTrigger.vue",
         type: "registry:ui",
-        target: "tabs/TabsTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/tabs/index.ts",
         type: "registry:ui",
-        target: "tabs/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/tabs/Tabs.vue").then((m) => m.default),
       source: "",
@@ -19429,27 +19429,27 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/tags-input/TagsInput.vue",
         type: "registry:ui",
-        target: "tags-input/TagsInput.vue"
+        target: ""
       },{
         path: "registry/default/ui/tags-input/TagsInputInput.vue",
         type: "registry:ui",
-        target: "tags-input/TagsInputInput.vue"
+        target: ""
       },{
         path: "registry/default/ui/tags-input/TagsInputItem.vue",
         type: "registry:ui",
-        target: "tags-input/TagsInputItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/tags-input/TagsInputItemDelete.vue",
         type: "registry:ui",
-        target: "tags-input/TagsInputItemDelete.vue"
+        target: ""
       },{
         path: "registry/default/ui/tags-input/TagsInputItemText.vue",
         type: "registry:ui",
-        target: "tags-input/TagsInputItemText.vue"
+        target: ""
       },{
         path: "registry/default/ui/tags-input/index.ts",
         type: "registry:ui",
-        target: "tags-input/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/tags-input/TagsInput.vue").then((m) => m.default),
       source: "",
@@ -19464,11 +19464,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/textarea/Textarea.vue",
         type: "registry:ui",
-        target: "textarea/Textarea.vue"
+        target: ""
       },{
         path: "registry/default/ui/textarea/index.ts",
         type: "registry:ui",
-        target: "textarea/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/textarea/Textarea.vue").then((m) => m.default),
       source: "",
@@ -19483,43 +19483,43 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/toast/Toast.vue",
         type: "registry:ui",
-        target: "toast/Toast.vue"
+        target: ""
       },{
         path: "registry/default/ui/toast/ToastAction.vue",
         type: "registry:ui",
-        target: "toast/ToastAction.vue"
+        target: ""
       },{
         path: "registry/default/ui/toast/ToastClose.vue",
         type: "registry:ui",
-        target: "toast/ToastClose.vue"
+        target: ""
       },{
         path: "registry/default/ui/toast/ToastDescription.vue",
         type: "registry:ui",
-        target: "toast/ToastDescription.vue"
+        target: ""
       },{
         path: "registry/default/ui/toast/ToastProvider.vue",
         type: "registry:ui",
-        target: "toast/ToastProvider.vue"
+        target: ""
       },{
         path: "registry/default/ui/toast/ToastTitle.vue",
         type: "registry:ui",
-        target: "toast/ToastTitle.vue"
+        target: ""
       },{
         path: "registry/default/ui/toast/ToastViewport.vue",
         type: "registry:ui",
-        target: "toast/ToastViewport.vue"
+        target: ""
       },{
         path: "registry/default/ui/toast/Toaster.vue",
         type: "registry:ui",
-        target: "toast/Toaster.vue"
+        target: ""
       },{
         path: "registry/default/ui/toast/index.ts",
         type: "registry:ui",
-        target: "toast/index.ts"
+        target: ""
       },{
         path: "registry/default/ui/toast/use-toast.ts",
         type: "registry:ui",
-        target: "toast/use-toast.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/toast/Toast.vue").then((m) => m.default),
       source: "",
@@ -19534,11 +19534,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/toggle/Toggle.vue",
         type: "registry:ui",
-        target: "toggle/Toggle.vue"
+        target: ""
       },{
         path: "registry/default/ui/toggle/index.ts",
         type: "registry:ui",
-        target: "toggle/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/toggle/Toggle.vue").then((m) => m.default),
       source: "",
@@ -19553,15 +19553,15 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/toggle-group/ToggleGroup.vue",
         type: "registry:ui",
-        target: "toggle-group/ToggleGroup.vue"
+        target: ""
       },{
         path: "registry/default/ui/toggle-group/ToggleGroupItem.vue",
         type: "registry:ui",
-        target: "toggle-group/ToggleGroupItem.vue"
+        target: ""
       },{
         path: "registry/default/ui/toggle-group/index.ts",
         type: "registry:ui",
-        target: "toggle-group/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/toggle-group/ToggleGroup.vue").then((m) => m.default),
       source: "",
@@ -19576,23 +19576,23 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/tooltip/Tooltip.vue",
         type: "registry:ui",
-        target: "tooltip/Tooltip.vue"
+        target: ""
       },{
         path: "registry/default/ui/tooltip/TooltipContent.vue",
         type: "registry:ui",
-        target: "tooltip/TooltipContent.vue"
+        target: ""
       },{
         path: "registry/default/ui/tooltip/TooltipProvider.vue",
         type: "registry:ui",
-        target: "tooltip/TooltipProvider.vue"
+        target: ""
       },{
         path: "registry/default/ui/tooltip/TooltipTrigger.vue",
         type: "registry:ui",
-        target: "tooltip/TooltipTrigger.vue"
+        target: ""
       },{
         path: "registry/default/ui/tooltip/index.ts",
         type: "registry:ui",
-        target: "tooltip/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/tooltip/Tooltip.vue").then((m) => m.default),
       source: "",
@@ -19607,11 +19607,11 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/default/ui/v-calendar/Calendar.vue",
         type: "registry:ui",
-        target: "v-calendar/Calendar.vue"
+        target: ""
       },{
         path: "registry/default/ui/v-calendar/index.ts",
         type: "registry:ui",
-        target: "v-calendar/index.ts"
+        target: ""
       }],
       component: () => import("@/registry/default/ui/v-calendar/Calendar.vue").then((m) => m.default),
       source: "",

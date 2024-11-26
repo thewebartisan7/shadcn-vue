@@ -182,7 +182,6 @@ async function fetchRegistry(paths: string[]) {
     const results = await Promise.all(
       paths.map(async (path) => {
         const url = getRegistryUrl(path)
-        console.log(url)
         const response = await ofetch(url, { agent, parseResponse: JSON.parse })
           .catch((error) => {
             throw new Error(error.data)

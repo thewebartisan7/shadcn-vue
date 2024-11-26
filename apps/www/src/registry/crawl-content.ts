@@ -213,7 +213,7 @@ async function buildUIRegistry(componentPath: string, componentName: string) {
     const filepath = join(componentPath, dirent.name)
     const relativePath = join('ui', componentName, dirent.name)
     const source = await readFile(filepath, { encoding: 'utf8' })
-    const target = `${componentName}/${dirent.name}`
+    const target = '' // `${componentName}/${dirent.name}`
 
     files.push({ content: source, path: relativePath, type, target })
 
