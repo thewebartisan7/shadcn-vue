@@ -1,7 +1,7 @@
 import type { Config } from '@/src/utils/get-config'
 import type { RegistryItem } from '@/src/utils/registry/schema'
 import { existsSync, promises as fs } from 'node:fs'
-import path, { basename } from 'node:path'
+import path, { basename, dirname } from 'node:path'
 import { getProjectInfo } from '@/src/utils/get-project-info'
 import { highlighter } from '@/src/utils/highlighter'
 import { logger } from '@/src/utils/logger'
@@ -57,6 +57,7 @@ export async function updateFiles(
 
   const filesCreated = []
   const filesUpdated = []
+  const folderSkipped = new Map<string, boolean>()
   const filesSkipped = []
 
   for (const file of files) {
@@ -78,22 +79,46 @@ export async function updateFiles(
     }
 
     const existingFile = existsSync(filePath)
-    if (existingFile && !options.overwrite) {
-      filesCreatedSpinner.stop()
-      const { overwrite } = await prompts({
-        type: 'confirm',
-        name: 'overwrite',
-        message: `The file ${highlighter.info(
-          fileName,
-        )} already exists. Would you like to overwrite?`,
-        initial: false,
-      })
 
-      if (!overwrite) {
+    // Check for existing folder in UI component only
+    if (file.type === 'registry:ui') {
+      const folderName = basename(dirname(filePath))
+
+      if (!folderSkipped.has(folderName)) {
+        filesCreatedSpinner.stop()
+        const { overwrite } = await prompts({
+          type: 'confirm',
+          name: 'overwrite',
+          message: `The folder ${highlighter.info(folderName)} already exists. Would you like to overwrite?`,
+          initial: false,
+        })
+        folderSkipped.set(folderName, !overwrite)
+        filesCreatedSpinner?.start()
+      }
+
+      if (folderSkipped.get(folderName) === true) {
         filesSkipped.push(path.relative(config.resolvedPaths.cwd, filePath))
         continue
       }
-      filesCreatedSpinner?.start()
+    }
+    else {
+      if (existingFile && !options.overwrite) {
+        filesCreatedSpinner.stop()
+        const { overwrite } = await prompts({
+          type: 'confirm',
+          name: 'overwrite',
+          message: `The file ${highlighter.info(
+            fileName,
+          )} already exists. Would you like to overwrite?`,
+          initial: false,
+        })
+
+        if (!overwrite) {
+          filesSkipped.push(path.relative(config.resolvedPaths.cwd, filePath))
+          continue
+        }
+        filesCreatedSpinner?.start()
+      }
     }
 
     // Create the target directory if it doesn't exist.
