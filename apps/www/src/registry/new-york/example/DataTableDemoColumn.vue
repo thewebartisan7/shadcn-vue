@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { Button } from '@/registry/new-york/ui/button'
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from '@/registry/new-york/ui/dropdown-menu'
-import { DotsHorizontalIcon } from '@radix-icons/vue'
+import { MoreHorizontal } from 'lucide-vue-next'
 
 defineProps<{
   payment: {
@@ -23,7 +23,7 @@ function copy(id: string) {
     <DropdownMenuTrigger as-child>
       <Button variant="ghost" class="h-8 w-8 p-0">
         <span class="sr-only">Open menu</span>
-        <DotsHorizontalIcon class="h-4 w-4" />
+        <MoreHorizontal class="h-4 w-4" />
       </Button>
     </DropdownMenuTrigger>
     <DropdownMenuContent align="end">

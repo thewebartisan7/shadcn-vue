@@ -9,7 +9,7 @@ import {
   type DateValue,
   getLocalTimeZone,
 } from '@internationalized/date'
-import { CalendarIcon } from '@radix-icons/vue'
+import { CalendarIcon } from 'lucide-vue-next'
 import { ref } from 'vue'
 
 const df = new DateFormatter('en-US', {

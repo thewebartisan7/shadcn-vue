@@ -3,7 +3,7 @@ import type { FieldProps } from './interface'
 import { Button } from '@/registry/new-york/ui/button'
 import { FormControl, FormDescription, FormField, FormItem, FormMessage } from '@/registry/new-york/ui/form'
 import { Input } from '@/registry/new-york/ui/input'
-import { TrashIcon } from '@radix-icons/vue'
+import { Trash } from 'lucide-vue-next'
 import { ref } from 'vue'
 import AutoFormLabel from './AutoFormLabel.vue'
 import { beautifyObjectName } from './utils'
@@ -60,7 +60,7 @@ async function parseFileAsString(file: File | undefined): Promise<string> {
                 slotProps.componentField.onInput(undefined)
               }"
             >
-              <TrashIcon />
+              <Trash />
             </Button>
           </div>
         </slot>

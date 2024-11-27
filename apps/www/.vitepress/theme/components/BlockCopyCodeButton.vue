@@ -5,8 +5,8 @@ import {
   TooltipContent,
   TooltipTrigger,
 } from '@/registry/new-york/ui/tooltip'
-import { CheckIcon, ClipboardIcon } from '@radix-icons/vue'
 import { useClipboard } from '@vueuse/core'
+import { Check, Clipboard } from 'lucide-vue-next'
 import { toRefs } from 'vue'
 
 const props = withDefaults(defineProps<{
@@ -29,8 +29,8 @@ const { copy, copied } = useClipboard({ source: code })
         @click="copy()"
       >
         <span class="sr-only">Copy</span>
-        <CheckIcon v-if="copied" />
-        <ClipboardIcon v-else />
+        <Check v-if="copied" />
+        <Clipboard v-else />
       </Button>
     </TooltipTrigger>
     <TooltipContent>Copy code</TooltipContent>

@@ -3,7 +3,7 @@ import { cn } from '@/lib/utils'
 import {
   Button,
 } from '@/registry/new-york/ui/button'
-import { DoubleArrowLeftIcon } from '@radix-icons/vue'
+import { ChevronsLeft } from 'lucide-vue-next'
 import { PaginationFirst, type PaginationFirstProps } from 'reka-ui'
 import { computed, type HTMLAttributes } from 'vue'
 
@@ -22,7 +22,7 @@ const delegatedProps = computed(() => {
   <PaginationFirst v-bind="delegatedProps">
     <Button :class="cn('w-9 h-9 p-0', props.class)" variant="outline">
       <slot>
-        <DoubleArrowLeftIcon />
+        <ChevronsLeft />
       </slot>
     </Button>
   </PaginationFirst>

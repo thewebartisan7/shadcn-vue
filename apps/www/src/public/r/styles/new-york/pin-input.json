@@ -28,7 +28,7 @@
     },
     {
       "path": "ui/pin-input/PinInputSeparator.vue",
-      "content": "<script setup lang=\"ts\">\nimport { DashIcon } from '@radix-icons/vue'\nimport { Primitive, type PrimitiveProps, useForwardProps } from 'reka-ui'\n\nconst props = defineProps<PrimitiveProps>()\nconst forwardedProps = useForwardProps(props)\n</script>\n\n<template>\n  <Primitive v-bind=\"forwardedProps\">\n    <slot>\n      <DashIcon />\n    </slot>\n  </primitive>\n</template>\n",
+      "content": "<script setup lang=\"ts\">\nimport { Minus } from 'lucide-vue-next'\nimport { Primitive, type PrimitiveProps, useForwardProps } from 'reka-ui'\n\nconst props = defineProps<PrimitiveProps>()\nconst forwardedProps = useForwardProps(props)\n</script>\n\n<template>\n  <Primitive v-bind=\"forwardedProps\">\n    <slot>\n      <Minus class=\"w-2\" />\n    </slot>\n  </primitive>\n</template>\n",
       "type": "registry:ui",
       "target": ""
     },

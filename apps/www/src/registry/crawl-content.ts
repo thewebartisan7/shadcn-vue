@@ -11,16 +11,15 @@ const DEPENDENCIES = new Map<string, string[]>([
   ['@vueuse/core', []],
   ['vue-sonner', []],
   ['vaul-vue', []],
-  ['v-calendar', []],
   ['@tanstack/vue-table', []],
   ['@unovis/vue', ['@unovis/ts']],
   ['embla-carousel-vue', []],
   ['vee-validate', ['@vee-validate/zod', 'zod']],
 ])
 // Some dependencies latest tag were not compatible with Vue3.
-const DEPENDENCIES_WITH_TAGS = new Map<string, string>([
-  ['v-calendar', 'v-calendar@next'],
-])
+// const DEPENDENCIES_WITH_TAGS = new Map<string, string>([
+//   ['v-calendar', 'v-calendar@next'],
+// ])
 const REGISTRY_DEPENDENCY = '@/'
 
 type ArrayItem<T> = T extends Array<infer X> ? X : never
@@ -283,12 +282,12 @@ async function getFileDependencies(filename: string, sourceCode: string) {
 
   const populateDeps = (source: string) => {
     const peerDeps = DEPENDENCIES.get(source)
-    const taggedDeps = DEPENDENCIES_WITH_TAGS.get(source)
+    // const taggedDeps = DEPENDENCIES_WITH_TAGS.get(source)
     if (peerDeps !== undefined) {
-      if (taggedDeps !== undefined)
-        dependencies.add(taggedDeps)
-      else
-        dependencies.add(source)
+      // if (taggedDeps !== undefined)
+      //   dependencies.add(taggedDeps)
+      // else
+      dependencies.add(source)
       peerDeps.forEach(dep => dependencies.add(dep))
     }
 

@@ -18,7 +18,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from '@/registry/new-york/ui/tooltip'
-import { CheckIcon, PaperPlaneIcon, PlusIcon } from '@radix-icons/vue'
+import { Check, Plus, Send } from 'lucide-vue-next'
 import { computed, ref } from 'vue'
 
 const input = ref('')
@@ -89,7 +89,7 @@ const selectedUsers = ref<User[]>([])
               class="rounded-full p-2.5 flex items-center justify-center"
               @click="open = true"
             >
-              <PlusIcon class="w-4 h-4" />
+              <Plus class="w-4 h-4" />
             </Button>
           </TooltipTrigger>
           <TooltipContent :side-offset="10">
@@ -125,7 +125,7 @@ const selectedUsers = ref<User[]>([])
       >
         <Input v-model="input" placeholder="Type a message..." class="flex-1" />
         <Button class="p-2.5 flex items-center justify-center" :disabled="inputLength === 0">
-          <PaperPlaneIcon class="w-4 h-4" />
+          <Send class="w-4 h-4" />
           <span class="sr-only">Send</span>
         </Button>
       </form>
@@ -173,7 +173,7 @@ const selectedUsers = ref<User[]>([])
                   {{ user.email }}
                 </p>
               </div>
-              <CheckIcon v-if="selectedUsers.includes(user)" class="ml-auto flex h-5 w-5 text-primary" />
+              <Check v-if="selectedUsers.includes(user)" class="ml-auto flex h-5 w-5 text-primary" />
             </CommandItem>
           </CommandGroup>
         </CommandList>

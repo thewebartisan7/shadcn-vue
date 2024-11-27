@@ -13,7 +13,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from '@/registry/new-york/ui/dropdown-menu'
-import { ChevronDownIcon, SlashIcon } from '@radix-icons/vue'
+import { ChevronDown, Slash } from 'lucide-vue-next'
 </script>
 
 <template>
@@ -25,13 +25,13 @@ import { ChevronDownIcon, SlashIcon } from '@radix-icons/vue'
         </BreadcrumbLink>
       </BreadcrumbItem>
       <BreadcrumbSeparator>
-        <SlashIcon />
+        <Slash />
       </BreadcrumbSeparator>
       <BreadcrumbItem>
         <DropdownMenu>
           <DropdownMenuTrigger class="flex items-center gap-1">
             Components
-            <ChevronDownIcon class="h-4 w-4" />
+            <ChevronDown class="h-4 w-4" />
           </DropdownMenuTrigger>
           <DropdownMenuContent align="start">
             <DropdownMenuItem>Documentation</DropdownMenuItem>

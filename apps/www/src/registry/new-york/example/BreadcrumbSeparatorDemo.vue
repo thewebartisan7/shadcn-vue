@@ -7,7 +7,7 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from '@/registry/new-york/ui/breadcrumb'
-import { SlashIcon } from '@radix-icons/vue'
+import { Slash } from 'lucide-vue-next'
 </script>
 
 <template>
@@ -19,7 +19,7 @@ import { SlashIcon } from '@radix-icons/vue'
         </BreadcrumbLink>
       </BreadcrumbItem>
       <BreadcrumbSeparator>
-        <SlashIcon />
+        <Slash />
       </BreadcrumbSeparator>
       <BreadcrumbItem>
         <BreadcrumbLink href="/docs/components/accordion.html">
@@ -27,7 +27,7 @@ import { SlashIcon } from '@radix-icons/vue'
         </BreadcrumbLink>
       </BreadcrumbItem>
       <BreadcrumbSeparator>
-        <SlashIcon />
+        <Slash />
       </BreadcrumbSeparator>
       <BreadcrumbItem>
         <BreadcrumbPage>Breadcrumb</BreadcrumbPage>

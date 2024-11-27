@@ -22,7 +22,7 @@ import {
   DropdownMenuSubTrigger,
   DropdownMenuTrigger,
 } from '@/registry/new-york/ui/dropdown-menu'
-import { DotsHorizontalIcon } from '@radix-icons/vue'
+import { MoreHorizontal } from 'lucide-vue-next'
 import { ref } from 'vue'
 
 const labels = [
@@ -50,7 +50,7 @@ const open = ref(false)
     <DropdownMenu v-model:open="open">
       <DropdownMenuTrigger as-child>
         <Button variant="ghost" size="sm">
-          <DotsHorizontalIcon />
+          <MoreHorizontal />
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" class="w-[200px]">

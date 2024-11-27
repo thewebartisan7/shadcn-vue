@@ -2,7 +2,7 @@
 import { Button } from '@/registry/new-york/ui/button'
 
 import { Stepper, StepperDescription, StepperItem, StepperSeparator, StepperTitle, StepperTrigger } from '@/registry/new-york/ui/stepper'
-import { CheckIcon, CircleIcon, DotIcon } from '@radix-icons/vue'
+import { Check, Circle, Dot } from 'lucide-vue-next'
 
 const steps = [
   {
@@ -44,9 +44,9 @@ const steps = [
           class="z-10 rounded-full shrink-0"
           :class="[state === 'active' && 'ring-2 ring-ring ring-offset-2 ring-offset-background']"
         >
-          <CheckIcon v-if="state === 'completed'" class="size-5" />
-          <CircleIcon v-if="state === 'active'" />
-          <DotIcon v-if="state === 'inactive'" />
+          <Check v-if="state === 'completed'" class="size-5" />
+          <Circle v-if="state === 'active'" />
+          <Dot v-if="state === 'inactive'" />
         </Button>
       </StepperTrigger>
 

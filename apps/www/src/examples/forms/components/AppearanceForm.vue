@@ -6,8 +6,8 @@ import { Button, buttonVariants } from '@/registry/new-york/ui/button'
 
 import { Separator } from '@/registry/new-york/ui/separator'
 import { toast } from '@/registry/new-york/ui/toast'
-import { ChevronDownIcon } from '@radix-icons/vue'
 import { toTypedSchema } from '@vee-validate/zod'
+import { ChevronDown } from 'lucide-vue-next'
 import { useForm } from 'vee-validate'
 import { h } from 'vue'
 import * as z from 'zod'
@@ -72,7 +72,7 @@ const onSubmit = handleSubmit((values) => {
               </option>
             </select>
           </FormControl>
-          <ChevronDownIcon class="pointer-events-none absolute right-3 top-2.5 h-4 w-4 opacity-50" />
+          <ChevronDown class="pointer-events-none absolute right-3 top-2.5 h-4 w-4 opacity-50" />
         </div>
         <FormDescription>
           Set the font you want to use in the dashboard.

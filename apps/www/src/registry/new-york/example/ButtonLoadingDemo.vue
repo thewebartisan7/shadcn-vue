@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import { Button } from '@/registry/new-york/ui/button'
-import { ReloadIcon } from '@radix-icons/vue'
+import { Loader2 } from 'lucide-vue-next'
 </script>
 
 <template>
   <Button disabled>
-    <ReloadIcon class="w-4 h-4 mr-2 animate-spin" />
+    <Loader2 class="w-4 h-4 mr-2 animate-spin" />
     Please wait
   </Button>
 </template>

@@ -24,8 +24,8 @@ import {
   PopoverTrigger,
 } from '@/registry/new-york/ui/popover'
 import { toast } from '@/registry/new-york/ui/toast'
-import { CaretSortIcon, CheckIcon } from '@radix-icons/vue'
 import { toTypedSchema } from '@vee-validate/zod'
+import { Check, ChevronsUpDown } from 'lucide-vue-next'
 import { useForm } from 'vee-validate'
 import { h } from 'vue'
 import * as z from 'zod'
@@ -79,7 +79,7 @@ const onSubmit = handleSubmit((values) => {
                 {{ values.language ? languages.find(
                   (language) => language.value === values.language,
                 )?.label : 'Select language...' }}
-                <CaretSortIcon class="ml-2 h-4 w-4 shrink-0 opacity-50" />
+                <ChevronsUpDown class="ml-2 h-4 w-4 shrink-0 opacity-50" />
               </Button>
             </FormControl>
           </PopoverTrigger>
@@ -98,7 +98,7 @@ const onSubmit = handleSubmit((values) => {
                     }"
                   >
                     {{ language.label }}
-                    <CheckIcon
+                    <Check
                       :class="cn('ml-auto h-4 w-4', language.value === values.language ? 'opacity-100' : 'opacity-0')"
                     />
                   </CommandItem>

@@ -12,8 +12,8 @@ import {
 } from '@/registry/new-york/ui/select'
 import { Stepper, StepperDescription, StepperItem, StepperSeparator, StepperTitle, StepperTrigger } from '@/registry/new-york/ui/stepper'
 import { toast } from '@/registry/new-york/ui/toast'
-import { CheckIcon, CircleIcon, DotIcon } from '@radix-icons/vue'
 import { toTypedSchema } from '@vee-validate/zod'
+import { Check, Circle, Dot } from 'lucide-vue-next'
 import { h, ref } from 'vue'
 import * as z from 'zod'
 
@@ -103,9 +103,9 @@ function onSubmit(values: any) {
                 :class="[state === 'active' && 'ring-2 ring-ring ring-offset-2 ring-offset-background']"
                 :disabled="state !== 'completed' && !meta.valid"
               >
-                <CheckIcon v-if="state === 'completed'" class="size-5" />
-                <CircleIcon v-if="state === 'active'" />
-                <DotIcon v-if="state === 'inactive'" />
+                <Check v-if="state === 'completed'" class="size-5" />
+                <Circle v-if="state === 'active'" />
+                <Dot v-if="state === 'inactive'" />
               </Button>
             </StepperTrigger>
 

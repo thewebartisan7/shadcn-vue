@@ -28,7 +28,7 @@
     },
     {
       "path": "ui/tags-input/TagsInputItemDelete.vue",
-      "content": "<script setup lang=\"ts\">\nimport { cn } from '@/lib/utils'\nimport { Cross2Icon } from '@radix-icons/vue'\nimport { TagsInputItemDelete, type TagsInputItemDeleteProps, useForwardProps } from 'reka-ui'\nimport { computed, type HTMLAttributes } from 'vue'\n\nconst props = defineProps<TagsInputItemDeleteProps & { class?: HTMLAttributes['class'] }>()\n\nconst delegatedProps = computed(() => {\n  const { class: _, ...delegated } = props\n\n  return delegated\n})\n\nconst forwardedProps = useForwardProps(delegatedProps)\n</script>\n\n<template>\n  <TagsInputItemDelete v-bind=\"forwardedProps\" :class=\"cn('flex rounded bg-transparent mr-1', props.class)\">\n    <slot>\n      <Cross2Icon class=\"w-4 h-4\" />\n    </slot>\n  </TagsInputItemDelete>\n</template>\n",
+      "content": "<script setup lang=\"ts\">\nimport { cn } from '@/lib/utils'\nimport { X } from 'lucide-vue-next'\nimport { TagsInputItemDelete, type TagsInputItemDeleteProps, useForwardProps } from 'reka-ui'\nimport { computed, type HTMLAttributes } from 'vue'\n\nconst props = defineProps<TagsInputItemDeleteProps & { class?: HTMLAttributes['class'] }>()\n\nconst delegatedProps = computed(() => {\n  const { class: _, ...delegated } = props\n\n  return delegated\n})\n\nconst forwardedProps = useForwardProps(delegatedProps)\n</script>\n\n<template>\n  <TagsInputItemDelete v-bind=\"forwardedProps\" :class=\"cn('flex rounded bg-transparent mr-1', props.class)\">\n    <slot>\n      <X class=\"w-4 h-4\" />\n    </slot>\n  </TagsInputItemDelete>\n</template>\n",
       "type": "registry:ui",
       "target": ""
     },

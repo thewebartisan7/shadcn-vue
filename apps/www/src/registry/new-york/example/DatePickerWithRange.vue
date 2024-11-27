@@ -10,7 +10,7 @@ import {
   DateFormatter,
   getLocalTimeZone,
 } from '@internationalized/date'
-import { CalendarIcon } from '@radix-icons/vue'
+import { CalendarIcon } from 'lucide-vue-next'
 import { type Ref, ref } from 'vue'
 
 const df = new DateFormatter('en-US', {

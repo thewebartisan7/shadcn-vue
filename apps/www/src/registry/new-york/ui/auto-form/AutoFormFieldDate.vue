@@ -7,7 +7,7 @@ import { FormControl, FormDescription, FormField, FormItem, FormMessage } from '
 import { Popover, PopoverContent, PopoverTrigger } from '@/registry/new-york/ui/popover'
 
 import { DateFormatter, getLocalTimeZone } from '@internationalized/date'
-import { CalendarIcon } from '@radix-icons/vue'
+import { CalendarIcon } from 'lucide-vue-next'
 import AutoFormLabel from './AutoFormLabel.vue'
 import { beautifyObjectName } from './utils'
 

@@ -12,7 +12,7 @@ import {
 } from '@/registry/new-york/ui/dialog'
 import { Input } from '@/registry/new-york/ui/input'
 import { Label } from '@/registry/new-york/ui/label'
-import { CopyIcon } from '@radix-icons/vue'
+import { Copy } from 'lucide-vue-next'
 </script>
 
 <template>
@@ -42,7 +42,7 @@ import { CopyIcon } from '@radix-icons/vue'
         </div>
         <Button type="submit" size="sm" class="px-3">
           <span class="sr-only">Copy</span>
-          <CopyIcon class="w-4 h-4" />
+          <Copy class="w-4 h-4" />
         </Button>
       </div>
       <DialogFooter class="sm:justify-start">

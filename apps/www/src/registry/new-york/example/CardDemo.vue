@@ -10,7 +10,7 @@ import {
   CardTitle,
 } from '@/registry/new-york/ui/card'
 import { Switch } from '@/registry/new-york/ui/switch'
-import { BellIcon, CheckIcon } from '@radix-icons/vue'
+import { Bell, Check } from 'lucide-vue-next'
 
 const notifications = [
   {
@@ -36,7 +36,7 @@ const notifications = [
     </CardHeader>
     <CardContent class="grid gap-4">
       <div class=" flex items-center space-x-4 rounded-md border p-4">
-        <BellIcon />
+        <Bell />
         <div class="flex-1 space-y-1">
           <p class="text-sm font-medium leading-none">
             Push Notifications
@@ -66,7 +66,7 @@ const notifications = [
     </CardContent>
     <CardFooter>
       <Button class="w-full">
-        <CheckIcon class="mr-2 h-4 w-4" /> Mark all as read
+        <Check class="mr-2 h-4 w-4" /> Mark all as read
       </Button>
     </CardFooter>
   </Card>

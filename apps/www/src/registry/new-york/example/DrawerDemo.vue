@@ -10,8 +10,8 @@ import {
   DrawerTitle,
   DrawerTrigger,
 } from '@/registry/new-york/ui/drawer'
-import { MinusIcon, PlusIcon } from '@radix-icons/vue'
 import { VisStackedBar, VisXYContainer } from '@unovis/vue'
+import { Minus, Plus } from 'lucide-vue-next'
 import { ref } from 'vue'
 
 const goal = ref(350)
@@ -56,7 +56,7 @@ const data = [
               :disabled="goal <= 200"
               @click="goal -= 10"
             >
-              <MinusIcon class="h-4 w-4" />
+              <Minus class="h-4 w-4" />
               <span class="sr-only">Decrease</span>
             </Button>
             <div class="flex-1 text-center">
@@ -74,7 +74,7 @@ const data = [
               :disabled="goal >= 400"
               @click="goal += 10"
             >
-              <PlusIcon class="h-4 w-4" />
+              <Plus class="h-4 w-4" />
               <span class="sr-only">Increase</span>
             </Button>
           </div>

@@ -1,11 +1,10 @@
 <script setup lang="ts">
 import { Toggle } from '@/registry/new-york/ui/toggle'
-
-import { FontItalicIcon } from '@radix-icons/vue'
+import { Italic } from 'lucide-vue-next'
 </script>
 
 <template>
   <Toggle size="lg" aria-label="Toggle italic">
-    <FontItalicIcon class="w-4 h-4" />
+    <Italic class="w-4 h-4" />
   </Toggle>
 </template>

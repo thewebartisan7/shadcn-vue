@@ -25,7 +25,6 @@ import {
   TableHeader,
   TableRow,
 } from '@/registry/new-york/ui/table'
-import { CaretSortIcon, ChevronDownIcon } from '@radix-icons/vue'
 import {
   FlexRender,
   getCoreRowModel,
@@ -34,6 +33,7 @@ import {
   getSortedRowModel,
   useVueTable,
 } from '@tanstack/vue-table'
+import { ArrowUpDown, ChevronDown } from 'lucide-vue-next'
 import { h, ref } from 'vue'
 import DropdownAction from '../DataTableDemoColumn.vue'
 
@@ -104,7 +104,7 @@ const columns: ColumnDef<Payment>[] = [
       return h(Button, {
         variant: 'ghost',
         onClick: () => column.toggleSorting(column.getIsSorted() === 'asc'),
-      }, () => ['Email', h(CaretSortIcon, { class: 'ml-2 h-4 w-4' })])
+      }, () => ['Email', h(ArrowUpDown, { class: 'ml-2 h-4 w-4' })])
     },
     cell: ({ row }) => h('div', { class: 'lowercase' }, row.getValue('email')),
   },
@@ -179,7 +179,7 @@ const table = useVueTable({
           <DropdownMenu>
             <DropdownMenuTrigger as-child>
               <Button variant="outline" class="ml-auto">
-                Columns <ChevronDownIcon class="ml-2 h-4 w-4" />
+                Columns <ChevronDown class="ml-2 h-4 w-4" />
               </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end">

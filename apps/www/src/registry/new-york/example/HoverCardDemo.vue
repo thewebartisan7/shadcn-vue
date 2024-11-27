@@ -11,7 +11,7 @@ import {
   HoverCardContent,
   HoverCardTrigger,
 } from '@/registry/new-york/ui/hover-card'
-import { CalendarIcon } from '@radix-icons/vue'
+import { CalendarIcon } from 'lucide-vue-next'
 </script>
 
 <template>

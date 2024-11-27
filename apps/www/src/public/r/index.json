@@ -2123,28 +2123,6 @@
     ]
   },
   {
-    "name": "v-calendar",
-    "type": "registry:ui",
-    "dependencies": [
-      "v-calendar@next",
-      "@vueuse/core"
-    ],
-    "registryDependencies": [
-      "utils",
-      "button"
-    ],
-    "files": [
-      {
-        "path": "ui/v-calendar/Calendar.vue",
-        "type": "registry:ui"
-      },
-      {
-        "path": "ui/v-calendar/index.ts",
-        "type": "registry:ui"
-      }
-    ]
-  },
-  {
     "name": "accordion",
     "type": "registry:ui",
     "dependencies": [
@@ -4263,28 +4241,6 @@
       },
       {
         "path": "ui/tooltip/index.ts",
-        "type": "registry:ui"
-      }
-    ]
-  },
-  {
-    "name": "v-calendar",
-    "type": "registry:ui",
-    "dependencies": [
-      "v-calendar@next",
-      "@vueuse/core"
-    ],
-    "registryDependencies": [
-      "utils",
-      "button"
-    ],
-    "files": [
-      {
-        "path": "ui/v-calendar/Calendar.vue",
-        "type": "registry:ui"
-      },
-      {
-        "path": "ui/v-calendar/index.ts",
         "type": "registry:ui"
       }
     ]

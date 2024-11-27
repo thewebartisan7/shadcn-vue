@@ -6,7 +6,7 @@ import {
   CollapsibleTrigger,
 } from '@/registry/new-york/ui/collapsible'
 
-import { CaretSortIcon } from '@radix-icons/vue'
+import { ChevronsUpDown } from 'lucide-vue-next'
 import { ref } from 'vue'
 
 const isOpen = ref(false)
@@ -23,7 +23,7 @@ const isOpen = ref(false)
       </h4>
       <CollapsibleTrigger as-child>
         <Button variant="ghost" size="sm" class="w-9 p-0">
-          <CaretSortIcon class="h-4 w-4" />
+          <ChevronsUpDown class="h-4 w-4" />
           <span class="sr-only">Toggle</span>
         </Button>
       </CollapsibleTrigger>

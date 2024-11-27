@@ -2051,25 +2051,6 @@ export const Index: Record<string, any> = {
       category: "",
       subcategory: ""
     },
-    "v-calendar": {
-      name: "v-calendar",
-      description: "",
-      type: "registry:ui",
-      registryDependencies: ["utils","button"],
-      files: [{
-        path: "registry/new-york/ui/v-calendar/Calendar.vue",
-        type: "registry:ui",
-        target: ""
-      },{
-        path: "registry/new-york/ui/v-calendar/index.ts",
-        type: "registry:ui",
-        target: ""
-      }],
-      component: () => import("@/registry/new-york/ui/v-calendar/Calendar.vue").then((m) => m.default),
-      source: "",
-      category: "",
-      subcategory: ""
-    },
     "AccordionDemo": {
       name: "AccordionDemo",
       description: "",
@@ -4965,111 +4946,6 @@ export const Index: Record<string, any> = {
       category: "",
       subcategory: ""
     },
-    "VCalendarDemo": {
-      name: "VCalendarDemo",
-      description: "",
-      type: "registry:example",
-      registryDependencies: ["v-calendar"],
-      files: [{
-        path: "registry/new-york/example/VCalendarDemo.vue",
-        type: "registry:example",
-        target: ""
-      }],
-      component: () => import("@/registry/new-york/example/VCalendarDemo.vue").then((m) => m.default),
-      source: "",
-      category: "",
-      subcategory: ""
-    },
-    "VDatePickerDemo": {
-      name: "VDatePickerDemo",
-      description: "",
-      type: "registry:example",
-      registryDependencies: ["utils","button","popover","v-calendar"],
-      files: [{
-        path: "registry/new-york/example/VDatePickerDemo.vue",
-        type: "registry:example",
-        target: ""
-      }],
-      component: () => import("@/registry/new-york/example/VDatePickerDemo.vue").then((m) => m.default),
-      source: "",
-      category: "",
-      subcategory: ""
-    },
-    "VDatePickerForm": {
-      name: "VDatePickerForm",
-      description: "",
-      type: "registry:example",
-      registryDependencies: ["utils","button","form","popover","toast","v-calendar"],
-      files: [{
-        path: "registry/new-york/example/VDatePickerForm.vue",
-        type: "registry:example",
-        target: ""
-      }],
-      component: () => import("@/registry/new-york/example/VDatePickerForm.vue").then((m) => m.default),
-      source: "",
-      category: "",
-      subcategory: ""
-    },
-    "VDatePickerWithPresets": {
-      name: "VDatePickerWithPresets",
-      description: "",
-      type: "registry:example",
-      registryDependencies: ["utils","button","popover","select","v-calendar"],
-      files: [{
-        path: "registry/new-york/example/VDatePickerWithPresets.vue",
-        type: "registry:example",
-        target: ""
-      }],
-      component: () => import("@/registry/new-york/example/VDatePickerWithPresets.vue").then((m) => m.default),
-      source: "",
-      category: "",
-      subcategory: ""
-    },
-    "VDatePickerWithRange": {
-      name: "VDatePickerWithRange",
-      description: "",
-      type: "registry:example",
-      registryDependencies: ["utils","button","popover","v-calendar"],
-      files: [{
-        path: "registry/new-york/example/VDatePickerWithRange.vue",
-        type: "registry:example",
-        target: ""
-      }],
-      component: () => import("@/registry/new-york/example/VDatePickerWithRange.vue").then((m) => m.default),
-      source: "",
-      category: "",
-      subcategory: ""
-    },
-    "VDateTimePickerDemo": {
-      name: "VDateTimePickerDemo",
-      description: "",
-      type: "registry:example",
-      registryDependencies: ["utils","button","popover","v-calendar"],
-      files: [{
-        path: "registry/new-york/example/VDateTimePickerDemo.vue",
-        type: "registry:example",
-        target: ""
-      }],
-      component: () => import("@/registry/new-york/example/VDateTimePickerDemo.vue").then((m) => m.default),
-      source: "",
-      category: "",
-      subcategory: ""
-    },
-    "VRangePickerWithSlot": {
-      name: "VRangePickerWithSlot",
-      description: "",
-      type: "registry:example",
-      registryDependencies: ["utils","button","popover","v-calendar"],
-      files: [{
-        path: "registry/new-york/example/VRangePickerWithSlot.vue",
-        type: "registry:example",
-        target: ""
-      }],
-      component: () => import("@/registry/new-york/example/VRangePickerWithSlot.vue").then((m) => m.default),
-      source: "",
-      category: "",
-      subcategory: ""
-    },
     "Authentication01": {
       name: "Authentication01",
       description: "",
@@ -7891,25 +7767,6 @@ export const Index: Record<string, any> = {
         target: ""
       }],
       component: () => import("@/registry/new-york/ui/tooltip/Tooltip.vue").then((m) => m.default),
-      source: "",
-      category: "",
-      subcategory: ""
-    },
-    "v-calendar": {
-      name: "v-calendar",
-      description: "",
-      type: "registry:ui",
-      registryDependencies: ["utils","button"],
-      files: [{
-        path: "registry/new-york/ui/v-calendar/Calendar.vue",
-        type: "registry:ui",
-        target: ""
-      },{
-        path: "registry/new-york/ui/v-calendar/index.ts",
-        type: "registry:ui",
-        target: ""
-      }],
-      component: () => import("@/registry/new-york/ui/v-calendar/Calendar.vue").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -10805,111 +10662,6 @@ export const Index: Record<string, any> = {
         target: ""
       }],
       component: () => import("@/registry/new-york/example/TypographyTable.vue").then((m) => m.default),
-      source: "",
-      category: "",
-      subcategory: ""
-    },
-    "VCalendarDemo": {
-      name: "VCalendarDemo",
-      description: "",
-      type: "registry:example",
-      registryDependencies: ["v-calendar"],
-      files: [{
-        path: "registry/new-york/example/VCalendarDemo.vue",
-        type: "registry:example",
-        target: ""
-      }],
-      component: () => import("@/registry/new-york/example/VCalendarDemo.vue").then((m) => m.default),
-      source: "",
-      category: "",
-      subcategory: ""
-    },
-    "VDatePickerDemo": {
-      name: "VDatePickerDemo",
-      description: "",
-      type: "registry:example",
-      registryDependencies: ["utils","button","popover","v-calendar"],
-      files: [{
-        path: "registry/new-york/example/VDatePickerDemo.vue",
-        type: "registry:example",
-        target: ""
-      }],
-      component: () => import("@/registry/new-york/example/VDatePickerDemo.vue").then((m) => m.default),
-      source: "",
-      category: "",
-      subcategory: ""
-    },
-    "VDatePickerForm": {
-      name: "VDatePickerForm",
-      description: "",
-      type: "registry:example",
-      registryDependencies: ["utils","button","form","popover","toast","v-calendar"],
-      files: [{
-        path: "registry/new-york/example/VDatePickerForm.vue",
-        type: "registry:example",
-        target: ""
-      }],
-      component: () => import("@/registry/new-york/example/VDatePickerForm.vue").then((m) => m.default),
-      source: "",
-      category: "",
-      subcategory: ""
-    },
-    "VDatePickerWithPresets": {
-      name: "VDatePickerWithPresets",
-      description: "",
-      type: "registry:example",
-      registryDependencies: ["utils","button","popover","select","v-calendar"],
-      files: [{
-        path: "registry/new-york/example/VDatePickerWithPresets.vue",
-        type: "registry:example",
-        target: ""
-      }],
-      component: () => import("@/registry/new-york/example/VDatePickerWithPresets.vue").then((m) => m.default),
-      source: "",
-      category: "",
-      subcategory: ""
-    },
-    "VDatePickerWithRange": {
-      name: "VDatePickerWithRange",
-      description: "",
-      type: "registry:example",
-      registryDependencies: ["utils","button","popover","v-calendar"],
-      files: [{
-        path: "registry/new-york/example/VDatePickerWithRange.vue",
-        type: "registry:example",
-        target: ""
-      }],
-      component: () => import("@/registry/new-york/example/VDatePickerWithRange.vue").then((m) => m.default),
-      source: "",
-      category: "",
-      subcategory: ""
-    },
-    "VDateTimePickerDemo": {
-      name: "VDateTimePickerDemo",
-      description: "",
-      type: "registry:example",
-      registryDependencies: ["utils","button","popover","v-calendar"],
-      files: [{
-        path: "registry/new-york/example/VDateTimePickerDemo.vue",
-        type: "registry:example",
-        target: ""
-      }],
-      component: () => import("@/registry/new-york/example/VDateTimePickerDemo.vue").then((m) => m.default),
-      source: "",
-      category: "",
-      subcategory: ""
-    },
-    "VRangePickerWithSlot": {
-      name: "VRangePickerWithSlot",
-      description: "",
-      type: "registry:example",
-      registryDependencies: ["utils","button","popover","v-calendar"],
-      files: [{
-        path: "registry/new-york/example/VRangePickerWithSlot.vue",
-        type: "registry:example",
-        target: ""
-      }],
-      component: () => import("@/registry/new-york/example/VRangePickerWithSlot.vue").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -13755,25 +13507,6 @@ export const Index: Record<string, any> = {
       category: "",
       subcategory: ""
     },
-    "v-calendar": {
-      name: "v-calendar",
-      description: "",
-      type: "registry:ui",
-      registryDependencies: ["utils","button"],
-      files: [{
-        path: "registry/default/ui/v-calendar/Calendar.vue",
-        type: "registry:ui",
-        target: ""
-      },{
-        path: "registry/default/ui/v-calendar/index.ts",
-        type: "registry:ui",
-        target: ""
-      }],
-      component: () => import("@/registry/default/ui/v-calendar/Calendar.vue").then((m) => m.default),
-      source: "",
-      category: "",
-      subcategory: ""
-    },
     "AccordionDemo": {
       name: "AccordionDemo",
       description: "",
@@ -16669,111 +16402,6 @@ export const Index: Record<string, any> = {
       category: "",
       subcategory: ""
     },
-    "VCalendarDemo": {
-      name: "VCalendarDemo",
-      description: "",
-      type: "registry:example",
-      registryDependencies: ["v-calendar"],
-      files: [{
-        path: "registry/default/example/VCalendarDemo.vue",
-        type: "registry:example",
-        target: ""
-      }],
-      component: () => import("@/registry/default/example/VCalendarDemo.vue").then((m) => m.default),
-      source: "",
-      category: "",
-      subcategory: ""
-    },
-    "VDatePickerDemo": {
-      name: "VDatePickerDemo",
-      description: "",
-      type: "registry:example",
-      registryDependencies: ["utils","button","popover","v-calendar"],
-      files: [{
-        path: "registry/default/example/VDatePickerDemo.vue",
-        type: "registry:example",
-        target: ""
-      }],
-      component: () => import("@/registry/default/example/VDatePickerDemo.vue").then((m) => m.default),
-      source: "",
-      category: "",
-      subcategory: ""
-    },
-    "VDatePickerForm": {
-      name: "VDatePickerForm",
-      description: "",
-      type: "registry:example",
-      registryDependencies: ["utils","button","form","popover","toast","v-calendar"],
-      files: [{
-        path: "registry/default/example/VDatePickerForm.vue",
-        type: "registry:example",
-        target: ""
-      }],
-      component: () => import("@/registry/default/example/VDatePickerForm.vue").then((m) => m.default),
-      source: "",
-      category: "",
-      subcategory: ""
-    },
-    "VDatePickerWithPresets": {
-      name: "VDatePickerWithPresets",
-      description: "",
-      type: "registry:example",
-      registryDependencies: ["utils","button","popover","select","v-calendar"],
-      files: [{
-        path: "registry/default/example/VDatePickerWithPresets.vue",
-        type: "registry:example",
-        target: ""
-      }],
-      component: () => import("@/registry/default/example/VDatePickerWithPresets.vue").then((m) => m.default),
-      source: "",
-      category: "",
-      subcategory: ""
-    },
-    "VDatePickerWithRange": {
-      name: "VDatePickerWithRange",
-      description: "",
-      type: "registry:example",
-      registryDependencies: ["utils","button","popover","v-calendar"],
-      files: [{
-        path: "registry/default/example/VDatePickerWithRange.vue",
-        type: "registry:example",
-        target: ""
-      }],
-      component: () => import("@/registry/default/example/VDatePickerWithRange.vue").then((m) => m.default),
-      source: "",
-      category: "",
-      subcategory: ""
-    },
-    "VDateTimePickerDemo": {
-      name: "VDateTimePickerDemo",
-      description: "",
-      type: "registry:example",
-      registryDependencies: ["utils","button","popover","v-calendar"],
-      files: [{
-        path: "registry/default/example/VDateTimePickerDemo.vue",
-        type: "registry:example",
-        target: ""
-      }],
-      component: () => import("@/registry/default/example/VDateTimePickerDemo.vue").then((m) => m.default),
-      source: "",
-      category: "",
-      subcategory: ""
-    },
-    "VRangePickerWithSlot": {
-      name: "VRangePickerWithSlot",
-      description: "",
-      type: "registry:example",
-      registryDependencies: ["utils","button","popover","v-calendar"],
-      files: [{
-        path: "registry/default/example/VRangePickerWithSlot.vue",
-        type: "registry:example",
-        target: ""
-      }],
-      component: () => import("@/registry/default/example/VRangePickerWithSlot.vue").then((m) => m.default),
-      source: "",
-      category: "",
-      subcategory: ""
-    },
     "Authentication01": {
       name: "Authentication01",
       description: "",
@@ -19595,25 +19223,6 @@ export const Index: Record<string, any> = {
         target: ""
       }],
       component: () => import("@/registry/default/ui/tooltip/Tooltip.vue").then((m) => m.default),
-      source: "",
-      category: "",
-      subcategory: ""
-    },
-    "v-calendar": {
-      name: "v-calendar",
-      description: "",
-      type: "registry:ui",
-      registryDependencies: ["utils","button"],
-      files: [{
-        path: "registry/default/ui/v-calendar/Calendar.vue",
-        type: "registry:ui",
-        target: ""
-      },{
-        path: "registry/default/ui/v-calendar/index.ts",
-        type: "registry:ui",
-        target: ""
-      }],
-      component: () => import("@/registry/default/ui/v-calendar/Calendar.vue").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -22509,111 +22118,6 @@ export const Index: Record<string, any> = {
         target: ""
       }],
       component: () => import("@/registry/default/example/TypographyTable.vue").then((m) => m.default),
-      source: "",
-      category: "",
-      subcategory: ""
-    },
-    "VCalendarDemo": {
-      name: "VCalendarDemo",
-      description: "",
-      type: "registry:example",
-      registryDependencies: ["v-calendar"],
-      files: [{
-        path: "registry/default/example/VCalendarDemo.vue",
-        type: "registry:example",
-        target: ""
-      }],
-      component: () => import("@/registry/default/example/VCalendarDemo.vue").then((m) => m.default),
-      source: "",
-      category: "",
-      subcategory: ""
-    },
-    "VDatePickerDemo": {
-      name: "VDatePickerDemo",
-      description: "",
-      type: "registry:example",
-      registryDependencies: ["utils","button","popover","v-calendar"],
-      files: [{
-        path: "registry/default/example/VDatePickerDemo.vue",
-        type: "registry:example",
-        target: ""
-      }],
-      component: () => import("@/registry/default/example/VDatePickerDemo.vue").then((m) => m.default),
-      source: "",
-      category: "",
-      subcategory: ""
-    },
-    "VDatePickerForm": {
-      name: "VDatePickerForm",
-      description: "",
-      type: "registry:example",
-      registryDependencies: ["utils","button","form","popover","toast","v-calendar"],
-      files: [{
-        path: "registry/default/example/VDatePickerForm.vue",
-        type: "registry:example",
-        target: ""
-      }],
-      component: () => import("@/registry/default/example/VDatePickerForm.vue").then((m) => m.default),
-      source: "",
-      category: "",
-      subcategory: ""
-    },
-    "VDatePickerWithPresets": {
-      name: "VDatePickerWithPresets",
-      description: "",
-      type: "registry:example",
-      registryDependencies: ["utils","button","popover","select","v-calendar"],
-      files: [{
-        path: "registry/default/example/VDatePickerWithPresets.vue",
-        type: "registry:example",
-        target: ""
-      }],
-      component: () => import("@/registry/default/example/VDatePickerWithPresets.vue").then((m) => m.default),
-      source: "",
-      category: "",
-      subcategory: ""
-    },
-    "VDatePickerWithRange": {
-      name: "VDatePickerWithRange",
-      description: "",
-      type: "registry:example",
-      registryDependencies: ["utils","button","popover","v-calendar"],
-      files: [{
-        path: "registry/default/example/VDatePickerWithRange.vue",
-        type: "registry:example",
-        target: ""
-      }],
-      component: () => import("@/registry/default/example/VDatePickerWithRange.vue").then((m) => m.default),
-      source: "",
-      category: "",
-      subcategory: ""
-    },
-    "VDateTimePickerDemo": {
-      name: "VDateTimePickerDemo",
-      description: "",
-      type: "registry:example",
-      registryDependencies: ["utils","button","popover","v-calendar"],
-      files: [{
-        path: "registry/default/example/VDateTimePickerDemo.vue",
-        type: "registry:example",
-        target: ""
-      }],
-      component: () => import("@/registry/default/example/VDateTimePickerDemo.vue").then((m) => m.default),
-      source: "",
-      category: "",
-      subcategory: ""
-    },
-    "VRangePickerWithSlot": {
-      name: "VRangePickerWithSlot",
-      description: "",
-      type: "registry:example",
-      registryDependencies: ["utils","button","popover","v-calendar"],
-      files: [{
-        path: "registry/default/example/VRangePickerWithSlot.vue",
-        type: "registry:example",
-        target: ""
-      }],
-      component: () => import("@/registry/default/example/VRangePickerWithSlot.vue").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""

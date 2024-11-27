@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import { Button } from '@/registry/new-york/ui/button'
-import { ChevronRightIcon } from '@radix-icons/vue'
+import { ChevronRight } from 'lucide-vue-next'
 </script>
 
 <template>
   <Button variant="outline" size="icon">
-    <ChevronRightIcon class="w-4 h-4" />
+    <ChevronRight class="w-4 h-4" />
   </Button>
 </template>
