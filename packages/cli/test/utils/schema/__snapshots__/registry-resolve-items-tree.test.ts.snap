@@ -14,6 +14,7 @@ exports[`registryResolveItemTree > should resolve index 1`] = `
     "lucide-vue-next",
     "clsx",
     "tailwind-merge",
+    "reka-ui",
   ],
   "devDependencies": [],
   "docs": "",
@@ -69,14 +70,14 @@ const delegatedProps = computed(() => {
 </template>
 ",
       "path": "ui/label/Label.vue",
-      "target": "label/Label.vue",
+      "target": "",
       "type": "registry:ui",
     },
     {
       "content": "export { default as Label } from './Label.vue'
 ",
       "path": "ui/label/index.ts",
-      "target": "label/index.ts",
+      "target": "",
       "type": "registry:ui",
     },
   ],
@@ -104,6 +105,7 @@ exports[`registryResolveItemTree > should resolve items tree 1`] = `
 {
   "cssVars": {},
   "dependencies": [
+    "reka-ui",
     "clsx",
     "tailwind-merge",
   ],
@@ -139,7 +141,7 @@ const props = withDefaults(defineProps<Props>(), {
 </template>
 ",
       "path": "ui/button/Button.vue",
-      "target": "button/Button.vue",
+      "target": "",
       "type": "registry:ui",
     },
     {
@@ -180,7 +182,7 @@ export const buttonVariants = cva(
 export type ButtonVariants = VariantProps<typeof buttonVariants>
 ",
       "path": "ui/button/index.ts",
-      "target": "button/index.ts",
+      "target": "",
       "type": "registry:ui",
     },
     {
@@ -213,9 +215,12 @@ exports[`registryResolveItemTree > should resolve multiple items tree 1`] = `
 {
   "cssVars": {},
   "dependencies": [
+    "reka-ui",
     "clsx",
     "tailwind-merge",
     "@vueuse/core",
+    "reka-ui",
+    "reka-ui",
   ],
   "devDependencies": [],
   "docs": "",
@@ -249,7 +254,7 @@ const props = withDefaults(defineProps<Props>(), {
 </template>
 ",
       "path": "ui/button/Button.vue",
-      "target": "button/Button.vue",
+      "target": "",
       "type": "registry:ui",
     },
     {
@@ -290,7 +295,7 @@ export const buttonVariants = cva(
 export type ButtonVariants = VariantProps<typeof buttonVariants>
 ",
       "path": "ui/button/index.ts",
-      "target": "button/index.ts",
+      "target": "",
       "type": "registry:ui",
     },
     {
@@ -341,14 +346,14 @@ const modelValue = useVModel(props, 'modelValue', emits, {
 </template>
 ",
       "path": "ui/input/Input.vue",
-      "target": "input/Input.vue",
+      "target": "",
       "type": "registry:ui",
     },
     {
       "content": "export { default as Input } from './Input.vue'
 ",
       "path": "ui/input/index.ts",
-      "target": "input/index.ts",
+      "target": "",
       "type": "registry:ui",
     },
     {
@@ -384,7 +389,7 @@ const forwarded = useForwardPropsEmits(delegatedProps, emits)
 </template>
 ",
       "path": "ui/command/Command.vue",
-      "target": "command/Command.vue",
+      "target": "",
       "type": "registry:ui",
     },
     {
@@ -411,7 +416,7 @@ const forwarded = useForwardPropsEmits(props, emits)
 </template>
 ",
       "path": "ui/command/CommandDialog.vue",
-      "target": "command/CommandDialog.vue",
+      "target": "",
       "type": "registry:ui",
     },
     {
@@ -437,7 +442,7 @@ const delegatedProps = computed(() => {
 </template>
 ",
       "path": "ui/command/CommandEmpty.vue",
-      "target": "command/CommandEmpty.vue",
+      "target": "",
       "type": "registry:ui",
     },
     {
@@ -472,7 +477,7 @@ const delegatedProps = computed(() => {
 </template>
 ",
       "path": "ui/command/CommandGroup.vue",
-      "target": "command/CommandGroup.vue",
+      "target": "",
       "type": "registry:ui",
     },
     {
@@ -511,7 +516,7 @@ const forwardedProps = useForwardProps(delegatedProps)
 </template>
 ",
       "path": "ui/command/CommandInput.vue",
-      "target": "command/CommandInput.vue",
+      "target": "",
       "type": "registry:ui",
     },
     {
@@ -543,7 +548,7 @@ const forwarded = useForwardPropsEmits(delegatedProps, emits)
 </template>
 ",
       "path": "ui/command/CommandItem.vue",
-      "target": "command/CommandItem.vue",
+      "target": "",
       "type": "registry:ui",
     },
     {
@@ -576,7 +581,7 @@ const forwarded = useForwardPropsEmits(delegatedProps, emits)
 </template>
 ",
       "path": "ui/command/CommandList.vue",
-      "target": "command/CommandList.vue",
+      "target": "",
       "type": "registry:ui",
     },
     {
@@ -605,7 +610,7 @@ const delegatedProps = computed(() => {
 </template>
 ",
       "path": "ui/command/CommandSeparator.vue",
-      "target": "command/CommandSeparator.vue",
+      "target": "",
       "type": "registry:ui",
     },
     {
@@ -625,7 +630,7 @@ const props = defineProps<{
 </template>
 ",
       "path": "ui/command/CommandShortcut.vue",
-      "target": "command/CommandShortcut.vue",
+      "target": "",
       "type": "registry:ui",
     },
     {
@@ -640,7 +645,7 @@ export { default as CommandSeparator } from './CommandSeparator.vue'
 export { default as CommandShortcut } from './CommandShortcut.vue'
 ",
       "path": "ui/command/index.ts",
-      "target": "command/index.ts",
+      "target": "",
       "type": "registry:ui",
     },
     {
@@ -660,7 +665,7 @@ const forwarded = useForwardPropsEmits(props, emits)
 </template>
 ",
       "path": "ui/dialog/Dialog.vue",
-      "target": "dialog/Dialog.vue",
+      "target": "",
       "type": "registry:ui",
     },
     {
@@ -677,7 +682,7 @@ const props = defineProps<DialogCloseProps>()
 </template>
 ",
       "path": "ui/dialog/DialogClose.vue",
-      "target": "dialog/DialogClose.vue",
+      "target": "",
       "type": "registry:ui",
     },
     {
@@ -733,7 +738,7 @@ const forwarded = useForwardPropsEmits(delegatedProps, emits)
 </template>
 ",
       "path": "ui/dialog/DialogContent.vue",
-      "target": "dialog/DialogContent.vue",
+      "target": "",
       "type": "registry:ui",
     },
     {
@@ -763,7 +768,7 @@ const forwardedProps = useForwardProps(delegatedProps)
 </template>
 ",
       "path": "ui/dialog/DialogDescription.vue",
-      "target": "dialog/DialogDescription.vue",
+      "target": "",
       "type": "registry:ui",
     },
     {
@@ -788,7 +793,7 @@ const props = defineProps<{ class?: HTMLAttributes['class'] }>()
 </template>
 ",
       "path": "ui/dialog/DialogFooter.vue",
-      "target": "dialog/DialogFooter.vue",
+      "target": "",
       "type": "registry:ui",
     },
     {
@@ -810,7 +815,7 @@ const props = defineProps<{
 </template>
 ",
       "path": "ui/dialog/DialogHeader.vue",
-      "target": "dialog/DialogHeader.vue",
+      "target": "",
       "type": "registry:ui",
     },
     {
@@ -875,7 +880,7 @@ const forwarded = useForwardPropsEmits(delegatedProps, emits)
 </template>
 ",
       "path": "ui/dialog/DialogScrollContent.vue",
-      "target": "dialog/DialogScrollContent.vue",
+      "target": "",
       "type": "registry:ui",
     },
     {
@@ -910,7 +915,7 @@ const forwardedProps = useForwardProps(delegatedProps)
 </template>
 ",
       "path": "ui/dialog/DialogTitle.vue",
-      "target": "dialog/DialogTitle.vue",
+      "target": "",
       "type": "registry:ui",
     },
     {
@@ -927,7 +932,7 @@ const props = defineProps<DialogTriggerProps>()
 </template>
 ",
       "path": "ui/dialog/DialogTrigger.vue",
-      "target": "dialog/DialogTrigger.vue",
+      "target": "",
       "type": "registry:ui",
     },
     {
@@ -942,7 +947,7 @@ export { default as DialogTitle } from './DialogTitle.vue'
 export { default as DialogTrigger } from './DialogTrigger.vue'
 ",
       "path": "ui/dialog/index.ts",
-      "target": "dialog/index.ts",
+      "target": "",
       "type": "registry:ui",
     },
   ],
