@@ -41,7 +41,7 @@ import { ChevronDown, Slash } from 'lucide-vue-next'
         </DropdownMenu>
       </BreadcrumbItem>
       <BreadcrumbSeparator>
-        <SlashIcon />
+        <Slash />
       </BreadcrumbSeparator>
       <BreadcrumbItem>
         <BreadcrumbPage>Breadcrumb</BreadcrumbPage>

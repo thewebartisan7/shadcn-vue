@@ -7,12 +7,6 @@ primitive: https://www.reka-ui.com/docs/components/calendar.html
 
 <ComponentPreview name="DatePickerDemo" />
 
-<Callout class="text-base mt-12">
-
-If you're looking for **previous** Date Picker implementation, checkout to <span class="font-bold underline">[VCalendar Datepicker](/docs/components/v-date-picker)</span> component
-
-</Callout>
-
 ## Installation
 
 The Date Picker is built using a composition of the `<Popover />` and either the `<Calendar />` or `<RangeCalendar />` components.
