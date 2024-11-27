@@ -83,6 +83,11 @@ export async function updateFiles(
     // Check for existing folder in UI component only
     if (file.type === 'registry:ui') {
       const folderName = basename(dirname(filePath))
+      const existingFolder = existsSync(dirname(filePath))
+
+      if (!existingFolder) {
+        folderSkipped.set(folderName, false)
+      }
 
       if (!folderSkipped.has(folderName)) {
         filesCreatedSpinner.stop()

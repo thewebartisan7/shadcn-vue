@@ -41,4 +41,34 @@ describe('transformIcons', () => {
     })
     expect(result).toMatchSnapshot()
   })
+
+  it('does nothing', async () => {
+    const result = await transform({
+      filename: 'app.vue',
+      raw: `<script lang="ts" setup>
+      import { Check } from 'lucide-vue-next'
+      import { Primitive } from 'reka-ui'
+      </script>
+
+      <template>
+        <Check />
+        <Primitive />
+      </template>
+      `,
+      config: {
+        style: 'new-york',
+        tailwind: {
+          config: 'tailwind.config.js',
+          css: 'src/assets/index.css',
+          baseColor: 'zinc',
+          cssVariables: true,
+        },
+        aliases: {
+          utils: '@/utils',
+          components: '@/components',
+        },
+      },
+    })
+    expect(result).toMatchSnapshot()
+  })
 })

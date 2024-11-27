@@ -86,6 +86,7 @@ function constructFiles(componentName: string, style: RegistryStyle, sources: Re
       utils: '@/utils',
       components: '@/components',
     },
+    iconLibrary: 'lucide',
   }
 
   const dependencies = {
@@ -97,7 +98,7 @@ function constructFiles(componentName: string, style: RegistryStyle, sources: Re
     'tailwind-merge': 'latest',
     'tailwindcss-animate': 'latest',
     'lucide-vue-next': 'latest',
-    'shadcn-vue': 'latest',
+    'shadcn-vue': 'next',
     'typescript': 'latest',
     'vaul-vue': 'latest',
     'vue-sonner': 'latest',
