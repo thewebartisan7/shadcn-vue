@@ -21,7 +21,7 @@ export function makeStackblitzParams(componentName: string, style: RegistryStyle
   Object.entries(constructFiles(componentName, style, sources)).forEach(([k, v]) => (files[`${k}`] = typeof v.content === 'object' ? JSON.stringify(v.content, null, 2) : v.content))
 
   return sdk.openProject({
-    title: `${componentName} - Radix Vue`,
+    title: `${componentName} - Reka UI`,
     files,
     template: 'node',
   }, {
@@ -88,7 +88,6 @@ function constructFiles(componentName: string, style: RegistryStyle, sources: Re
     },
   }
 
-  const iconPackage = style === 'default' ? 'lucide-vue-next' : '@radix-icons/vue'
   const dependencies = {
     'vue': 'latest',
     'reka-ui': 'latest',
@@ -97,7 +96,7 @@ function constructFiles(componentName: string, style: RegistryStyle, sources: Re
     'class-variance-authority': 'latest',
     'tailwind-merge': 'latest',
     'tailwindcss-animate': 'latest',
-    [iconPackage]: 'latest',
+    'lucide-vue-next': 'latest',
     'shadcn-vue': 'latest',
     'typescript': 'latest',
     'vaul-vue': 'latest',
