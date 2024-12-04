@@ -1,13 +1,13 @@
 import type { initOptionsSchema } from '@/src/commands/init'
 import type { z } from 'zod'
-import path from 'node:path'
-import { getPackageManager } from '@/src/utils/get-package-manager'
 import { highlighter } from '@/src/utils/highlighter'
 import { logger } from '@/src/utils/logger'
 import { spinner } from '@/src/utils/spinner'
-import { execa } from 'execa'
 import fs from 'fs-extra'
+import { detectPackageManager } from 'nypm'
+import path from 'pathe'
 import prompts from 'prompts'
+import { x } from 'tinyexec'
 
 export async function createProject(options: Pick<z.infer<typeof initOptionsSchema>, 'cwd' | 'force' | 'srcDir'>) {
   options = {
@@ -35,9 +35,7 @@ export async function createProject(options: Pick<z.infer<typeof initOptionsSche
     }
   }
 
-  const packageManager = await getPackageManager(options.cwd, {
-    withFallback: true,
-  })
+  const packageManager = detectPackageManager(options.cwd)
 
   const { name } = await prompts({
     type: 'text',
@@ -93,11 +91,13 @@ export async function createProject(options: Pick<z.infer<typeof initOptionsSche
   ]
 
   try {
-    await execa(
+    await x(
       'npx',
       ['create-next-app@14.2.16', projectPath, '--silent', ...args],
       {
-        cwd: options.cwd,
+        nodeOptions: {
+          cwd: options.cwd,
+        },
       },
     )
   }

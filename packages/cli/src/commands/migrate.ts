@@ -1,10 +1,10 @@
-import path from 'node:path'
 import { migrateIcons } from '@/src/migrations/migrate-icons'
 import { preFlightMigrate } from '@/src/preflights/preflight-migrate'
 import * as ERRORS from '@/src/utils/errors'
 import { handleError } from '@/src/utils/handle-error'
 import { Command } from 'commander'
 import consola from 'consola'
+import path from 'pathe'
 import { z } from 'zod'
 
 export const migrations = [

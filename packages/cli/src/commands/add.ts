@@ -1,4 +1,3 @@
-import path from 'node:path'
 import { runInit } from '@/src/commands/init'
 import { preFlightAdd } from '@/src/preflights/preflight-add'
 import { addComponents } from '@/src/utils/add-components'
@@ -8,6 +7,7 @@ import { highlighter } from '@/src/utils/highlighter'
 import { logger } from '@/src/utils/logger'
 import { getRegistryIndex } from '@/src/utils/registry'
 import { Command } from 'commander'
+import path from 'pathe'
 import prompts from 'prompts'
 import { z } from 'zod'
 

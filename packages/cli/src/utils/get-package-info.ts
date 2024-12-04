@@ -1,6 +1,6 @@
 import type { PackageJson } from 'type-fest'
-import path from 'node:path'
 import fs from 'fs-extra'
+import path from 'pathe'
 
 export function getPackageInfo(
   cwd: string = '',

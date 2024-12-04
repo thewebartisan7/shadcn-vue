@@ -1,12 +1,12 @@
 import type { initOptionsSchema } from '@/src/commands/init'
 import type { z } from 'zod'
-import path from 'node:path'
 import * as ERRORS from '@/src/utils/errors'
 import { getProjectInfo, type ProjectInfo } from '@/src/utils/get-project-info'
 import { highlighter } from '@/src/utils/highlighter'
 import { logger } from '@/src/utils/logger'
 import { spinner } from '@/src/utils/spinner'
 import fs from 'fs-extra'
+import path from 'pathe'
 
 export async function preFlightInit(options: z.infer<typeof initOptionsSchema>) {
   const errors: Record<string, boolean> = {}

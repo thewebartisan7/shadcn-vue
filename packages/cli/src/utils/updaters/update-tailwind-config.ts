@@ -10,10 +10,10 @@ import type {
 import type { z } from 'zod'
 import { promises as fs } from 'node:fs'
 import { tmpdir } from 'node:os'
-import path from 'node:path'
 import { highlighter } from '@/src/utils/highlighter'
 import { spinner } from '@/src/utils/spinner'
 import deepmerge from 'deepmerge'
+import path from 'pathe'
 import objectToString from 'stringify-object'
 import {
   Project,

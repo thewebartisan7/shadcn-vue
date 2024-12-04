@@ -1,13 +1,13 @@
 import type { Config } from '@/src/utils/get-config'
 import type { ObjectLiteralExpression } from 'ts-morph'
 import { promises as fs } from 'node:fs'
-import path from 'node:path'
 import { highlighter } from '@/src/utils/highlighter'
 import { spinner } from '@/src/utils/spinner'
 import {
   _createSourceFile,
   _getQuoteChar,
 } from '@/src/utils/updaters/update-tailwind-config'
+import path from 'pathe'
 import { SyntaxKind } from 'ts-morph'
 
 export async function updateTailwindContent(

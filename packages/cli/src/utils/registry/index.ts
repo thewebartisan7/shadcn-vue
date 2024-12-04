@@ -2,7 +2,6 @@ import type { Config } from '@/src/utils/get-config'
 import type {
   registryItemFileSchema,
 } from '@/src/utils/registry/schema'
-import path from 'node:path'
 import { handleError } from '@/src/utils/handle-error'
 import { logger } from '@/src/utils/logger'
 import {
@@ -16,6 +15,7 @@ import {
 import { buildTailwindThemeColorsFromCssVars } from '@/src/utils/updaters/update-tailwind-config'
 import deepmerge from 'deepmerge'
 import { ofetch } from 'ofetch'
+import path from 'pathe'
 import { ProxyAgent } from 'undici'
 import { z } from 'zod'
 

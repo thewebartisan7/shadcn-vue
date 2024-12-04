@@ -1,5 +1,4 @@
 import { promises as fs } from 'node:fs'
-import path from 'node:path'
 import { addComponents } from '@/src/utils/add-components'
 import {
   type Config,
@@ -19,6 +18,7 @@ import { getRegistryBaseColors, getRegistryStyles } from '@/src/utils/registry'
 import { spinner } from '@/src/utils/spinner'
 import { updateTailwindContent } from '@/src/utils/updaters/update-tailwind-content'
 import { Command } from 'commander'
+import path from 'pathe'
 import prompts from 'prompts'
 import { z } from 'zod'
 

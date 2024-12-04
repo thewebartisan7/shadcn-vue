@@ -6,13 +6,13 @@ import type {
 import { FRAMEWORKS } from '@/src/utils/frameworks'
 import {
   getConfig,
+  getTSConfig,
   resolveConfigPaths,
 } from '@/src/utils/get-config'
 import { getPackageInfo } from '@/src/utils/get-package-info'
 import fg from 'fast-glob'
 import fs from 'fs-extra'
 import path from 'pathe'
-import { loadConfig } from 'tsconfig-paths'
 import { z } from 'zod'
 
 export interface ProjectInfo {
@@ -131,16 +131,13 @@ export async function getTailwindConfigFile(cwd: string) {
 }
 
 export async function getTsConfigAliasPrefix(cwd: string) {
-  const tsConfig = await loadConfig(cwd)
-  if (
-    tsConfig?.resultType === 'failed'
-    || !Object.entries(tsConfig?.paths).length
-  ) {
-    return null
-  }
+  const isTypescript = await isTypeScriptProject(cwd)
+  const tsconfigType = isTypescript ? 'tsconfig.json' : 'jsconfig.json'
+
+  const tsConfig = await getTSConfig(cwd, tsconfigType)
 
   // This assume that the first alias is the prefix.
-  for (const [alias, paths] of Object.entries(tsConfig.paths)) {
+  for (const [alias, paths] of Object.entries(tsConfig.path)) {
     if (
       paths.includes('./*')
       || paths.includes('./src/*')
@@ -154,7 +151,7 @@ export async function getTsConfigAliasPrefix(cwd: string) {
   }
 
   // Use the first alias as the prefix.
-  return Object.keys(tsConfig?.paths)?.[0].replace(/\/\*$/, '') ?? null
+  return Object.keys(tsConfig?.path)?.[0].replace(/\/\*$/, '') ?? null
 }
 
 export async function isTypeScriptProject(cwd: string) {

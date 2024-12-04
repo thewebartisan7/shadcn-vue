@@ -1,7 +1,6 @@
 import type { Config } from '@/src/utils/get-config'
 import type { registryIndexSchema } from '@/src/utils/registry/schema'
 import { existsSync, promises as fs } from 'node:fs'
-import path from 'node:path'
 import { getConfig } from '@/src/utils/get-config'
 import { handleError } from '@/src/utils/handle-error'
 import { highlighter } from '@/src/utils/highlighter'
@@ -15,6 +14,7 @@ import {
 import { transform } from '@/src/utils/transformers'
 import { Command } from 'commander'
 import { type Change, diffLines } from 'diff'
+import path from 'pathe'
 import { z } from 'zod'
 
 const updateOptionsSchema = z.object({

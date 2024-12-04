@@ -1,7 +1,6 @@
 import type { Config } from '@/src/utils/get-config'
 import type { RegistryItem } from '@/src/utils/registry/schema'
 import { existsSync, promises as fs } from 'node:fs'
-import path, { basename, dirname } from 'node:path'
 import { getProjectInfo } from '@/src/utils/get-project-info'
 import { highlighter } from '@/src/utils/highlighter'
 import { logger } from '@/src/utils/logger'
@@ -11,6 +10,7 @@ import {
 } from '@/src/utils/registry'
 import { spinner } from '@/src/utils/spinner'
 import { transform } from '@/src/utils/transformers'
+import path, { basename, dirname } from 'pathe'
 // import { transformIcons } from '@/src/utils/transformers/transform-icons'
 import prompts from 'prompts'
 

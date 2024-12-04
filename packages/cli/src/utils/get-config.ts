@@ -1,8 +1,9 @@
 import { resolveImport } from '@/src/utils/resolve-import'
 import { loadConfig as c12LoadConfig } from 'c12'
+import { getTsconfig } from 'get-tsconfig'
 import path from 'pathe'
-import { loadConfig } from 'tsconfig-paths'
 import { z } from 'zod'
+import { highlighter } from './highlighter'
 
 export const DEFAULT_STYLE = 'default'
 export const DEFAULT_COMPONENTS = '@/components'
@@ -74,17 +75,21 @@ export async function getConfig(cwd: string) {
   return await resolveConfigPaths(cwd, config)
 }
 
-export async function resolveConfigPaths(cwd: string, config: RawConfig) {
-  // Read tsconfig.json.
-  const tsConfig = await loadConfig(cwd)
-
-  if (tsConfig.resultType === 'failed') {
+export function getTSConfig(cwd: string, tsconfigName: 'tsconfig.json' | 'jsconfig.json') {
+  const parsedConfig = getTsconfig(path.resolve(cwd, 'package.json'), tsconfigName)
+  if (parsedConfig === null) {
     throw new Error(
-      `Failed to load ${config.typescript ? 'tsconfig' : 'jsconfig'}.json. ${
-        tsConfig.message ?? ''
-      }`.trim(),
+      `Failed to find ${highlighter.info(tsconfigName)}`,
     )
   }
+
+  return parsedConfig
+}
+
+export async function resolveConfigPaths(cwd: string, config: RawConfig) {
+  // Read tsconfig.json.
+  const tsconfigType = config.typescript ? 'tsconfig.json' : 'jsconfig.json'
+  const tsConfig = getTSConfig(cwd, tsconfigType)
 
   return configSchema.parse({
     ...config,
@@ -125,7 +130,7 @@ export async function getRawConfig(cwd: string): Promise<RawConfig | null> {
   try {
     const configResult = await c12LoadConfig({
       name: 'components',
-      configFile: 'components.json',
+      configFile: 'components',
       cwd,
     })
 
