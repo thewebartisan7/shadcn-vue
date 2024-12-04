@@ -1,8 +1,8 @@
-import { cyan, green, red, yellow } from 'kleur/colors'
+import { colors } from 'consola/utils'
 
 export const highlighter = {
-  error: red,
-  warn: yellow,
-  info: cyan,
-  success: green,
+  error: colors.red,
+  warn: colors.yellow,
+  info: colors.cyan,
+  success: colors.green,
 }
