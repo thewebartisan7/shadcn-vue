@@ -660,7 +660,8 @@
     "name": "command",
     "type": "registry:ui",
     "dependencies": [
-      "reka-ui"
+      "reka-ui",
+      "@vueuse/core"
     ],
     "registryDependencies": [
       "utils",
@@ -2783,7 +2784,8 @@
     "name": "command",
     "type": "registry:ui",
     "dependencies": [
-      "reka-ui"
+      "reka-ui",
+      "@vueuse/core"
     ],
     "registryDependencies": [
       "utils",
