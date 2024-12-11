@@ -1047,6 +1047,78 @@
     ]
   },
   {
+    "name": "combobox",
+    "type": "registry:ui",
+    "dependencies": [
+      "reka-ui"
+    ],
+    "registryDependencies": [
+      "utils"
+    ],
+    "files": [
+      {
+        "path": "ui/combobox/Combobox.vue",
+        "content": "<script setup lang=\"ts\">\nimport { ComboboxRoot, type ComboboxRootEmits, type ComboboxRootProps, useForwardPropsEmits } from 'reka-ui'\n\nconst props = defineProps<ComboboxRootProps>()\nconst emits = defineEmits<ComboboxRootEmits>()\n\nconst forwarded = useForwardPropsEmits(props, emits)\n</script>\n\n<template>\n  <ComboboxRoot v-bind=\"forwarded\">\n    <slot />\n  </ComboboxRoot>\n</template>\n",
+        "type": "registry:ui",
+        "target": ""
+      },
+      {
+        "path": "ui/combobox/ComboboxAnchor.vue",
+        "content": "<script setup lang=\"ts\">\nimport type { ComboboxAnchorProps } from 'reka-ui'\nimport { cn } from '@/lib/utils'\nimport { ComboboxAnchor, useForwardProps } from 'reka-ui'\nimport { computed, type HTMLAttributes } from 'vue'\n\nconst props = defineProps<ComboboxAnchorProps & { class?: HTMLAttributes['class'] }>()\n\nconst delegatedProps = computed(() => {\n  const { class: _, ...delegated } = props\n\n  return delegated\n})\n\nconst forwarded = useForwardProps(delegatedProps)\n</script>\n\n<template>\n  <ComboboxAnchor\n    v-bind=\"forwarded\"\n    :class=\"cn('w-[200px]', props.class)\"\n  >\n    <slot />\n  </ComboboxAnchor>\n</template>\n",
+        "type": "registry:ui",
+        "target": ""
+      },
+      {
+        "path": "ui/combobox/ComboboxEmpty.vue",
+        "content": "<script setup lang=\"ts\">\nimport type { ComboboxEmptyProps } from 'reka-ui'\nimport { cn } from '@/lib/utils'\nimport { ComboboxEmpty } from 'reka-ui'\nimport { computed, type HTMLAttributes } from 'vue'\n\nconst props = defineProps<ComboboxEmptyProps & { class?: HTMLAttributes['class'] }>()\n\nconst delegatedProps = computed(() => {\n  const { class: _, ...delegated } = props\n\n  return delegated\n})\n</script>\n\n<template>\n  <ComboboxEmpty v-bind=\"delegatedProps\" :class=\"cn('py-6 text-center text-sm', props.class)\">\n    <slot />\n  </ComboboxEmpty>\n</template>\n",
+        "type": "registry:ui",
+        "target": ""
+      },
+      {
+        "path": "ui/combobox/ComboboxGroup.vue",
+        "content": "<script setup lang=\"ts\">\nimport type { ComboboxGroupProps } from 'reka-ui'\nimport { cn } from '@/lib/utils'\nimport { ComboboxGroup, ComboboxLabel } from 'reka-ui'\nimport { computed, type HTMLAttributes } from 'vue'\n\nconst props = defineProps<ComboboxGroupProps & {\n  class?: HTMLAttributes['class']\n  heading?: string\n}>()\n\nconst delegatedProps = computed(() => {\n  const { class: _, ...delegated } = props\n\n  return delegated\n})\n</script>\n\n<template>\n  <ComboboxGroup\n    v-bind=\"delegatedProps\"\n    :class=\"cn('overflow-hidden p-1 text-foreground [&_[cmdk-group-heading]]:px-2 [&_[cmdk-group-heading]]:py-1.5 [&_[cmdk-group-heading]]:text-xs [&_[cmdk-group-heading]]:font-medium [&_[cmdk-group-heading]]:text-muted-foreground', props.class)\"\n  >\n    <ComboboxLabel v-if=\"heading\" class=\"px-2 py-1.5 text-xs font-medium text-muted-foreground\">\n      {{ heading }}\n    </ComboboxLabel>\n    <slot />\n  </ComboboxGroup>\n</template>\n",
+        "type": "registry:ui",
+        "target": ""
+      },
+      {
+        "path": "ui/combobox/ComboboxInput.vue",
+        "content": "<script setup lang=\"ts\">\nimport { cn } from '@/lib/utils'\nimport { ComboboxInput, type ComboboxInputProps, useForwardProps } from 'reka-ui'\nimport { computed, type HTMLAttributes } from 'vue'\n\nconst props = defineProps<ComboboxInputProps & {\n  class?: HTMLAttributes['class']\n}>()\n\nconst delegatedProps = computed(() => {\n  const { class: _, ...delegated } = props\n\n  return delegated\n})\n\nconst forwardedProps = useForwardProps(delegatedProps)\n</script>\n\n<template>\n  <ComboboxInput\n    v-bind=\"forwardedProps\"\n    :class=\"cn('flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-sm shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50', props.class)\"\n  >\n    <slot />\n  </ComboboxInput>\n</template>\n",
+        "type": "registry:ui",
+        "target": ""
+      },
+      {
+        "path": "ui/combobox/ComboboxItem.vue",
+        "content": "<script setup lang=\"ts\">\nimport type { ComboboxItemEmits, ComboboxItemProps } from 'reka-ui'\nimport { cn } from '@/lib/utils'\nimport { ComboboxItem, useForwardPropsEmits } from 'reka-ui'\nimport { computed, type HTMLAttributes } from 'vue'\n\nconst props = defineProps<ComboboxItemProps & { class?: HTMLAttributes['class'] }>()\nconst emits = defineEmits<ComboboxItemEmits>()\n\nconst delegatedProps = computed(() => {\n  const { class: _, ...delegated } = props\n\n  return delegated\n})\n\nconst forwarded = useForwardPropsEmits(delegatedProps, emits)\n</script>\n\n<template>\n  <ComboboxItem\n    v-bind=\"forwarded\"\n    :class=\"cn('relative flex cursor-default gap-2 select-none justify-between items-center rounded-sm px-2 py-1.5 text-sm outline-none data-[highlighted]:bg-accent data-[highlighted]:text-accent-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50 [&_svg]:size-4 [&_svg]:shrink-0', props.class)\"\n  >\n    <slot />\n  </ComboboxItem>\n</template>\n",
+        "type": "registry:ui",
+        "target": ""
+      },
+      {
+        "path": "ui/combobox/ComboboxList.vue",
+        "content": "<script setup lang=\"ts\">\nimport type { ComboboxContentEmits, ComboboxContentProps } from 'reka-ui'\nimport { cn } from '@/lib/utils'\nimport { ComboboxContent, ComboboxPortal, ComboboxViewport, useForwardPropsEmits } from 'reka-ui'\nimport { computed, type HTMLAttributes } from 'vue'\n\nconst props = withDefaults(defineProps<ComboboxContentProps & { class?: HTMLAttributes['class'] }>(), {\n  position: 'popper',\n  align: 'center',\n  sideOffset: 4,\n})\nconst emits = defineEmits<ComboboxContentEmits>()\n\nconst delegatedProps = computed(() => {\n  const { class: _, ...delegated } = props\n\n  return delegated\n})\n\nconst forwarded = useForwardPropsEmits(delegatedProps, emits)\n</script>\n\n<template>\n  <ComboboxPortal>\n    <ComboboxContent\n      v-bind=\"forwarded\"\n      :class=\"cn('z-50 w-[200px] rounded-md border bg-popover text-popover-foreground shadow-md outline-none data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2', props.class)\"\n    >\n      <ComboboxViewport>\n        <slot />\n      </ComboboxViewport>\n    </ComboboxContent>\n  </ComboboxPortal>\n</template>\n",
+        "type": "registry:ui",
+        "target": ""
+      },
+      {
+        "path": "ui/combobox/ComboboxSeparator.vue",
+        "content": "<script setup lang=\"ts\">\nimport type { ComboboxSeparatorProps } from 'reka-ui'\nimport { cn } from '@/lib/utils'\nimport { ComboboxSeparator } from 'reka-ui'\nimport { computed, type HTMLAttributes } from 'vue'\n\nconst props = defineProps<ComboboxSeparatorProps & { class?: HTMLAttributes['class'] }>()\n\nconst delegatedProps = computed(() => {\n  const { class: _, ...delegated } = props\n\n  return delegated\n})\n</script>\n\n<template>\n  <ComboboxSeparator\n    v-bind=\"delegatedProps\"\n    :class=\"cn('-mx-1 h-px bg-border', props.class)\"\n  >\n    <slot />\n  </ComboboxSeparator>\n</template>\n",
+        "type": "registry:ui",
+        "target": ""
+      },
+      {
+        "path": "ui/combobox/ComboboxTrigger.vue",
+        "content": "<script setup lang=\"ts\">\nimport type { ComboboxTriggerProps } from 'reka-ui'\nimport { cn } from '@/lib/utils'\nimport { ComboboxTrigger, useForwardProps } from 'reka-ui'\nimport { computed, type HTMLAttributes } from 'vue'\n\nconst props = defineProps<ComboboxTriggerProps & { class?: HTMLAttributes['class'] }>()\n\nconst delegatedProps = computed(() => {\n  const { class: _, ...delegated } = props\n\n  return delegated\n})\n\nconst forwarded = useForwardProps(delegatedProps)\n</script>\n\n<template>\n  <ComboboxTrigger\n    v-bind=\"forwarded\"\n    :class=\"cn('', props.class)\"\n    tabindex=\"0\"\n  >\n    <slot />\n  </ComboboxTrigger>\n</template>\n",
+        "type": "registry:ui",
+        "target": ""
+      },
+      {
+        "path": "ui/combobox/index.ts",
+        "content": "export { default as Combobox } from './Combobox.vue'\nexport { default as ComboboxAnchor } from './ComboboxAnchor.vue'\nexport { default as ComboboxEmpty } from './ComboboxEmpty.vue'\nexport { default as ComboboxGroup } from './ComboboxGroup.vue'\nexport { default as ComboboxInput } from './ComboboxInput.vue'\nexport { default as ComboboxItem } from './ComboboxItem.vue'\nexport { default as ComboboxList } from './ComboboxList.vue'\nexport { default as ComboboxSeparator } from './ComboboxSeparator.vue'\n\nexport { ComboboxCancel, ComboboxItemIndicator, ComboboxTrigger } from 'reka-ui'\n",
+        "type": "registry:ui",
+        "target": ""
+      }
+    ]
+  },
+  {
     "name": "command",
     "type": "registry:ui",
     "dependencies": [
@@ -4108,14 +4180,12 @@
     "dependencies": [],
     "registryDependencies": [
       "utils",
-      "button",
-      "command",
-      "popover"
+      "combobox"
     ],
     "files": [
       {
         "path": "example/ComboboxDemo.vue",
-        "content": "<script setup lang=\"ts\">\nimport { cn } from '@/lib/utils'\nimport { Button } from '@/registry/new-york/ui/button'\n\nimport {\n  Command,\n  CommandEmpty,\n  CommandGroup,\n  CommandInput,\n  CommandItem,\n  CommandList,\n} from '@/registry/new-york/ui/command'\nimport {\n  Popover,\n  PopoverContent,\n  PopoverTrigger,\n} from '@/registry/new-york/ui/popover'\nimport { Check, ChevronsUpDown } from 'lucide-vue-next'\nimport { ref } from 'vue'\n\nconst frameworks = [\n  { value: 'next.js', label: 'Next.js' },\n  { value: 'sveltekit', label: 'SvelteKit' },\n  { value: 'nuxt', label: 'Nuxt' },\n  { value: 'remix', label: 'Remix' },\n  { value: 'astro', label: 'Astro' },\n]\n\nconst open = ref(false)\nconst value = ref('')\n</script>\n\n<template>\n  <Popover v-model:open=\"open\">\n    <PopoverTrigger as-child>\n      <Button\n        variant=\"outline\"\n        role=\"combobox\"\n        :aria-expanded=\"open\"\n        class=\"w-[200px] justify-between\"\n      >\n        {{ value\n          ? frameworks.find((framework) => framework.value === value)?.label\n          : \"Select framework...\" }}\n        <ChevronsUpDown class=\"ml-2 h-4 w-4 shrink-0 opacity-50\" />\n      </Button>\n    </PopoverTrigger>\n    <PopoverContent class=\"w-[200px] p-0\">\n      <Command>\n        <CommandInput class=\"h-9\" placeholder=\"Search framework...\" />\n        <CommandEmpty>No framework found.</CommandEmpty>\n        <CommandList>\n          <CommandGroup>\n            <CommandItem\n              v-for=\"framework in frameworks\"\n              :key=\"framework.value\"\n              :value=\"framework.value\"\n              @select=\"(ev) => {\n                if (typeof ev.detail.value === 'string') {\n                  value = ev.detail.value\n                }\n                open = false\n              }\"\n            >\n              {{ framework.label }}\n              <Check\n                :class=\"cn(\n                  'ml-auto h-4 w-4',\n                  value === framework.value ? 'opacity-100' : 'opacity-0',\n                )\"\n              />\n            </CommandItem>\n          </CommandGroup>\n        </CommandList>\n      </Command>\n    </PopoverContent>\n  </Popover>\n</template>\n",
+        "content": "<script setup lang=\"ts\">\nimport { cn } from '@/lib/utils'\nimport { Combobox, ComboboxAnchor, ComboboxEmpty, ComboboxGroup, ComboboxInput, ComboboxItem, ComboboxItemIndicator, ComboboxList } from '@/registry/new-york/ui/combobox'\nimport { Check, Search } from 'lucide-vue-next'\n\nconst frameworks = [\n  { value: 'next.js', label: 'Next.js' },\n  { value: 'sveltekit', label: 'SvelteKit' },\n  { value: 'nuxt', label: 'Nuxt' },\n  { value: 'remix', label: 'Remix' },\n  { value: 'astro', label: 'Astro' },\n]\n</script>\n\n<template>\n  <Combobox by=\"label\">\n    <ComboboxAnchor>\n      <div class=\"relative w-full max-w-sm items-center\">\n        <ComboboxInput class=\"pl-9\" :display-value=\"(val) => val?.label ?? ''\" placeholder=\"Select framework...\" />\n        <span class=\"absolute start-0 inset-y-0 flex items-center justify-center px-3\">\n          <Search class=\"size-4 text-muted-foreground\" />\n        </span>\n      </div>\n    </ComboboxAnchor>\n\n    <ComboboxList>\n      <ComboboxEmpty>\n        No framework found.\n      </ComboboxEmpty>\n\n      <ComboboxGroup>\n        <ComboboxItem\n          v-for=\"framework in frameworks\"\n          :key=\"framework.value\"\n          :value=\"framework\"\n        >\n          {{ framework.label }}\n\n          <ComboboxItemIndicator>\n            <Check :class=\"cn('ml-auto h-4 w-4')\" />\n          </ComboboxItemIndicator>\n        </ComboboxItem>\n      </ComboboxGroup>\n    </ComboboxList>\n  </Combobox>\n</template>\n",
         "type": "registry:example",
         "target": ""
       }
@@ -4150,15 +4220,14 @@
     "registryDependencies": [
       "utils",
       "button",
-      "command",
+      "combobox",
       "form",
-      "popover",
       "toast"
     ],
     "files": [
       {
         "path": "example/ComboboxForm.vue",
-        "content": "<script setup lang=\"ts\">\nimport { cn } from '@/lib/utils'\nimport { Button } from '@/registry/new-york/ui/button'\nimport {\n  Command,\n  CommandEmpty,\n  CommandGroup,\n  CommandInput,\n  CommandItem,\n  CommandList,\n} from '@/registry/new-york/ui/command'\nimport {\n  FormControl,\n  FormDescription,\n  FormField,\n  FormItem,\n  FormLabel,\n  FormMessage,\n} from '@/registry/new-york/ui/form'\n\nimport {\n  Popover,\n  PopoverContent,\n  PopoverTrigger,\n} from '@/registry/new-york/ui/popover'\nimport { toast } from '@/registry/new-york/ui/toast'\nimport { toTypedSchema } from '@vee-validate/zod'\nimport { Check, ChevronsUpDown } from 'lucide-vue-next'\nimport { useForm } from 'vee-validate'\nimport { h } from 'vue'\nimport * as z from 'zod'\n\nconst languages = [\n  { label: 'English', value: 'en' },\n  { label: 'French', value: 'fr' },\n  { label: 'German', value: 'de' },\n  { label: 'Spanish', value: 'es' },\n  { label: 'Portuguese', value: 'pt' },\n  { label: 'Russian', value: 'ru' },\n  { label: 'Japanese', value: 'ja' },\n  { label: 'Korean', value: 'ko' },\n  { label: 'Chinese', value: 'zh' },\n] as const\n\nconst formSchema = toTypedSchema(z.object({\n  language: z.string({\n    required_error: 'Please select a language.',\n  }),\n}))\n\nconst { handleSubmit, setFieldValue, values } = useForm({\n  validationSchema: formSchema,\n  initialValues: {\n    language: '',\n  },\n})\n\nconst onSubmit = handleSubmit((values) => {\n  toast({\n    title: 'You submitted the following values:',\n    description: h('pre', { class: 'mt-2 w-[340px] rounded-md bg-slate-950 p-4' }, h('code', { class: 'text-white' }, JSON.stringify(values, null, 2))),\n  })\n})\n</script>\n\n<template>\n  <form class=\"space-y-6\" @submit=\"onSubmit\">\n    <FormField name=\"language\">\n      <FormItem class=\"flex flex-col\">\n        <FormLabel>Language</FormLabel>\n        <Popover>\n          <PopoverTrigger as-child>\n            <FormControl>\n              <Button\n                variant=\"outline\"\n                role=\"combobox\"\n                :class=\"cn('w-[200px] justify-between', !values.language && 'text-muted-foreground')\"\n              >\n                {{ values.language ? languages.find(\n                  (language) => language.value === values.language,\n                )?.label : 'Select language...' }}\n                <ChevronsUpDown class=\"ml-2 h-4 w-4 shrink-0 opacity-50\" />\n              </Button>\n            </FormControl>\n          </PopoverTrigger>\n          <PopoverContent class=\"w-[200px] p-0\">\n            <Command>\n              <CommandInput placeholder=\"Search language...\" />\n              <CommandEmpty>Nothing found.</CommandEmpty>\n              <CommandList>\n                <CommandGroup>\n                  <CommandItem\n                    v-for=\"language in languages\"\n                    :key=\"language.value\"\n                    :value=\"language.label\"\n                    @select=\"() => {\n                      setFieldValue('language', language.value)\n                    }\"\n                  >\n                    {{ language.label }}\n                    <Check\n                      :class=\"cn('ml-auto h-4 w-4', language.value === values.language ? 'opacity-100' : 'opacity-0')\"\n                    />\n                  </CommandItem>\n                </CommandGroup>\n              </CommandList>\n            </Command>\n          </PopoverContent>\n        </Popover>\n        <FormDescription>\n          This is the language that will be used in the dashboard.\n        </FormDescription>\n        <FormMessage />\n      </FormItem>\n    </FormField>\n\n    <Button type=\"submit\">\n      Submit\n    </Button>\n  </form>\n</template>\n",
+        "content": "<script setup lang=\"ts\">\nimport { cn } from '@/lib/utils'\nimport { Button } from '@/registry/new-york/ui/button'\nimport { Combobox, ComboboxAnchor, ComboboxEmpty, ComboboxGroup, ComboboxInput, ComboboxItem, ComboboxItemIndicator, ComboboxList, ComboboxTrigger } from '@/registry/new-york/ui/combobox'\n\nimport {\n  FormControl,\n  FormDescription,\n  FormField,\n  FormItem,\n  FormLabel,\n  FormMessage,\n} from '@/registry/new-york/ui/form'\n\nimport { toast } from '@/registry/new-york/ui/toast'\nimport { toTypedSchema } from '@vee-validate/zod'\nimport { Check, ChevronsUpDown } from 'lucide-vue-next'\nimport { useForm } from 'vee-validate'\nimport { h } from 'vue'\nimport * as z from 'zod'\n\nconst languages = [\n  { label: 'English', value: 'en' },\n  { label: 'French', value: 'fr' },\n  { label: 'German', value: 'de' },\n  { label: 'Spanish', value: 'es' },\n  { label: 'Portuguese', value: 'pt' },\n  { label: 'Russian', value: 'ru' },\n  { label: 'Japanese', value: 'ja' },\n  { label: 'Korean', value: 'ko' },\n  { label: 'Chinese', value: 'zh' },\n] as const\n\nconst formSchema = toTypedSchema(z.object({\n  language: z.string({\n    required_error: 'Please select a language.',\n  }),\n}))\n\nconst { handleSubmit, setFieldValue } = useForm({\n  validationSchema: formSchema,\n  initialValues: {\n    language: '',\n  },\n})\n\nconst onSubmit = handleSubmit((values) => {\n  toast({\n    title: 'You submitted the following values:',\n    description: h('pre', { class: 'mt-2 w-[340px] rounded-md bg-slate-950 p-4' }, h('code', { class: 'text-white' }, JSON.stringify(values, null, 2))),\n  })\n})\n</script>\n\n<template>\n  <form class=\"space-y-6\" @submit=\"onSubmit\">\n    <FormField name=\"language\">\n      <FormItem class=\"flex flex-col\">\n        <FormLabel>Language</FormLabel>\n\n        <Combobox by=\"label\">\n          <FormControl>\n            <ComboboxAnchor>\n              <div class=\"relative w-full max-w-sm items-center\">\n                <ComboboxInput :display-value=\"(val) => val?.label ?? ''\" placeholder=\"Select framework...\" />\n                <ComboboxTrigger class=\"absolute end-0 inset-y-0 flex items-center justify-center px-3\">\n                  <ChevronsUpDown class=\"size-4 text-muted-foreground\" />\n                </ComboboxTrigger>\n              </div>\n            </ComboboxAnchor>\n          </FormControl>\n\n          <ComboboxList>\n            <ComboboxEmpty>\n              Nothing found.\n            </ComboboxEmpty>\n\n            <ComboboxGroup>\n              <ComboboxItem\n                v-for=\"language in languages\"\n                :key=\"language.value\"\n                :value=\"language\"\n                @select=\"() => {\n                  setFieldValue('language', language.value)\n                }\"\n              >\n                {{ language.label }}\n\n                <ComboboxItemIndicator>\n                  <Check :class=\"cn('ml-auto h-4 w-4')\" />\n                </ComboboxItemIndicator>\n              </ComboboxItem>\n            </ComboboxGroup>\n          </ComboboxList>\n        </Combobox>\n\n        <FormDescription>\n          This is the language that will be used in the dashboard.\n        </FormDescription>\n        <FormMessage />\n      </FormItem>\n    </FormField>\n\n    <Button type=\"submit\">\n      Submit\n    </Button>\n  </form>\n</template>\n",
         "type": "registry:example",
         "target": ""
       }
@@ -4204,6 +4273,24 @@
     ]
   },
   {
+    "name": "ComboboxTrigger",
+    "type": "registry:example",
+    "dependencies": [],
+    "registryDependencies": [
+      "utils",
+      "button",
+      "combobox"
+    ],
+    "files": [
+      {
+        "path": "example/ComboboxTrigger.vue",
+        "content": "<script setup lang=\"ts\">\nimport { cn } from '@/lib/utils'\nimport { Button } from '@/registry/new-york/ui/button'\nimport { Combobox, ComboboxAnchor, ComboboxEmpty, ComboboxGroup, ComboboxInput, ComboboxItem, ComboboxItemIndicator, ComboboxList, ComboboxTrigger } from '@/registry/new-york/ui/combobox'\nimport { Check, ChevronsUpDown, Search } from 'lucide-vue-next'\nimport { ref } from 'vue'\n\nconst frameworks = [\n  { value: 'next.js', label: 'Next.js' },\n  { value: 'sveltekit', label: 'SvelteKit' },\n  { value: 'nuxt', label: 'Nuxt' },\n  { value: 'remix', label: 'Remix' },\n  { value: 'astro', label: 'Astro' },\n]\n\nconst value = ref<typeof frameworks[0]>()\n</script>\n\n<template>\n  <Combobox v-model=\"value\" by=\"label\">\n    <ComboboxAnchor as-child>\n      <ComboboxTrigger as-child>\n        <Button variant=\"outline\" class=\"justify-between\">\n          {{ value?.label ?? 'Select framework' }}\n\n          <ChevronsUpDown class=\"ml-2 h-4 w-4 shrink-0 opacity-50\" />\n        </Button>\n      </ComboboxTrigger>\n    </ComboboxAnchor>\n\n    <ComboboxList>\n      <div class=\"relative w-full max-w-sm items-center\">\n        <ComboboxInput class=\"pl-9 focus-visible:ring-0 border-0 border-b rounded-none h-10\" placeholder=\"Select framework...\" />\n        <span class=\"absolute start-0 inset-y-0 flex items-center justify-center px-3\">\n          <Search class=\"size-4 text-muted-foreground\" />\n        </span>\n      </div>\n\n      <ComboboxEmpty>\n        No framework found.\n      </ComboboxEmpty>\n\n      <ComboboxGroup>\n        <ComboboxItem\n          v-for=\"framework in frameworks\"\n          :key=\"framework.value\"\n          :value=\"framework\"\n        >\n          {{ framework.label }}\n\n          <ComboboxItemIndicator>\n            <Check :class=\"cn('ml-auto h-4 w-4')\" />\n          </ComboboxItemIndicator>\n        </ComboboxItem>\n      </ComboboxGroup>\n    </ComboboxList>\n  </Combobox>\n</template>\n",
+        "type": "registry:example",
+        "target": ""
+      }
+    ]
+  },
+  {
     "name": "CommandDemo",
     "type": "registry:example",
     "dependencies": [],
@@ -4232,6 +4319,88 @@
       {
         "path": "example/CommandDialogDemo.vue",
         "content": "<script setup lang=\"ts\">\nimport {\n  CommandDialog,\n  CommandEmpty,\n  CommandGroup,\n  CommandInput,\n  CommandItem,\n  CommandList,\n  CommandSeparator,\n} from '@/registry/new-york/ui/command'\n\nimport { useMagicKeys } from '@vueuse/core'\nimport { ref, watch } from 'vue'\n\nconst open = ref(false)\n\nconst { Meta_J, Ctrl_J } = useMagicKeys({\n  passive: false,\n  onEventFired(e) {\n    if (e.key === 'j' && (e.metaKey || e.ctrlKey))\n      e.preventDefault()\n  },\n})\n\nwatch([Meta_J, Ctrl_J], (v) => {\n  if (v[0] || v[1])\n    handleOpenChange()\n})\n\nfunction handleOpenChange() {\n  open.value = !open.value\n}\n</script>\n\n<template>\n  <div>\n    <p class=\"text-sm text-muted-foreground\">\n      Press\n      <kbd\n        class=\"pointer-events-none inline-flex h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium text-muted-foreground opacity-100\"\n      >\n        <span class=\"text-xs\">⌘</span>J\n      </kbd>\n    </p>\n    <CommandDialog v-model:open=\"open\">\n      <CommandInput placeholder=\"Type a command or search...\" />\n      <CommandList>\n        <CommandEmpty>No results found.</CommandEmpty>\n        <CommandGroup heading=\"Suggestions\">\n          <CommandItem value=\"calendar\">\n            Calendar\n          </CommandItem>\n          <CommandItem value=\"search-emoji\">\n            Search Emoji\n          </CommandItem>\n          <CommandItem value=\"calculator\">\n            Calculator\n          </CommandItem>\n        </CommandGroup>\n        <CommandSeparator />\n        <CommandGroup heading=\"Settings\">\n          <CommandItem value=\"profile\">\n            Profile\n          </CommandItem>\n          <CommandItem value=\"billing\">\n            Billing\n          </CommandItem>\n          <CommandItem value=\"settings\">\n            Settings\n          </CommandItem>\n        </CommandGroup>\n      </CommandList>\n    </CommandDialog>\n  </div>\n</template>\n",
+        "type": "registry:example",
+        "target": ""
+      }
+    ]
+  },
+  {
+    "name": "CommandDropdownMenu",
+    "type": "registry:example",
+    "dependencies": [],
+    "registryDependencies": [
+      "button",
+      "command",
+      "dropdown-menu"
+    ],
+    "files": [
+      {
+        "path": "example/CommandDropdownMenu.vue",
+        "content": "<script setup lang=\"ts\">\nimport { Button } from '@/registry/new-york/ui/button'\nimport {\n  Command,\n  CommandEmpty,\n  CommandGroup,\n  CommandInput,\n  CommandItem,\n  CommandList,\n} from '@/registry/new-york/ui/command'\n\nimport {\n  DropdownMenu,\n  DropdownMenuContent,\n  DropdownMenuGroup,\n  DropdownMenuItem,\n  DropdownMenuLabel,\n  DropdownMenuSeparator,\n  DropdownMenuShortcut,\n  DropdownMenuSub,\n  DropdownMenuSubContent,\n  DropdownMenuSubTrigger,\n  DropdownMenuTrigger,\n} from '@/registry/new-york/ui/dropdown-menu'\nimport { MoreHorizontal } from 'lucide-vue-next'\nimport { ref } from 'vue'\n\nconst labels = [\n  'feature',\n  'bug',\n  'enhancement',\n  'documentation',\n  'design',\n  'question',\n  'maintenance',\n]\n\nconst labelRef = ref('feature')\nconst open = ref(false)\n</script>\n\n<template>\n  <div class=\"flex w-full flex-col items-start justify-between rounded-md border px-4 py-3 sm:flex-row sm:items-center\">\n    <p class=\"text-sm font-medium leading-none\">\n      <span class=\"mr-2 rounded-lg bg-primary px-2 py-1 text-xs text-primary-foreground\">\n        {{ labelRef }}\n      </span>\n      <span class=\"text-muted-foreground\">Create a new project</span>\n    </p>\n    <DropdownMenu v-model:open=\"open\">\n      <DropdownMenuTrigger as-child>\n        <Button variant=\"ghost\" size=\"sm\">\n          <MoreHorizontal />\n        </Button>\n      </DropdownMenuTrigger>\n      <DropdownMenuContent align=\"end\" class=\"w-[200px]\">\n        <DropdownMenuLabel>Actions</DropdownMenuLabel>\n        <DropdownMenuGroup>\n          <DropdownMenuItem>\n            Assign to...\n          </DropdownMenuItem>\n          <DropdownMenuItem>\n            Set due date...\n          </DropdownMenuItem>\n          <DropdownMenuSeparator />\n          <DropdownMenuSub>\n            <DropdownMenuSubTrigger>\n              Apply label\n            </DropdownMenuSubTrigger>\n            <DropdownMenuSubContent class=\"p-0\">\n              <Command>\n                <CommandInput\n                  placeholder=\"Filter label...\"\n                  auto-focus\n                />\n                <CommandList>\n                  <CommandEmpty>No label found.</CommandEmpty>\n                  <CommandGroup>\n                    <CommandItem\n                      v-for=\"label in labels\"\n                      :key=\"label\"\n                      :value=\"label\"\n                      @select=\"(ev) => {\n                        labelRef = ev.detail.value as string\n                        open = false\n                      }\"\n                    >\n                      {{ label }}\n                    </CommandItem>\n                  </CommandGroup>\n                </CommandList>\n              </Command>\n            </DropdownMenuSubContent>\n          </DropdownMenuSub>\n          <DropdownMenuSeparator />\n          <DropdownMenuItem class=\"text-red-600\">\n            Delete\n            <DropdownMenuShortcut>⌘⌫</DropdownMenuShortcut>\n          </DropdownMenuItem>\n        </DropdownMenuGroup>\n      </DropdownMenuContent>\n    </DropdownMenu>\n  </div>\n</template>\n",
+        "type": "registry:example",
+        "target": ""
+      }
+    ]
+  },
+  {
+    "name": "CommandForm",
+    "type": "registry:example",
+    "dependencies": [
+      "vee-validate",
+      "@vee-validate/zod",
+      "zod"
+    ],
+    "registryDependencies": [
+      "utils",
+      "button",
+      "command",
+      "form",
+      "popover",
+      "toast"
+    ],
+    "files": [
+      {
+        "path": "example/CommandForm.vue",
+        "content": "<script setup lang=\"ts\">\nimport { cn } from '@/lib/utils'\nimport { Button } from '@/registry/new-york/ui/button'\nimport {\n  Command,\n  CommandEmpty,\n  CommandGroup,\n  CommandInput,\n  CommandItem,\n  CommandList,\n} from '@/registry/new-york/ui/command'\nimport {\n  FormControl,\n  FormDescription,\n  FormField,\n  FormItem,\n  FormLabel,\n  FormMessage,\n} from '@/registry/new-york/ui/form'\n\nimport {\n  Popover,\n  PopoverContent,\n  PopoverTrigger,\n} from '@/registry/new-york/ui/popover'\nimport { toast } from '@/registry/new-york/ui/toast'\nimport { toTypedSchema } from '@vee-validate/zod'\nimport { Check, ChevronsUpDown } from 'lucide-vue-next'\nimport { useForm } from 'vee-validate'\nimport { h } from 'vue'\nimport * as z from 'zod'\n\nconst languages = [\n  { label: 'English', value: 'en' },\n  { label: 'French', value: 'fr' },\n  { label: 'German', value: 'de' },\n  { label: 'Spanish', value: 'es' },\n  { label: 'Portuguese', value: 'pt' },\n  { label: 'Russian', value: 'ru' },\n  { label: 'Japanese', value: 'ja' },\n  { label: 'Korean', value: 'ko' },\n  { label: 'Chinese', value: 'zh' },\n] as const\n\nconst formSchema = toTypedSchema(z.object({\n  language: z.string({\n    required_error: 'Please select a language.',\n  }),\n}))\n\nconst { handleSubmit, setFieldValue, values } = useForm({\n  validationSchema: formSchema,\n  initialValues: {\n    language: '',\n  },\n})\n\nconst onSubmit = handleSubmit((values) => {\n  toast({\n    title: 'You submitted the following values:',\n    description: h('pre', { class: 'mt-2 w-[340px] rounded-md bg-slate-950 p-4' }, h('code', { class: 'text-white' }, JSON.stringify(values, null, 2))),\n  })\n})\n</script>\n\n<template>\n  <form class=\"space-y-6\" @submit=\"onSubmit\">\n    <FormField name=\"language\">\n      <FormItem class=\"flex flex-col\">\n        <FormLabel>Language</FormLabel>\n        <Popover>\n          <PopoverTrigger as-child>\n            <FormControl>\n              <Button\n                variant=\"outline\"\n                role=\"combobox\"\n                :class=\"cn('w-[200px] justify-between', !values.language && 'text-muted-foreground')\"\n              >\n                {{ values.language ? languages.find(\n                  (language) => language.value === values.language,\n                )?.label : 'Select language...' }}\n                <ChevronsUpDown class=\"ml-2 h-4 w-4 shrink-0 opacity-50\" />\n              </Button>\n            </FormControl>\n          </PopoverTrigger>\n          <PopoverContent class=\"w-[200px] p-0\">\n            <Command>\n              <CommandInput placeholder=\"Search language...\" />\n              <CommandEmpty>Nothing found.</CommandEmpty>\n              <CommandList>\n                <CommandGroup>\n                  <CommandItem\n                    v-for=\"language in languages\"\n                    :key=\"language.value\"\n                    :value=\"language.label\"\n                    @select=\"() => {\n                      setFieldValue('language', language.value)\n                    }\"\n                  >\n                    {{ language.label }}\n                    <Check\n                      :class=\"cn('ml-auto h-4 w-4', language.value === values.language ? 'opacity-100' : 'opacity-0')\"\n                    />\n                  </CommandItem>\n                </CommandGroup>\n              </CommandList>\n            </Command>\n          </PopoverContent>\n        </Popover>\n        <FormDescription>\n          This is the language that will be used in the dashboard.\n        </FormDescription>\n        <FormMessage />\n      </FormItem>\n    </FormField>\n\n    <Button type=\"submit\">\n      Submit\n    </Button>\n  </form>\n</template>\n",
+        "type": "registry:example",
+        "target": ""
+      }
+    ]
+  },
+  {
+    "name": "CommandPopover",
+    "type": "registry:example",
+    "dependencies": [],
+    "registryDependencies": [
+      "button",
+      "command",
+      "popover"
+    ],
+    "files": [
+      {
+        "path": "example/CommandPopover.vue",
+        "content": "<script setup lang=\"ts\">\nimport { Button } from '@/registry/new-york/ui/button'\n\nimport {\n  Command,\n  CommandEmpty,\n  CommandGroup,\n  CommandInput,\n  CommandItem,\n  CommandList,\n} from '@/registry/new-york/ui/command'\nimport {\n  Popover,\n  PopoverContent,\n  PopoverTrigger,\n} from '@/registry/new-york/ui/popover'\nimport { ref } from 'vue'\n\ninterface Status {\n  value: string\n  label: string\n}\n\nconst statuses: Status[] = [\n  {\n    value: 'backlog',\n    label: 'Backlog',\n  },\n  {\n    value: 'todo',\n    label: 'Todo',\n  },\n  {\n    value: 'in progress',\n    label: 'In Progress',\n  },\n  {\n    value: 'done',\n    label: 'Done',\n  },\n  {\n    value: 'canceled',\n    label: 'Canceled',\n  },\n]\n\nconst open = ref(false)\nconst selectedStatus = ref<Status>()\n</script>\n\n<template>\n  <div class=\"flex items-center space-x-4\">\n    <p class=\"text-sm text-muted-foreground\">\n      Status\n    </p>\n    <Popover v-model:open=\"open\">\n      <PopoverTrigger as-child>\n        <Button\n          variant=\"outline\"\n          size=\"sm\"\n          class=\"w-[150px] justify-start\"\n        >\n          <template v-if=\"selectedStatus\">\n            {{ selectedStatus?.label }}\n          </template>\n          <template v-else>\n            + Set status\n          </template>\n        </Button>\n      </PopoverTrigger>\n      <PopoverContent class=\"p-0\" side=\"right\" align=\"start\">\n        <Command>\n          <CommandInput placeholder=\"Change status...\" />\n          <CommandList>\n            <CommandEmpty>No results found.</CommandEmpty>\n            <CommandGroup>\n              <CommandItem\n                v-for=\"status in statuses\"\n                :key=\"status.value\"\n                :value=\"status.value\"\n                @select=\"() => {\n                  selectedStatus = status\n                  open = false\n                }\"\n              >\n                {{ status.label }}\n              </CommandItem>\n            </CommandGroup>\n          </CommandList>\n        </Command>\n      </PopoverContent>\n    </Popover>\n  </div>\n</template>\n",
+        "type": "registry:example",
+        "target": ""
+      }
+    ]
+  },
+  {
+    "name": "CommandResponsive",
+    "type": "registry:example",
+    "dependencies": [
+      "@vueuse/core"
+    ],
+    "registryDependencies": [
+      "button",
+      "command",
+      "drawer",
+      "popover"
+    ],
+    "files": [
+      {
+        "path": "example/CommandResponsive.vue",
+        "content": "<script lang=\"ts\" setup>\nimport { Button } from '@/registry/new-york/ui/button'\nimport { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList } from '@/registry/new-york/ui/command'\nimport { Drawer, DrawerContent, DrawerTrigger } from '@/registry/new-york/ui/drawer'\nimport { Popover, PopoverContent, PopoverTrigger } from '@/registry/new-york/ui/popover'\nimport { createReusableTemplate, useMediaQuery } from '@vueuse/core'\nimport { ref } from 'vue'\n\ninterface Status {\n  value: string\n  label: string\n}\n\nconst statuses: Status[] = [\n  {\n    value: 'backlog',\n    label: 'Backlog',\n  },\n  {\n    value: 'todo',\n    label: 'Todo',\n  },\n  {\n    value: 'in progress',\n    label: 'In Progress',\n  },\n  {\n    value: 'done',\n    label: 'Done',\n  },\n  {\n    value: 'canceled',\n    label: 'Canceled',\n  },\n]\n\nconst [UseTemplate, StatusList] = createReusableTemplate()\nconst isDesktop = useMediaQuery('(min-width: 768px)')\n\nconst isOpen = ref(false)\nconst selectedStatus = ref<Status | null>(null)\n\nfunction onStatusSelect(status: Status) {\n  selectedStatus.value = status\n  isOpen.value = false\n}\n</script>\n\n<template>\n  <div>\n    <UseTemplate>\n      <Command>\n        <CommandInput placeholder=\"Filter status...\" />\n        <CommandList>\n          <CommandEmpty>No results found.</CommandEmpty>\n          <CommandGroup>\n            <CommandItem\n              v-for=\"status of statuses\"\n              :key=\"status.value\"\n              :value=\"status.value\"\n              @select=\"onStatusSelect(status)\"\n            >\n              {{ status.label }}\n            </CommandItem>\n          </CommandGroup>\n        </CommandList>\n      </Command>\n    </UseTemplate>\n\n    <Popover v-if=\"isDesktop\" v-model:open=\"isOpen\">\n      <PopoverTrigger as-child>\n        <Button variant=\"outline\" class=\"w-[150px] justify-start\">\n          {{ selectedStatus ? selectedStatus.label : \"+ Set status\" }}\n        </Button>\n      </PopoverTrigger>\n      <PopoverContent class=\"w-[200px] p-0\" align=\"start\">\n        <StatusList />\n      </PopoverContent>\n    </Popover>\n\n    <Drawer v-else v-model:open=\"isOpen\">\n      <DrawerTrigger as-child>\n        <Button variant=\"outline\" class=\"w-[150px] justify-start\">\n          {{ selectedStatus ? selectedStatus.label : \"+ Set status\" }}\n        </Button>\n      </DrawerTrigger>\n      <DrawerContent>\n        <div class=\"mt-4 border-t\">\n          <StatusList />\n        </div>\n      </DrawerContent>\n    </Drawer>\n  </div>\n</template>\n",
         "type": "registry:example",
         "target": ""
       }
@@ -8340,6 +8509,78 @@
     ]
   },
   {
+    "name": "combobox",
+    "type": "registry:ui",
+    "dependencies": [
+      "reka-ui"
+    ],
+    "registryDependencies": [
+      "utils"
+    ],
+    "files": [
+      {
+        "path": "ui/combobox/Combobox.vue",
+        "content": "<script setup lang=\"ts\">\nimport { ComboboxRoot, type ComboboxRootEmits, type ComboboxRootProps, useForwardPropsEmits } from 'reka-ui'\n\nconst props = defineProps<ComboboxRootProps>()\nconst emits = defineEmits<ComboboxRootEmits>()\n\nconst forwarded = useForwardPropsEmits(props, emits)\n</script>\n\n<template>\n  <ComboboxRoot v-bind=\"forwarded\">\n    <slot />\n  </ComboboxRoot>\n</template>\n",
+        "type": "registry:ui",
+        "target": ""
+      },
+      {
+        "path": "ui/combobox/ComboboxAnchor.vue",
+        "content": "<script setup lang=\"ts\">\nimport type { ComboboxAnchorProps } from 'reka-ui'\nimport { cn } from '@/lib/utils'\nimport { ComboboxAnchor, useForwardProps } from 'reka-ui'\nimport { computed, type HTMLAttributes } from 'vue'\n\nconst props = defineProps<ComboboxAnchorProps & { class?: HTMLAttributes['class'] }>()\n\nconst delegatedProps = computed(() => {\n  const { class: _, ...delegated } = props\n\n  return delegated\n})\n\nconst forwarded = useForwardProps(delegatedProps)\n</script>\n\n<template>\n  <ComboboxAnchor\n    v-bind=\"forwarded\"\n    :class=\"cn('w-[200px]', props.class)\"\n  >\n    <slot />\n  </ComboboxAnchor>\n</template>\n",
+        "type": "registry:ui",
+        "target": ""
+      },
+      {
+        "path": "ui/combobox/ComboboxEmpty.vue",
+        "content": "<script setup lang=\"ts\">\nimport type { ComboboxEmptyProps } from 'reka-ui'\nimport { cn } from '@/lib/utils'\nimport { ComboboxEmpty } from 'reka-ui'\nimport { computed, type HTMLAttributes } from 'vue'\n\nconst props = defineProps<ComboboxEmptyProps & { class?: HTMLAttributes['class'] }>()\n\nconst delegatedProps = computed(() => {\n  const { class: _, ...delegated } = props\n\n  return delegated\n})\n</script>\n\n<template>\n  <ComboboxEmpty v-bind=\"delegatedProps\" :class=\"cn('py-6 text-center text-sm', props.class)\">\n    <slot />\n  </ComboboxEmpty>\n</template>\n",
+        "type": "registry:ui",
+        "target": ""
+      },
+      {
+        "path": "ui/combobox/ComboboxGroup.vue",
+        "content": "<script setup lang=\"ts\">\nimport type { ComboboxGroupProps } from 'reka-ui'\nimport { cn } from '@/lib/utils'\nimport { ComboboxGroup, ComboboxLabel } from 'reka-ui'\nimport { computed, type HTMLAttributes } from 'vue'\n\nconst props = defineProps<ComboboxGroupProps & {\n  class?: HTMLAttributes['class']\n  heading?: string\n}>()\n\nconst delegatedProps = computed(() => {\n  const { class: _, ...delegated } = props\n\n  return delegated\n})\n</script>\n\n<template>\n  <ComboboxGroup\n    v-bind=\"delegatedProps\"\n    :class=\"cn('overflow-hidden p-1 text-foreground [&_[cmdk-group-heading]]:px-2 [&_[cmdk-group-heading]]:py-1.5 [&_[cmdk-group-heading]]:text-xs [&_[cmdk-group-heading]]:font-medium [&_[cmdk-group-heading]]:text-muted-foreground', props.class)\"\n  >\n    <ComboboxLabel v-if=\"heading\" class=\"px-2 py-1.5 text-xs font-medium text-muted-foreground\">\n      {{ heading }}\n    </ComboboxLabel>\n    <slot />\n  </ComboboxGroup>\n</template>\n",
+        "type": "registry:ui",
+        "target": ""
+      },
+      {
+        "path": "ui/combobox/ComboboxInput.vue",
+        "content": "<script setup lang=\"ts\">\nimport { cn } from '@/lib/utils'\nimport { ComboboxInput, type ComboboxInputProps, useForwardProps } from 'reka-ui'\nimport { computed, type HTMLAttributes } from 'vue'\n\nconst props = defineProps<ComboboxInputProps & {\n  class?: HTMLAttributes['class']\n}>()\n\nconst delegatedProps = computed(() => {\n  const { class: _, ...delegated } = props\n\n  return delegated\n})\n\nconst forwardedProps = useForwardProps(delegatedProps)\n</script>\n\n<template>\n  <ComboboxInput\n    v-bind=\"forwardedProps\"\n    :class=\"cn('flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-sm shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50', props.class)\"\n  >\n    <slot />\n  </ComboboxInput>\n</template>\n",
+        "type": "registry:ui",
+        "target": ""
+      },
+      {
+        "path": "ui/combobox/ComboboxItem.vue",
+        "content": "<script setup lang=\"ts\">\nimport type { ComboboxItemEmits, ComboboxItemProps } from 'reka-ui'\nimport { cn } from '@/lib/utils'\nimport { ComboboxItem, useForwardPropsEmits } from 'reka-ui'\nimport { computed, type HTMLAttributes } from 'vue'\n\nconst props = defineProps<ComboboxItemProps & { class?: HTMLAttributes['class'] }>()\nconst emits = defineEmits<ComboboxItemEmits>()\n\nconst delegatedProps = computed(() => {\n  const { class: _, ...delegated } = props\n\n  return delegated\n})\n\nconst forwarded = useForwardPropsEmits(delegatedProps, emits)\n</script>\n\n<template>\n  <ComboboxItem\n    v-bind=\"forwarded\"\n    :class=\"cn('relative flex cursor-default gap-2 select-none justify-between items-center rounded-sm px-2 py-1.5 text-sm outline-none data-[highlighted]:bg-accent data-[highlighted]:text-accent-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50 [&_svg]:size-4 [&_svg]:shrink-0', props.class)\"\n  >\n    <slot />\n  </ComboboxItem>\n</template>\n",
+        "type": "registry:ui",
+        "target": ""
+      },
+      {
+        "path": "ui/combobox/ComboboxList.vue",
+        "content": "<script setup lang=\"ts\">\nimport type { ComboboxContentEmits, ComboboxContentProps } from 'reka-ui'\nimport { cn } from '@/lib/utils'\nimport { ComboboxContent, ComboboxPortal, ComboboxViewport, useForwardPropsEmits } from 'reka-ui'\nimport { computed, type HTMLAttributes } from 'vue'\n\nconst props = withDefaults(defineProps<ComboboxContentProps & { class?: HTMLAttributes['class'] }>(), {\n  position: 'popper',\n  align: 'center',\n  sideOffset: 4,\n})\nconst emits = defineEmits<ComboboxContentEmits>()\n\nconst delegatedProps = computed(() => {\n  const { class: _, ...delegated } = props\n\n  return delegated\n})\n\nconst forwarded = useForwardPropsEmits(delegatedProps, emits)\n</script>\n\n<template>\n  <ComboboxPortal>\n    <ComboboxContent\n      v-bind=\"forwarded\"\n      :class=\"cn('z-50 w-[200px] rounded-md border bg-popover text-popover-foreground shadow-md outline-none data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2', props.class)\"\n    >\n      <ComboboxViewport>\n        <slot />\n      </ComboboxViewport>\n    </ComboboxContent>\n  </ComboboxPortal>\n</template>\n",
+        "type": "registry:ui",
+        "target": ""
+      },
+      {
+        "path": "ui/combobox/ComboboxSeparator.vue",
+        "content": "<script setup lang=\"ts\">\nimport type { ComboboxSeparatorProps } from 'reka-ui'\nimport { cn } from '@/lib/utils'\nimport { ComboboxSeparator } from 'reka-ui'\nimport { computed, type HTMLAttributes } from 'vue'\n\nconst props = defineProps<ComboboxSeparatorProps & { class?: HTMLAttributes['class'] }>()\n\nconst delegatedProps = computed(() => {\n  const { class: _, ...delegated } = props\n\n  return delegated\n})\n</script>\n\n<template>\n  <ComboboxSeparator\n    v-bind=\"delegatedProps\"\n    :class=\"cn('-mx-1 h-px bg-border', props.class)\"\n  >\n    <slot />\n  </ComboboxSeparator>\n</template>\n",
+        "type": "registry:ui",
+        "target": ""
+      },
+      {
+        "path": "ui/combobox/ComboboxTrigger.vue",
+        "content": "<script setup lang=\"ts\">\nimport type { ComboboxTriggerProps } from 'reka-ui'\nimport { cn } from '@/lib/utils'\nimport { ComboboxTrigger, useForwardProps } from 'reka-ui'\nimport { computed, type HTMLAttributes } from 'vue'\n\nconst props = defineProps<ComboboxTriggerProps & { class?: HTMLAttributes['class'] }>()\n\nconst delegatedProps = computed(() => {\n  const { class: _, ...delegated } = props\n\n  return delegated\n})\n\nconst forwarded = useForwardProps(delegatedProps)\n</script>\n\n<template>\n  <ComboboxTrigger\n    v-bind=\"forwarded\"\n    :class=\"cn('', props.class)\"\n    tabindex=\"0\"\n  >\n    <slot />\n  </ComboboxTrigger>\n</template>\n",
+        "type": "registry:ui",
+        "target": ""
+      },
+      {
+        "path": "ui/combobox/index.ts",
+        "content": "export { default as Combobox } from './Combobox.vue'\nexport { default as ComboboxAnchor } from './ComboboxAnchor.vue'\nexport { default as ComboboxEmpty } from './ComboboxEmpty.vue'\nexport { default as ComboboxGroup } from './ComboboxGroup.vue'\nexport { default as ComboboxInput } from './ComboboxInput.vue'\nexport { default as ComboboxItem } from './ComboboxItem.vue'\nexport { default as ComboboxList } from './ComboboxList.vue'\nexport { default as ComboboxSeparator } from './ComboboxSeparator.vue'\n\nexport { ComboboxCancel, ComboboxItemIndicator, ComboboxTrigger } from 'reka-ui'\n",
+        "type": "registry:ui",
+        "target": ""
+      }
+    ]
+  },
+  {
     "name": "command",
     "type": "registry:ui",
     "dependencies": [
@@ -11401,14 +11642,12 @@
     "dependencies": [],
     "registryDependencies": [
       "utils",
-      "button",
-      "command",
-      "popover"
+      "combobox"
     ],
     "files": [
       {
         "path": "example/ComboboxDemo.vue",
-        "content": "<script setup lang=\"ts\">\nimport { cn } from '@/lib/utils'\nimport { Button } from '@/registry/default/ui/button'\n\nimport {\n  Command,\n  CommandEmpty,\n  CommandGroup,\n  CommandInput,\n  CommandItem,\n  CommandList,\n} from '@/registry/default/ui/command'\nimport {\n  Popover,\n  PopoverContent,\n  PopoverTrigger,\n} from '@/registry/default/ui/popover'\nimport { Check, ChevronsUpDown } from 'lucide-vue-next'\nimport { ref } from 'vue'\n\nconst frameworks = [\n  { value: 'next.js', label: 'Next.js' },\n  { value: 'sveltekit', label: 'SvelteKit' },\n  { value: 'nuxt', label: 'Nuxt' },\n  { value: 'remix', label: 'Remix' },\n  { value: 'astro', label: 'Astro' },\n]\n\nconst open = ref(false)\nconst value = ref('')\n</script>\n\n<template>\n  <Popover v-model:open=\"open\">\n    <PopoverTrigger as-child>\n      <Button\n        variant=\"outline\"\n        role=\"combobox\"\n        :aria-expanded=\"open\"\n        class=\"w-[200px] justify-between\"\n      >\n        {{ value\n          ? frameworks.find((framework) => framework.value === value)?.label\n          : \"Select framework...\" }}\n        <ChevronsUpDown class=\"ml-2 h-4 w-4 shrink-0 opacity-50\" />\n      </Button>\n    </PopoverTrigger>\n    <PopoverContent class=\"w-[200px] p-0\">\n      <Command>\n        <CommandInput class=\"h-9\" placeholder=\"Search framework...\" />\n        <CommandEmpty>No framework found.</CommandEmpty>\n        <CommandList>\n          <CommandGroup>\n            <CommandItem\n              v-for=\"framework in frameworks\"\n              :key=\"framework.value\"\n              :value=\"framework.value\"\n              @select=\"(ev) => {\n                if (typeof ev.detail.value === 'string') {\n                  value = ev.detail.value\n                }\n                open = false\n              }\"\n            >\n              {{ framework.label }}\n              <Check\n                :class=\"cn(\n                  'ml-auto h-4 w-4',\n                  value === framework.value ? 'opacity-100' : 'opacity-0',\n                )\"\n              />\n            </CommandItem>\n          </CommandGroup>\n        </CommandList>\n      </Command>\n    </PopoverContent>\n  </Popover>\n</template>\n",
+        "content": "<script setup lang=\"ts\">\nimport { cn } from '@/lib/utils'\nimport { Combobox, ComboboxAnchor, ComboboxEmpty, ComboboxGroup, ComboboxInput, ComboboxItem, ComboboxItemIndicator, ComboboxList } from '@/registry/default/ui/combobox'\nimport { Check, Search } from 'lucide-vue-next'\n\nconst frameworks = [\n  { value: 'next.js', label: 'Next.js' },\n  { value: 'sveltekit', label: 'SvelteKit' },\n  { value: 'nuxt', label: 'Nuxt' },\n  { value: 'remix', label: 'Remix' },\n  { value: 'astro', label: 'Astro' },\n]\n</script>\n\n<template>\n  <Combobox by=\"label\">\n    <ComboboxAnchor>\n      <div class=\"relative w-full max-w-sm items-center\">\n        <ComboboxInput class=\"pl-9\" :display-value=\"(val) => val?.label ?? ''\" placeholder=\"Select framework...\" />\n        <span class=\"absolute start-0 inset-y-0 flex items-center justify-center px-3\">\n          <Search class=\"size-4 text-muted-foreground\" />\n        </span>\n      </div>\n    </ComboboxAnchor>\n\n    <ComboboxList>\n      <ComboboxEmpty>\n        No framework found.\n      </ComboboxEmpty>\n\n      <ComboboxGroup>\n        <ComboboxItem\n          v-for=\"framework in frameworks\"\n          :key=\"framework.value\"\n          :value=\"framework\"\n        >\n          {{ framework.label }}\n\n          <ComboboxItemIndicator>\n            <Check :class=\"cn('ml-auto h-4 w-4')\" />\n          </ComboboxItemIndicator>\n        </ComboboxItem>\n      </ComboboxGroup>\n    </ComboboxList>\n  </Combobox>\n</template>\n",
         "type": "registry:example",
         "target": ""
       }
@@ -11443,15 +11682,14 @@
     "registryDependencies": [
       "utils",
       "button",
-      "command",
+      "combobox",
       "form",
-      "popover",
       "toast"
     ],
     "files": [
       {
         "path": "example/ComboboxForm.vue",
-        "content": "<script setup lang=\"ts\">\nimport { cn } from '@/lib/utils'\nimport { Button } from '@/registry/default/ui/button'\nimport {\n  Command,\n  CommandEmpty,\n  CommandGroup,\n  CommandInput,\n  CommandItem,\n  CommandList,\n} from '@/registry/default/ui/command'\nimport {\n  FormControl,\n  FormDescription,\n  FormField,\n  FormItem,\n  FormLabel,\n  FormMessage,\n} from '@/registry/default/ui/form'\n\nimport {\n  Popover,\n  PopoverContent,\n  PopoverTrigger,\n} from '@/registry/default/ui/popover'\nimport { toast } from '@/registry/default/ui/toast'\nimport { toTypedSchema } from '@vee-validate/zod'\nimport { Check, ChevronsUpDown } from 'lucide-vue-next'\nimport { useForm } from 'vee-validate'\nimport { h } from 'vue'\nimport * as z from 'zod'\n\nconst languages = [\n  { label: 'English', value: 'en' },\n  { label: 'French', value: 'fr' },\n  { label: 'German', value: 'de' },\n  { label: 'Spanish', value: 'es' },\n  { label: 'Portuguese', value: 'pt' },\n  { label: 'Russian', value: 'ru' },\n  { label: 'Japanese', value: 'ja' },\n  { label: 'Korean', value: 'ko' },\n  { label: 'Chinese', value: 'zh' },\n]\n\nconst formSchema = toTypedSchema(z.object({\n  language: z.string({\n    required_error: 'Please select a language.',\n  }),\n}))\n\nconst { handleSubmit, setFieldValue, values } = useForm({\n  validationSchema: formSchema,\n})\n\nconst onSubmit = handleSubmit((values) => {\n  toast({\n    title: 'You submitted the following values:',\n    description: h('pre', { class: 'mt-2 w-[340px] rounded-md bg-slate-950 p-4' }, h('code', { class: 'text-white' }, JSON.stringify(values, null, 2))),\n  })\n})\n</script>\n\n<template>\n  <form class=\"space-y-6\" @submit=\"onSubmit\">\n    <FormField name=\"language\">\n      <FormItem class=\"flex flex-col\">\n        <FormLabel>Language</FormLabel>\n        <Popover>\n          <PopoverTrigger as-child>\n            <FormControl>\n              <Button\n                variant=\"outline\"\n                role=\"combobox\"\n                :class=\"cn('w-[200px] justify-between', !values.language && 'text-muted-foreground')\"\n              >\n                {{ values.language ? languages.find(\n                  (language) => language.value === values.language,\n                )?.label : 'Select language...' }}\n                <ChevronsUpDown class=\"ml-2 h-4 w-4 shrink-0 opacity-50\" />\n              </Button>\n            </FormControl>\n          </PopoverTrigger>\n          <PopoverContent class=\"w-[200px] p-0\">\n            <Command>\n              <CommandInput placeholder=\"Search language...\" />\n              <CommandEmpty>Nothing found.</CommandEmpty>\n              <CommandList>\n                <CommandGroup>\n                  <CommandItem\n                    v-for=\"language in languages\"\n                    :key=\"language.value\"\n                    :value=\"language.label\"\n                    @select=\"() => {\n                      setFieldValue('language', language.value)\n                    }\"\n                  >\n                    <Check\n                      :class=\"cn('mr-2 h-4 w-4', language.value === values.language ? 'opacity-100' : 'opacity-0')\"\n                    />\n                    {{ language.label }}\n                  </CommandItem>\n                </CommandGroup>\n              </CommandList>\n            </Command>\n          </PopoverContent>\n        </Popover>\n        <FormDescription>\n          This is the language that will be used in the dashboard.\n        </FormDescription>\n        <FormMessage />\n      </FormItem>\n    </FormField>\n\n    <Button type=\"submit\">\n      Submit\n    </Button>\n  </form>\n</template>\n",
+        "content": "<script setup lang=\"ts\">\nimport { cn } from '@/lib/utils'\nimport { Button } from '@/registry/default/ui/button'\nimport { Combobox, ComboboxAnchor, ComboboxEmpty, ComboboxGroup, ComboboxInput, ComboboxItem, ComboboxItemIndicator, ComboboxList, ComboboxTrigger } from '@/registry/default/ui/combobox'\n\nimport {\n  FormControl,\n  FormDescription,\n  FormField,\n  FormItem,\n  FormLabel,\n  FormMessage,\n} from '@/registry/default/ui/form'\n\nimport { toast } from '@/registry/default/ui/toast'\nimport { toTypedSchema } from '@vee-validate/zod'\nimport { Check, ChevronsUpDown } from 'lucide-vue-next'\nimport { useForm } from 'vee-validate'\nimport { h } from 'vue'\nimport * as z from 'zod'\n\nconst languages = [\n  { label: 'English', value: 'en' },\n  { label: 'French', value: 'fr' },\n  { label: 'German', value: 'de' },\n  { label: 'Spanish', value: 'es' },\n  { label: 'Portuguese', value: 'pt' },\n  { label: 'Russian', value: 'ru' },\n  { label: 'Japanese', value: 'ja' },\n  { label: 'Korean', value: 'ko' },\n  { label: 'Chinese', value: 'zh' },\n] as const\n\nconst formSchema = toTypedSchema(z.object({\n  language: z.string({\n    required_error: 'Please select a language.',\n  }),\n}))\n\nconst { handleSubmit, setFieldValue } = useForm({\n  validationSchema: formSchema,\n  initialValues: {\n    language: '',\n  },\n})\n\nconst onSubmit = handleSubmit((values) => {\n  toast({\n    title: 'You submitted the following values:',\n    description: h('pre', { class: 'mt-2 w-[340px] rounded-md bg-slate-950 p-4' }, h('code', { class: 'text-white' }, JSON.stringify(values, null, 2))),\n  })\n})\n</script>\n\n<template>\n  <form class=\"space-y-6\" @submit=\"onSubmit\">\n    <FormField name=\"language\">\n      <FormItem class=\"flex flex-col\">\n        <FormLabel>Language</FormLabel>\n\n        <Combobox by=\"label\">\n          <FormControl>\n            <ComboboxAnchor>\n              <div class=\"relative w-full max-w-sm items-center\">\n                <ComboboxInput :display-value=\"(val) => val?.label ?? ''\" placeholder=\"Select framework...\" />\n                <ComboboxTrigger class=\"absolute end-0 inset-y-0 flex items-center justify-center px-3\">\n                  <ChevronsUpDown class=\"size-4 text-muted-foreground\" />\n                </ComboboxTrigger>\n              </div>\n            </ComboboxAnchor>\n          </FormControl>\n\n          <ComboboxList>\n            <ComboboxEmpty>\n              Nothing found.\n            </ComboboxEmpty>\n\n            <ComboboxGroup>\n              <ComboboxItem\n                v-for=\"language in languages\"\n                :key=\"language.value\"\n                :value=\"language\"\n                @select=\"() => {\n                  setFieldValue('language', language.value)\n                }\"\n              >\n                {{ language.label }}\n\n                <ComboboxItemIndicator>\n                  <Check :class=\"cn('ml-auto h-4 w-4')\" />\n                </ComboboxItemIndicator>\n              </ComboboxItem>\n            </ComboboxGroup>\n          </ComboboxList>\n        </Combobox>\n\n        <FormDescription>\n          This is the language that will be used in the dashboard.\n        </FormDescription>\n        <FormMessage />\n      </FormItem>\n    </FormField>\n\n    <Button type=\"submit\">\n      Submit\n    </Button>\n  </form>\n</template>\n",
         "type": "registry:example",
         "target": ""
       }
@@ -11498,6 +11736,24 @@
     ]
   },
   {
+    "name": "ComboboxTrigger",
+    "type": "registry:example",
+    "dependencies": [],
+    "registryDependencies": [
+      "utils",
+      "button",
+      "combobox"
+    ],
+    "files": [
+      {
+        "path": "example/ComboboxTrigger.vue",
+        "content": "<script setup lang=\"ts\">\nimport { cn } from '@/lib/utils'\nimport { Button } from '@/registry/default/ui/button'\nimport { Combobox, ComboboxAnchor, ComboboxEmpty, ComboboxGroup, ComboboxInput, ComboboxItem, ComboboxItemIndicator, ComboboxList, ComboboxTrigger } from '@/registry/default/ui/combobox'\nimport { Check, ChevronsUpDown, Search } from 'lucide-vue-next'\nimport { ref } from 'vue'\n\nconst frameworks = [\n  { value: 'next.js', label: 'Next.js' },\n  { value: 'sveltekit', label: 'SvelteKit' },\n  { value: 'nuxt', label: 'Nuxt' },\n  { value: 'remix', label: 'Remix' },\n  { value: 'astro', label: 'Astro' },\n]\n\nconst value = ref<typeof frameworks[0]>()\n</script>\n\n<template>\n  <Combobox v-model=\"value\" by=\"label\">\n    <ComboboxAnchor as-child>\n      <ComboboxTrigger as-child>\n        <Button variant=\"outline\" class=\"justify-between\">\n          {{ value?.label ?? 'Select framework' }}\n\n          <ChevronsUpDown class=\"ml-2 h-4 w-4 shrink-0 opacity-50\" />\n        </Button>\n      </ComboboxTrigger>\n    </ComboboxAnchor>\n\n    <ComboboxList>\n      <div class=\"relative w-full max-w-sm items-center\">\n        <ComboboxInput class=\"pl-9 focus-visible:ring-0 border-0 border-b rounded-none h-10\" placeholder=\"Select framework...\" />\n        <span class=\"absolute start-0 inset-y-0 flex items-center justify-center px-3\">\n          <Search class=\"size-4 text-muted-foreground\" />\n        </span>\n      </div>\n\n      <ComboboxEmpty>\n        No framework found.\n      </ComboboxEmpty>\n\n      <ComboboxGroup>\n        <ComboboxItem\n          v-for=\"framework in frameworks\"\n          :key=\"framework.value\"\n          :value=\"framework\"\n        >\n          {{ framework.label }}\n\n          <ComboboxItemIndicator>\n            <Check :class=\"cn('ml-auto h-4 w-4')\" />\n          </ComboboxItemIndicator>\n        </ComboboxItem>\n      </ComboboxGroup>\n    </ComboboxList>\n  </Combobox>\n</template>\n",
+        "type": "registry:example",
+        "target": ""
+      }
+    ]
+  },
+  {
     "name": "CommandDemo",
     "type": "registry:example",
     "dependencies": [],
@@ -11526,6 +11782,88 @@
       {
         "path": "example/CommandDialogDemo.vue",
         "content": "<script setup lang=\"ts\">\nimport {\n  CommandDialog,\n  CommandEmpty,\n  CommandGroup,\n  CommandInput,\n  CommandItem,\n  CommandList,\n  CommandSeparator,\n} from '@/registry/default/ui/command'\n\nimport { useMagicKeys } from '@vueuse/core'\nimport { ref, watch } from 'vue'\n\nconst open = ref(false)\n\nconst { Meta_J, Ctrl_J } = useMagicKeys({\n  passive: false,\n  onEventFired(e) {\n    if (e.key === 'j' && (e.metaKey || e.ctrlKey))\n      e.preventDefault()\n  },\n})\n\nwatch([Meta_J, Ctrl_J], (v) => {\n  if (v[0] || v[1])\n    handleOpenChange()\n})\n\nfunction handleOpenChange() {\n  open.value = !open.value\n}\n</script>\n\n<template>\n  <div>\n    <p class=\"text-sm text-muted-foreground\">\n      Press\n      <kbd\n        class=\"pointer-events-none inline-flex h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium text-muted-foreground opacity-100\"\n      >\n        <span class=\"text-xs\">⌘</span>J\n      </kbd>\n    </p>\n    <CommandDialog v-model:open=\"open\">\n      <CommandInput placeholder=\"Type a command or search...\" />\n      <CommandList>\n        <CommandEmpty>No results found.</CommandEmpty>\n        <CommandGroup heading=\"Suggestions\">\n          <CommandItem value=\"calendar\">\n            Calendar\n          </CommandItem>\n          <CommandItem value=\"search-emoji\">\n            Search Emoji\n          </CommandItem>\n          <CommandItem value=\"calculator\">\n            Calculator\n          </CommandItem>\n        </CommandGroup>\n        <CommandSeparator />\n        <CommandGroup heading=\"Settings\">\n          <CommandItem value=\"profile\">\n            Profile\n          </CommandItem>\n          <CommandItem value=\"billing\">\n            Billing\n          </CommandItem>\n          <CommandItem value=\"settings\">\n            Settings\n          </CommandItem>\n        </CommandGroup>\n      </CommandList>\n    </CommandDialog>\n  </div>\n</template>\n",
+        "type": "registry:example",
+        "target": ""
+      }
+    ]
+  },
+  {
+    "name": "CommandDropdownMenu",
+    "type": "registry:example",
+    "dependencies": [],
+    "registryDependencies": [
+      "button",
+      "command",
+      "dropdown-menu"
+    ],
+    "files": [
+      {
+        "path": "example/CommandDropdownMenu.vue",
+        "content": "<script setup lang=\"ts\">\nimport { Button } from '@/registry/default/ui/button'\nimport {\n  Command,\n  CommandEmpty,\n  CommandGroup,\n  CommandInput,\n  CommandItem,\n  CommandList,\n} from '@/registry/default/ui/command'\n\nimport {\n  DropdownMenu,\n  DropdownMenuContent,\n  DropdownMenuGroup,\n  DropdownMenuItem,\n  DropdownMenuLabel,\n  DropdownMenuSeparator,\n  DropdownMenuShortcut,\n  DropdownMenuSub,\n  DropdownMenuSubContent,\n  DropdownMenuSubTrigger,\n  DropdownMenuTrigger,\n} from '@/registry/default/ui/dropdown-menu'\nimport { MoreHorizontal } from 'lucide-vue-next'\nimport { ref } from 'vue'\n\nconst labels = [\n  'feature',\n  'bug',\n  'enhancement',\n  'documentation',\n  'design',\n  'question',\n  'maintenance',\n]\n\nconst labelRef = ref('feature')\nconst open = ref(false)\n</script>\n\n<template>\n  <div class=\"flex w-full flex-col items-start justify-between rounded-md border px-4 py-3 sm:flex-row sm:items-center\">\n    <p class=\"text-sm font-medium leading-none\">\n      <span class=\"mr-2 rounded-lg bg-primary px-2 py-1 text-xs text-primary-foreground\">\n        {{ labelRef }}\n      </span>\n      <span class=\"text-muted-foreground\">Create a new project</span>\n    </p>\n    <DropdownMenu v-model:open=\"open\">\n      <DropdownMenuTrigger as-child>\n        <Button variant=\"ghost\" size=\"sm\">\n          <MoreHorizontal />\n        </Button>\n      </DropdownMenuTrigger>\n      <DropdownMenuContent align=\"end\" class=\"w-[200px]\">\n        <DropdownMenuLabel>Actions</DropdownMenuLabel>\n        <DropdownMenuGroup>\n          <DropdownMenuItem>\n            Assign to...\n          </DropdownMenuItem>\n          <DropdownMenuItem>\n            Set due date...\n          </DropdownMenuItem>\n          <DropdownMenuSeparator />\n          <DropdownMenuSub>\n            <DropdownMenuSubTrigger>\n              Apply label\n            </DropdownMenuSubTrigger>\n            <DropdownMenuSubContent class=\"p-0\">\n              <Command>\n                <CommandInput\n                  placeholder=\"Filter label...\"\n                  auto-focus\n                />\n                <CommandList>\n                  <CommandEmpty>No label found.</CommandEmpty>\n                  <CommandGroup>\n                    <CommandItem\n                      v-for=\"label in labels\"\n                      :key=\"label\"\n                      :value=\"label\"\n                      @select=\"(ev) => {\n                        labelRef = ev.detail.value as string\n                        open = false\n                      }\"\n                    >\n                      {{ label }}\n                    </CommandItem>\n                  </CommandGroup>\n                </CommandList>\n              </Command>\n            </DropdownMenuSubContent>\n          </DropdownMenuSub>\n          <DropdownMenuSeparator />\n          <DropdownMenuItem class=\"text-red-600\">\n            Delete\n            <DropdownMenuShortcut>⌘⌫</DropdownMenuShortcut>\n          </DropdownMenuItem>\n        </DropdownMenuGroup>\n      </DropdownMenuContent>\n    </DropdownMenu>\n  </div>\n</template>\n",
+        "type": "registry:example",
+        "target": ""
+      }
+    ]
+  },
+  {
+    "name": "CommandForm",
+    "type": "registry:example",
+    "dependencies": [
+      "vee-validate",
+      "@vee-validate/zod",
+      "zod"
+    ],
+    "registryDependencies": [
+      "utils",
+      "button",
+      "command",
+      "form",
+      "popover",
+      "toast"
+    ],
+    "files": [
+      {
+        "path": "example/CommandForm.vue",
+        "content": "<script setup lang=\"ts\">\nimport { cn } from '@/lib/utils'\nimport { Button } from '@/registry/default/ui/button'\nimport {\n  Command,\n  CommandEmpty,\n  CommandGroup,\n  CommandInput,\n  CommandItem,\n  CommandList,\n} from '@/registry/default/ui/command'\nimport {\n  FormControl,\n  FormDescription,\n  FormField,\n  FormItem,\n  FormLabel,\n  FormMessage,\n} from '@/registry/default/ui/form'\n\nimport {\n  Popover,\n  PopoverContent,\n  PopoverTrigger,\n} from '@/registry/default/ui/popover'\nimport { toast } from '@/registry/default/ui/toast'\nimport { toTypedSchema } from '@vee-validate/zod'\nimport { Check, ChevronsUpDown } from 'lucide-vue-next'\nimport { useForm } from 'vee-validate'\nimport { h } from 'vue'\nimport * as z from 'zod'\n\nconst languages = [\n  { label: 'English', value: 'en' },\n  { label: 'French', value: 'fr' },\n  { label: 'German', value: 'de' },\n  { label: 'Spanish', value: 'es' },\n  { label: 'Portuguese', value: 'pt' },\n  { label: 'Russian', value: 'ru' },\n  { label: 'Japanese', value: 'ja' },\n  { label: 'Korean', value: 'ko' },\n  { label: 'Chinese', value: 'zh' },\n] as const\n\nconst formSchema = toTypedSchema(z.object({\n  language: z.string({\n    required_error: 'Please select a language.',\n  }),\n}))\n\nconst { handleSubmit, setFieldValue, values } = useForm({\n  validationSchema: formSchema,\n  initialValues: {\n    language: '',\n  },\n})\n\nconst onSubmit = handleSubmit((values) => {\n  toast({\n    title: 'You submitted the following values:',\n    description: h('pre', { class: 'mt-2 w-[340px] rounded-md bg-slate-950 p-4' }, h('code', { class: 'text-white' }, JSON.stringify(values, null, 2))),\n  })\n})\n</script>\n\n<template>\n  <form class=\"space-y-6\" @submit=\"onSubmit\">\n    <FormField name=\"language\">\n      <FormItem class=\"flex flex-col\">\n        <FormLabel>Language</FormLabel>\n        <Popover>\n          <PopoverTrigger as-child>\n            <FormControl>\n              <Button\n                variant=\"outline\"\n                role=\"combobox\"\n                :class=\"cn('w-[200px] justify-between', !values.language && 'text-muted-foreground')\"\n              >\n                {{ values.language ? languages.find(\n                  (language) => language.value === values.language,\n                )?.label : 'Select language...' }}\n                <ChevronsUpDown class=\"ml-2 h-4 w-4 shrink-0 opacity-50\" />\n              </Button>\n            </FormControl>\n          </PopoverTrigger>\n          <PopoverContent class=\"w-[200px] p-0\">\n            <Command>\n              <CommandInput placeholder=\"Search language...\" />\n              <CommandEmpty>Nothing found.</CommandEmpty>\n              <CommandList>\n                <CommandGroup>\n                  <CommandItem\n                    v-for=\"language in languages\"\n                    :key=\"language.value\"\n                    :value=\"language.label\"\n                    @select=\"() => {\n                      setFieldValue('language', language.value)\n                    }\"\n                  >\n                    {{ language.label }}\n                    <Check\n                      :class=\"cn('ml-auto h-4 w-4', language.value === values.language ? 'opacity-100' : 'opacity-0')\"\n                    />\n                  </CommandItem>\n                </CommandGroup>\n              </CommandList>\n            </Command>\n          </PopoverContent>\n        </Popover>\n        <FormDescription>\n          This is the language that will be used in the dashboard.\n        </FormDescription>\n        <FormMessage />\n      </FormItem>\n    </FormField>\n\n    <Button type=\"submit\">\n      Submit\n    </Button>\n  </form>\n</template>\n",
+        "type": "registry:example",
+        "target": ""
+      }
+    ]
+  },
+  {
+    "name": "CommandPopover",
+    "type": "registry:example",
+    "dependencies": [],
+    "registryDependencies": [
+      "button",
+      "command",
+      "popover"
+    ],
+    "files": [
+      {
+        "path": "example/CommandPopover.vue",
+        "content": "<script setup lang=\"ts\">\nimport { Button } from '@/registry/default/ui/button'\n\nimport {\n  Command,\n  CommandEmpty,\n  CommandGroup,\n  CommandInput,\n  CommandItem,\n  CommandList,\n} from '@/registry/default/ui/command'\nimport {\n  Popover,\n  PopoverContent,\n  PopoverTrigger,\n} from '@/registry/default/ui/popover'\nimport { ref } from 'vue'\n\ninterface Status {\n  value: string\n  label: string\n}\n\nconst statuses: Status[] = [\n  {\n    value: 'backlog',\n    label: 'Backlog',\n  },\n  {\n    value: 'todo',\n    label: 'Todo',\n  },\n  {\n    value: 'in progress',\n    label: 'In Progress',\n  },\n  {\n    value: 'done',\n    label: 'Done',\n  },\n  {\n    value: 'canceled',\n    label: 'Canceled',\n  },\n]\n\nconst open = ref(false)\nconst selectedStatus = ref<Status>()\n</script>\n\n<template>\n  <div class=\"flex items-center space-x-4\">\n    <p class=\"text-sm text-muted-foreground\">\n      Status\n    </p>\n    <Popover v-model:open=\"open\">\n      <PopoverTrigger as-child>\n        <Button\n          variant=\"outline\"\n          size=\"sm\"\n          class=\"w-[150px] justify-start\"\n        >\n          <template v-if=\"selectedStatus\">\n            {{ selectedStatus?.label }}\n          </template>\n          <template v-else>\n            + Set status\n          </template>\n        </Button>\n      </PopoverTrigger>\n      <PopoverContent class=\"p-0\" side=\"right\" align=\"start\">\n        <Command>\n          <CommandInput placeholder=\"Change status...\" />\n          <CommandList>\n            <CommandEmpty>No results found.</CommandEmpty>\n            <CommandGroup>\n              <CommandItem\n                v-for=\"status in statuses\"\n                :key=\"status.value\"\n                :value=\"status.value\"\n                @select=\"() => {\n                  selectedStatus = status\n                  open = false\n                }\"\n              >\n                {{ status.label }}\n              </CommandItem>\n            </CommandGroup>\n          </CommandList>\n        </Command>\n      </PopoverContent>\n    </Popover>\n  </div>\n</template>\n",
+        "type": "registry:example",
+        "target": ""
+      }
+    ]
+  },
+  {
+    "name": "CommandResponsive",
+    "type": "registry:example",
+    "dependencies": [
+      "@vueuse/core"
+    ],
+    "registryDependencies": [
+      "button",
+      "command",
+      "drawer",
+      "popover"
+    ],
+    "files": [
+      {
+        "path": "example/CommandResponsive.vue",
+        "content": "<script lang=\"ts\" setup>\nimport { Button } from '@/registry/default/ui/button'\nimport { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList } from '@/registry/default/ui/command'\nimport { Drawer, DrawerContent, DrawerTrigger } from '@/registry/default/ui/drawer'\nimport { Popover, PopoverContent, PopoverTrigger } from '@/registry/default/ui/popover'\nimport { createReusableTemplate, useMediaQuery } from '@vueuse/core'\nimport { ref } from 'vue'\n\ninterface Status {\n  value: string\n  label: string\n}\n\nconst statuses: Status[] = [\n  {\n    value: 'backlog',\n    label: 'Backlog',\n  },\n  {\n    value: 'todo',\n    label: 'Todo',\n  },\n  {\n    value: 'in progress',\n    label: 'In Progress',\n  },\n  {\n    value: 'done',\n    label: 'Done',\n  },\n  {\n    value: 'canceled',\n    label: 'Canceled',\n  },\n]\n\nconst [UseTemplate, StatusList] = createReusableTemplate()\nconst isDesktop = useMediaQuery('(min-width: 768px)')\n\nconst isOpen = ref(false)\nconst selectedStatus = ref<Status | null>(null)\n\nfunction onStatusSelect(status: Status) {\n  selectedStatus.value = status\n  isOpen.value = false\n}\n</script>\n\n<template>\n  <div>\n    <UseTemplate>\n      <Command>\n        <CommandInput placeholder=\"Filter status...\" />\n        <CommandList>\n          <CommandEmpty>No results found.</CommandEmpty>\n          <CommandGroup>\n            <CommandItem\n              v-for=\"status of statuses\"\n              :key=\"status.value\"\n              :value=\"status.value\"\n              @select=\"onStatusSelect(status)\"\n            >\n              {{ status.label }}\n            </CommandItem>\n          </CommandGroup>\n        </CommandList>\n      </Command>\n    </UseTemplate>\n\n    <Popover v-if=\"isDesktop\" v-model:open=\"isOpen\">\n      <PopoverTrigger as-child>\n        <Button variant=\"outline\" class=\"w-[150px] justify-start\">\n          {{ selectedStatus ? selectedStatus.label : \"+ Set status\" }}\n        </Button>\n      </PopoverTrigger>\n      <PopoverContent class=\"w-[200px] p-0\" align=\"start\">\n        <StatusList />\n      </PopoverContent>\n    </Popover>\n\n    <Drawer v-else :open=\"isOpen\" @update:open=\"(newOpenValue) => isOpen = newOpenValue\">\n      <DrawerTrigger as-child>\n        <Button variant=\"outline\" class=\"w-[150px] justify-start\">\n          {{ selectedStatus ? selectedStatus.label : \"+ Set status\" }}\n        </Button>\n      </DrawerTrigger>\n      <DrawerContent>\n        <div class=\"mt-4 border-t\">\n          <StatusList />\n        </div>\n      </DrawerContent>\n    </Drawer>\n  </div>\n</template>\n",
         "type": "registry:example",
         "target": ""
       }

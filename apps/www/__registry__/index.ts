@@ -632,6 +632,57 @@ export const Index: Record<string, any> = {
       category: "",
       subcategory: ""
     },
+    "combobox": {
+      name: "combobox",
+      description: "",
+      type: "registry:ui",
+      registryDependencies: ["utils"],
+      files: [{
+        path: "registry/new-york/ui/combobox/Combobox.vue",
+        type: "registry:ui",
+        target: ""
+      },{
+        path: "registry/new-york/ui/combobox/ComboboxAnchor.vue",
+        type: "registry:ui",
+        target: ""
+      },{
+        path: "registry/new-york/ui/combobox/ComboboxEmpty.vue",
+        type: "registry:ui",
+        target: ""
+      },{
+        path: "registry/new-york/ui/combobox/ComboboxGroup.vue",
+        type: "registry:ui",
+        target: ""
+      },{
+        path: "registry/new-york/ui/combobox/ComboboxInput.vue",
+        type: "registry:ui",
+        target: ""
+      },{
+        path: "registry/new-york/ui/combobox/ComboboxItem.vue",
+        type: "registry:ui",
+        target: ""
+      },{
+        path: "registry/new-york/ui/combobox/ComboboxList.vue",
+        type: "registry:ui",
+        target: ""
+      },{
+        path: "registry/new-york/ui/combobox/ComboboxSeparator.vue",
+        type: "registry:ui",
+        target: ""
+      },{
+        path: "registry/new-york/ui/combobox/ComboboxTrigger.vue",
+        type: "registry:ui",
+        target: ""
+      },{
+        path: "registry/new-york/ui/combobox/index.ts",
+        type: "registry:ui",
+        target: ""
+      }],
+      component: () => import("@/registry/new-york/ui/combobox/Combobox.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
     "command": {
       name: "command",
       description: "",
@@ -2985,7 +3036,7 @@ export const Index: Record<string, any> = {
       name: "ComboboxDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["utils","button","command","popover"],
+      registryDependencies: ["utils","combobox"],
       files: [{
         path: "registry/new-york/example/ComboboxDemo.vue",
         type: "registry:example",
@@ -3015,7 +3066,7 @@ export const Index: Record<string, any> = {
       name: "ComboboxForm",
       description: "",
       type: "registry:example",
-      registryDependencies: ["utils","button","command","form","popover","toast"],
+      registryDependencies: ["utils","button","combobox","form","toast"],
       files: [{
         path: "registry/new-york/example/ComboboxForm.vue",
         type: "registry:example",
@@ -3056,6 +3107,21 @@ export const Index: Record<string, any> = {
       category: "",
       subcategory: ""
     },
+    "ComboboxTrigger": {
+      name: "ComboboxTrigger",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["utils","button","combobox"],
+      files: [{
+        path: "registry/new-york/example/ComboboxTrigger.vue",
+        type: "registry:example",
+        target: ""
+      }],
+      component: () => import("@/registry/new-york/example/ComboboxTrigger.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
     "CommandDemo": {
       name: "CommandDemo",
       description: "",
@@ -3082,6 +3148,66 @@ export const Index: Record<string, any> = {
         target: ""
       }],
       component: () => import("@/registry/new-york/example/CommandDialogDemo.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "CommandDropdownMenu": {
+      name: "CommandDropdownMenu",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["button","command","dropdown-menu"],
+      files: [{
+        path: "registry/new-york/example/CommandDropdownMenu.vue",
+        type: "registry:example",
+        target: ""
+      }],
+      component: () => import("@/registry/new-york/example/CommandDropdownMenu.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "CommandForm": {
+      name: "CommandForm",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["utils","button","command","form","popover","toast"],
+      files: [{
+        path: "registry/new-york/example/CommandForm.vue",
+        type: "registry:example",
+        target: ""
+      }],
+      component: () => import("@/registry/new-york/example/CommandForm.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "CommandPopover": {
+      name: "CommandPopover",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["button","command","popover"],
+      files: [{
+        path: "registry/new-york/example/CommandPopover.vue",
+        type: "registry:example",
+        target: ""
+      }],
+      component: () => import("@/registry/new-york/example/CommandPopover.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "CommandResponsive": {
+      name: "CommandResponsive",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["button","command","drawer","popover"],
+      files: [{
+        path: "registry/new-york/example/CommandResponsive.vue",
+        type: "registry:example",
+        target: ""
+      }],
+      component: () => import("@/registry/new-york/example/CommandResponsive.vue").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -6352,6 +6478,57 @@ export const Index: Record<string, any> = {
       category: "",
       subcategory: ""
     },
+    "combobox": {
+      name: "combobox",
+      description: "",
+      type: "registry:ui",
+      registryDependencies: ["utils"],
+      files: [{
+        path: "registry/new-york/ui/combobox/Combobox.vue",
+        type: "registry:ui",
+        target: ""
+      },{
+        path: "registry/new-york/ui/combobox/ComboboxAnchor.vue",
+        type: "registry:ui",
+        target: ""
+      },{
+        path: "registry/new-york/ui/combobox/ComboboxEmpty.vue",
+        type: "registry:ui",
+        target: ""
+      },{
+        path: "registry/new-york/ui/combobox/ComboboxGroup.vue",
+        type: "registry:ui",
+        target: ""
+      },{
+        path: "registry/new-york/ui/combobox/ComboboxInput.vue",
+        type: "registry:ui",
+        target: ""
+      },{
+        path: "registry/new-york/ui/combobox/ComboboxItem.vue",
+        type: "registry:ui",
+        target: ""
+      },{
+        path: "registry/new-york/ui/combobox/ComboboxList.vue",
+        type: "registry:ui",
+        target: ""
+      },{
+        path: "registry/new-york/ui/combobox/ComboboxSeparator.vue",
+        type: "registry:ui",
+        target: ""
+      },{
+        path: "registry/new-york/ui/combobox/ComboboxTrigger.vue",
+        type: "registry:ui",
+        target: ""
+      },{
+        path: "registry/new-york/ui/combobox/index.ts",
+        type: "registry:ui",
+        target: ""
+      }],
+      component: () => import("@/registry/new-york/ui/combobox/Combobox.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
     "command": {
       name: "command",
       description: "",
@@ -8705,7 +8882,7 @@ export const Index: Record<string, any> = {
       name: "ComboboxDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["utils","button","command","popover"],
+      registryDependencies: ["utils","combobox"],
       files: [{
         path: "registry/new-york/example/ComboboxDemo.vue",
         type: "registry:example",
@@ -8735,7 +8912,7 @@ export const Index: Record<string, any> = {
       name: "ComboboxForm",
       description: "",
       type: "registry:example",
-      registryDependencies: ["utils","button","command","form","popover","toast"],
+      registryDependencies: ["utils","button","combobox","form","toast"],
       files: [{
         path: "registry/new-york/example/ComboboxForm.vue",
         type: "registry:example",
@@ -8776,6 +8953,21 @@ export const Index: Record<string, any> = {
       category: "",
       subcategory: ""
     },
+    "ComboboxTrigger": {
+      name: "ComboboxTrigger",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["utils","button","combobox"],
+      files: [{
+        path: "registry/new-york/example/ComboboxTrigger.vue",
+        type: "registry:example",
+        target: ""
+      }],
+      component: () => import("@/registry/new-york/example/ComboboxTrigger.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
     "CommandDemo": {
       name: "CommandDemo",
       description: "",
@@ -8802,6 +8994,66 @@ export const Index: Record<string, any> = {
         target: ""
       }],
       component: () => import("@/registry/new-york/example/CommandDialogDemo.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "CommandDropdownMenu": {
+      name: "CommandDropdownMenu",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["button","command","dropdown-menu"],
+      files: [{
+        path: "registry/new-york/example/CommandDropdownMenu.vue",
+        type: "registry:example",
+        target: ""
+      }],
+      component: () => import("@/registry/new-york/example/CommandDropdownMenu.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "CommandForm": {
+      name: "CommandForm",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["utils","button","command","form","popover","toast"],
+      files: [{
+        path: "registry/new-york/example/CommandForm.vue",
+        type: "registry:example",
+        target: ""
+      }],
+      component: () => import("@/registry/new-york/example/CommandForm.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "CommandPopover": {
+      name: "CommandPopover",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["button","command","popover"],
+      files: [{
+        path: "registry/new-york/example/CommandPopover.vue",
+        type: "registry:example",
+        target: ""
+      }],
+      component: () => import("@/registry/new-york/example/CommandPopover.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "CommandResponsive": {
+      name: "CommandResponsive",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["button","command","drawer","popover"],
+      files: [{
+        path: "registry/new-york/example/CommandResponsive.vue",
+        type: "registry:example",
+        target: ""
+      }],
+      component: () => import("@/registry/new-york/example/CommandResponsive.vue").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -12088,6 +12340,57 @@ export const Index: Record<string, any> = {
       category: "",
       subcategory: ""
     },
+    "combobox": {
+      name: "combobox",
+      description: "",
+      type: "registry:ui",
+      registryDependencies: ["utils"],
+      files: [{
+        path: "registry/default/ui/combobox/Combobox.vue",
+        type: "registry:ui",
+        target: ""
+      },{
+        path: "registry/default/ui/combobox/ComboboxAnchor.vue",
+        type: "registry:ui",
+        target: ""
+      },{
+        path: "registry/default/ui/combobox/ComboboxEmpty.vue",
+        type: "registry:ui",
+        target: ""
+      },{
+        path: "registry/default/ui/combobox/ComboboxGroup.vue",
+        type: "registry:ui",
+        target: ""
+      },{
+        path: "registry/default/ui/combobox/ComboboxInput.vue",
+        type: "registry:ui",
+        target: ""
+      },{
+        path: "registry/default/ui/combobox/ComboboxItem.vue",
+        type: "registry:ui",
+        target: ""
+      },{
+        path: "registry/default/ui/combobox/ComboboxList.vue",
+        type: "registry:ui",
+        target: ""
+      },{
+        path: "registry/default/ui/combobox/ComboboxSeparator.vue",
+        type: "registry:ui",
+        target: ""
+      },{
+        path: "registry/default/ui/combobox/ComboboxTrigger.vue",
+        type: "registry:ui",
+        target: ""
+      },{
+        path: "registry/default/ui/combobox/index.ts",
+        type: "registry:ui",
+        target: ""
+      }],
+      component: () => import("@/registry/default/ui/combobox/Combobox.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
     "command": {
       name: "command",
       description: "",
@@ -14441,7 +14744,7 @@ export const Index: Record<string, any> = {
       name: "ComboboxDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["utils","button","command","popover"],
+      registryDependencies: ["utils","combobox"],
       files: [{
         path: "registry/default/example/ComboboxDemo.vue",
         type: "registry:example",
@@ -14471,7 +14774,7 @@ export const Index: Record<string, any> = {
       name: "ComboboxForm",
       description: "",
       type: "registry:example",
-      registryDependencies: ["utils","button","command","form","popover","toast"],
+      registryDependencies: ["utils","button","combobox","form","toast"],
       files: [{
         path: "registry/default/example/ComboboxForm.vue",
         type: "registry:example",
@@ -14512,6 +14815,21 @@ export const Index: Record<string, any> = {
       category: "",
       subcategory: ""
     },
+    "ComboboxTrigger": {
+      name: "ComboboxTrigger",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["utils","button","combobox"],
+      files: [{
+        path: "registry/default/example/ComboboxTrigger.vue",
+        type: "registry:example",
+        target: ""
+      }],
+      component: () => import("@/registry/default/example/ComboboxTrigger.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
     "CommandDemo": {
       name: "CommandDemo",
       description: "",
@@ -14538,6 +14856,66 @@ export const Index: Record<string, any> = {
         target: ""
       }],
       component: () => import("@/registry/default/example/CommandDialogDemo.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "CommandDropdownMenu": {
+      name: "CommandDropdownMenu",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["button","command","dropdown-menu"],
+      files: [{
+        path: "registry/default/example/CommandDropdownMenu.vue",
+        type: "registry:example",
+        target: ""
+      }],
+      component: () => import("@/registry/default/example/CommandDropdownMenu.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "CommandForm": {
+      name: "CommandForm",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["utils","button","command","form","popover","toast"],
+      files: [{
+        path: "registry/default/example/CommandForm.vue",
+        type: "registry:example",
+        target: ""
+      }],
+      component: () => import("@/registry/default/example/CommandForm.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "CommandPopover": {
+      name: "CommandPopover",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["button","command","popover"],
+      files: [{
+        path: "registry/default/example/CommandPopover.vue",
+        type: "registry:example",
+        target: ""
+      }],
+      component: () => import("@/registry/default/example/CommandPopover.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "CommandResponsive": {
+      name: "CommandResponsive",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["button","command","drawer","popover"],
+      files: [{
+        path: "registry/default/example/CommandResponsive.vue",
+        type: "registry:example",
+        target: ""
+      }],
+      component: () => import("@/registry/default/example/CommandResponsive.vue").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""
@@ -17808,6 +18186,57 @@ export const Index: Record<string, any> = {
       category: "",
       subcategory: ""
     },
+    "combobox": {
+      name: "combobox",
+      description: "",
+      type: "registry:ui",
+      registryDependencies: ["utils"],
+      files: [{
+        path: "registry/default/ui/combobox/Combobox.vue",
+        type: "registry:ui",
+        target: ""
+      },{
+        path: "registry/default/ui/combobox/ComboboxAnchor.vue",
+        type: "registry:ui",
+        target: ""
+      },{
+        path: "registry/default/ui/combobox/ComboboxEmpty.vue",
+        type: "registry:ui",
+        target: ""
+      },{
+        path: "registry/default/ui/combobox/ComboboxGroup.vue",
+        type: "registry:ui",
+        target: ""
+      },{
+        path: "registry/default/ui/combobox/ComboboxInput.vue",
+        type: "registry:ui",
+        target: ""
+      },{
+        path: "registry/default/ui/combobox/ComboboxItem.vue",
+        type: "registry:ui",
+        target: ""
+      },{
+        path: "registry/default/ui/combobox/ComboboxList.vue",
+        type: "registry:ui",
+        target: ""
+      },{
+        path: "registry/default/ui/combobox/ComboboxSeparator.vue",
+        type: "registry:ui",
+        target: ""
+      },{
+        path: "registry/default/ui/combobox/ComboboxTrigger.vue",
+        type: "registry:ui",
+        target: ""
+      },{
+        path: "registry/default/ui/combobox/index.ts",
+        type: "registry:ui",
+        target: ""
+      }],
+      component: () => import("@/registry/default/ui/combobox/Combobox.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
     "command": {
       name: "command",
       description: "",
@@ -20161,7 +20590,7 @@ export const Index: Record<string, any> = {
       name: "ComboboxDemo",
       description: "",
       type: "registry:example",
-      registryDependencies: ["utils","button","command","popover"],
+      registryDependencies: ["utils","combobox"],
       files: [{
         path: "registry/default/example/ComboboxDemo.vue",
         type: "registry:example",
@@ -20191,7 +20620,7 @@ export const Index: Record<string, any> = {
       name: "ComboboxForm",
       description: "",
       type: "registry:example",
-      registryDependencies: ["utils","button","command","form","popover","toast"],
+      registryDependencies: ["utils","button","combobox","form","toast"],
       files: [{
         path: "registry/default/example/ComboboxForm.vue",
         type: "registry:example",
@@ -20232,6 +20661,21 @@ export const Index: Record<string, any> = {
       category: "",
       subcategory: ""
     },
+    "ComboboxTrigger": {
+      name: "ComboboxTrigger",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["utils","button","combobox"],
+      files: [{
+        path: "registry/default/example/ComboboxTrigger.vue",
+        type: "registry:example",
+        target: ""
+      }],
+      component: () => import("@/registry/default/example/ComboboxTrigger.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
     "CommandDemo": {
       name: "CommandDemo",
       description: "",
@@ -20258,6 +20702,66 @@ export const Index: Record<string, any> = {
         target: ""
       }],
       component: () => import("@/registry/default/example/CommandDialogDemo.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "CommandDropdownMenu": {
+      name: "CommandDropdownMenu",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["button","command","dropdown-menu"],
+      files: [{
+        path: "registry/default/example/CommandDropdownMenu.vue",
+        type: "registry:example",
+        target: ""
+      }],
+      component: () => import("@/registry/default/example/CommandDropdownMenu.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "CommandForm": {
+      name: "CommandForm",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["utils","button","command","form","popover","toast"],
+      files: [{
+        path: "registry/default/example/CommandForm.vue",
+        type: "registry:example",
+        target: ""
+      }],
+      component: () => import("@/registry/default/example/CommandForm.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "CommandPopover": {
+      name: "CommandPopover",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["button","command","popover"],
+      files: [{
+        path: "registry/default/example/CommandPopover.vue",
+        type: "registry:example",
+        target: ""
+      }],
+      component: () => import("@/registry/default/example/CommandPopover.vue").then((m) => m.default),
+      source: "",
+      category: "",
+      subcategory: ""
+    },
+    "CommandResponsive": {
+      name: "CommandResponsive",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["button","command","drawer","popover"],
+      files: [{
+        path: "registry/default/example/CommandResponsive.vue",
+        type: "registry:example",
+        target: ""
+      }],
+      component: () => import("@/registry/default/example/CommandResponsive.vue").then((m) => m.default),
       source: "",
       category: "",
       subcategory: ""

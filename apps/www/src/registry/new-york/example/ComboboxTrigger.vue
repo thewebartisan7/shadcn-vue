@@ -1,7 +1,9 @@
 <script setup lang="ts">
 import { cn } from '@/lib/utils'
-import { Combobox, ComboboxAnchor, ComboboxEmpty, ComboboxGroup, ComboboxInput, ComboboxItem, ComboboxItemIndicator, ComboboxList } from '@/registry/default/ui/combobox'
-import { Check, Search } from 'lucide-vue-next'
+import { Button } from '@/registry/new-york/ui/button'
+import { Combobox, ComboboxAnchor, ComboboxEmpty, ComboboxGroup, ComboboxInput, ComboboxItem, ComboboxItemIndicator, ComboboxList, ComboboxTrigger } from '@/registry/new-york/ui/combobox'
+import { Check, ChevronsUpDown, Search } from 'lucide-vue-next'
+import { ref } from 'vue'
 
 const frameworks = [
   { value: 'next.js', label: 'Next.js' },
@@ -10,20 +12,30 @@ const frameworks = [
   { value: 'remix', label: 'Remix' },
   { value: 'astro', label: 'Astro' },
 ]
+
+const value = ref<typeof frameworks[0]>()
 </script>
 
 <template>
-  <Combobox by="label">
-    <ComboboxAnchor>
+  <Combobox v-model="value" by="label">
+    <ComboboxAnchor as-child>
+      <ComboboxTrigger as-child>
+        <Button variant="outline" class="justify-between">
+          {{ value?.label ?? 'Select framework' }}
+
+          <ChevronsUpDown class="ml-2 h-4 w-4 shrink-0 opacity-50" />
+        </Button>
+      </ComboboxTrigger>
+    </ComboboxAnchor>
+
+    <ComboboxList>
       <div class="relative w-full max-w-sm items-center">
-        <ComboboxInput class="pl-9" :display-value="(val) => val?.label ?? ''" placeholder="Select framework..." />
+        <ComboboxInput class="pl-9 focus-visible:ring-0 border-0 border-b rounded-none h-10" placeholder="Select framework..." />
         <span class="absolute start-0 inset-y-0 flex items-center justify-center px-3">
           <Search class="size-4 text-muted-foreground" />
         </span>
       </div>
-    </ComboboxAnchor>
 
-    <ComboboxList>
       <ComboboxEmpty>
         No framework found.
       </ComboboxEmpty>

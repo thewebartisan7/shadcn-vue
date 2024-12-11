@@ -657,6 +657,58 @@
     ]
   },
   {
+    "name": "combobox",
+    "type": "registry:ui",
+    "dependencies": [
+      "reka-ui"
+    ],
+    "registryDependencies": [
+      "utils"
+    ],
+    "files": [
+      {
+        "path": "ui/combobox/Combobox.vue",
+        "type": "registry:ui"
+      },
+      {
+        "path": "ui/combobox/ComboboxAnchor.vue",
+        "type": "registry:ui"
+      },
+      {
+        "path": "ui/combobox/ComboboxEmpty.vue",
+        "type": "registry:ui"
+      },
+      {
+        "path": "ui/combobox/ComboboxGroup.vue",
+        "type": "registry:ui"
+      },
+      {
+        "path": "ui/combobox/ComboboxInput.vue",
+        "type": "registry:ui"
+      },
+      {
+        "path": "ui/combobox/ComboboxItem.vue",
+        "type": "registry:ui"
+      },
+      {
+        "path": "ui/combobox/ComboboxList.vue",
+        "type": "registry:ui"
+      },
+      {
+        "path": "ui/combobox/ComboboxSeparator.vue",
+        "type": "registry:ui"
+      },
+      {
+        "path": "ui/combobox/ComboboxTrigger.vue",
+        "type": "registry:ui"
+      },
+      {
+        "path": "ui/combobox/index.ts",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
     "name": "command",
     "type": "registry:ui",
     "dependencies": [
@@ -2776,6 +2828,58 @@
       },
       {
         "path": "ui/collapsible/index.ts",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "name": "combobox",
+    "type": "registry:ui",
+    "dependencies": [
+      "reka-ui"
+    ],
+    "registryDependencies": [
+      "utils"
+    ],
+    "files": [
+      {
+        "path": "ui/combobox/Combobox.vue",
+        "type": "registry:ui"
+      },
+      {
+        "path": "ui/combobox/ComboboxAnchor.vue",
+        "type": "registry:ui"
+      },
+      {
+        "path": "ui/combobox/ComboboxEmpty.vue",
+        "type": "registry:ui"
+      },
+      {
+        "path": "ui/combobox/ComboboxGroup.vue",
+        "type": "registry:ui"
+      },
+      {
+        "path": "ui/combobox/ComboboxInput.vue",
+        "type": "registry:ui"
+      },
+      {
+        "path": "ui/combobox/ComboboxItem.vue",
+        "type": "registry:ui"
+      },
+      {
+        "path": "ui/combobox/ComboboxList.vue",
+        "type": "registry:ui"
+      },
+      {
+        "path": "ui/combobox/ComboboxSeparator.vue",
+        "type": "registry:ui"
+      },
+      {
+        "path": "ui/combobox/ComboboxTrigger.vue",
+        "type": "registry:ui"
+      },
+      {
+        "path": "ui/combobox/index.ts",
         "type": "registry:ui"
       }
     ]

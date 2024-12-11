@@ -1,11 +1,11 @@
 import type { RegistryStyle } from '@/registry/registry-styles'
 import sdk from '@stackblitz/sdk'
 import { getParameters } from 'codesandbox/lib/api/define'
+// @ts-expect-error ?raw
+import cssRaw from '../../../../../packages/cli/test/fixtures/frameworks/nuxt/assets/css/tailwind.css?raw'
 import { Index as demoIndex } from '../../../../www/__registry__'
 // @ts-expect-error ?raw
 import tailwindConfigRaw from '../../../tailwind.config?raw'
-// @ts-expect-error ?raw
-import cssRaw from '../../../../../packages/cli/test/fixtures/frameworks/nuxt/assets/css/tailwind.css?raw'
 
 export function makeCodeSandboxParams(componentName: string, style: RegistryStyle, sources: Record<string, string>) {
   let files: Record<string, any> = {}
@@ -132,7 +132,7 @@ function constructFiles(componentName: string, style: RegistryStyle, sources: Re
   })
 
   // @ts-expect-error componentName might not exist in Index
-  const registryDependencies = demoIndex[style][componentName as any]?.registryDependencies?.filter(i => i !== 'utils')
+  const registryDependencies = demoIndex[style][componentName as any]?.registryDependencies?.filter(i => i !== 'utils') ?? []
 
   const files = {
     'package.json': {

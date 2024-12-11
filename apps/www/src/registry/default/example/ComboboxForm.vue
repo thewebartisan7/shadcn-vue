@@ -1,14 +1,8 @@
 <script setup lang="ts">
 import { cn } from '@/lib/utils'
 import { Button } from '@/registry/default/ui/button'
-import {
-  Command,
-  CommandEmpty,
-  CommandGroup,
-  CommandInput,
-  CommandItem,
-  CommandList,
-} from '@/registry/default/ui/command'
+import { Combobox, ComboboxAnchor, ComboboxEmpty, ComboboxGroup, ComboboxInput, ComboboxItem, ComboboxItemIndicator, ComboboxList, ComboboxTrigger } from '@/registry/default/ui/combobox'
+
 import {
   FormControl,
   FormDescription,
@@ -18,11 +12,6 @@ import {
   FormMessage,
 } from '@/registry/default/ui/form'
 
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from '@/registry/default/ui/popover'
 import { toast } from '@/registry/default/ui/toast'
 import { toTypedSchema } from '@vee-validate/zod'
 import { Check, ChevronsUpDown } from 'lucide-vue-next'
@@ -40,7 +29,7 @@ const languages = [
   { label: 'Japanese', value: 'ja' },
   { label: 'Korean', value: 'ko' },
   { label: 'Chinese', value: 'zh' },
-]
+] as const
 
 const formSchema = toTypedSchema(z.object({
   language: z.string({
@@ -48,8 +37,11 @@ const formSchema = toTypedSchema(z.object({
   }),
 }))
 
-const { handleSubmit, setFieldValue, values } = useForm({
+const { handleSubmit, setFieldValue } = useForm({
   validationSchema: formSchema,
+  initialValues: {
+    language: '',
+  },
 })
 
 const onSubmit = handleSubmit((values) => {
@@ -65,45 +57,43 @@ const onSubmit = handleSubmit((values) => {
     <FormField name="language">
       <FormItem class="flex flex-col">
         <FormLabel>Language</FormLabel>
-        <Popover>
-          <PopoverTrigger as-child>
-            <FormControl>
-              <Button
-                variant="outline"
-                role="combobox"
-                :class="cn('w-[200px] justify-between', !values.language && 'text-muted-foreground')"
+
+        <Combobox by="label">
+          <FormControl>
+            <ComboboxAnchor>
+              <div class="relative w-full max-w-sm items-center">
+                <ComboboxInput :display-value="(val) => val?.label ?? ''" placeholder="Select framework..." />
+                <ComboboxTrigger class="absolute end-0 inset-y-0 flex items-center justify-center px-3">
+                  <ChevronsUpDown class="size-4 text-muted-foreground" />
+                </ComboboxTrigger>
+              </div>
+            </ComboboxAnchor>
+          </FormControl>
+
+          <ComboboxList>
+            <ComboboxEmpty>
+              Nothing found.
+            </ComboboxEmpty>
+
+            <ComboboxGroup>
+              <ComboboxItem
+                v-for="language in languages"
+                :key="language.value"
+                :value="language"
+                @select="() => {
+                  setFieldValue('language', language.value)
+                }"
               >
-                {{ values.language ? languages.find(
-                  (language) => language.value === values.language,
-                )?.label : 'Select language...' }}
-                <ChevronsUpDown class="ml-2 h-4 w-4 shrink-0 opacity-50" />
-              </Button>
-            </FormControl>
-          </PopoverTrigger>
-          <PopoverContent class="w-[200px] p-0">
-            <Command>
-              <CommandInput placeholder="Search language..." />
-              <CommandEmpty>Nothing found.</CommandEmpty>
-              <CommandList>
-                <CommandGroup>
-                  <CommandItem
-                    v-for="language in languages"
-                    :key="language.value"
-                    :value="language.label"
-                    @select="() => {
-                      setFieldValue('language', language.value)
-                    }"
-                  >
-                    <Check
-                      :class="cn('mr-2 h-4 w-4', language.value === values.language ? 'opacity-100' : 'opacity-0')"
-                    />
-                    {{ language.label }}
-                  </CommandItem>
-                </CommandGroup>
-              </CommandList>
-            </Command>
-          </PopoverContent>
-        </Popover>
+                {{ language.label }}
+
+                <ComboboxItemIndicator>
+                  <Check :class="cn('ml-auto h-4 w-4')" />
+                </ComboboxItemIndicator>
+              </ComboboxItem>
+            </ComboboxGroup>
+          </ComboboxList>
+        </Combobox>
+
         <FormDescription>
           This is the language that will be used in the dashboard.
         </FormDescription>
