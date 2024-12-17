@@ -749,16 +749,13 @@
       "@vueuse/core"
     ],
     "registryDependencies": [
-      "Sheet.vue",
-      "SheetContent.vue",
+      "sheet",
       "utils",
-      "Input.vue",
-      "Tooltip.vue",
-      "TooltipContent.vue",
-      "TooltipTrigger.vue",
-      "Skeleton.vue",
-      "Separator.vue",
-      "Button.vue"
+      "input",
+      "tooltip",
+      "skeleton",
+      "separator",
+      "button"
     ],
     "files": [
       "ui/sidebar/Sidebar.vue",
