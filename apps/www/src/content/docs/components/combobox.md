@@ -76,7 +76,7 @@ const value = ref('')
             <CommandItem
               v-for="framework in frameworks"
               :key="framework.value"
-              :value="framework"
+              :value="framework.value"
               @select="open = false"
             >
               <Check
